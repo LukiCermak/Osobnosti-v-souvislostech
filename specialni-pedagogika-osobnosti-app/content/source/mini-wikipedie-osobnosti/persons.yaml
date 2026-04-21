@@ -1,0 +1,1109 @@
+# AUTO-GENERATED DRAFT z _inventory_person_lines.txt
+# TODO: doplnit disciplines + significance podle DOCX u každé osobnosti
+
+- id: jan_amos_komensky
+  displayName: Jan Amos Komenský
+  born: 1592
+  died: 1670
+  disciplines: []
+  significance: TODO
+
+- id: karel_dvorak
+  displayName: Karel Dvořák
+  born: 1903
+  died: 1983
+  disciplines: []
+  significance: TODO
+
+- id: bohumir_justyn_popelar
+  displayName: Bohumír Justyn Popelář
+  born: 1914
+  died: 1969
+  disciplines: []
+  significance: TODO
+
+- id: vladimir_juva
+  displayName: Vladimír Jůva
+  born: 1925
+  died: 2005
+  disciplines: []
+  significance: TODO
+
+- id: ludvik_edelsberger
+  displayName: Ludvík Edelsberger
+  born: 1926
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: boris_titzl
+  displayName: Boris Titzl
+  born: 1936
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: marie_vitkova
+  displayName: Marie Vítková
+  born: 1947
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: marie_renotierova
+  displayName: Marie Renotiérová
+  born: 1949
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: jarmila_pipekova
+  displayName: Jarmila Pipeková
+  born: 1955
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: slavomir_fischer
+  displayName: Slavomír Fischer
+  born: 1962
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: jiri_skoda
+  displayName: Jiří Škoda
+  born: 1972
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: josef_slowik
+  displayName: Josef Slowík
+  born: 1973
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: lucie_zormanova
+  displayName: Lucie Zormanová
+  born: 1983
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: jan_jesensky
+  displayName: Ján Jesenský
+  born: 1931
+  died: 2009
+  disciplines: []
+  significance: TODO
+
+- id: theodor_heller
+  displayName: Theodor Heller
+  born: 1869
+  died: 1938
+  disciplines: []
+  significance: TODO
+
+- id: felix_platter
+  displayName: Felix Platter
+  born: 1536
+  died: 1614
+  disciplines: []
+  significance: TODO
+
+- id: philippe_pinel
+  displayName: Philippe Pinel
+  born: 1745
+  died: 1826
+  disciplines: []
+  significance: TODO
+
+- id: jean_etienne_dominique_esquirol
+  displayName: Jean-Étienne Dominique Esquirol
+  born: 1772
+  died: 1840
+  disciplines: []
+  significance: TODO
+
+- id: jean_marc_gaspard_itard
+  displayName: Jean-Marc Gaspard Itard
+  born: 1774
+  died: 1838
+  disciplines: []
+  significance: TODO
+
+- id: edouard_seguin
+  displayName: Édouard Séguin
+  born: 1812
+  died: 1880
+  disciplines: []
+  significance: TODO
+
+- id: john_langdon_down
+  displayName: John Langdon Down
+  born: 1828
+  died: 1896
+  disciplines: []
+  significance: TODO
+
+- id: jean_demoor
+  displayName: Jean Demoor
+  born: 1867
+  died: 1941
+  disciplines: []
+  significance: TODO
+
+- id: maria_montessori
+  displayName: Maria Montessori
+  born: 1870
+  died: 1952
+  disciplines: []
+  significance: TODO
+
+- id: ovide_decroly
+  displayName: Ovide Decroly
+  born: 1871
+  died: 1932
+  disciplines: []
+  significance: TODO
+
+- id: rudolf_steiner
+  displayName: Rudolf Steiner
+  born: 1861
+  died: 1925
+  disciplines: []
+  significance: TODO
+
+- id: samuel_torrey_orton
+  displayName: Samuel Torrey Orton
+  born: 1879
+  died: 1948
+  disciplines: []
+  significance: TODO
+
+- id: peter_petersen
+  displayName: Peter Petersen
+  born: 1884
+  died: 1952
+  disciplines: []
+  significance: TODO
+
+- id: ivar_asbjorn_flling
+  displayName: Ivar Asbjörn Følling
+  born: 1888
+  died: 1973
+  disciplines: []
+  significance: TODO
+
+- id: carleton_washburne
+  displayName: Carleton Washburne
+  born: 1889
+  died: 1968
+  disciplines: []
+  significance: TODO
+
+- id: karel_slavoj_amerling
+  displayName: Karel Slavoj Amerling
+  born: 1807
+  died: 1884
+  disciplines: []
+  significance: TODO
+
+- id: frantisek_cada
+  displayName: František Čáda
+  born: 1865
+  died: 1918
+  disciplines: []
+  significance: TODO
+
+- id: josef_zeman
+  displayName: Josef Zeman
+  born: 1867
+  died: 1961
+  disciplines: []
+  significance: TODO
+
+- id: karel_herfort
+  displayName: Karel Herfort
+  born: 1871
+  died: 1939
+  disciplines: []
+  significance: TODO
+
+- id: vaclav_prihoda
+  displayName: Václav Příhoda
+  born: 1889
+  died: 1979
+  disciplines: []
+  significance: TODO
+
+- id: milan_valenta
+  displayName: Milan Valenta
+  born: 1958
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: rudolf_jedlicka
+  displayName: Rudolf Jedlička
+  born: 1869
+  died: 1926
+  disciplines: []
+  significance: TODO
+
+- id: otokar_chlup
+  displayName: Otokar Chlup
+  born: 1875
+  died: 1965
+  disciplines: []
+  significance: TODO
+
+- id: frantisek_bakule
+  displayName: František Bakule
+  born: 1877
+  died: 1957
+  disciplines: []
+  significance: TODO
+
+- id: jan_mauer
+  displayName: Jan Mauer
+  born: 1884
+  died: 1963
+  disciplines: []
+  significance: TODO
+
+- id: augustin_bartos
+  displayName: Augustin Bartoš
+  born: 1888
+  died: 1969
+  disciplines: []
+  significance: TODO
+
+- id: jan_chlup
+  displayName: Jan Chlup
+  born: 1908
+  died: 1992
+  disciplines: []
+  significance: TODO
+
+- id: frantisek_kabele
+  displayName: František Kábele
+  born: 1913
+  died: 1998
+  disciplines: []
+  significance: TODO
+
+- id: lili_monatova
+  displayName: Lili Monatová
+  born: 1925
+  died: 2005
+  disciplines: []
+  significance: TODO
+
+- id: hippokrates
+  displayName: Hippokrates
+  born: 460
+  died: 370
+  disciplines: []
+  significance: TODO
+
+- id: isokrates
+  displayName: Isokratés
+  born: 436
+  died: 338
+  disciplines: []
+  significance: TODO
+
+- id: aristoteles
+  displayName: Aristotelés
+  born: 384
+  died: 322
+  disciplines: []
+  significance: TODO
+
+- id: demosthenes
+  displayName: Démosthenés
+  born: 384
+  died: 322
+  disciplines: []
+  significance: TODO
+
+- id: oribasius
+  displayName: Oribasius
+  born: 320
+  died: 400
+  disciplines: []
+  significance: TODO
+
+- id: francis_bacon
+  displayName: Francis Bacon
+  born: 1561
+  died: 1626
+  disciplines: []
+  significance: TODO
+
+- id: paul_broca
+  displayName: Paul Broca
+  born: 1824
+  died: 1880
+  disciplines: []
+  significance: TODO
+
+- id: carl_wernicke
+  displayName: Carl Wernicke
+  born: 1848
+  died: 1905
+  disciplines: []
+  significance: TODO
+
+- id: hermann_gutzmann
+  displayName: Hermann Gutzmann
+  born: 1865
+  died: 1922
+  disciplines: []
+  significance: TODO
+
+- id: charles_bliss
+  displayName: Charles Bliss
+  born: 1897
+  died: 1985
+  disciplines: []
+  significance: TODO
+
+- id: richard_luchsinger
+  displayName: Richard Luchsinger
+  born: 1900
+  died: 1993
+  disciplines: []
+  significance: TODO
+
+- id: charles_van_riper
+  displayName: Charles Van Riper
+  born: 1905
+  died: 1994
+  disciplines: []
+  significance: TODO
+
+- id: jan_hus
+  displayName: Jan Hus
+  born: 1370
+  died: 1415
+  disciplines: []
+  significance: TODO
+
+- id: jan_evangelista_purkyne
+  displayName: Jan Evangelista Purkyně
+  born: 1787
+  died: 1869
+  disciplines: []
+  significance: TODO
+
+- id: karel_maly
+  displayName: Karel Malý
+  born: 1882
+  died: 1953
+  disciplines: []
+  significance: TODO
+
+- id: antonin_haveroch
+  displayName: Antonín Haveroch
+  born: 1882
+  died: 1969
+  disciplines: []
+  significance: TODO
+
+- id: rudolf_kratochvil
+  displayName: Rudolf Kratochvíl
+  born: 1885
+  died: 1944
+  disciplines: []
+  significance: TODO
+
+- id: miloslav_seeman
+  displayName: Miloslav Seeman
+  born: 1892
+  died: 1975
+  disciplines: []
+  significance: TODO
+
+- id: milos_sovak
+  displayName: Miloš Sovák
+  born: 1905
+  died: 1989
+  disciplines: []
+  significance: TODO
+
+- id: bohuslav_blaha
+  displayName: Bohuslav Bláha
+  born: 1914
+  died: 2000
+  disciplines: []
+  significance: TODO
+
+- id: karel_neubauer
+  displayName: Karel Neubauer
+  born: 1963
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: viktor_lechta
+  displayName: Viktor Lechta
+  born: 1948
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: pedro_ponce_de_leon
+  displayName: Pedro Ponce de León
+  born: 1520
+  died: 1584
+  disciplines: []
+  significance: TODO
+
+- id: juan_pablo_bonet
+  displayName: Juan Pablo Bonet
+  born: 1573
+  died: 1633
+  disciplines: []
+  significance: TODO
+
+- id: johann_konrad_amman
+  displayName: Johann Konrad Amman
+  born: 1669
+  died: 1724
+  disciplines: []
+  significance: TODO
+
+- id: charles_michel_de_lepee
+  displayName: Charles-Michel de l’Épée
+  born: 1712
+  died: 1789
+  disciplines: []
+  significance: TODO
+
+- id: thomas_braidwood
+  displayName: Thomas Braidwood
+  born: 1715
+  died: 1806
+  disciplines: []
+  significance: TODO
+
+- id: samuel_heinicke
+  displayName: Samuel Heinicke
+  born: 1727
+  died: 1790
+  disciplines: []
+  significance: TODO
+
+- id: roch_ambroise_cucurron_abbe_sicard
+  displayName: Roch-Ambroise Cucurron, Abbé Sicard
+  born: 1742
+  died: 1822
+  disciplines: []
+  significance: TODO
+
+- id: laurent_clerc
+  displayName: Laurent Clerc
+  born: 1785
+  died: 1869
+  disciplines: []
+  significance: TODO
+
+- id: thomas_hopkins_gallaudet
+  displayName: Thomas Hopkins Gallaudet
+  born: 1787
+  died: 1851
+  disciplines: []
+  significance: TODO
+
+- id: vaclav_frost
+  displayName: Václav Frost
+  born: 1791
+  died: 1868
+  disciplines: []
+  significance: TODO
+
+- id: jeronym_lorm
+  displayName: Jeronym Lorm
+  born: 1821
+  died: 1902
+  disciplines: []
+  significance: TODO
+
+- id: denis_diderot
+  displayName: Denis Diderot
+  born: 1713
+  died: 1784
+  disciplines: []
+  significance: TODO
+
+- id: valentin_hauy
+  displayName: Valentin Haüy
+  born: 1745
+  died: 1822
+  disciplines: []
+  significance: TODO
+
+- id: johann_wilhelm_klein
+  displayName: Johann Wilhelm Klein
+  born: 1765
+  died: 1848
+  disciplines: []
+  significance: TODO
+
+- id: josef_julius_barbier
+  displayName: Josef Julius Barbier
+  born: 1767
+  died: 1841
+  disciplines: []
+  significance: TODO
+
+- id: james_gall
+  displayName: James Gall
+  born: 1780
+  died: 1874
+  disciplines: []
+  significance: TODO
+
+- id: samuel_gridley_howe
+  displayName: Samuel Gridley Howe
+  born: 1801
+  died: 1876
+  disciplines: []
+  significance: TODO
+
+- id: thomas_mark_lucas
+  displayName: Thomas Mark Lucas
+  born: 1804
+  died: 1861
+  disciplines: []
+  significance: TODO
+
+- id: louis_braille
+  displayName: Louis Braille
+  born: 1809
+  died: 1852
+  disciplines: []
+  significance: TODO
+
+- id: william_moon
+  displayName: William Moon
+  born: 1818
+  died: 1894
+  disciplines: []
+  significance: TODO
+
+- id: laura_bridgman
+  displayName: Laura Bridgman
+  born: 1829
+  died: 1889
+  disciplines: []
+  significance: TODO
+
+- id: helen_keller
+  displayName: Helen Keller
+  born: 1880
+  died: 1968
+  disciplines: []
+  significance: TODO
+
+- id: oskar_picht
+  displayName: Oskar Picht
+  born: 1871
+  died: 1945
+  disciplines: []
+  significance: TODO
+
+- id: alois_klar
+  displayName: Alois Klár
+  born: 1763
+  died: 1833
+  disciplines: []
+  significance: TODO
+
+- id: jan_deyl
+  displayName: Jan Deyl
+  born: 1855
+  died: 1924
+  disciplines: []
+  significance: TODO
+
+- id: vaclav_vejdovsky
+  displayName: Václav Vejdovský
+  born: 1862
+  died: 1944
+  disciplines: []
+  significance: TODO
+
+- id: drahomir_hanak
+  displayName: Drahomír Hanák
+  born: 1915
+  died: 1999
+  disciplines: []
+  significance: TODO
+
+- id: libuse_ludikova
+  displayName: Libuše Ludíková
+  born: 1957
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: kamila_ruzickova
+  displayName: Kamila Růžičková
+  born: 1971
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: konfucius
+  displayName: Konfucius
+  born: 551
+  died: 479
+  disciplines: []
+  significance: TODO
+
+- id: sokrates
+  displayName: Sokrates
+  born: 469
+  died: 399
+  disciplines: []
+  significance: TODO
+
+- id: xenofon
+  displayName: Xenofón
+  born: 430
+  died: 354
+  disciplines: []
+  significance: TODO
+
+- id: platon
+  displayName: Platón
+  born: 427
+  died: 347
+  disciplines: []
+  significance: TODO
+
+- id: benjamin_rush
+  displayName: Benjamin Rush
+  born: 1746
+  died: 1813
+  disciplines: []
+  significance: TODO
+
+- id: robert_m_zingg
+  displayName: Robert M. Zingg
+  born: 1900
+  died: 1957
+  disciplines: []
+  significance: TODO
+
+- id: fritz_redl
+  displayName: Fritz Redl
+  born: 1902
+  died: 1988
+  disciplines: []
+  significance: TODO
+
+- id: alois_zikmund
+  displayName: Alois Zikmund
+  born: 1882
+  died: 1952
+  disciplines: []
+  significance: TODO
+
+- id: josef_kettner
+  displayName: Josef Kettner
+  born: 1891
+  died: 1943
+  disciplines: []
+  significance: TODO
+
+- id: frantisek_stampach
+  displayName: František Štampach
+  born: 1895
+  died: 1969
+  disciplines: []
+  significance: TODO
+
+- id: eduard_jager
+  displayName: Eduard Jäger
+  born: 1818
+  died: 1884
+  disciplines: []
+  significance: TODO
+
+- id: herman_snellen
+  displayName: Herman Snellen
+  born: 1834
+  died: 1908
+  disciplines: []
+  significance: TODO
+
+- id: alfred_binet
+  displayName: Alfred Binet
+  born: 1857
+  died: 1911
+  disciplines: []
+  significance: TODO
+
+- id: theodore_simon
+  displayName: Théodore Simon
+  born: 1873
+  died: 1961
+  disciplines: []
+  significance: TODO
+
+- id: lewis_terman
+  displayName: Lewis Terman
+  born: 1877
+  died: 1956
+  disciplines: []
+  significance: TODO
+
+- id: arnold_gesell
+  displayName: Arnold Gesell
+  born: 1880
+  died: 1961
+  disciplines: []
+  significance: TODO
+
+- id: nikolaj_ozeretskij
+  displayName: Nikolaj Ozeretskij
+  born: 1893
+  died: 1955
+  disciplines: []
+  significance: TODO
+
+- id: david_wechsler
+  displayName: David Wechsler
+  born: 1896
+  died: 1981
+  disciplines: []
+  significance: TODO
+
+- id: nancy_bayley
+  displayName: Nancy Bayley
+  born: 1899
+  died: 1994
+  disciplines: []
+  significance: TODO
+
+- id: marianne_frostig
+  displayName: Marianne Frostig
+  born: 1906
+  died: 1996
+  disciplines: []
+  significance: TODO
+
+- id: joan_reynell
+  displayName: Joan Reynell
+  born: 1913
+  died: 2012
+  disciplines: []
+  significance: TODO
+
+- id: jaroslav_jirasek
+  displayName: Jaroslav Jirásek
+  born: 1922
+  died: 2000
+  disciplines: []
+  significance: TODO
+
+- id: zdenek_matejcek
+  displayName: Zdeněk Matějček
+  born: 1922
+  died: 2004
+  disciplines: []
+  significance: TODO
+
+- id: marie_vagnerova
+  displayName: Marie Vágnerová
+  born: 1946
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: ivan_pavlov
+  displayName: Ivan Pavlov
+  born: 1849
+  died: 1936
+  disciplines: []
+  significance: TODO
+
+- id: sigmund_freud
+  displayName: Sigmund Freud
+  born: 1856
+  died: 1939
+  disciplines: []
+  significance: TODO
+
+- id: adolf_meyer
+  displayName: Adolf Meyer
+  born: 1866
+  died: 1950
+  disciplines: []
+  significance: TODO
+
+- id: alfred_adler
+  displayName: Alfred Adler
+  born: 1870
+  died: 1937
+  disciplines: []
+  significance: TODO
+
+- id: william_stern
+  displayName: William Stern
+  born: 1871
+  died: 1938
+  disciplines: []
+  significance: TODO
+
+- id: carl_gustav_jung
+  displayName: Carl Gustav Jung
+  born: 1875
+  died: 1961
+  disciplines: []
+  significance: TODO
+
+- id: john_b_watson
+  displayName: John B. Watson
+  born: 1878
+  died: 1958
+  disciplines: []
+  significance: TODO
+
+- id: kurt_goldstein
+  displayName: Kurt Goldstein
+  born: 1878
+  died: 1965
+  disciplines: []
+  significance: TODO
+
+- id: clark_l_hull
+  displayName: Clark L. Hull
+  born: 1884
+  died: 1952
+  disciplines: []
+  significance: TODO
+
+- id: karen_horneyova
+  displayName: Karen Horneyová
+  born: 1885
+  died: 1952
+  disciplines: []
+  significance: TODO
+
+- id: edward_c_tolman
+  displayName: Edward C. Tolman
+  born: 1886
+  died: 1959
+  disciplines: []
+  significance: TODO
+
+- id: kurt_lewin
+  displayName: Kurt Lewin
+  born: 1890
+  died: 1947
+  disciplines: []
+  significance: TODO
+
+- id: harry_stack_sullivan
+  displayName: Harry Stack Sullivan
+  born: 1892
+  died: 1949
+  disciplines: []
+  significance: TODO
+
+- id: henry_a_murray
+  displayName: Henry A. Murray
+  born: 1893
+  died: 1988
+  disciplines: []
+  significance: TODO
+
+- id: leo_kanner
+  displayName: Leo Kanner
+  born: 1894
+  died: 1981
+  disciplines: []
+  significance: TODO
+
+- id: jean_piaget
+  displayName: Jean Piaget
+  born: 1896
+  died: 1980
+  disciplines: []
+  significance: TODO
+
+- id: lev_vygotskij
+  displayName: Lev Vygotskij
+  born: 1896
+  died: 1934
+  disciplines: []
+  significance: TODO
+
+- id: gordon_w_allport
+  displayName: Gordon W. Allport
+  born: 1897
+  died: 1967
+  disciplines: []
+  significance: TODO
+
+- id: erich_fromm
+  displayName: Erich Fromm
+  born: 1900
+  died: 1980
+  disciplines: []
+  significance: TODO
+
+- id: carl_rogers
+  displayName: Carl Rogers
+  born: 1902
+  died: 1987
+  disciplines: []
+  significance: TODO
+
+- id: erik_erikson
+  displayName: Erik Erikson
+  born: 1902
+  died: 1994
+  disciplines: []
+  significance: TODO
+
+- id: b_f_skinner
+  displayName: B. F. Skinner
+  born: 1904
+  died: 1990
+  disciplines: []
+  significance: TODO
+
+- id: george_a_kelly
+  displayName: George A. Kelly
+  born: 1905
+  died: 1967
+  disciplines: []
+  significance: TODO
+
+- id: viktor_e_frankl
+  displayName: Viktor E. Frankl
+  born: 1905
+  died: 1997
+  disciplines: []
+  significance: TODO
+
+- id: raymond_b_cattell
+  displayName: Raymond B. Cattell
+  born: 1905
+  died: 1998
+  disciplines: []
+  significance: TODO
+
+- id: hans_asperger
+  displayName: Hans Asperger
+  born: 1906
+  died: 1980
+  disciplines: []
+  significance: TODO
+
+- id: abraham_maslow
+  displayName: Abraham Maslow
+  born: 1908
+  died: 1970
+  disciplines: []
+  significance: TODO
+
+- id: julian_rotter
+  displayName: Julian Rotter
+  born: 1916
+  died: 2014
+  disciplines: []
+  significance: TODO
+
+- id: albert_bandura
+  displayName: Albert Bandura
+  born: 1925
+  died: 2021
+  disciplines: []
+  significance: TODO
+
+- id: lorna_wingova
+  displayName: Lorna Wingová
+  born: 1928
+  died: 2014
+  disciplines: []
+  significance: TODO
+
+- id: katerina_thorova
+  displayName: Kateřina Thorová
+  born: 1969
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: alexandr_kapp
+  displayName: Alexandr Kapp
+  born: 1799
+  died: 1869
+  disciplines: []
+  significance: TODO
+
+- id: ferdinand_adalbert_kehrer
+  displayName: Ferdinand Adalbert Kehrer
+  born: 1837
+  died: 1914
+  disciplines: []
+  significance: TODO
+
+- id: otto_friedrich_bollnow
+  displayName: Otto Friedrich Bollnow
+  born: 1903
+  died: 1991
+  disciplines: []
+  significance: TODO
+
+- id: emil_livecka
+  displayName: Emil Livečka
+  born: 1919
+  died: 1985
+  disciplines: []
+  significance: TODO
+
+- id: pavel_muhlpachr
+  displayName: Pavel Mühlpachr
+  born: 1962
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: jiri_langer
+  displayName: Jiří Langer
+  born: 1979
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: olga_havlova
+  displayName: Olga Havlová
+  born: 1933
+  died: 1996
+  disciplines: []
+  significance: TODO
+
+- id: jaroslav_kysucan
+  displayName: Jaroslav Kysučan
+  born: 1934
+  died: null
+  disciplines: []
+  significance: TODO
+
+- id: alzbeta_peutelschmiedova
+  displayName: Alžběta Peutelschmiedová
+  born: 1941
+  died: null
+  disciplines: []
+  significance: TODO
+
