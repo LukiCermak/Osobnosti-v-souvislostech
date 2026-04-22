@@ -37,12 +37,12 @@ export function ProgressPage() {
       setKnowledgeStates(stateRows as unknown as KnowledgeState[]);
       setConfusions(confusionRows as unknown as ConfusionRecord[]);
     } catch (error) {
-      setLoadError(error instanceof Error ? error.message : 'Nepodařilo se načíst přehled pokroku.');
+      setLoadError(error instanceof Error ? error.message : 'Nepodarilo se nacist prehled pokroku.');
     }
   }
 
   const navigationItems = useMemo(
-    () => createNavigationItems(tString, { includeReview: true, includeSettings: true }),
+    () => createNavigationItems(tString, { includeSettings: true }),
     [tString]
   );
   const weaknesses: WeaknessFocus[] = useMemo(
@@ -58,10 +58,7 @@ export function ProgressPage() {
     <AppShell
       title={tString('progress.page.title')}
       subtitle={tString('progress.page.subtitle')}
-      eyebrow={tString('progress.page.eyebrow')}
       navigationItems={viewModel.navigationItems}
-      sidebarTitle={tString('progress.sidebar.title')}
-      sidebarFooter={<p className="text-body">{tString('progress.sidebar.footer')}</p>}
     >
       {loadError ? (
         <ErrorState

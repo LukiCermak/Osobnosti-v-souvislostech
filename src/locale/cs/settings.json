@@ -1,43 +1,43 @@
 {
   "page": {
-    "title": "Nastavení",
-    "subtitle": "Správa lokálních dat, soukromí a vzhledu aplikace.",
-    "eyebrow": "Správa aplikace"
+    "title": "Nastaveni",
+    "subtitle": "Studijni preference, soukromi a sprava lokalne ulozeneho stavu aplikace.",
+    "eyebrow": "Nastaveni aplikace"
   },
   "sidebar": {
-    "title": "Co zde můžete spravovat",
-    "footer": "První verze aplikace nevyžaduje účet ani synchronizaci. Všechen progres zůstává v tomto zařízení, dokud ho neexportujete."
+    "title": "Co zde muzete upravit",
+    "footer": "Vsechen progres zustava v tomto zarizeni. V beznem pouziti staci spravovat preference, vzhled a pripadne reset lokalniho stavu."
   },
   "profile": {
-    "title": "Studijní profil",
-    "subtitle": "Shrnutí lokálně uložených preferencí a současného nastavení."
+    "title": "Studijni profil",
+    "subtitle": "Shrnuti lokalne ulozenych preferenci a soucasneho nastaveni."
   },
   "storage": {
-    "title": "Lokální úložiště a záloha",
-    "subtitle": "Můžete vyexportovat progres, nahrát dřívější zálohu nebo vymazat lokální data."
+    "title": "Lokalni uloziste",
+    "subtitle": "Prehled stavu lokalnich dat a servisni akce pro pripad potizi s ulozenym progresem."
   },
   "privacy": {
-    "title": "Soukromí a lokální zpracování",
-    "subtitle": "Aplikace v první verzi nezakládá účet a neposílá progres do externí služby.",
-    "localOnly": "Veškerý progres, rozehrané relace i přehled pokroku zůstávají v tomto zařízení, dokud je sami nevyexportujete."
+    "title": "Soukromi a lokalni zpracovani",
+    "subtitle": "Aplikace v prvni verzi nezaklada ucet a neposila progres do externi sluzby.",
+    "localOnly": "Veskery progres, rozehrane relace i prehled pokroku zustavaji v tomto zarizeni, dokud je sami nevymazete."
   },
   "appearance": {
     "title": "Vzhled aplikace",
-    "subtitle": "Vzhled můžete přepínat mezi světlou a tmavou variantou."
+    "subtitle": "Vzhled muzete prepinat mezi svetlou a tmavou variantou."
   },
   "notice": {
-    "title": "Poslední operace"
+    "title": "Posledni operace"
   },
   "empty": {
-    "eyebrow": "Chybí vstupní profil",
-    "title": "Nejdřív dokončete první nastavení",
-    "text": "Až po prvním nastavení bude možné smysluplně spravovat lokální profil a jeho preference."
+    "eyebrow": "Chybi vstupni profil",
+    "title": "Nejdriv dokoncete prvni nastaveni",
+    "text": "Az po prvnim nastaveni bude mozne smysluplne spravovat lokalni profil a jeho preference."
   },
   "errors": {
-    "title": "Nastavení se nepodařilo připravit",
-    "text": "Zkuste znovu načíst kontrolu úložiště nebo obnovit aplikaci."
+    "title": "Nastaveni se nepodarilo pripravit",
+    "text": "Zkuste znovu nacist kontrolu uloziste nebo obnovit aplikaci."
   },
   "actions": {
-    "openOnboarding": "Otevřít první nastavení"
+    "openOnboarding": "Otevrit prvni nastaveni"
   }
 }

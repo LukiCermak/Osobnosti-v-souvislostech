@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { createModeNavigationItems, createNavigationItems } from '@/app/navigation';
 import { AppShell } from '@/components/layout/AppShell';
 import { AnswerFeedback } from '@/components/study/AnswerFeedback';
 import { NextStepCard } from '@/components/study/NextStepCard';
@@ -50,6 +51,14 @@ export function AtlasPage() {
   const [revealedHintIds, setRevealedHintIds] = useState<string[]>([]);
   const [confidence, setConfidence] = useState<StudyAnswer['confidence']>(3);
   const [taskStartedAt, setTaskStartedAt] = useState<number>(() => Date.now());
+  const navigationItems = useMemo(
+    () => createNavigationItems(tString, { includeSettings: true }),
+    [tString]
+  );
+  const modeNavigationItems = useMemo(
+    () => createModeNavigationItems(tString),
+    [tString]
+  );
 
   useEffect(() => {
     setActiveMode('atlas');
@@ -96,7 +105,8 @@ export function AtlasPage() {
         title={tString('atlas.page.title')}
         subtitle={tString('atlas.page.subtitle')}
         eyebrow={tString('atlas.page.eyebrow')}
-        navigationItems={viewModel?.navigationItems ?? []}
+        navigationItems={navigationItems}
+        modeNavigationItems={modeNavigationItems}
       >
         <ErrorState
           title={tString('atlas.errors.loadTitle')}
@@ -189,7 +199,23 @@ export function AtlasPage() {
       title={tString('atlas.page.title')}
       subtitle={tString('atlas.page.subtitle')}
       eyebrow={tString('atlas.page.eyebrow')}
-      navigationItems={viewModel.navigationItems}
+      navigationItems={navigationItems}
+      modeNavigationItems={modeNavigationItems}
+      sidebar={
+        <AtlasFilters
+          filters={atlasFilters}
+          disciplineOptions={viewModel.disciplineOptions}
+          eraOptions={viewModel.eraOptions}
+          relationTypeOptions={viewModel.relationTypeOptions}
+          tagOptions={viewModel.tagOptions}
+          onToggleDiscipline={(id) => toggleSelection('disciplineIds', id, atlasFilters, updateAtlasFilters)}
+          onToggleEra={(id) => toggleSelection('eraIds', id, atlasFilters, updateAtlasFilters)}
+          onToggleRelationType={(id) => toggleSelection('relationTypes', id, atlasFilters, updateAtlasFilters)}
+          onToggleTag={(id) => toggleSelection('tagIds', id, atlasFilters, updateAtlasFilters)}
+          onToggleWeakOnly={() => updateAtlasFilters({ showOnlyWeakAreas: !atlasFilters.showOnlyWeakAreas })}
+          onReset={() => resetAtlasFilters()}
+        />
+      }
       sidebarTitle={tString('atlas.sidebar.title')}
       sidebarFooter={
         <div className="stack gap-sm text-body">
@@ -332,21 +358,7 @@ export function AtlasPage() {
         <ErrorState title={tString('atlas.errors.sessionTitle')} description={tString('atlas.errors.sessionText')} details={studyStore.error} />
       ) : null}
 
-      <div className="grid grid-2 atlas-main-grid">
-        <AtlasFilters
-          filters={atlasFilters}
-          disciplineOptions={viewModel.disciplineOptions}
-          eraOptions={viewModel.eraOptions}
-          relationTypeOptions={viewModel.relationTypeOptions}
-          tagOptions={viewModel.tagOptions}
-          onToggleDiscipline={(id) => toggleSelection('disciplineIds', id, atlasFilters, updateAtlasFilters)}
-          onToggleEra={(id) => toggleSelection('eraIds', id, atlasFilters, updateAtlasFilters)}
-          onToggleRelationType={(id) => toggleSelection('relationTypes', id, atlasFilters, updateAtlasFilters)}
-          onToggleTag={(id) => toggleSelection('tagIds', id, atlasFilters, updateAtlasFilters)}
-          onToggleWeakOnly={() => updateAtlasFilters({ showOnlyWeakAreas: !atlasFilters.showOnlyWeakAreas })}
-          onReset={() => resetAtlasFilters()}
-        />
-
+      <div className="stack gap-lg atlas-main-grid">
         <AtlasPathPanel
           paths={viewModel.paths}
           selectedPathId={selectedPathId}

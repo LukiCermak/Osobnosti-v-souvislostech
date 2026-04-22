@@ -104,7 +104,7 @@ export function translate(
   const tree = localeRegistry[locale][namespace as LocaleNamespace];
 
   if (!tree || !isMessageTree(tree)) {
-    return options?.fallback ?? key;
+    return options?.fallback ?? 'Text se připravuje';
   }
 
   return resolveMessage(tree, segments.join('.'), options);

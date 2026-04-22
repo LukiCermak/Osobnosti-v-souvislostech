@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { createModeNavigationItems, createNavigationItems } from '@/app/navigation';
 import { AppShell } from '@/components/layout/AppShell';
 import { Button } from '@/components/shared/Button';
 import { Card } from '@/components/shared/Card';
@@ -43,6 +44,14 @@ export function LabPage() {
   const [revealedHintIds, setRevealedHintIds] = useState<string[]>([]);
   const [confidence, setConfidence] = useState<StudyAnswer['confidence']>(3);
   const [taskStartedAt, setTaskStartedAt] = useState<number>(() => Date.now());
+  const navigationItems = useMemo(
+    () => createNavigationItems(tString, { includeSettings: true }),
+    [tString]
+  );
+  const modeNavigationItems = useMemo(
+    () => createModeNavigationItems(tString),
+    [tString]
+  );
 
   useEffect(() => {
     setActiveMode('lab');
@@ -336,7 +345,8 @@ export function LabPage() {
         title={tString('lab.page.title')}
         subtitle={tString('lab.page.subtitle')}
         eyebrow={tString('lab.page.eyebrow')}
-        navigationItems={viewModel?.navigationItems ?? []}
+        navigationItems={navigationItems}
+        modeNavigationItems={modeNavigationItems}
       >
         <ErrorState
           title={tString('lab.errors.loadTitle')}
@@ -362,7 +372,38 @@ export function LabPage() {
       title={tString('lab.page.title')}
       subtitle={tString('lab.page.subtitle')}
       eyebrow={tString('lab.page.eyebrow')}
-      navigationItems={viewModel.navigationItems}
+      navigationItems={navigationItems}
+      modeNavigationItems={modeNavigationItems}
+      sidebar={
+        <>
+          <Card as="section" eyebrow={tString('lab.settings.eyebrow')} title={tString('lab.settings.tempoTitle')} subtitle={tString('lab.settings.tempoText')}>
+            <div className="lab-tempo-row">
+              {(['slow', 'standard', 'fast'] as const).map((tempo) => (
+                <button
+                  key={tempo}
+                  type="button"
+                  className={['lab-tempo-button', labUiState.preferredTempo === tempo ? 'is-selected' : ''].filter(Boolean).join(' ')}
+                  onClick={() => updateLabUiState({ preferredTempo: tempo })}
+                >
+                  {mapTempoLabel(tempo)}
+                </button>
+              ))}
+            </div>
+          </Card>
+
+          <Card as="section" eyebrow={tString('lab.history.eyebrow')} title={tString('lab.history.title')} subtitle={tString('lab.history.subtitle')}>
+            {viewModel.topConfusions.length > 0 ? (
+              <ul className="feature-list">
+                {viewModel.topConfusions.map((item) => (
+                  <li key={item.id}>{`${item.sourceLabel} x ${item.confusedWithLabel} - ${item.count}x - ${item.problemType}`}</li>
+                ))}
+              </ul>
+            ) : (
+              <p className="text-body">{tString('lab.history.empty')}</p>
+            )}
+          </Card>
+        </>
+      }
       sidebarTitle={tString('lab.sidebar.title')}
       sidebarFooter={
         <div className="stack gap-sm text-body">

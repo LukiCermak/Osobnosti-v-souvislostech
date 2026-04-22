@@ -33,3 +33,13 @@ export function createNavigationItems(
 
   return items;
 }
+
+export function createModeNavigationItems(
+  tString: I18nContextValue['tString']
+): NavigationItem[] {
+  return [
+    { id: 'atlas', path: '/atlas', label: tString('common.navigation.atlas'), mode: 'atlas' },
+    { id: 'cases', path: '/detektivni-spisy', label: tString('common.navigation.cases'), mode: 'cases' },
+    { id: 'lab', path: '/laborator-rozliseni', label: tString('common.navigation.lab'), mode: 'lab' }
+  ];
+}

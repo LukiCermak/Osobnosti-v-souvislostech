@@ -18,8 +18,8 @@ import { useUiStore } from '@/state/uiStore';
 import type { NavigationItem } from '@/types/ui';
 
 const navigationItems: NavigationItem[] = [
-  { id: 'home', path: '/', label: 'Přehled' },
-  { id: 'onboarding', path: '/prvni-nastaveni', label: 'První nastavení' }
+  { id: 'home', path: '/', label: 'Hlavni stranka' },
+  { id: 'onboarding', path: '/prvni-nastaveni', label: 'Prvni nastaveni' }
 ];
 
 export function OnboardingPage() {
@@ -33,11 +33,12 @@ export function OnboardingPage() {
   const [error, setError] = useState<string>();
   const [saving, setSaving] = useState(false);
   const profileSignature = useMemo(
-    () => JSON.stringify({
-      id: profile?.id,
-      preferredDailyIntensity: profile?.preferredDailyIntensity,
-      preferredDisciplineIds: profile?.preferredDisciplineIds ?? []
-    }),
+    () =>
+      JSON.stringify({
+        id: profile?.id,
+        preferredDailyIntensity: profile?.preferredDailyIntensity,
+        preferredDisciplineIds: profile?.preferredDisciplineIds ?? []
+      }),
     [profile]
   );
 
@@ -75,10 +76,7 @@ export function OnboardingPage() {
     <AppShell
       title={tString('common.navigation.onboarding')}
       subtitle={tString('onboarding.subtitle')}
-      eyebrow={tString('onboarding.eyebrow')}
       navigationItems={navigationItems}
-      sidebarTitle={tString('onboarding.sidebar.title')}
-      sidebarFooter={<p className="text-body">{tString('onboarding.sidebar.text')}</p>}
       actions={
         <div className="button-row">
           <Button variant="secondary" to="/">
@@ -90,15 +88,20 @@ export function OnboardingPage() {
         </div>
       }
     >
-      <section className="hero panel panel-highlight stack gap-md">
-        <p className="eyebrow">{tString('onboarding.hero.kicker')}</p>
-        <h1 className="hero-title">{tString('onboarding.title')}</h1>
-        <p className="text-body text-lead">{tString('onboarding.intro')}</p>
-      </section>
+      <Card
+        as="section"
+        highlight
+        eyebrow={tString('onboarding.hero.kicker')}
+        title={tString('onboarding.title')}
+        subtitle={tString('onboarding.intro')}
+      />
 
       {error ? <ErrorState title={tString('onboarding.validation.title')} description={error} /> : null}
 
-      <SectionTitle title={tString('onboarding.sections.disciplinesTitle')} subtitle={tString('onboarding.sections.disciplinesText')} />
+      <SectionTitle
+        title={tString('onboarding.sections.disciplinesTitle')}
+        subtitle={tString('onboarding.sections.disciplinesText')}
+      />
       <DisciplinePicker
         options={viewModel.availableDisciplines}
         selectedIds={draft.preferredDisciplineIds}

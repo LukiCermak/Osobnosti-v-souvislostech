@@ -1,30 +1,17 @@
-import { NavLink } from 'react-router-dom';
 import type { ReactNode } from 'react';
-import type { NavigationItem } from '@/types/ui';
 
 export interface SidebarProps {
-  items: NavigationItem[];
   title?: string;
   footer?: ReactNode;
+  children?: ReactNode;
 }
 
-export function Sidebar({ items, title, footer }: SidebarProps) {
+export function Sidebar({ title, footer, children }: SidebarProps) {
   return (
-    <aside className="sidebar panel" aria-label={title ?? 'Postranní navigace'}>
+    <aside className="sidebar panel" aria-label={title ?? 'Postranni panel'}>
       <div className="stack gap-md">
         {title ? <h2 className="subsection-title">{title}</h2> : null}
-        <nav className="stack gap-sm">
-          {items.map((item) => (
-            <NavLink
-              key={item.id}
-              end={item.path === '/'}
-              to={item.path}
-              className={({ isActive }) => ['sidebar-link', isActive ? 'is-active' : ''].filter(Boolean).join(' ')}
-            >
-              {item.label}
-            </NavLink>
-          ))}
-        </nav>
+        {children ? <div className="stack gap-md">{children}</div> : null}
         {footer ? <div>{footer}</div> : null}
       </div>
     </aside>

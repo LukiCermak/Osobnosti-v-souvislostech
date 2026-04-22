@@ -31,23 +31,18 @@ export function ContrastDrill({
   onSkip
 }: ContrastDrillProps) {
   return (
-    <Card
-      as="section"
-      eyebrow="Rozlišovací úloha"
-      title={task.prompt}
-      subtitle={task.expectedOutcome}
-    >
+    <Card as="section" eyebrow="Rozlisovaci uloha" title={task.prompt} subtitle={task.expectedOutcome}>
       <div className="lab-drill-layout">
         <div className="stack gap-md">
           <div className="atlas-focus-meta">
-            <ProgressBadge label="Typ úlohy" value={mapMicrotaskType(task.microtaskType)} tone="mastered" />
-            <ProgressBadge label="Nápovědy" value={revealedHintIds.length} tone="growing" />
+            <ProgressBadge label="Typ ulohy" value={mapMicrotaskType(task.microtaskType)} tone="mastered" />
+            <ProgressBadge label="Napovedy" value={revealedHintIds.length} tone="growing" />
           </div>
 
           <QuickChoice task={task} selectedOptionId={selectedOptionId} onSelect={onSelect} />
 
           <div className="stack gap-sm">
-            <p className="eyebrow">Jistota odpovědi</p>
+            <p className="eyebrow">Jistota odpovedi</p>
             <div className="lab-confidence-row">
               {[1, 2, 3, 4, 5].map((value) => (
                 <button
@@ -64,10 +59,10 @@ export function ContrastDrill({
 
           <div className="button-row">
             <Button onClick={onSubmit} disabled={!selectedOptionId}>
-              Vyhodnotit odpověď
+              Vyhodnotit odpoved
             </Button>
             <Button variant="secondary" onClick={onSkip}>
-              Přeskočit
+              Preskocit
             </Button>
           </div>
         </div>
@@ -86,16 +81,16 @@ export function ContrastDrill({
 function mapMicrotaskType(taskType: LabTask['microtaskType']): string {
   switch (taskType) {
     case 'two-names-one-attribute':
-      return 'Dvě jména, jeden znak';
+      return 'Dve jmena, jeden znak';
     case 'one-institution-two-people':
-      return 'Jedna instituce, dvě osobnosti';
+      return 'Jedna instituce, dve osobnosti';
     case 'one-scale-three-authors':
-      return 'Jedna škála, více autorů';
+      return 'Jedna skala, vice autoru';
     case 'historical-sequence':
-      return 'Historická návaznost';
+      return 'Historicka navaznost';
     case 'incorrect-link-detection':
-      return 'Chybné spojení';
+      return 'Chybne spojeni';
     case 'definition-discrimination':
-      return 'Rozlišení definice';
+      return 'Rozliseni definice';
   }
 }

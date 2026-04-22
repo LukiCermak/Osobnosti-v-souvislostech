@@ -32,12 +32,12 @@ export function ReviewQueuePage() {
       const rows = await knowledgeRepository.listDue(new Date().toISOString(), 24);
       setDueRows(rows);
     } catch (error) {
-      setLoadError(error instanceof Error ? error.message : 'Nepodařilo se načíst dnešní frontu opakování.');
+      setLoadError(error instanceof Error ? error.message : 'Nepodarilo se nacist dnesni frontu opakovani.');
     }
   }
 
   const navigationItems = useMemo(
-    () => createNavigationItems(tString, { includeReview: true, includeSettings: true }),
+    () => createNavigationItems(tString, { includeSettings: true }),
     [tString]
   );
   const viewModel = useMemo(
@@ -55,10 +55,7 @@ export function ReviewQueuePage() {
     <AppShell
       title={tString('review.page.title')}
       subtitle={tString('review.page.subtitle')}
-      eyebrow={tString('review.page.eyebrow')}
       navigationItems={viewModel.navigationItems}
-      sidebarTitle={tString('review.sidebar.title')}
-      sidebarFooter={<p className="text-body">{tString('review.sidebar.footer')}</p>}
     >
       {loadError ? (
         <ErrorState

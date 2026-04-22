@@ -22,7 +22,7 @@ export function PrivacySettings({
 }: PrivacySettingsProps) {
   return (
     <div className="grid grid-2 settings-grid">
-      <Card as="section" eyebrow="Soukromí" title={title} subtitle={subtitle}>
+      <Card as="section" eyebrow="Soukromi" title={title} subtitle={subtitle}>
         <p className="text-body">{localOnlyText}</p>
       </Card>
       <Card as="section" eyebrow="Vzhled" title={appearanceTitle} subtitle={appearanceText}>

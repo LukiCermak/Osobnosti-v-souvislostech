@@ -1,4 +1,4 @@
-import { useCallback, useEffect, useMemo, useRef, useState, type ChangeEvent } from 'react';
+import { useCallback, useEffect, useMemo, useState } from 'react';
 import { createNavigationItems } from '@/app/navigation';
 import { useTheme } from '@/app/providers/ThemeProvider';
 import { AppShell } from '@/components/layout/AppShell';
@@ -8,8 +8,6 @@ import { ErrorState } from '@/components/shared/ErrorState';
 import { PrivacySettings } from '@/features/settings/PrivacySettings';
 import { StorageSettings } from '@/features/settings/StorageSettings';
 import { createSettingsPageViewModel } from '@/features/settings/settings.presenter';
-import { exportProgressAsBlob, createExportFilename } from '@/db/backup/exportProgress';
-import { importProgressFromFile } from '@/db/backup/importProgress';
 import { resetDatabase } from '@/db/database';
 import { useI18n } from '@/locale/i18n';
 import { checkStorageHealth } from '@/services/storage/storageHealth';
@@ -24,14 +22,13 @@ export function SettingsPage() {
   const refreshDerivedState = useAppStore((state) => state.refreshDerivedState);
   const [error, setError] = useState<string>();
   const [notice, setNotice] = useState<string>();
-  const inputRef = useRef<HTMLInputElement | null>(null);
 
   const refreshStorageHealth = useCallback(async () => {
     try {
       const report = await checkStorageHealth();
       setStorageHealth(report);
     } catch (storageError) {
-      setError(storageError instanceof Error ? storageError.message : 'Nepodařilo se ověřit lokální úložiště.');
+      setError(storageError instanceof Error ? storageError.message : 'Nepodarilo se overit lokalni uloziste.');
     }
   }, [setStorageHealth]);
 
@@ -40,7 +37,7 @@ export function SettingsPage() {
   }, [refreshStorageHealth]);
 
   const navigationItems = useMemo(
-    () => createNavigationItems(tString, { includeReview: true, includeSettings: true }),
+    () => createNavigationItems(tString, { includeSettings: true }),
     [tString]
   );
 
@@ -49,48 +46,8 @@ export function SettingsPage() {
     [appState, preference]
   );
 
-  const handleExport = async () => {
-    try {
-      setError(undefined);
-      const blob = await exportProgressAsBlob();
-      const url = URL.createObjectURL(blob);
-      const link = document.createElement('a');
-      link.href = url;
-      link.download = createExportFilename();
-      link.click();
-      URL.revokeObjectURL(url);
-      setNotice('Záloha lokálního progresu byla připravena ke stažení.');
-    } catch (exportError) {
-      setError(exportError instanceof Error ? exportError.message : 'Export lokálních dat se nezdařil.');
-    }
-  };
-
-  const handleImportClick = () => {
-    inputRef.current?.click();
-  };
-
-  const handleImport = async (event: ChangeEvent<HTMLInputElement>) => {
-    const file = event.target.files?.[0];
-    if (!file) {
-      return;
-    }
-
-    try {
-      setError(undefined);
-      await importProgressFromFile(file, { clearExisting: true });
-      await initializeApp(true);
-      await refreshDerivedState();
-      await refreshStorageHealth();
-      setNotice('Import lokálních dat byl dokončen.');
-    } catch (importError) {
-      setError(importError instanceof Error ? importError.message : 'Import lokálních dat se nezdařil.');
-    } finally {
-      event.target.value = '';
-    }
-  };
-
   const handleReset = async () => {
-    const confirmed = window.confirm('Opravdu chcete vymazat lokální progres a rozehrané relace v tomto zařízení?');
+    const confirmed = window.confirm('Opravdu chcete vymazat lokalni progres a rozehrane relace v tomto zarizeni?');
     if (!confirmed) {
       return;
     }
@@ -99,10 +56,11 @@ export function SettingsPage() {
       setError(undefined);
       await resetDatabase();
       await initializeApp(true);
+      await refreshDerivedState();
       await refreshStorageHealth();
-      setNotice('Lokální data byla vymazána a aplikace připravila čistý stav.');
+      setNotice('Lokalni data byla vymazana a aplikace pripravila cisty stav.');
     } catch (resetError) {
-      setError(resetError instanceof Error ? resetError.message : 'Nepodařilo se vymazat lokální data.');
+      setError(resetError instanceof Error ? resetError.message : 'Nepodarilo se vymazat lokalni data.');
     }
   };
 
@@ -110,13 +68,8 @@ export function SettingsPage() {
     <AppShell
       title={tString('settings.page.title')}
       subtitle={tString('settings.page.subtitle')}
-      eyebrow={tString('settings.page.eyebrow')}
       navigationItems={navigationItems}
-      sidebarTitle={tString('settings.sidebar.title')}
-      sidebarFooter={<p className="text-body">{tString('settings.sidebar.footer')}</p>}
     >
-      <input ref={inputRef} type="file" accept="application/json" className="visually-hidden" onChange={(event) => void handleImport(event)} />
-
       {error ? (
         <ErrorState
           title={tString('settings.errors.title')}
@@ -140,10 +93,10 @@ export function SettingsPage() {
         <>
           <Card as="section" eyebrow="Profil" title={tString('settings.profile.title')} subtitle={tString('settings.profile.subtitle')}>
             <ul className="feature-list">
-              <li>{`Oslovení: ${viewModel.pseudonym}`}</li>
-              <li>{`Denní intenzita: ${viewModel.dailyIntensityLabel}`}</li>
-              <li>{`Preferované disciplíny: ${viewModel.preferredDisciplineCount}`}</li>
-              <li>{`Aktivní vzhled: ${mode === 'dark' ? 'Tmavý' : 'Světlý'}`}</li>
+              <li>{`Osloveni: ${viewModel.pseudonym}`}</li>
+              <li>{`Denni intenzita: ${viewModel.dailyIntensityLabel}`}</li>
+              <li>{`Preferovane discipliny: ${viewModel.preferredDisciplineCount}`}</li>
+              <li>{`Aktivni vzhled: ${mode === 'dark' ? 'Tmavy' : 'Svetly'}`}</li>
             </ul>
           </Card>
 
@@ -153,8 +106,6 @@ export function SettingsPage() {
             statusLabel={viewModel.storageStatusLabel}
             usageLabel={viewModel.storageUsageLabel}
             warnings={viewModel.storageWarnings}
-            onExport={() => void handleExport()}
-            onImportClick={handleImportClick}
             onRefresh={() => void refreshStorageHealth()}
             onReset={() => void handleReset()}
           />

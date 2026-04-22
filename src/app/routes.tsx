@@ -27,66 +27,81 @@ function NotFoundPage() {
   );
 }
 
-export const router = createBrowserRouter([
+const routerBasename = normalizeRouterBasename(import.meta.env.BASE_URL);
+
+export const router = createBrowserRouter(
+  [
+    {
+      path: '/',
+      element: <HomePage />,
+      errorElement: <NotFoundPage />
+    },
+    {
+      path: '/prvni-nastaveni',
+      element: <OnboardingPage />
+    },
+    {
+      path: '/atlas',
+      element: (
+        <ContentReadyGuard routeId="atlas">
+          <AtlasPage />
+        </ContentReadyGuard>
+      )
+    },
+    {
+      path: '/detektivni-spisy',
+      element: (
+        <ContentReadyGuard routeId="cases">
+          <CasesPage />
+        </ContentReadyGuard>
+      )
+    },
+    {
+      path: '/laborator-rozliseni',
+      element: (
+        <ContentReadyGuard routeId="lab">
+          <LabPage />
+        </ContentReadyGuard>
+      )
+    },
+    {
+      path: '/pokrok',
+      element: (
+        <ContentReadyGuard>
+          <ProgressPage />
+        </ContentReadyGuard>
+      )
+    },
+    {
+      path: '/opakovani',
+      element: (
+        <ContentReadyGuard>
+          <ReviewQueuePage />
+        </ContentReadyGuard>
+      )
+    },
+    {
+      path: '/nastaveni',
+      element: (
+        <ContentReadyGuard>
+          <SettingsPage />
+        </ContentReadyGuard>
+      )
+    },
+    {
+      path: '*',
+      element: <NotFoundPage />
+    }
+  ],
   {
-    path: '/',
-    element: <HomePage />,
-    errorElement: <NotFoundPage />
-  },
-  {
-    path: '/prvni-nastaveni',
-    element: <OnboardingPage />
-  },
-  {
-    path: '/atlas',
-    element: (
-      <ContentReadyGuard routeId="atlas">
-        <AtlasPage />
-      </ContentReadyGuard>
-    )
-  },
-  {
-    path: '/detektivni-spisy',
-    element: (
-      <ContentReadyGuard routeId="cases">
-        <CasesPage />
-      </ContentReadyGuard>
-    )
-  },
-  {
-    path: '/laborator-rozliseni',
-    element: (
-      <ContentReadyGuard routeId="lab">
-        <LabPage />
-      </ContentReadyGuard>
-    )
-  },
-  {
-    path: '/pokrok',
-    element: (
-      <ContentReadyGuard>
-        <ProgressPage />
-      </ContentReadyGuard>
-    )
-  },
-  {
-    path: '/opakovani',
-    element: (
-      <ContentReadyGuard>
-        <ReviewQueuePage />
-      </ContentReadyGuard>
-    )
-  },
-  {
-    path: '/nastaveni',
-    element: (
-      <ContentReadyGuard>
-        <SettingsPage />
-      </ContentReadyGuard>
-    )
-  },
-  {
-    path: '*',
-    element: <NotFoundPage />
+    basename: routerBasename
   }
-]);
+);
+
+function normalizeRouterBasename(baseUrl: string): string | undefined {
+  if (!baseUrl || baseUrl === '/') {
+    return undefined;
+  }
+
+  return baseUrl.endsWith('/') && baseUrl.length > 1 ? baseUrl.slice(0, -1) : baseUrl;
+}

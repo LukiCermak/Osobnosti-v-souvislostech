@@ -5,7 +5,11 @@ import { CaseClueList } from '@/features/cases/CaseClueList';
 import { CaseSummary } from '@/features/cases/CaseSummary';
 import type { CaseRecord } from '@/types/content';
 import type { StudyAnswer, CaseTask } from '@/types/study';
-import type { CaseAnswerDraftMap, CaseEvaluationSummary, CaseQuestionView } from '@/features/cases/cases.selectors';
+import type {
+  CaseAnswerDraftMap,
+  CaseEvaluationSummary,
+  CaseQuestionView
+} from '@/features/cases/cases.selectors';
 
 export interface CaseBoardProps {
   record: CaseRecord;
@@ -59,16 +63,11 @@ export function CaseBoard({
   return (
     <div className="case-board-layout">
       <div className="stack gap-lg">
-        <Card
-          as="section"
-          eyebrow="Detektivní spis"
-          title={record.title}
-          subtitle={task.prompt}
-        >
+        <Card as="section" eyebrow="Detektivni spis" title={record.title} subtitle={task.prompt}>
           <div className="case-meta-row">
-            <ProgressBadge label="Obtížnost" value={mapDifficultyLabel(record.difficulty)} tone="growing" />
+            <ProgressBadge label="Obtiznost" value={mapDifficultyLabel(record.difficulty)} tone="growing" />
             <ProgressBadge label="Indicie" value={`${revealedClues.length} / ${record.clues.length}`} tone="mastered" />
-            <ProgressBadge label="Otázky" value={`${evaluation.answeredCount} / ${evaluation.totalQuestions}`} tone="needs-review" />
+            <ProgressBadge label="Otazky" value={`${evaluation.answeredCount} / ${evaluation.totalQuestions}`} tone="needs-review" />
           </div>
 
           <p className="text-body">{record.goal}</p>
@@ -78,7 +77,7 @@ export function CaseBoard({
               Pozastavit
             </Button>
             <Button variant="ghost" onClick={onAbandonSession}>
-              Ukončit spis
+              Ukoncit spis
             </Button>
           </div>
         </Card>
@@ -87,9 +86,9 @@ export function CaseBoard({
 
         <Card
           as="section"
-          eyebrow="Otázky"
-          title="Průběžné ověření případu"
-          subtitle="Každá odpověď pomáhá potvrdit nebo vyvrátit pracovní hypotézu nad spisem."
+          eyebrow="Otazky"
+          title="Prubezne overeni pripadu"
+          subtitle="Kazda odpoved pomaha potvrdit nebo vyvratit pracovni hypotezu nad spisem."
         >
           <div className="case-question-list">
             {questionViews.map((question) => {
@@ -99,7 +98,7 @@ export function CaseBoard({
                   <div className="feedback-header">
                     <h3 className="subsection-title">{question.prompt}</h3>
                     <ProgressBadge
-                      label={question.isCorrect ? 'zvládnuto' : question.isAnswered ? 'čeká oprava' : 'čeká odpověď'}
+                      label={question.isCorrect ? 'zvladnuto' : question.isAnswered ? 'ceka oprava' : 'ceka odpoved'}
                       tone={question.isCorrect ? 'mastered' : question.isAnswered ? 'at-risk' : 'needs-review'}
                     />
                   </div>
@@ -110,7 +109,7 @@ export function CaseBoard({
                       value={draft?.textAnswer ?? ''}
                       onChange={(event) => onTextAnswerChange(question.id, event.target.value)}
                       rows={3}
-                      placeholder="Napiš stručnou odpověď vlastními slovy."
+                      placeholder="Napis strucnou odpoved vlastnimi slovy."
                     />
                   ) : (
                     <div className="case-option-grid">
@@ -135,7 +134,7 @@ export function CaseBoard({
           </div>
 
           <div className="case-confidence-block stack gap-sm">
-            <h3 className="subsection-title">Jak si jsi jistý nebo jistá řešením</h3>
+            <h3 className="subsection-title">Jak si jsi jisty nebo jista resenim</h3>
             <div className="atlas-confidence-row">
               {[1, 2, 3, 4, 5].map((value) => (
                 <button
@@ -152,19 +151,19 @@ export function CaseBoard({
 
           <div className="button-row">
             <Button variant="secondary" onClick={onToggleSynthesis}>
-              {showSynthesis ? 'Skrýt závěrečnou syntézu' : 'Otevřít závěrečnou syntézu'}
+              {showSynthesis ? 'Skryt zavercnou syntezu' : 'Otevrit zavercnou syntezu'}
             </Button>
             <Button variant="ghost" onClick={onSkipCase}>
-              Přeskočit spis
+              Preskocit spis
             </Button>
             <Button onClick={onSubmitCase} disabled={!evaluation.canSubmit}>
-              Uzavřít a vyhodnotit spis
+              Uzavrit a vyhodnotit spis
             </Button>
           </div>
         </Card>
 
         <CaseSummary
-          title="Uzavření spisu"
+          title="Uzavreni spisu"
           synthesisPrompt={task.synthesisPrompt}
           followUpExplanation={record.followUpExplanation}
           synthesisDraft={synthesisDraft}
@@ -176,15 +175,15 @@ export function CaseBoard({
       </div>
 
       <aside className="stack gap-lg">
-        <Card as="section" eyebrow="Stav případu" title="Postup v tomto spisu">
+        <Card as="section" eyebrow="Stav pripadu" title="Postup v tomto spisu">
           <ul className="feature-list">
-            <li>{`Správně zodpovězeno: ${evaluation.correctCount}`}</li>
-            <li>{`Minimálně je potřeba: ${evaluation.minimumCorrectQuestions}`}</li>
-            <li>{`Povinné otázky: ${evaluation.requiredQuestionIds.length}`}</li>
+            <li>{`Spravne zodpovezeno: ${evaluation.correctCount}`}</li>
+            <li>{`Minimalne je potreba: ${evaluation.minimumCorrectQuestions}`}</li>
+            <li>{`Povinne otazky: ${evaluation.requiredQuestionIds.length}`}</li>
           </ul>
         </Card>
 
-        <Card as="section" eyebrow="Zaměření spisu" title="Cílové entity">
+        <Card as="section" eyebrow="Zamereni spisu" title="Cilove entity">
           <ul className="feature-list">
             {targetLabels.map((label) => (
               <li key={label}>{label}</li>
@@ -199,10 +198,10 @@ export function CaseBoard({
 function mapDifficultyLabel(value: CaseRecord['difficulty']): string {
   switch (value) {
     case 'introductory':
-      return 'vstupní';
+      return 'vstupni';
     case 'intermediate':
-      return 'střední';
+      return 'stredni';
     case 'advanced':
-      return 'pokročilá';
+      return 'pokrocila';
   }
 }

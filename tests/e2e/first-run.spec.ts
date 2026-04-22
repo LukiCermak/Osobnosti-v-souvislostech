@@ -34,12 +34,14 @@ async function resetDatabase(page: import('@playwright/test').Page) {
   });
 }
 
-test('první spuštění zobrazí přehled a hlavní režimy', async ({ page }) => {
+test('prvni spusteni zobrazi prehled a hlavni rezimy', async ({ page }) => {
   await resetDatabase(page);
   await page.reload();
-  await expect(page.getByRole('heading', { name: /Pokračuj tam, kde má další studium největší smysl/i })).toBeVisible();
-  await expect(page.getByRole('button', { name: /Začít studijní blok|Dokončit první nastavení/i }).first()).toBeVisible();
-  await expect(page.getByText('Atlas souvislostí').first()).toBeVisible();
-  await expect(page.getByText('Detektivní spisy').first()).toBeVisible();
-  await expect(page.getByText('Laboratoř rozlišení').first()).toBeVisible();
+
+  await expect(page.getByRole('heading', { name: /Pokracuj tam, kde ma dalsi studium nejvetsi smysl/i })).toBeVisible();
+  await expect(page.getByRole('button', { name: /Zacit studijni blok|Dokoncit prvni nastaveni/i }).first()).toBeVisible();
+  await expect(page.getByRole('navigation', { name: /Hlavni navigace/i })).toBeVisible();
+  await expect(page.getByText('Atlas souvislosti').first()).toBeVisible();
+  await expect(page.getByText('Detektivni spisy').first()).toBeVisible();
+  await expect(page.getByText('Laborator rozliseni').first()).toBeVisible();
 });

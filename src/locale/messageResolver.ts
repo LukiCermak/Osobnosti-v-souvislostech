@@ -22,7 +22,7 @@ export function resolveMessage(tree: MessageTree, key: string, options: ResolveM
   }
 
   if (cursor === undefined) {
-    return options.fallback ?? key;
+    return options.fallback ?? 'Text se připravuje';
   }
 
   if (typeof cursor === 'string') {
@@ -33,7 +33,7 @@ export function resolveMessage(tree: MessageTree, key: string, options: ResolveM
     return cursor.map((item) => interpolateTemplate(item, options.params));
   }
 
-  return options.fallback ?? key;
+  return options.fallback ?? 'Text se připravuje';
 }
 
 export function interpolateTemplate(

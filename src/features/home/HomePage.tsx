@@ -62,14 +62,11 @@ export function HomePage() {
     <AppShell
       title={tString('common.app.title')}
       subtitle={tString('common.app.subtitle')}
-      eyebrow={tString('home.hero.eyebrow')}
       navigationItems={navigationItems}
-      sidebarTitle={tString('home.sidebar.title')}
-      sidebarFooter={<p className="text-body">{coverageText}</p>}
       actions={
         <div className="button-row">
           <Button variant="secondary" to={viewModel.dueTodayCount > 0 ? '/opakovani' : '/pokrok'}>
-            {viewModel.dueTodayCount > 0 ? 'Otevřít dnešní opakování' : 'Otevřít přehled pokroku'}
+            {viewModel.dueTodayCount > 0 ? 'Otevrit dnesni opakovani' : 'Otevrit prehled pokroku'}
           </Button>
           <Button onClick={() => void handleStartRecommended()}>{viewModel.recommendedActionLabel}</Button>
         </div>
@@ -94,7 +91,7 @@ export function HomePage() {
           as="section"
           eyebrow={tString('home.cards.progress.eyebrow')}
           title={tString('home.cards.progress.title')}
-          subtitle={viewModel.completionLabel}
+          subtitle={coverageText}
         >
           <div className="home-progress-card">
             <ProgressRing value={viewModel.completionRatio} max={1} caption={tString('home.cards.progress.caption')} />
@@ -104,8 +101,8 @@ export function HomePage() {
               <li>{`${tString('home.cards.progress.recommendedMode')}: ${viewModel.recommendedModeLabel}`}</li>
             </ul>
             <div className="button-row">
-              <Button variant="secondary" to="/pokrok">Přejít do pokroku</Button>
-              {viewModel.dueTodayCount > 0 ? <Button to="/opakovani">Navázat dnešním blokem</Button> : null}
+              <Button variant="secondary" to="/pokrok">Prejit do pokroku</Button>
+              {viewModel.dueTodayCount > 0 ? <Button to="/opakovani">Navazat dnesnim blokem</Button> : null}
             </div>
           </div>
         </Card>
@@ -144,7 +141,7 @@ export function HomePage() {
           <EmptyState
             title={tString('home.empty.disciplinesTitle')}
             description={tString('home.empty.disciplinesText')}
-            action={{ label: 'Dokončit první nastavení', to: '/prvni-nastaveni' }}
+            action={{ label: 'Dokoncit prvni nastaveni', to: '/prvni-nastaveni' }}
           />
         )}
 

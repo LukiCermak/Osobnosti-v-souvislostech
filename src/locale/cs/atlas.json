@@ -1,15 +1,64 @@
 {
-  "intro": {
-    "eyebrow": "Režim 1",
-    "title": "Atlas souvislostí",
-    "description": "Tento režim pracuje s vazbami mezi osobnostmi, disciplínami, institucemi, metodami a historickými liniemi.",
-    "studyIntentTitle": "Studijní záměr",
-    "studyIntentText": "Budovat orientaci v síti vztahů, ne jen v izolovaných heslech. Studující má vyhledávat návaznosti a doplňovat chybějící spojení.",
-    "nextTitle": "Na co naváže další balíček",
-    "nextText": "Další implementace doplní filtry, studijní trasy a zapisování výsledků do lokální persistence."
+  "page": {
+    "eyebrow": "Rezim studia v souvislostech",
+    "title": "Atlas souvislosti",
+    "subtitle": "Studijni trasy, vztahove mapy a aktivni doplnovani chybejicich spojeni mezi osobnostmi, metodami a institucemi.",
+    "allDisciplines": "vsechny zvolene discipliny",
+    "mapTitle": "Mapa aktualnich souvislosti",
+    "mapSubtitle": "Zobrazene uzly a vazby se meni podle filtru, zvolene trasy i slabych mist.",
+    "pathEyebrow": "Doporucena studijni trasa",
+    "pathFocus": "Dalsi krok trasy: {{value}}",
+    "pathUpdated": "Doporuceni obnoveno: {{value}}"
+  },
+  "sidebar": {
+    "title": "Nastaveni atlasu",
+    "filtersActive": "Aktivnich filtru: {{count}}",
+    "preferredDisciplines": "Preferovane zamereni: {{value}}"
+  },
+  "actions": {
+    "refresh": "Obnovit doporuceni",
+    "reloadContent": "Nacist obsah znovu",
+    "startBlock": "Spustit blok",
+    "continueBlock": "Pokracovat v bloku",
+    "startNewBlock": "Spustit novy blok",
+    "startNextBlock": "Spustit dalsi blok",
+    "startPathBlock": "Spustit trasu",
+    "applyPathFilter": "Pouzit trasu jako filtr",
+    "submitAnswer": "Vyhodnotit odpoved",
+    "skipTask": "Preskocit ulohu",
+    "pauseBlock": "Pozastavit blok",
+    "showHint": "Ukazat napovedu",
+    "goHome": "Zpet na hlavni stranku"
+  },
+  "errors": {
+    "loadTitle": "Atlas se nepodarilo pripravit",
+    "loadText": "Obsah nebo lokalni stav se nepodarilo nacist. Zkus aplikaci obnovit."
+  },
+  "summary": {
+    "visibleNodes": "Viditelne uzly: {{count}}",
+    "visibleRelations": "Viditelne vazby: {{count}}",
+    "weakNodes": "Rizikove body: {{count}}"
+  },
+  "study": {
+    "headerTitle": "Atlasovy blok je aktivni",
+    "taskEyebrow": "Aktivni uloha",
+    "progress": "zpracovano",
+    "taskType": "typ ulohy",
+    "hintsTitle": "Napovedy k vazbe",
+    "hintsSubtitle": "Napovedy rozkryvaji souvislost postupne, aby zustalo zachovano aktivni vybavovani.",
+    "noHintsYet": "Napoveda zatim nebyla odhalena.",
+    "confidenceTitle": "Jistota odpovedi",
+    "confidenceSubtitle": "Oznac, nakolik jsi si odpovedi skutecne jisty nebo jista.",
+    "completedEyebrow": "Blok je uzavren",
+    "completedTitle": "Atlasovy blok je hotovy",
+    "completedText": "Muzes navazat dalsim blokem nebo se vratit na prehled a zkontrolovat pokrok."
+  },
+  "empty": {
+    "studyTitle": "Atlas ceka na prvni krok",
+    "studyText": "Spust blok a zacni budovat orientaci v sitich vztahu, trasach a historickych navaznostech."
   },
   "guard": {
-    "title": "Atlas se připravuje",
-    "text": "Nejprve je potřeba načíst obsahový graf a lokální stav aplikace."
+    "title": "Atlas se pripravuje",
+    "text": "Nejprve je potreba nacist obsahovy graf a lokalni stav aplikace."
   }
 }

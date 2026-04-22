@@ -1,8 +1,8 @@
 import { useEffect, useMemo, useState } from 'react';
+import { createModeNavigationItems, createNavigationItems } from '@/app/navigation';
 import { AppShell } from '@/components/layout/AppShell';
 import { Button } from '@/components/shared/Button';
 import { Card } from '@/components/shared/Card';
-import { EmptyState } from '@/components/shared/EmptyState';
 import { ErrorState } from '@/components/shared/ErrorState';
 import { NextStepCard } from '@/components/study/NextStepCard';
 import { ResumeCard } from '@/components/study/ResumeCard';
@@ -52,6 +52,14 @@ export function CasesPage() {
   const [synthesisDraft, setSynthesisDraft] = useState('');
   const [confidence, setConfidence] = useState<StudyAnswer['confidence']>(3);
   const [taskStartedAt, setTaskStartedAt] = useState<number>(() => Date.now());
+  const navigationItems = useMemo(
+    () => createNavigationItems(tString, { includeSettings: true }),
+    [tString]
+  );
+  const modeNavigationItems = useMemo(
+    () => createModeNavigationItems(tString),
+    [tString]
+  );
 
   useEffect(() => {
     setActiveMode('cases');
@@ -424,7 +432,8 @@ export function CasesPage() {
         title={tString('cases.page.title')}
         subtitle={tString('cases.page.subtitle')}
         eyebrow={tString('cases.page.eyebrow')}
-        navigationItems={viewModel?.navigationItems ?? []}
+        navigationItems={navigationItems}
+        modeNavigationItems={modeNavigationItems}
       >
         <ErrorState
           title={tString('cases.errors.loadTitle')}
@@ -446,13 +455,31 @@ export function CasesPage() {
       title={tString('cases.page.title')}
       subtitle={tString('cases.page.subtitle')}
       eyebrow={tString('cases.page.eyebrow')}
-      navigationItems={viewModel.navigationItems}
+      navigationItems={navigationItems}
+      modeNavigationItems={modeNavigationItems}
       sidebarTitle={tString('cases.sidebar.title')}
-      sidebarFooter={
-        <div className="stack gap-sm text-body">
-          <p>{tString('cases.sidebar.caseCount', { params: { count: viewModel.caseItems.length } })}</p>
-          <p>{tString('cases.sidebar.reviewCount', { params: { count: viewModel.dueTodayCount } })}</p>
-        </div>
+      sidebar={
+        <>
+          <Card
+            as="section"
+            eyebrow={tString('cases.preview.eyebrow')}
+            title={selectedCaseId && appState.contentIndex ? selectCaseRecord(appState.contentIndex, selectedCaseId)?.title ?? tString('cases.preview.title') : tString('cases.preview.title')}
+            subtitle={selectedCaseId && appState.contentIndex ? selectCaseRecord(appState.contentIndex, selectedCaseId)?.goal : tString('cases.preview.subtitle')}
+          >
+            <div className="button-row">
+              <Button onClick={() => void handleStartCaseSession(selectedCaseId ?? viewModel.recommendedCaseId)}>
+                {tString('cases.actions.startSelected')}
+              </Button>
+            </div>
+          </Card>
+
+          <Card as="section" eyebrow={tString('cases.sidebar.title')} title={tString('cases.summary.availableCases', { params: { count: viewModel.caseItems.length } })}>
+            <ul className="feature-list">
+              <li>{tString('cases.sidebar.caseCount', { params: { count: viewModel.caseItems.length } })}</li>
+              <li>{tString('cases.sidebar.reviewCount', { params: { count: viewModel.dueTodayCount } })}</li>
+            </ul>
+          </Card>
+        </>
       }
       actions={
         <div className="button-row">
@@ -564,29 +591,6 @@ export function CasesPage() {
                 );
               })}
             </div>
-          </Card>
-
-          <Card
-            as="section"
-            eyebrow={tString('cases.preview.eyebrow')}
-            title={tString('cases.preview.title')}
-            subtitle={tString('cases.preview.subtitle')}
-          >
-            {selectedCaseId && appState.contentIndex ? (
-              <div className="stack gap-md">
-                <p className="text-body">{selectCaseRecord(appState.contentIndex, selectedCaseId)?.goal}</p>
-                <div className="button-row">
-                  <Button onClick={() => void handleStartCaseSession(selectedCaseId)}>
-                    {tString('cases.actions.startSelected')}
-                  </Button>
-                </div>
-              </div>
-            ) : (
-              <EmptyState
-                title={tString('cases.empty.title')}
-                description={tString('cases.empty.text')}
-              />
-            )}
           </Card>
         </section>
       )}

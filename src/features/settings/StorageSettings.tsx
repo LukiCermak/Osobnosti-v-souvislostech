@@ -7,8 +7,6 @@ export interface StorageSettingsProps {
   statusLabel: string;
   usageLabel: string;
   warnings: string[];
-  onExport: () => void;
-  onImportClick: () => void;
   onRefresh: () => void;
   onReset: () => void;
 }
@@ -19,16 +17,14 @@ export function StorageSettings({
   statusLabel,
   usageLabel,
   warnings,
-  onExport,
-  onImportClick,
   onRefresh,
   onReset
 }: StorageSettingsProps) {
   return (
-    <Card as="section" eyebrow="Lokální data" title={title} subtitle={subtitle}>
+    <Card as="section" eyebrow="Lokalni data" title={title} subtitle={subtitle}>
       <ul className="feature-list">
-        <li>{`Stav úložiště: ${statusLabel}`}</li>
-        <li>{`Využitá kapacita: ${usageLabel}`}</li>
+        <li>{`Stav uloziste: ${statusLabel}`}</li>
+        <li>{`Vyuzita kapacita: ${usageLabel}`}</li>
       </ul>
       {warnings.length > 0 ? (
         <div className="stack gap-sm">
@@ -38,10 +34,8 @@ export function StorageSettings({
         </div>
       ) : null}
       <div className="button-row">
-        <Button onClick={onExport}>Exportovat progres</Button>
-        <Button variant="secondary" onClick={onImportClick}>Importovat progres</Button>
-        <Button variant="ghost" onClick={onRefresh}>Obnovit kontrolu</Button>
-        <Button variant="danger" onClick={onReset}>Vymazat lokální data</Button>
+        <Button variant="secondary" onClick={onRefresh}>Obnovit kontrolu</Button>
+        <Button variant="danger" onClick={onReset}>Vymazat lokalni data</Button>
       </div>
     </Card>
   );
