@@ -1,0 +1,1782 @@
+- id: didactica-magna
+  type: work
+  label: Didactica magna
+  alternativeLabels: []
+  significanceSummary: Didaktický text Jana Amose Komenského uváděný ve zdroji jako opora obecných pedagogických
+    základů práce s dětmi se speciálními potřebami.
+  disciplineIds:
+  - specialni-pedagogika-a-dejiny-oboru
+  tags:
+  - didaktika
+  - historie-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Jan Amos Komenský
+    excerpt: Didactica magna
+- id: specialni-pedagogika
+  type: term
+  label: speciální pedagogika
+  alternativeLabels: []
+  significanceSummary: Základní název oboru, jehož terminologické a významové vymezování se ve zdroji
+    opakovaně objevuje.
+  disciplineIds:
+  - specialni-pedagogika-a-dejiny-oboru
+  tags:
+  - historie-oboru
+  - vymezeni-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Bohumír Justyn Popelář
+    excerpt: speciální pedagogika
+- id: defektologie
+  type: term
+  label: defektologie
+  alternativeLabels: []
+  significanceSummary: Starší označení oboru, které zdroj používá jako kontrast k novějšímu širšímu pojetí
+    speciální pedagogiky.
+  disciplineIds:
+  - specialni-pedagogika-a-dejiny-oboru
+  tags:
+  - historie-oboru
+  - vymezeni-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Bohumír Justyn Popelář
+    excerpt: defektologie
+- id: specialni-vzdelavaci-potreby
+  type: term
+  label: speciální vzdělávací potřeby
+  alternativeLabels: []
+  significanceSummary: Pojem spojený ve zdroji s moderním pojetím podpory a školní inkluze.
+  disciplineIds:
+  - specialni-pedagogika-a-dejiny-oboru
+  tags:
+  - inkluze
+  - podpora
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Marie Vítková
+    excerpt: speciální vzdělávací potřeby
+- id: podporna-opatreni
+  type: term
+  label: podpůrná opatření
+  alternativeLabels: []
+  significanceSummary: Pojem, jímž zdroj označuje novější funkčně a inkluzivně orientované pojetí podpory.
+  disciplineIds:
+  - specialni-pedagogika-a-dejiny-oboru
+  tags:
+  - inkluze
+  - podpora
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Karel Dvořák
+    excerpt: podpůrná opatření
+- id: skolni-inkluze
+  type: approach
+  label: školní inkluze
+  alternativeLabels: []
+  significanceSummary: Současně orientovaný rámec podpory ve školství, který se ve zdroji váže k modernímu
+    pojetí speciální pedagogiky.
+  disciplineIds:
+  - specialni-pedagogika-a-dejiny-oboru
+  tags:
+  - inkluze
+  - podpora
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Marie Vítková
+    excerpt: školní inkluze
+- id: specialnepedagogicka-diagnostika
+  type: term
+  label: speciálněpedagogická diagnostika
+  alternativeLabels: []
+  significanceSummary: Oblast zdůrazněná ve zdroji zejména ve spojení s Jarmilou Pipekovou a novodobým
+    systémovým pojetím oboru.
+  disciplineIds:
+  - specialni-pedagogika-a-dejiny-oboru
+  - diagnostika-a-psychometrie
+  tags:
+  - diagnostika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Jarmila Pipeková
+    excerpt: speciálněpedagogická diagnostika
+- id: komprehenzivni-pojeti-specialni-pedagogiky
+  type: approach
+  label: komprehenzivní pojetí speciální pedagogiky
+  alternativeLabels: []
+  significanceSummary: Širší systémové pojetí oboru, které zdroj spojuje zejména s Jánem Jesenským.
+  disciplineIds:
+  - specialni-pedagogika-a-dejiny-oboru
+  tags:
+  - inkluze
+  - vymezeni-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Ján Jesenský
+    excerpt: komprehenzivní pojetí speciální pedagogiky
+- id: heilpadagogik
+  type: term
+  label: Heilpädagogik
+  alternativeLabels: []
+  significanceSummary: Německy označená léčebně-pedagogická tradice, kterou zdroj spojuje s Theodorem
+    Hellerem.
+  disciplineIds:
+  - specialni-pedagogika-a-dejiny-oboru
+  tags:
+  - historie-oboru
+  - medicinsky-kontext
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Theodor Heller
+    excerpt: Heilpädagogik
+- id: helleruv-syndrom
+  type: diagnostic-class
+  label: Hellerův syndrom
+  alternativeLabels: []
+  significanceSummary: Dětská dezintegrační porucha připomenutá ve zdroji jako medicínská stopa Theodora
+    Hellera.
+  disciplineIds:
+  - specialni-pedagogika-a-dejiny-oboru
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - autismus
+  - diagnostika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Theodor Heller
+    excerpt: Hellerův syndrom
+- id: smyslovy-trenink
+  type: method
+  label: smyslový trénink
+  alternativeLabels: []
+  significanceSummary: Postup spojený ve zdroji s Itardem a jeho prací s Viktorem z Aveyronu.
+  disciplineIds:
+  - psychopedie
+  tags:
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Jean-Marc Gaspard Itard
+    excerpt: smyslový trénink
+- id: viktor-z-aveyronu
+  type: event
+  label: Viktor z Aveyronu
+  alternativeLabels: []
+  significanceSummary: Historický případ takzvaného divokého chlapce, který zdroj uvádí jako klíčovou
+    souvislost Itardovy práce.
+  disciplineIds:
+  - psychopedie
+  tags:
+  - historie-oboru
+  - kazuistiky
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Jean-Marc Gaspard Itard
+    excerpt: Viktor z Aveyronu
+- id: fyziologicka-metoda
+  type: method
+  label: fyziologická metoda
+  alternativeLabels: []
+  significanceSummary: Metoda spojovaná ve zdroji s Édouardem Séguinem.
+  disciplineIds:
+  - psychopedie
+  tags:
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Édouard Séguin
+    excerpt: fyziologická metoda
+- id: seguinova-triada
+  type: method
+  label: Séguinova triáda
+  alternativeLabels: []
+  significanceSummary: Zdroj ji vymezuje jako výchovu činnosti, výchovu myšlení a výchovu vůle.
+  disciplineIds:
+  - psychopedie
+  tags:
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Édouard Séguin
+    excerpt: Séguinova triáda
+- id: ernestinum
+  type: institution
+  label: Ernestinum
+  alternativeLabels: []
+  significanceSummary: Pražský ústav připomínaný ve zdroji jako klíčové místo rané české psychopedické
+    tradice.
+  disciplineIds:
+  - psychopedie
+  tags:
+  - ceske-prostredi
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Karel Slavoj Amerling
+    excerpt: Ernestinum
+- id: pomocne-skolstvi
+  type: term
+  label: pomocné školství
+  alternativeLabels: []
+  significanceSummary: Pojem a institucionální linie výrazně přítomné ve zdroji u české psychopedické
+    tradice.
+  disciplineIds:
+  - psychopedie
+  tags:
+  - historie-oboru
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Karel Slavoj Amerling
+    excerpt: pomocné školství
+- id: detska-psychiatrie
+  type: term
+  label: dětská psychiatrie
+  alternativeLabels: []
+  significanceSummary: Oblast spojovaná ve zdroji s Karlem Herfortem a s medicínsko-pedagogickým propojením.
+  disciplineIds:
+  - psychopedie
+  tags:
+  - medicinsky-kontext
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Karel Herfort
+    excerpt: dětská psychiatrie
+- id: pracovni-vychova
+  type: approach
+  label: pracovní výchova
+  alternativeLabels: []
+  significanceSummary: Přístup zdůrazněný ve zdroji v psychopedii i somatopedii.
+  disciplineIds:
+  - psychopedie
+  - somatopedie
+  tags:
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Karel Herfort
+    excerpt: pracovní výchova
+- id: napravny-telocvik
+  type: method
+  label: nápravný tělocvik
+  alternativeLabels: []
+  significanceSummary: Metoda připomenutá ve zdroji v souvislosti s Karlem Herfortem.
+  disciplineIds:
+  - psychopedie
+  tags:
+  - rehabilitace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Karel Herfort
+    excerpt: nápravný tělocvik
+- id: jedlickuv-ustav
+  type: institution
+  label: Jedličkův ústav
+  alternativeLabels: []
+  significanceSummary: Instituce v Praze, kterou zdroj spojuje s Rudolfem Jedličkou a Františkem Bakulem.
+  disciplineIds:
+  - somatopedie
+  tags:
+  - ceske-prostredi
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Rudolf Jedlička
+    excerpt: Jedličkův ústav
+- id: ustav-pro-deti-zmrzacele-v-brne
+  type: institution
+  label: Ústav pro děti zmrzačelé v Brně
+  alternativeLabels: []
+  significanceSummary: Brněnská instituce spojená ve zdroji s Otokarem Chlupem.
+  disciplineIds:
+  - somatopedie
+  tags:
+  - ceske-prostredi
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Otokar Chlup
+    excerpt: Ústav pro děti zmrzačelé v Brně
+- id: bakuluv-ustav
+  type: institution
+  label: Bakulův ústav
+  alternativeLabels: []
+  significanceSummary: Samostatný ústav pro výchovu životem a prací spojovaný ve zdroji s Františkem Bakulem.
+  disciplineIds:
+  - somatopedie
+  tags:
+  - ceske-prostredi
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: František Bakule
+    excerpt: Bakulův ústav
+- id: bakulovi-zpevacci
+  type: event
+  label: Bakulovi zpěváčci
+  alternativeLabels: []
+  significanceSummary: Soubor připomenutý ve zdroji jako symbol Bakulovy výchovné metody.
+  disciplineIds:
+  - somatopedie
+  tags:
+  - instituce
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: František Bakule
+    excerpt: Bakulovi zpěváčci
+- id: napravna-pedagogika
+  type: term
+  label: nápravná pedagogika
+  alternativeLabels: []
+  significanceSummary: Pojem explicitně spojený ve zdroji s Janem Mauerem a etopedickou tradicí.
+  disciplineIds:
+  - somatopedie
+  - etopedie
+  tags:
+  - historie-oboru
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Jan Mauer
+    excerpt: nápravná pedagogika
+- id: lecebna-telesna-vychova
+  type: method
+  label: léčebná tělesná výchova
+  alternativeLabels: []
+  significanceSummary: Postup uvedený ve zdroji u Jana Mauera.
+  disciplineIds:
+  - somatopedie
+  tags:
+  - rehabilitace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Jan Mauer
+    excerpt: léčebná tělesná výchova
+- id: pracovni-terapie
+  type: method
+  label: pracovní terapie
+  alternativeLabels: []
+  significanceSummary: Oblast, s níž zdroj spojuje Augustina Bartoše.
+  disciplineIds:
+  - somatopedie
+  tags:
+  - metody-prace
+  - rehabilitace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Augustin Bartoš
+    excerpt: pracovní terapie
+- id: kocianka
+  type: institution
+  label: Kociánka
+  alternativeLabels: []
+  significanceSummary: Instituce připomenutá ve zdroji v souvislosti s Janem Chlupem a moravskou rehabilitační
+    tradicí.
+  disciplineIds:
+  - somatopedie
+  tags:
+  - ceske-prostredi
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Jan Chlup
+    excerpt: Kociánka
+- id: brocova-oblast
+  type: term
+  label: Brocova oblast
+  alternativeLabels: []
+  significanceSummary: Mozková oblast spojovaná ve zdroji s Paulem Brocou a motorickou afázií.
+  disciplineIds:
+  - logopedie
+  tags:
+  - diagnostika
+  - neurologie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Paul Broca
+    excerpt: Brocova oblast
+- id: motoricka-afazie
+  type: diagnostic-class
+  label: motorická afázie
+  alternativeLabels: []
+  significanceSummary: Typ poruchy řeči, který zdroj spojuje s Paulem Brocou.
+  disciplineIds:
+  - logopedie
+  tags:
+  - diagnostika
+  - neurologie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Paul Broca
+    excerpt: motorická afázie
+- id: wernickeova-oblast
+  type: term
+  label: Wernickeova oblast
+  alternativeLabels: []
+  significanceSummary: Mozková oblast spojovaná ve zdroji s Carlem Wernickem a senzorickou afázií.
+  disciplineIds:
+  - logopedie
+  tags:
+  - diagnostika
+  - neurologie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Carl Wernicke
+    excerpt: Wernickeova oblast
+- id: senzoricka-afazie
+  type: diagnostic-class
+  label: senzorická afázie
+  alternativeLabels: []
+  significanceSummary: Typ poruchy řeči, který zdroj spojuje s Carlem Wernickem.
+  disciplineIds:
+  - logopedie
+  tags:
+  - diagnostika
+  - neurologie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Carl Wernicke
+    excerpt: senzorická afázie
+- id: blissymbolics
+  type: communication-system
+  label: Blissymbolics
+  alternativeLabels: []
+  significanceSummary: Symbolový komunikační systém spojovaný ve zdroji s Charlesem Blissem.
+  disciplineIds:
+  - logopedie
+  tags:
+  - aak
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Charles Bliss
+    excerpt: Blissymbolics
+- id: augmentativni-a-alternativni-komunikace
+  type: term
+  label: augmentativní a alternativní komunikace
+  alternativeLabels:
+  - AAK
+  significanceSummary: Oblast podpory funkční komunikace připomínaná ve zdroji u Blissymbolics, Makatonu
+    a českých logopedů.
+  disciplineIds:
+  - logopedie
+  tags:
+  - aak
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Charles Bliss
+    excerpt: augmentativní a alternativní komunikace
+- id: makaton
+  type: communication-system
+  label: Makaton
+  alternativeLabels: []
+  significanceSummary: Program využívající znaky, symboly a mluvenou řeč, který zdroj spojuje s Margaret
+    Walker, Katherine Johnston a Tonym Cornforthem.
+  disciplineIds:
+  - logopedie
+  tags:
+  - aak
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Margaret Walker
+    excerpt: Makaton
+- id: folia-phoniatrica
+  type: publication
+  label: Folia Phoniatrica
+  alternativeLabels: []
+  significanceSummary: Odborný časopis připomenutý ve zdroji v souvislosti s Richardem Luchsingerem.
+  disciplineIds:
+  - logopedie
+  tags:
+  - klinicka-logopedie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Richard Luchsinger
+    excerpt: Folia Phoniatrica
+- id: the-nature-of-stuttering
+  type: publication
+  label: The Nature of Stuttering
+  alternativeLabels: []
+  significanceSummary: Jedna z klasik Charlese Van Ripera uvedených ve zdroji.
+  disciplineIds:
+  - logopedie
+  tags:
+  - plynulost-reci
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Charles Van Riper
+    excerpt: The Nature of Stuttering
+- id: the-treatment-of-stuttering
+  type: publication
+  label: The Treatment of Stuttering
+  alternativeLabels: []
+  significanceSummary: Jedna z klasik Charlese Van Ripera uvedených ve zdroji.
+  disciplineIds:
+  - logopedie
+  tags:
+  - plynulost-reci
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Charles Van Riper
+    excerpt: The Treatment of Stuttering
+- id: speech-correction
+  type: publication
+  label: Speech Correction
+  alternativeLabels: []
+  significanceSummary: Jedna z klasik Charlese Van Ripera uvedených ve zdroji.
+  disciplineIds:
+  - logopedie
+  tags:
+  - plynulost-reci
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Charles Van Riper
+    excerpt: Speech Correction
+- id: van-riper-therapy
+  type: method
+  label: Van Riper therapy
+  alternativeLabels: []
+  significanceSummary: Terapeutický přístup k poruchám plynulosti řeči připomenutý ve zdroji.
+  disciplineIds:
+  - logopedie
+  tags:
+  - plynulost-reci
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Charles Van Riper
+    excerpt: Van Riper therapy
+- id: logopedicky-ustav
+  type: institution
+  label: Logopedický ústav
+  alternativeLabels: []
+  significanceSummary: Instituce spojená ve zdroji s Milošem Sovákem.
+  disciplineIds:
+  - logopedie
+  tags:
+  - ceske-prostredi
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Miloš Sovák
+    excerpt: Logopedický ústav
+- id: foniatricka-klinika-1-lf-uk
+  type: institution
+  label: Foniatrická klinika 1. LF UK
+  alternativeLabels: []
+  significanceSummary: Instituce připomenutá ve zdroji u Evy Škodové.
+  disciplineIds:
+  - logopedie
+  tags:
+  - ceske-prostredi
+  - instituce
+  - klinicka-logopedie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Eva Škodová
+    excerpt: Foniatrická klinika 1. LF UK
+- id: asociace-klinickych-logopedu
+  type: institution
+  label: Asociace klinických logopedů
+  alternativeLabels: []
+  significanceSummary: Profesní organizace připomenutá ve zdroji v souvislosti s Evou Škodovou.
+  disciplineIds:
+  - logopedie
+  tags:
+  - ceske-prostredi
+  - instituce
+  - klinicka-logopedie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Eva Škodová
+    excerpt: Asociace klinických logopedů
+- id: klinicka-logopedie
+  type: publication
+  label: Klinická logopedie
+  alternativeLabels: []
+  significanceSummary: Publikace uvedená ve zdroji mezi pracemi Evy Škodové.
+  disciplineIds:
+  - logopedie
+  tags:
+  - klinicka-logopedie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Eva Škodová
+    excerpt: Klinická logopedie
+- id: hodnoceni-fonematickeho-sluchu-u-predskolnich-deti
+  type: publication
+  label: Hodnocení fonematického sluchu u předškolních dětí
+  alternativeLabels: []
+  significanceSummary: Publikace uvedená ve zdroji mezi pracemi Evy Škodové.
+  disciplineIds:
+  - logopedie
+  tags:
+  - klinicka-logopedie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Eva Škodová
+    excerpt: Hodnocení fonematického sluchu u předškolních dětí
+- id: narusena-komunikacni-schopnost
+  type: term
+  label: narušená komunikační schopnost
+  alternativeLabels: []
+  significanceSummary: Pojem, který zdroj úzce spojuje s Viktorem Lechtou.
+  disciplineIds:
+  - logopedie
+  tags:
+  - komunikace
+  - vymezeni-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Viktor Lechta
+    excerpt: narušená komunikační schopnost
+- id: koktavost
+  type: diagnostic-class
+  label: koktavost
+  alternativeLabels: []
+  significanceSummary: Porucha plynulosti řeči, která se ve zdroji vrací od antiky po novodobou českou
+    logopedii.
+  disciplineIds:
+  - logopedie
+  tags:
+  - plynulost-reci
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Oribasius
+    excerpt: koktavost
+- id: kniha-o-zjednoduseni-zvuku-a-umeni-naucit-neme-mluvit
+  type: publication
+  label: Kniha o zjednodušení zvuků a umění naučit němé mluvit
+  alternativeLabels: []
+  significanceSummary: Publikace Juana Pabla Boneta zmiňovaná ve zdroji.
+  disciplineIds:
+  - surdopedie
+  tags:
+  - historie-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Juan Pablo Bonet
+    excerpt: Kniha o zjednodušení zvuků a umění naučit němé mluvit
+- id: prstova-abeceda
+  type: communication-system
+  label: prstová abeceda
+  alternativeLabels: []
+  significanceSummary: Komunikační prostředek připomenutý ve zdroji u Juana Pabla Boneta.
+  disciplineIds:
+  - surdopedie
+  tags:
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Juan Pablo Bonet
+    excerpt: prstová abeceda
+- id: oralni-metoda
+  type: method
+  label: orální metoda
+  alternativeLabels: []
+  significanceSummary: Metodická linie výuky neslyšících explicitně spojená ve zdroji s Ammanem a Heinickem.
+  disciplineIds:
+  - surdopedie
+  tags:
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Johann Konrad Amman
+    excerpt: orální metoda
+- id: verejny-ustav-pro-neslysici-v-parizi
+  type: institution
+  label: veřejný ústav pro neslyšící v Paříži
+  alternativeLabels: []
+  significanceSummary: Instituce založená Charlesem-Michelem de l’Épée podle zdroje.
+  disciplineIds:
+  - surdopedie
+  tags:
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Charles-Michel de l’Épée
+    excerpt: veřejný ústav pro neslyšící v Paříži
+- id: znakove-a-manualni-vyucovani
+  type: method
+  label: znakové a manuální vyučování
+  alternativeLabels: []
+  significanceSummary: Francouzská pedagogická linie připomenutá ve zdroji u de l’Épée a Sicarda.
+  disciplineIds:
+  - surdopedie
+  tags:
+  - komunikace
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Charles-Michel de l’Épée
+    excerpt: znakové a manuální vyučování
+- id: prvni-skola-pro-neslysici-v-edinburghu
+  type: institution
+  label: první škola pro neslyšící v Edinburghu
+  alternativeLabels: []
+  significanceSummary: Britská instituce založená Thomasem Braidwoodem podle zdroje.
+  disciplineIds:
+  - surdopedie
+  tags:
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Thomas Braidwood
+    excerpt: první škola pro neslyšící v Edinburghu
+- id: nemecka-oralni-metoda
+  type: method
+  label: německá orální metoda
+  alternativeLabels: []
+  significanceSummary: Metodická linie explicitně spojená ve zdroji se Samuelem Heinickem.
+  disciplineIds:
+  - surdopedie
+  tags:
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Samuel Heinicke
+    excerpt: německá orální metoda
+- id: american-school-for-the-deaf
+  type: institution
+  label: American School for the Deaf
+  alternativeLabels: []
+  significanceSummary: První trvalá škola pro neslyšící v USA, kterou zdroj spojuje s Gallaudetem a Clercem.
+  disciplineIds:
+  - surdopedie
+  tags:
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Thomas Hopkins Gallaudet
+    excerpt: American School for the Deaf
+- id: prazsky-ustav-pro-hluchoneme
+  type: institution
+  label: pražský ústav pro hluchoněmé
+  alternativeLabels: []
+  significanceSummary: Pražská instituce otevřená roku 1786, spojovaná ve zdroji s Karlem Bergerem a Václavem
+    Frostem.
+  disciplineIds:
+  - surdopedie
+  tags:
+  - ceske-prostredi
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Karel Berger
+    excerpt: pražský ústav pro hluchoněmé
+- id: frostova-kombinovana-metoda
+  type: method
+  label: Frostova kombinovaná metoda
+  alternativeLabels: []
+  significanceSummary: Metodický kompromis mezi znakem a mluvenou řečí připomenutý ve zdroji u Václava
+    Frosta.
+  disciplineIds:
+  - surdopedie
+  tags:
+  - komunikace
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Václav Frost
+    excerpt: Frostova kombinovaná metoda
+- id: lormova-dotekova-abeceda
+  type: communication-system
+  label: Lormova doteková abeceda
+  alternativeLabels: []
+  significanceSummary: Komunikační systém pro osoby s hluchoslepotou připomínaný ve zdroji u Jeronyma
+    Lorma.
+  disciplineIds:
+  - surdopedie
+  - tyflopedie
+  tags:
+  - hluchoslepota
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Jeronym Lorm
+    excerpt: Lormova doteková abeceda
+- id: ustav-pro-neslysici-a-nevidome-deti-v-brne
+  type: institution
+  label: ústav pro neslyšící a nevidomé děti v Brně
+  alternativeLabels: []
+  significanceSummary: Moravská instituce, jejíž vznik zdroj spojuje s Josefem Dietmannem.
+  disciplineIds:
+  - surdopedie
+  tags:
+  - ceske-prostredi
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Josef Dietmann
+    excerpt: ústav pro neslyšící a nevidomé děti v Brně
+- id: materska-metoda
+  type: method
+  label: mateřská metoda
+  alternativeLabels: []
+  significanceSummary: Metoda výuky řeči připomenutá ve zdroji u Constantina Malische.
+  disciplineIds:
+  - surdopedie
+  tags:
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Constantin Malisch
+    excerpt: mateřská metoda
+- id: dopis-o-slepcich
+  type: work
+  label: Dopis o slepcích
+  alternativeLabels: []
+  significanceSummary: Text Denise Diderota uvedený ve zdroji.
+  disciplineIds:
+  - tyflopedie
+  tags:
+  - historie-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Denis Diderot
+    excerpt: Dopis o slepcích
+- id: myslenky-o-vychove-slepcu
+  type: work
+  label: Myšlenky o výchově slepců
+  alternativeLabels: []
+  significanceSummary: Text spojovaný ve zdroji s Valentinem Haüyem.
+  disciplineIds:
+  - tyflopedie
+  tags:
+  - historie-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Valentin Haüy
+    excerpt: Myšlenky o výchově slepců
+- id: prvni-vychovne-vzdelavaci-ustav-pro-nevidome-v-parizi
+  type: institution
+  label: první výchovně-vzdělávací ústav pro nevidomé v Paříži
+  alternativeLabels: []
+  significanceSummary: Instituce založená Valentinem Haüyem podle zdroje.
+  disciplineIds:
+  - tyflopedie
+  tags:
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Valentin Haüy
+    excerpt: první výchovně-vzdělávací ústav pro nevidomé v Paříži
+- id: reliefni-tisk
+  type: communication-system
+  label: reliéfní tisk
+  alternativeLabels: []
+  significanceSummary: Předstupeň pozdějších hmatových systémů uvedený ve zdroji u Valentina Haüye.
+  disciplineIds:
+  - tyflopedie
+  tags:
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Valentin Haüy
+    excerpt: reliéfní tisk
+- id: vidensky-ustav-pro-nevidome
+  type: institution
+  label: vídeňský ústav pro nevidomé
+  alternativeLabels: []
+  significanceSummary: Instituce spojovaná ve zdroji s Johannem Wilhelmem Kleinem.
+  disciplineIds:
+  - tyflopedie
+  tags:
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Johann Wilhelm Klein
+    excerpt: vídeňský ústav pro nevidomé
+- id: jehlove-pismo
+  type: communication-system
+  label: jehlové písmo
+  alternativeLabels: []
+  significanceSummary: Systém připomenutý ve zdroji u Johanna Wilhelma Kleina.
+  disciplineIds:
+  - tyflopedie
+  tags:
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Johann Wilhelm Klein
+    excerpt: jehlové písmo
+- id: bodove-nocni-pismo
+  type: communication-system
+  label: bodové noční písmo
+  alternativeLabels: []
+  significanceSummary: Soustava Josefa Julia Barbiera uvedená ve zdroji jako předstupeň Braillova písma.
+  disciplineIds:
+  - tyflopedie
+  tags:
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Josef Julius Barbier
+    excerpt: bodové noční písmo
+- id: perkins-school-for-the-blind
+  type: institution
+  label: Perkins School for the Blind
+  alternativeLabels: []
+  significanceSummary: Instituce připomenutá ve zdroji jako místo působení Samuela Gridleyho Howea.
+  disciplineIds:
+  - tyflopedie
+  tags:
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Samuel Gridley Howe
+    excerpt: Perkins School for the Blind
+- id: braillovo-pismo
+  type: communication-system
+  label: Braillovo písmo
+  alternativeLabels: []
+  significanceSummary: Šestibodová soustava, kterou zdroj spojuje s Louisem Braillem a moderní autonomií
+    nevidomého čtenáře.
+  disciplineIds:
+  - tyflopedie
+  tags:
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Louis Braille
+    excerpt: Braillovo písmo
+- id: moonovo-reliefni-pismo
+  type: communication-system
+  label: Moonovo reliéfní písmo
+  alternativeLabels: []
+  significanceSummary: Alternativní reliéfní systém uvedený ve zdroji u Williama Moona.
+  disciplineIds:
+  - tyflopedie
+  tags:
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: William Moon
+    excerpt: Moonovo reliéfní písmo
+- id: pichtuv-psaci-stroj-pro-braillovo-pismo
+  type: system
+  label: Pichtův psací stroj pro Braillovo písmo
+  alternativeLabels: []
+  significanceSummary: Technická pomůcka připomenutá ve zdroji u Oskara Pichta.
+  disciplineIds:
+  - tyflopedie
+  tags:
+  - komunikace
+  - pomucky
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Oskar Picht
+    excerpt: Pichtův psací stroj pro Braillovo písmo
+- id: deylova-vychovna-slepych
+  type: institution
+  label: Deylova výchovna slepých
+  alternativeLabels: []
+  significanceSummary: Instituce založená Janem Deylem podle zdroje.
+  disciplineIds:
+  - tyflopedie
+  tags:
+  - ceske-prostredi
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Jan Deyl
+    excerpt: Deylova výchovna slepých
+- id: hmatove-rozlisitelne-znaky
+  type: communication-system
+  label: hmatově rozlišitelné znaky
+  alternativeLabels: []
+  significanceSummary: Velmi rané předpolí čtení bez zraku připomenuté ve zdroji u Araba al-Amidiho.
+  disciplineIds:
+  - tyflopedie
+  tags:
+  - historie-oboru
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Arab al-Amidi
+    excerpt: hmatově rozlišitelné znaky
+- id: vlci-deti
+  type: event
+  label: vlčí děti
+  alternativeLabels: []
+  significanceSummary: Příklad krajní sociální izolace, který zdroj připomíná u Roberta M. Zingga.
+  disciplineIds:
+  - etopedie
+  tags:
+  - kazuistiky
+  - socializace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Robert M. Zingg
+    excerpt: vlčí děti
+- id: terapeuticka-komunita
+  type: method
+  label: terapeutická komunita
+  alternativeLabels: []
+  significanceSummary: Reedukační přístup explicitně uvedený ve zdroji u Fritze Redla.
+  disciplineIds:
+  - etopedie
+  tags:
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Fritz Redl
+    excerpt: terapeutická komunita
+- id: vychovatelna-v-opatovicich
+  type: institution
+  label: vychovatelna v Opatovicích
+  alternativeLabels: []
+  significanceSummary: Instituce připomenutá ve zdroji u Aloise Zikmunda.
+  disciplineIds:
+  - etopedie
+  tags:
+  - ceske-prostredi
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Alois Zikmund
+    excerpt: vychovatelna v Opatovicích
+- id: mravne-ohrozena-narusena-a-vadna-mladez
+  type: term
+  label: mravně ohrožená, narušená a vadná mládež
+  alternativeLabels: []
+  significanceSummary: Historická etopedická klasifikace uvedená ve zdroji u Aloise Zikmunda.
+  disciplineIds:
+  - etopedie
+  tags:
+  - historie-oboru
+  - vymezeni-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Alois Zikmund
+    excerpt: mravně ohrožená, narušená a vadná mládež
+- id: resocializacni-pristupy
+  type: approach
+  label: reedukační a resocializační přístupy
+  alternativeLabels: []
+  significanceSummary: Přístupy připomínané ve zdroji u Josefa Kettnera a Františka Štampacha.
+  disciplineIds:
+  - etopedie
+  tags:
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Josef Kettner
+    excerpt: reedukační a resocializační přístupy
+- id: jagerovy-tabulky
+  type: test
+  label: Jägerovy tabulky
+  alternativeLabels: []
+  significanceSummary: Nástroj pro hodnocení čtení a zrakové ostrosti na blízko, který zdroj spojuje s
+    Eduardem Jägerem.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  - tyflopedie
+  tags:
+  - diagnostika
+  - zrak
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Eduard Jäger
+    excerpt: Jägerovy tabulky
+- id: snellenuv-optotyp
+  type: test
+  label: Snellenův optotyp
+  alternativeLabels: []
+  significanceSummary: Klasický nástroj měření zrakové ostrosti uvedený ve zdroji u Hermana Snellena.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  - tyflopedie
+  tags:
+  - diagnostika
+  - zrak
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Herman Snellen
+    excerpt: Snellenův optotyp
+- id: binet-simonova-skala
+  type: scale
+  label: Binet-Simonova škála
+  alternativeLabels: []
+  significanceSummary: Raně inteligenční škála vytvořená podle zdroje Alfredem Binetem a Théodorem Simonem.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  tags:
+  - diagnostika
+  - psychometrie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Alfred Binet
+    excerpt: Binet-Simonova škála
+- id: stanford-binet
+  type: scale
+  label: Stanford-Binet
+  alternativeLabels: []
+  significanceSummary: Stanfordská revize původní Binet-Simonovy škály připomenutá ve zdroji u Lewise
+    Termana.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  tags:
+  - diagnostika
+  - psychometrie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Lewis Terman
+    excerpt: Stanford-Binet
+- id: gesellovy-vyvojove-skaly
+  type: scale
+  label: Gesellovy vývojové škály
+  alternativeLabels: []
+  significanceSummary: Vývojové škály spojované ve zdroji s Arnoldem Gesellem.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  tags:
+  - diagnostika
+  - rany-vyvoj
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Arnold Gesell
+    excerpt: Gesellovy vývojové škály
+- id: ozeretskeho-skala-motorickeho-vyvoje
+  type: scale
+  label: Ozeretského škála motorického vývoje
+  alternativeLabels: []
+  significanceSummary: Škála využívaná při hodnocení koordinace a motoriky, uvedená ve zdroji u Nikolaje
+    Ozeretského.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  tags:
+  - diagnostika
+  - motorika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Nikolaj Ozeretskij
+    excerpt: Ozeretského škála motorického vývoje
+- id: wais
+  type: scale
+  label: WAIS
+  alternativeLabels: []
+  significanceSummary: Jedna z Wechslerových inteligenčních škál uvedených ve zdroji.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  tags:
+  - diagnostika
+  - psychometrie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: David Wechsler
+    excerpt: WAIS
+- id: wisc
+  type: scale
+  label: WISC
+  alternativeLabels: []
+  significanceSummary: Jedna z Wechslerových inteligenčních škál uvedených ve zdroji.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  tags:
+  - diagnostika
+  - psychometrie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: David Wechsler
+    excerpt: WISC
+- id: wppsi
+  type: scale
+  label: WPPSI
+  alternativeLabels: []
+  significanceSummary: Jedna z Wechslerových inteligenčních škál uvedených ve zdroji.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  tags:
+  - diagnostika
+  - psychometrie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: David Wechsler
+    excerpt: WPPSI
+- id: bayleyovy-skaly-raneho-vyvoje
+  type: scale
+  label: Bayleyovy škály raného vývoje
+  alternativeLabels: []
+  significanceSummary: Škály uvedené ve zdroji jako nástroj rané vývojové diagnostiky.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  tags:
+  - diagnostika
+  - rany-vyvoj
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Nancy Bayley
+    excerpt: Bayleyovy škály raného vývoje
+- id: test-zrakoveho-vnimani-frostigove
+  type: test
+  label: test zrakového vnímání Frostigové
+  alternativeLabels: []
+  significanceSummary: Diagnostický nástroj, s nímž zdroj spojuje Marianne Frostigovou.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  tags:
+  - diagnostika
+  - zrak
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Marianne Frostig
+    excerpt: test zrakového vnímání Frostigové
+- id: reynell-zinkin-skaly
+  type: scale
+  label: Reynell–Zinkin škály
+  alternativeLabels: []
+  significanceSummary: Vývojové škály pro malé děti se zrakovým postižením připomenuté ve zdroji u Joan
+    Reynell a Pamely Zinkin.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  - tyflopedie
+  tags:
+  - diagnostika
+  - rany-vyvoj
+  - zrak
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Joan Reynell
+    excerpt: Reynell–Zinkin škály
+- id: reverzni-test
+  type: test
+  label: reverzní test
+  alternativeLabels: []
+  significanceSummary: Diagnostický nástroj připomenutý ve zdroji u Åkeho W. Edfeldta.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  tags:
+  - ctenarska-pripravenost
+  - diagnostika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Åke W. Edfeldt
+    excerpt: reverzní test
+- id: lea-symbols
+  type: test
+  label: LEA Symbols
+  alternativeLabels: []
+  significanceSummary: Diagnostická pomůcka vyvinutá podle zdroje Leou Hyvärinen.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  - tyflopedie
+  tags:
+  - diagnostika
+  - zrak
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Lea Hyvärinen
+    excerpt: LEA Symbols
+- id: lea-gratings
+  type: test
+  label: LEA Gratings
+  alternativeLabels: []
+  significanceSummary: Diagnostická pomůcka vyvinutá podle zdroje Leou Hyvärinen.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  - tyflopedie
+  tags:
+  - diagnostika
+  - zrak
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Lea Hyvärinen
+    excerpt: LEA Gratings
+- id: orientacni-test-skolni-zralosti
+  type: test
+  label: orientační test školní zralosti
+  alternativeLabels: []
+  significanceSummary: Nástroj spojovaný ve zdroji s Jaroslavem Jiráskem.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  tags:
+  - diagnostika
+  - skolni-zralost
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Jaroslav Jirásek
+    excerpt: orientační test školní zralosti
+- id: psychicka-deprivace
+  type: term
+  label: psychická deprivace
+  alternativeLabels: []
+  significanceSummary: Výzkumný a diagnostický okruh, který zdroj spojuje se Zdeňkem Matějčkem.
+  disciplineIds:
+  - diagnostika-a-psychometrie
+  tags:
+  - psychologie
+  - rodina
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Zdeněk Matějček
+    excerpt: psychická deprivace
+- id: podminene-reflexy
+  type: term
+  label: podmíněné reflexy
+  alternativeLabels: []
+  significanceSummary: Základní pojem připomenutý ve zdroji u Ivana Pavlova.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - behaviorismus
+  - uceni
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Ivan Pavlov
+    excerpt: podmíněné reflexy
+- id: klasicke-podminovani
+  type: term
+  label: klasické podmiňování
+  alternativeLabels: []
+  significanceSummary: Princip učení, který zdroj připomíná u Ivana Pavlova.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - behaviorismus
+  - uceni
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Ivan Pavlov
+    excerpt: klasické podmiňování
+- id: psychoanalyza
+  type: approach
+  label: psychoanalýza
+  alternativeLabels: []
+  significanceSummary: Směr explicitně spojený ve zdroji se Sigmundem Freudem.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - psychoterapie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Sigmund Freud
+    excerpt: psychoanalýza
+- id: id-ego-superego
+  type: term
+  label: id – ego – superego
+  alternativeLabels: []
+  significanceSummary: Model osobnosti připomenutý ve zdroji u Sigmunda Freuda.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - psychoterapie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Sigmund Freud
+    excerpt: id – ego – superego
+- id: psychobiologicky-pristup
+  type: approach
+  label: psychobiologický přístup
+  alternativeLabels: []
+  significanceSummary: Přístup, který zdroj spojuje s Adolfem Meyerem.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - psychiatrie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Adolf Meyer
+    excerpt: psychobiologický přístup
+- id: individualni-psychologie
+  type: approach
+  label: individuální psychologie
+  alternativeLabels: []
+  significanceSummary: Směr explicitně spojený ve zdroji s Alfredem Adlerem.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - psychoterapie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Alfred Adler
+    excerpt: individuální psychologie
+- id: inteligencni-kvocient
+  type: term
+  label: inteligenční kvocient
+  alternativeLabels: []
+  significanceSummary: Pojem připomenutý ve zdroji u Williama Sterna.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  - diagnostika-a-psychometrie
+  tags:
+  - psychometrie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: William Stern
+    excerpt: inteligenční kvocient
+- id: analyticka-psychologie
+  type: approach
+  label: analytická psychologie
+  alternativeLabels: []
+  significanceSummary: Směr explicitně spojený ve zdroji s Carlem Gustavem Jungem.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - psychoterapie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Carl Gustav Jung
+    excerpt: analytická psychologie
+- id: behaviorismus
+  type: approach
+  label: behaviorismus
+  alternativeLabels: []
+  significanceSummary: Směr výkladu chování připomínaný ve zdroji u Watsona, Hulla a Skinnera.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - behaviorismus
+  - uceni
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: John B. Watson
+    excerpt: behaviorismus
+- id: kognitivni-mapa
+  type: term
+  label: kognitivní mapa
+  alternativeLabels: []
+  significanceSummary: Pojem explicitně uvedený ve zdroji u Edwarda C. Tolmana.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - kognice
+  - uceni
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Edward C. Tolman
+    excerpt: kognitivní mapa
+- id: teorie-pole
+  type: approach
+  label: teorie pole
+  alternativeLabels: []
+  significanceSummary: Psychologický rámec připomenutý ve zdroji u Kurta Lewina.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - socialni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Kurt Lewin
+    excerpt: teorie pole
+- id: tat
+  type: test
+  label: TAT
+  alternativeLabels: []
+  significanceSummary: Projektivní test připomenutý ve zdroji u Henryho A. Murraye.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - diagnostika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Henry A. Murray
+    excerpt: TAT
+- id: rany-detsky-autismus
+  type: diagnostic-class
+  label: raný dětský autismus
+  alternativeLabels: []
+  significanceSummary: Pojem, který zdroj spojuje s Leem Kannerem.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - autismus
+  - diagnostika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Leo Kanner
+    excerpt: raný dětský autismus
+- id: zona-nejblizsiho-vyvoje
+  type: term
+  label: zóna nejbližšího vývoje
+  alternativeLabels: []
+  significanceSummary: Klíčový pojem připomenutý ve zdroji u Lva Vygotského.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - intervence
+  - uceni
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Lev Vygotskij
+    excerpt: zóna nejbližšího vývoje
+- id: klientsky-orientovany-pristup
+  type: approach
+  label: klientsky orientovaný přístup
+  alternativeLabels: []
+  significanceSummary: Psychoterapeutický přístup explicitně uvedený ve zdroji u Carla Rogerse.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - poradenstvi
+  - psychoterapie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Carl Rogers
+    excerpt: klientsky orientovaný přístup
+- id: psychosocialni-teorie-vyvoje
+  type: approach
+  label: psychosociální teorie vývoje
+  alternativeLabels: []
+  significanceSummary: Teorie připomenutá ve zdroji u Erika Eriksona.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - vyvoj
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Erik Erikson
+    excerpt: psychosociální teorie vývoje
+- id: operantni-podminovani
+  type: term
+  label: operantní podmiňování
+  alternativeLabels: []
+  significanceSummary: Klíčový behaviorální pojem explicitně uvedený ve zdroji u B. F. Skinnera.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - behaviorismus
+  - uceni
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: B. F. Skinner
+    excerpt: operantní podmiňování
+- id: shaping
+  type: term
+  label: shaping
+  alternativeLabels: []
+  significanceSummary: Behaviorální technika výslovně uvedená ve zdroji u B. F. Skinnera.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - behaviorismus
+  - uceni
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: B. F. Skinner
+    excerpt: shaping
+- id: teorie-osobnich-konstruktu
+  type: approach
+  label: teorie osobních konstruktů
+  alternativeLabels: []
+  significanceSummary: Teorie připomenutá ve zdroji u George A. Kellyho.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - kognice
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: George A. Kelly
+    excerpt: teorie osobních konstruktů
+- id: logoterapie
+  type: approach
+  label: logoterapie
+  alternativeLabels: []
+  significanceSummary: Směr explicitně spojený ve zdroji s Viktorem E. Franklem.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - psychoterapie
+  - resilience
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Viktor E. Frankl
+    excerpt: logoterapie
+- id: fluidni-a-krystalicka-inteligence
+  type: term
+  label: fluidní a krystalická inteligence
+  alternativeLabels: []
+  significanceSummary: Rozlišení explicitně uvedené ve zdroji u Raymonda B. Cattella.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  - diagnostika-a-psychometrie
+  tags:
+  - kognice
+  - psychometrie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Raymond B. Cattell
+    excerpt: fluidní a krystalická inteligence
+- id: aspergeruv-syndrom
+  type: diagnostic-class
+  label: Aspergerův syndrom
+  alternativeLabels: []
+  significanceSummary: Historické označení připomenuté ve zdroji u Hanse Aspergera.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - autismus
+  - diagnostika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Hans Asperger
+    excerpt: Aspergerův syndrom
+- id: hierarchie-potreb
+  type: term
+  label: hierarchie potřeb
+  alternativeLabels: []
+  significanceSummary: Pojem explicitně uvedený ve zdroji u Abrahama Maslowa.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - motivace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Abraham Maslow
+    excerpt: hierarchie potřeb
+- id: locus-of-control
+  type: term
+  label: locus of control
+  alternativeLabels: []
+  significanceSummary: Pojem explicitně uvedený ve zdroji u Juliana Rottera.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - motivace
+  - poradenstvi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Julian Rotter
+    excerpt: locus of control
+- id: self-efficacy
+  type: term
+  label: self-efficacy
+  alternativeLabels: []
+  significanceSummary: Pojem explicitně uvedený ve zdroji u Alberta Bandury.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - motivace
+  - uceni
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Albert Bandura
+    excerpt: self-efficacy
+- id: autisticke-spektrum
+  type: term
+  label: autistické spektrum
+  alternativeLabels: []
+  significanceSummary: Spektrální pojetí autismu připomenuté ve zdroji u Lorny Wingové.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - autismus
+  - diagnostika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Lorna Wingová
+    excerpt: autistické spektrum
+- id: triada-poruch
+  type: term
+  label: triáda poruch
+  alternativeLabels: []
+  significanceSummary: Klasický evropský výklad PAS připomenutý ve zdroji u Lorny Wingové.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - autismus
+  - diagnostika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Lorna Wingová
+    excerpt: triáda poruch
+- id: poruchy-autistickeho-spektra
+  type: diagnostic-class
+  label: poruchy autistického spektra
+  alternativeLabels:
+  - PAS
+  significanceSummary: Oblast diagnostiky a podpory explicitně uvedená ve zdroji u Kateřiny Thorové.
+  disciplineIds:
+  - psychologie-psychiatrie-a-psychoterapie
+  tags:
+  - autismus
+  - diagnostika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Kateřina Thorová
+    excerpt: poruchy autistického spektra
+- id: andragogika
+  type: term
+  label: andragogika
+  alternativeLabels: []
+  significanceSummary: Pojem, jehož první doložené užití zdroj spojuje s Alexandrem Kappem.
+  disciplineIds:
+  - andragogika-a-gerontagogika
+  tags:
+  - vymezeni-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Alexandr Kapp
+    excerpt: andragogika
+- id: geragogika
+  type: term
+  label: geragogika
+  alternativeLabels: []
+  significanceSummary: Raný termín vzdělávání lidí ve vyšším věku, který zdroj spojuje s Ferdinandem Adalbertem
+    Kehrerem.
+  disciplineIds:
+  - andragogika-a-gerontagogika
+  tags:
+  - vymezeni-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Ferdinand Adalbert Kehrer
+    excerpt: geragogika
+- id: gerontagogika
+  type: term
+  label: gerontagogika
+  alternativeLabels: []
+  significanceSummary: Novodobější termín edukace seniorů a osob ve vyšším věku přítomný ve zdroji.
+  disciplineIds:
+  - andragogika-a-gerontagogika
+  tags:
+  - vymezeni-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Emil Livečka
+    excerpt: gerontagogika
+- id: specialni-andragogika
+  type: term
+  label: speciální andragogika
+  alternativeLabels: []
+  significanceSummary: Aplikační oblast oboru explicitně připomenutá ve zdroji u Pavla Mühlpachra a Jiřího
+    Langera.
+  disciplineIds:
+  - andragogika-a-gerontagogika
+  tags:
+  - vymezeni-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Jiří Langer
+    excerpt: speciální andragogika
+- id: vybor-dobre-vule-nadace-olgy-havlove
+  type: institution
+  label: Výbor dobré vůle – Nadace Olgy Havlové
+  alternativeLabels: []
+  significanceSummary: Nadační a občanská instituce založená Olgou Havlovou podle zdroje.
+  disciplineIds:
+  - novodoba-ceska-tradice-a-institucni-rozvoj
+  tags:
+  - ceske-prostredi
+  - instituce
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Olga Havlová
+    excerpt: Výbor dobré vůle – Nadace Olgy Havlové
+- id: muzikoterapie
+  type: method
+  label: muzikoterapie
+  alternativeLabels: []
+  significanceSummary: Podpůrná a expresivní metoda připomenutá ve zdroji u Marie Beníčkové.
+  disciplineIds:
+  - novodoba-ceska-tradice-a-institucni-rozvoj
+  tags:
+  - expresivni-metody
+  - metody-prace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    locator: Marie Beníčková
+    excerpt: muzikoterapie

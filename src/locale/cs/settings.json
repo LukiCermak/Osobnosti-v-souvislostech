@@ -1,0 +1,43 @@
+{
+  "page": {
+    "title": "Nastavení",
+    "subtitle": "Správa lokálních dat, soukromí a vzhledu aplikace.",
+    "eyebrow": "Správa aplikace"
+  },
+  "sidebar": {
+    "title": "Co zde můžete spravovat",
+    "footer": "První verze aplikace nevyžaduje účet ani synchronizaci. Všechen progres zůstává v tomto zařízení, dokud ho neexportujete."
+  },
+  "profile": {
+    "title": "Studijní profil",
+    "subtitle": "Shrnutí lokálně uložených preferencí a současného nastavení."
+  },
+  "storage": {
+    "title": "Lokální úložiště a záloha",
+    "subtitle": "Můžete vyexportovat progres, nahrát dřívější zálohu nebo vymazat lokální data."
+  },
+  "privacy": {
+    "title": "Soukromí a lokální zpracování",
+    "subtitle": "Aplikace v první verzi nezakládá účet a neposílá progres do externí služby.",
+    "localOnly": "Veškerý progres, rozehrané relace i přehled pokroku zůstávají v tomto zařízení, dokud je sami nevyexportujete."
+  },
+  "appearance": {
+    "title": "Vzhled aplikace",
+    "subtitle": "Vzhled můžete přepínat mezi světlou a tmavou variantou."
+  },
+  "notice": {
+    "title": "Poslední operace"
+  },
+  "empty": {
+    "eyebrow": "Chybí vstupní profil",
+    "title": "Nejdřív dokončete první nastavení",
+    "text": "Až po prvním nastavení bude možné smysluplně spravovat lokální profil a jeho preference."
+  },
+  "errors": {
+    "title": "Nastavení se nepodařilo připravit",
+    "text": "Zkuste znovu načíst kontrolu úložiště nebo obnovit aplikaci."
+  },
+  "actions": {
+    "openOnboarding": "Otevřít první nastavení"
+  }
+}

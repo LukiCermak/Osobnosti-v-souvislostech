@@ -1,0 +1,120 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://osobnosti-v-souvislostech.app/schemas/relation.schema.json",
+  "title": "RelationRecord",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "fromId",
+    "toId",
+    "type",
+    "strength",
+    "direction",
+    "studyPriority",
+    "suitableForContrast",
+    "explanation",
+    "tags",
+    "sourceReferences"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "fromId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "toId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "associated-with",
+        "founded",
+        "developed",
+        "revised",
+        "co-authored",
+        "influenced",
+        "introduced",
+        "led",
+        "worked-at",
+        "studied",
+        "taught",
+        "belongs-to-discipline",
+        "represents-approach",
+        "contrasts-with",
+        "preceded",
+        "succeeded",
+        "inspired",
+        "treated",
+        "diagnosed",
+        "used-method",
+        "created-system",
+        "related-to"
+      ]
+    },
+    "strength": {
+      "type": "string",
+      "enum": ["primary", "secondary", "contextual"]
+    },
+    "direction": {
+      "type": "string",
+      "enum": ["forward", "reverse", "bidirectional"]
+    },
+    "studyPriority": {
+      "type": "string",
+      "enum": ["core", "important", "context"]
+    },
+    "suitableForContrast": {
+      "type": "boolean"
+    },
+    "explanation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "sourceReferences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sourceReference"
+      },
+      "minItems": 1
+    }
+  },
+  "$defs": {
+    "sourceReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceDocumentId"],
+      "properties": {
+        "sourceDocumentId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "excerpt": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

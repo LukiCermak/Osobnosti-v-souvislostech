@@ -1,0 +1,53 @@
+{
+  "eyebrow": "První nastavení a vstupní volby",
+  "title": "Nastav si začátek studia podle toho, kam se chceš vracet nejčastěji",
+  "subtitle": "Krátké vstupní nastavení pro návrat, doporučené bloky a sledování pokroku.",
+  "intro": "Vybereš preferované disciplíny a nastavíš denní intenzitu. Aplikace pak lépe nabídne, kde začít, co vracet k opakování a jak navázat při dalším otevření.",
+  "hero": {
+    "kicker": "Jedno společné nastavení pro všechny tři režimy"
+  },
+  "sidebar": {
+    "title": "Co se tady nastavuje",
+    "text": "Výběr disciplín a denní intenzita. Progres zůstává uložený jen lokálně v zařízení."
+  },
+  "sections": {
+    "modesTitle": "Jak tři režimy pracují",
+    "modesText": "Než nastavíš preference, je užitečné vědět, kdy který režim dává největší smysl.",
+    "disciplinesTitle": "Vyber preferované disciplíny",
+    "disciplinesText": "Zvol si oblasti, k nimž se chceš vracet častěji. Nemusí být definitivní, později je můžeš změnit.",
+    "intensityEyebrow": "Denní rytmus",
+    "intensityTitle": "Jak intenzivní má být doporučený blok",
+    "summaryEyebrow": "Souhrn nastavení",
+    "summaryTitle": "Co se uloží do lokálního profilu"
+  },
+  "intensity": {
+    "light": {
+      "title": "Lehká intenzita",
+      "description": "Krátké bloky pro průběžné opakování a návrat bez velké zátěže."
+    },
+    "standard": {
+      "title": "Standardní intenzita",
+      "description": "Vyvážený režim pro běžné průběžné studium během semestru."
+    },
+    "deep": {
+      "title": "Hlubší intenzita",
+      "description": "Delší bloky pro cílené upevňování většího počtu vazeb a záměn."
+    }
+  },
+  "summary": {
+    "disciplines": "Vybraných disciplín",
+    "intensity": "Denní intenzita",
+    "storage": "Progres se ukládá jen lokálně. První verze nemá účet ani synchronizaci mezi zařízeními."
+  },
+  "actions": {
+    "finish": "Uložit a pokračovat do přehledu",
+    "saving": "Ukládám nastavení",
+    "skipToHome": "Zpět na přehled",
+    "returnHome": "Vrátit se do přehledu"
+  },
+  "validation": {
+    "title": "Nastavení se nepodařilo dokončit",
+    "disciplineRequired": "Vyber alespoň jednu disciplínu, aby doporučené bloky od začátku dávaly smysl.",
+    "saveFailed": "Nastavení se nepodařilo uložit. Zkus to prosím znovu."
+  }
+}

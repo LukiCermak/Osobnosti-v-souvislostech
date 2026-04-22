@@ -1,0 +1,332 @@
+[
+  {
+    "id": "anner-a-asperger-a-wing",
+    "title": "Kanner, Asperger a Wingová",
+    "personIds": [
+      "leo-kanner",
+      "hans-asperger",
+      "lorna-wingova",
+      "katerina-thorova"
+    ],
+    "relatedEntityIds": [
+      "rany-detsky-autismus",
+      "aspergeruv-syndrom",
+      "autisticke-spektrum",
+      "poruchy-autistickeho-spektra"
+    ],
+    "confusionReason": "Ve zdroji tvoří tato jména dějinnou linii od prvních klinických popisů k novějšímu spektrálnímu chápání PAS.",
+    "distinguishingFeature": "Kanner je spojen s raným dětským autismem, Asperger s historicky označovaným syndromem, Wingová se spektrálním chápáním a Thorová s českou diagnostickou podporou.",
+    "microtaskTypes": [
+      "historical-sequence",
+      "definition-discrimination"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lorna Wingová",
+        "excerpt": "Je spojena s rozšířením porozumění různým formám autismu."
+      }
+    ]
+  },
+  {
+    "id": "binet-simon-terman",
+    "title": "Původní škála a její revize",
+    "personIds": [
+      "alfred-binet",
+      "theodore-simon",
+      "lewis-terman"
+    ],
+    "relatedEntityIds": [
+      "binet-simonova-skala",
+      "stanford-binet"
+    ],
+    "confusionReason": "Zdroj spojuje tři jména s jednou historickou linií inteligenční diagnostiky.",
+    "distinguishingFeature": "Binet a Simon vytvořili původní škálu, Terman vytvořil stanfordskou revizi.",
+    "microtaskTypes": [
+      "one-scale-three-authors",
+      "historical-sequence",
+      "incorrect-link-detection"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Alfred Binet",
+        "excerpt": "Spolu s Théodorem Simonem vytvořil Binet-Simonovu škálu."
+      }
+    ]
+  },
+  {
+    "id": "bliss-versus-makaton",
+    "title": "Blissymbolics a Makaton",
+    "personIds": [
+      "charles-bliss",
+      "margaret-walker",
+      "lucie-laudova"
+    ],
+    "relatedEntityIds": [
+      "blissymbolics",
+      "makaton",
+      "augmentativni-a-alternativni-komunikace"
+    ],
+    "confusionReason": "Oba systémy patří do AAK a slouží k podpoře komunikace.",
+    "distinguishingFeature": "Blissymbolics je symbolový systém, Makaton kombinuje znaky, symboly a mluvenou řeč.",
+    "microtaskTypes": [
+      "definition-discrimination",
+      "incorrect-link-detection"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Charles Bliss",
+        "excerpt": "Jeho symbolový systém se stal důležitým nástrojem augmentativní a alternativní komunikace."
+      }
+    ]
+  },
+  {
+    "id": "braille-a-jeho-predchudci",
+    "title": "Braille a předbraillské systémy",
+    "personIds": [
+      "josef-julius-barbier",
+      "louis-braille",
+      "william-moon",
+      "thomas-mark-lucas"
+    ],
+    "relatedEntityIds": [
+      "bodove-nocni-pismo",
+      "braillovo-pismo",
+      "moonovo-reliefni-pismo"
+    ],
+    "confusionReason": "Zdroj uvádí více systémů hmatového čtení a jejich návaznost.",
+    "distinguishingFeature": "Barbier je předstupeň bodové soustavy, Braille tvoří standard, Moon a Lucas představují alternativní reliéfní systémy.",
+    "microtaskTypes": [
+      "historical-sequence",
+      "incorrect-link-detection",
+      "definition-discrimination"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Louis Braille",
+        "excerpt": "Jako bývalý žák pařížského ústavu přepracoval Barbierův systém."
+      }
+    ]
+  },
+  {
+    "id": "broca-a-wernicke",
+    "title": "Brocova a Wernickeova linie afázií",
+    "personIds": [
+      "paul-broca",
+      "carl-wernicke"
+    ],
+    "relatedEntityIds": [
+      "brocova-oblast",
+      "motoricka-afazie",
+      "wernickeova-oblast",
+      "senzoricka-afazie"
+    ],
+    "confusionReason": "Obě jména patří k základní logopedické faktografii a studenti si často zaměňují motorickou a senzorickou složku řeči.",
+    "distinguishingFeature": "Broca je ve zdroji spojen s motorickou afázií, Wernicke s porozuměním řeči a senzorickou afázií.",
+    "microtaskTypes": [
+      "two-names-one-attribute",
+      "definition-discrimination"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Paul Broca",
+        "excerpt": "Jméno Broca musí mít student pevně spojeno s motorickou složkou řeči."
+      }
+    ]
+  },
+  {
+    "id": "francouzska-a-nemecka-linie-surdopedie",
+    "title": "Francouzská a německá metodická linie v surdopedii",
+    "personIds": [
+      "charles-michel-de-l-epee",
+      "samuel-heinicke",
+      "vaclav-frost"
+    ],
+    "relatedEntityIds": [
+      "znakove-a-manualni-vyucovani",
+      "oralni-metoda",
+      "frostova-kombinovana-metoda"
+    ],
+    "confusionReason": "Zdroj vedle sebe staví znakové a orální pojetí a český kompromis mezi nimi.",
+    "distinguishingFeature": "De l’Épée reprezentuje znakové a manuální vyučování, Heinicke německou orální metodu a Frost českou kombinovanou metodu.",
+    "microtaskTypes": [
+      "definition-discrimination",
+      "historical-sequence"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Samuel Heinicke",
+        "excerpt": "V dějinách surdopedie představuje hlavní protiváhu francouzské znakové tradici."
+      }
+    ]
+  },
+  {
+    "id": "gesell-bayley-jirasek",
+    "title": "Raný vývoj a školní připravenost",
+    "personIds": [
+      "arnold-gesell",
+      "nancy-bayley",
+      "jaroslav-jirasek"
+    ],
+    "relatedEntityIds": [
+      "gesellovy-vyvojove-skaly",
+      "bayleyovy-skaly-raneho-vyvoje",
+      "orientacni-test-skolni-zralosti"
+    ],
+    "confusionReason": "Všechny nástroje se týkají posuzování vývoje, ale liší se věkovým zaměřením a účelem.",
+    "distinguishingFeature": "Gesell a Bayley míří k ranému vývoji, Jirásek ke školní připravenosti.",
+    "microtaskTypes": [
+      "definition-discrimination",
+      "incorrect-link-detection"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jaroslav Jirásek",
+        "excerpt": "Jeho jméno je spojeno hlavně s orientačním testem školní zralosti."
+      }
+    ]
+  },
+  {
+    "id": "howe-bridgman-keller",
+    "title": "Vzdělávání hluchoslepých od Howea ke Kellerové",
+    "personIds": [
+      "samuel-gridley-howe",
+      "laura-bridgman",
+      "helen-keller"
+    ],
+    "relatedEntityIds": [
+      "perkins-school-for-the-blind"
+    ],
+    "confusionReason": "Jména tvoří návaznou linii dějin edukace hluchoslepých.",
+    "distinguishingFeature": "Howe je spojen s vedením Perkins School for the Blind a edukací Laury Bridgman, její případ připravil půdu pro Helen Keller.",
+    "microtaskTypes": [
+      "historical-sequence",
+      "two-names-one-attribute"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Laura Bridgman",
+        "excerpt": "V dějinách oboru připravila půdu pro pozdější vzdělávání Helen Keller."
+      }
+    ]
+  },
+  {
+    "id": "itard-seguin-montessori",
+    "title": "Itard, Séguin a Montessoriová",
+    "personIds": [
+      "jean-marc-gaspard-itard",
+      "edouard-seguin",
+      "maria-montessori"
+    ],
+    "relatedEntityIds": [
+      "smyslovy-trenink",
+      "fyziologicka-metoda",
+      "seguinova-triada"
+    ],
+    "confusionReason": "Zdroj popisuje návaznou linii pedagogického experimentu, systematické edukace a širší reformní pedagogiky.",
+    "distinguishingFeature": "Itard je spojen s případem Viktora z Aveyronu, Séguin se systematickou péčí a Montessoriová s přesahem do obecné pedagogiky.",
+    "microtaskTypes": [
+      "historical-sequence",
+      "definition-discrimination"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jean-Marc Gaspard Itard",
+        "excerpt": "Jeho práce inspirovala pozdějšího Séguina i Montessoriovou."
+      }
+    ]
+  },
+  {
+    "id": "jager-snellen-lea",
+    "title": "Tři jména diagnostiky zraku",
+    "personIds": [
+      "eduard-jager",
+      "herman-snellen",
+      "lea-hyvarinen"
+    ],
+    "relatedEntityIds": [
+      "jagerovy-tabulky",
+      "snellenuv-optotyp",
+      "lea-symbols",
+      "lea-gratings"
+    ],
+    "confusionReason": "Zdroj uvádí několik jmen spojených s diagnostikou zraku a snadno se zaměňují při vybavování konkrétních nástrojů.",
+    "distinguishingFeature": "Jäger se pojí s tabulkami pro čtení na blízko, Snellen s optotypem a Lea Hyvärinen s pomůckami LEA pro malé děti.",
+    "microtaskTypes": [
+      "two-names-one-attribute",
+      "definition-discrimination"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lea Hyvärinen",
+        "excerpt": "Vyvinula nástroje LEA Symbols, LEA Gratings a další metody."
+      }
+    ]
+  },
+  {
+    "id": "makaton-spolutvurci-a-ceske-zavedeni",
+    "title": "Makaton a jeho autoři",
+    "personIds": [
+      "margaret-walker",
+      "katherine-johnston",
+      "tony-cornforth",
+      "lucie-laudova"
+    ],
+    "relatedEntityIds": [
+      "makaton",
+      "augmentativni-a-alternativni-komunikace"
+    ],
+    "confusionReason": "Ve zdroji vystupují vedle sebe původní autoři systému a osoba spojená s jeho českým rozvojem.",
+    "distinguishingFeature": "Walker, Johnston a Cornforth jsou tvůrci programu, Lucie Laudová je spojena s jeho rozvojem v českém prostředí.",
+    "microtaskTypes": [
+      "one-institution-two-people",
+      "incorrect-link-detection",
+      "two-names-one-attribute"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lucie Laudová",
+        "excerpt": "Je spojena s rozvojem Makatonu v českém prostředí."
+      }
+    ]
+  },
+  {
+    "id": "vymezeni-oboru-starsi-a-soucasne",
+    "title": "Starší a současná vymezení speciální pedagogiky",
+    "personIds": [
+      "karel-dvorak",
+      "slavomir-fischer",
+      "jiri-skoda",
+      "josef-slowik"
+    ],
+    "relatedEntityIds": [
+      "specialni-pedagogika",
+      "podporna-opatreni",
+      "skolni-inkluze"
+    ],
+    "confusionReason": "Ve zdroji se vedle sebe objevuje starší kategoriální vymezení oboru a novější širší funkčně orientované definice.",
+    "distinguishingFeature": "Karel Dvořák reprezentuje starší užší a kategoriální pojetí, zatímco Fischer, Škoda a Slowík zdůrazňují podporu, socializaci a životní fungování.",
+    "microtaskTypes": [
+      "definition-discrimination",
+      "incorrect-link-detection",
+      "two-names-one-attribute"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Dvořák",
+        "excerpt": "Ve studiu je důležitý jako kontrast k novějším definicím."
+      }
+    ]
+  }
+]

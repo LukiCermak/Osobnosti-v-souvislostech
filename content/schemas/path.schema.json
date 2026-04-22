@@ -1,0 +1,157 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://osobnosti-v-souvislostech.app/schemas/path.schema.json",
+  "title": "PathRecord",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "didacticGoal",
+    "disciplineIds",
+    "eraIds",
+    "steps",
+    "requiredNodeIds",
+    "contrastMoments",
+    "recommendedDifficulty",
+    "sourceReferences"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "didacticGoal": {
+      "type": "string",
+      "minLength": 1
+    },
+    "disciplineIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "eraIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "steps": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/pathStep"
+      }
+    },
+    "requiredNodeIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "contrastMoments": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/contrastMoment"
+      }
+    },
+    "recommendedDifficulty": {
+      "type": "string",
+      "enum": ["introductory", "intermediate", "advanced"]
+    },
+    "sourceReferences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sourceReference"
+      },
+      "minItems": 1
+    }
+  },
+  "$defs": {
+    "pathStep": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "entityId", "role"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "entityId": {
+          "type": "string",
+          "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+        },
+        "role": {
+          "type": "string",
+          "enum": ["entry", "bridge", "contrast", "milestone", "target"]
+        },
+        "prompt": {
+          "type": "string"
+        }
+      }
+    },
+    "contrastMoment": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "focusEntityIds", "question"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "focusEntityIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "question": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "sourceReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceDocumentId"],
+      "properties": {
+        "sourceDocumentId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "excerpt": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

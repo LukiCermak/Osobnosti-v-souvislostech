@@ -1,0 +1,149 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://osobnosti-v-souvislostech.app/schemas/person.schema.json",
+  "title": "PersonRecord",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "displayName",
+    "alternativeNames",
+    "eraId",
+    "periodLabel",
+    "nationalContext",
+    "disciplines",
+    "significanceSummary",
+    "mainAnchors",
+    "relationTargets",
+    "studyPriority",
+    "confusionTags",
+    "tags",
+    "sourceReferences"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "displayName": {
+      "type": "string",
+      "minLength": 1
+    },
+    "alternativeNames": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "lifeSpan": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "birthYear": {
+          "type": ["integer", "null"]
+        },
+        "deathYear": {
+          "type": ["integer", "null"]
+        },
+        "displayLabel": {
+          "type": "string"
+        }
+      }
+    },
+    "eraId": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "periodLabel": {
+      "type": "string",
+      "minLength": 1
+    },
+    "nationalContext": {
+      "type": "string",
+      "minLength": 1
+    },
+    "disciplines": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "significanceSummary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "mainAnchors": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "minItems": 1
+    },
+    "relationTargets": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "studyPriority": {
+      "type": "string",
+      "enum": ["core", "important", "context"]
+    },
+    "confusionTags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "sourceReferences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sourceReference"
+      },
+      "minItems": 1
+    }
+  },
+  "$defs": {
+    "sourceReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceDocumentId"],
+      "properties": {
+        "sourceDocumentId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "excerpt": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

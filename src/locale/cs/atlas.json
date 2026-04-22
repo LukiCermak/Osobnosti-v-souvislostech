@@ -1,0 +1,15 @@
+{
+  "intro": {
+    "eyebrow": "Režim 1",
+    "title": "Atlas souvislostí",
+    "description": "Tento režim pracuje s vazbami mezi osobnostmi, disciplínami, institucemi, metodami a historickými liniemi.",
+    "studyIntentTitle": "Studijní záměr",
+    "studyIntentText": "Budovat orientaci v síti vztahů, ne jen v izolovaných heslech. Studující má vyhledávat návaznosti a doplňovat chybějící spojení.",
+    "nextTitle": "Na co naváže další balíček",
+    "nextText": "Další implementace doplní filtry, studijní trasy a zapisování výsledků do lokální persistence."
+  },
+  "guard": {
+    "title": "Atlas se připravuje",
+    "text": "Nejprve je potřeba načíst obsahový graf a lokální stav aplikace."
+  }
+}

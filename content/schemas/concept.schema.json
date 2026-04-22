@@ -1,0 +1,105 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://osobnosti-v-souvislostech.app/schemas/concept.schema.json",
+  "title": "ConceptRecord",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "type",
+    "label",
+    "alternativeLabels",
+    "significanceSummary",
+    "disciplineIds",
+    "tags",
+    "sourceReferences"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "type": {
+      "type": "string",
+      "enum": [
+        "discipline",
+        "institution",
+        "method",
+        "test",
+        "scale",
+        "work",
+        "publication",
+        "system",
+        "term",
+        "event",
+        "approach",
+        "diagnostic-class",
+        "communication-system"
+      ]
+    },
+    "label": {
+      "type": "string",
+      "minLength": 1
+    },
+    "alternativeLabels": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "minLength": 1
+      },
+      "uniqueItems": true
+    },
+    "significanceSummary": {
+      "type": "string",
+      "minLength": 1
+    },
+    "disciplineIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "tags": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "sourceReferences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sourceReference"
+      },
+      "minItems": 1
+    }
+  },
+  "$defs": {
+    "sourceReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceDocumentId"],
+      "properties": {
+        "sourceDocumentId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "excerpt": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

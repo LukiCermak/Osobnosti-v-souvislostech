@@ -1,0 +1,72 @@
+- id: starovek
+  label: Starověk
+  sortKey: 1
+  startYear: -600
+  endYear: 500
+  description: Nejstarší filozofické a medicínské předpolí oboru.
+- id: stredovek-a-rane-predpoli
+  label: Středověk a rané předpolí
+  sortKey: 2
+  startYear: 500
+  endYear: 1499
+  description: Raně historické pokusy a myšlenkové předpolí pozdější speciální pedagogiky.
+- id: 14-15-stoleti
+  label: 14.–15. století
+  sortKey: 3
+  startYear: 1300
+  endYear: 1499
+  description: Pozdní středověk a počátky novověkého pedagogického myšlení ve zdroji.
+- id: 16-stoleti
+  label: 16. století
+  sortKey: 4
+  startYear: 1500
+  endYear: 1599
+  description: Raný novověk v přehledu osobností.
+- id: 17-stoleti
+  label: 17. století
+  sortKey: 5
+  startYear: 1600
+  endYear: 1699
+  description: Období raně novověké pedagogiky a prvních soustavnějších pokusů.
+- id: 17-18-stoleti
+  label: 17.–18. století
+  sortKey: 6
+  startYear: 1600
+  endYear: 1799
+  description: Přechodová etapa mezi raným novověkem a osvícenstvím.
+- id: 18-stoleti
+  label: 18. století
+  sortKey: 7
+  startYear: 1700
+  endYear: 1799
+  description: Osvícenské a raně moderní základy oborů.
+- id: 18-19-stoleti
+  label: 18.–19. století
+  sortKey: 8
+  startYear: 1700
+  endYear: 1899
+  description: Přechod od humanizačních a klinických impulsů k systematičtější pedagogice.
+- id: 19-stoleti
+  label: 19. století
+  sortKey: 9
+  startYear: 1800
+  endYear: 1899
+  description: Silná institucionální a diagnostická výstavba oboru.
+- id: 19-20-stoleti
+  label: 19.–20. století
+  sortKey: 10
+  startYear: 1800
+  endYear: 1999
+  description: Přelomové osobnosti stojící mezi zakladatelskou a novodobou etapou.
+- id: 20-stoleti
+  label: 20. století
+  sortKey: 11
+  startYear: 1900
+  endYear: 1999
+  description: Hlavní novodobá vrstva přehledu osobností.
+- id: 20-21-stoleti
+  label: 20.–21. století
+  sortKey: 12
+  startYear: 1900
+  endYear: 2099
+  description: Současně působící nebo přesahové osobnosti moderního období.

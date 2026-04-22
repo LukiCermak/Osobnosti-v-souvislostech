@@ -1,0 +1,261 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://osobnosti-v-souvislostech.app/schemas/case.schema.json",
+  "title": "CaseRecord",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "targetEntityIds",
+    "targetRelationIds",
+    "goal",
+    "difficulty",
+    "clues",
+    "questions",
+    "evaluation",
+    "followUpExplanation",
+    "sourceReferences"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "targetEntityIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "minItems": 1,
+      "uniqueItems": true
+    },
+    "targetRelationIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "goal": {
+      "type": "string",
+      "minLength": 1
+    },
+    "difficulty": {
+      "type": "string",
+      "enum": ["introductory", "intermediate", "advanced"]
+    },
+    "clues": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/clue"
+      }
+    },
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "$ref": "#/$defs/question"
+      }
+    },
+    "evaluation": {
+      "$ref": "#/$defs/evaluation"
+    },
+    "followUpExplanation": {
+      "type": "string",
+      "minLength": 1
+    },
+    "sourceReferences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sourceReference"
+      },
+      "minItems": 1
+    }
+  },
+  "$defs": {
+    "clue": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "title", "text", "unlockAfterClueIds", "focusEntityIds", "weight"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "text": {
+          "type": "string",
+          "minLength": 1
+        },
+        "unlockAfterClueIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "focusEntityIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "weight": {
+          "type": "number",
+          "minimum": 0
+        }
+      }
+    },
+    "question": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "prompt", "answerMode", "unlockAfterClueIds", "relatedEntityIds"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "prompt": {
+          "type": "string",
+          "minLength": 1
+        },
+        "answerMode": {
+          "type": "string",
+          "enum": ["single-choice", "multi-choice", "short-text"]
+        },
+        "unlockAfterClueIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "relatedEntityIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+          },
+          "minItems": 1,
+          "uniqueItems": true
+        },
+        "options": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/questionOption"
+          }
+        },
+        "expectedAnswer": {
+          "type": "string"
+        }
+      },
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "answerMode": {
+                "const": "short-text"
+              }
+            }
+          },
+          "then": {
+            "required": ["expectedAnswer"]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "answerMode": {
+                "enum": ["single-choice", "multi-choice"]
+              }
+            }
+          },
+          "then": {
+            "required": ["options"]
+          }
+        }
+      ]
+    },
+    "questionOption": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "label", "isCorrect"],
+      "properties": {
+        "id": {
+          "type": "string",
+          "minLength": 1
+        },
+        "label": {
+          "type": "string",
+          "minLength": 1
+        },
+        "isCorrect": {
+          "type": "boolean"
+        },
+        "rationale": {
+          "type": "string"
+        }
+      }
+    },
+    "evaluation": {
+      "type": "object",
+      "additionalProperties": false,
+      "properties": {
+        "minimumCorrectQuestions": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "requiredQuestionIds": {
+          "type": "array",
+          "items": {
+            "type": "string",
+            "minLength": 1
+          },
+          "uniqueItems": true
+        },
+        "allowHintRecovery": {
+          "type": "boolean"
+        }
+      }
+    },
+    "sourceReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceDocumentId"],
+      "properties": {
+        "sourceDocumentId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "excerpt": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

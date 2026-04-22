@@ -1,0 +1,90 @@
+- id: specialni-pedagogika-a-dejiny-oboru
+  label: Speciální pedagogika a dějiny oboru
+  shortLabel: Dějiny oboru
+  description: Osobnosti a pojmy, které pomáhají vymezit obor jako celek a ukazují jeho proměny v čase.
+  order: 1
+  tags:
+  - historie-oboru
+  - vymezeni-oboru
+- id: psychopedie
+  label: Psychopedie
+  shortLabel: Psychopedie
+  description: Historické a novodobé osobnosti spojené s edukací osob s mentálním postižením a s pomocným
+    školstvím.
+  order: 2
+  tags:
+  - historie-oboru
+  - metody-prace
+- id: somatopedie
+  label: Somatopedie
+  shortLabel: Somatopedie
+  description: Osobnosti spojené s edukací, rehabilitací a institucionální péčí o osoby s tělesným postižením.
+  order: 3
+  tags:
+  - rehabilitace
+  - instituce
+- id: logopedie
+  label: Logopedie
+  shortLabel: Logopedie
+  description: Osobnosti logopedie, klinické logopedie, foniatrie a podpory komunikace.
+  order: 4
+  tags:
+  - komunikace
+  - klinicka-logopedie
+- id: surdopedie
+  label: Surdopedie
+  shortLabel: Surdopedie
+  description: Historické i novodobé osobnosti vzdělávání neslyšících a metodických linií práce se sluchem
+    a řečí.
+  order: 5
+  tags:
+  - komunikace
+  - historie-oboru
+- id: tyflopedie
+  label: Tyflopedie
+  shortLabel: Tyflopedie
+  description: Osobnosti a systémy spojené s edukací nevidomých a osob se zrakovým postižením.
+  order: 6
+  tags:
+  - zrak
+  - komunikace
+- id: etopedie
+  label: Etopedie
+  shortLabel: Etopedie
+  description: Osobnosti a přístupy vztahující se k nápravě chování, reedukaci a sociálně-výchovné práci.
+  order: 7
+  tags:
+  - socializace
+  - metody-prace
+- id: diagnostika-a-psychometrie
+  label: Diagnostika a psychometrie
+  shortLabel: Diagnostika
+  description: Jména škál, testů a diagnostických linií, které tvoří oporu speciálněpedagogického posuzování.
+  order: 8
+  tags:
+  - diagnostika
+  - psychometrie
+- id: psychologie-psychiatrie-a-psychoterapie
+  label: Psychologie, psychiatrie a psychoterapie
+  shortLabel: Psychologie
+  description: Širší psychologické a psychoterapeutické zázemí, na které speciální pedagogika navazuje.
+  order: 9
+  tags:
+  - psychologie
+  - psychoterapie
+- id: andragogika-a-gerontagogika
+  label: Andragogika a gerontagogika
+  shortLabel: Andragogika
+  description: Osobnosti spojené se vzděláváním dospělých a seniorů a se speciální andragogikou.
+  order: 10
+  tags:
+  - vymezeni-oboru
+- id: novodoba-ceska-tradice-a-institucni-rozvoj
+  label: Novodobá česká tradice a institucionální rozvoj
+  shortLabel: Novodobá tradice
+  description: Novodobé české osobnosti, které rozvíjejí obor na úrovni institucí, občanských iniciativ
+    a podpůrných metod.
+  order: 11
+  tags:
+  - instituce
+  - ceske-prostredi

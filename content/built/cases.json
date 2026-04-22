@@ -1,0 +1,1038 @@
+[
+  {
+    "id": "pripad-binet-simon-terman",
+    "title": "Původní škála a její stanfordská revize",
+    "targetEntityIds": [
+      "alfred-binet",
+      "theodore-simon",
+      "lewis-terman"
+    ],
+    "targetRelationIds": [
+      "alfred-binet__developed__binet-simonova-skala",
+      "theodore-simon__co-authored__binet-simonova-skala",
+      "lewis-terman__revised__stanford-binet"
+    ],
+    "goal": "Rozpoznat původní autory Binet-Simonovy škály a odlišit je od pozdější stanfordské revize.",
+    "difficulty": "intermediate",
+    "clues": [
+      {
+        "id": "c1",
+        "title": "První stopa",
+        "text": "Zdroj uvádí dvojici autorů jedné z nejvýznamnějších raných inteligenčních škál.",
+        "unlockAfterClueIds": [],
+        "focusEntityIds": [
+          "alfred-binet",
+          "theodore-simon"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c2",
+        "title": "Druhá stopa",
+        "text": "Další jméno je spojeno se stanfordskou revizí této původní škály.",
+        "unlockAfterClueIds": [
+          "c1"
+        ],
+        "focusEntityIds": [
+          "lewis-terman"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c3",
+        "title": "Přesné rozlišení",
+        "text": "Nosná vazba není mezi jednotlivými jmény izolovaně, ale mezi původní škálou a její revizí.",
+        "unlockAfterClueIds": [
+          "c2"
+        ],
+        "focusEntityIds": [
+          "binet-simonova-skala",
+          "stanford-binet"
+        ],
+        "weight": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Kdo vytvořil původní Binet-Simonovu škálu?",
+        "answerMode": "multi-choice",
+        "unlockAfterClueIds": [],
+        "relatedEntityIds": [
+          "alfred-binet",
+          "theodore-simon",
+          "lewis-terman"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Alfred Binet",
+            "isCorrect": true,
+            "rationale": "Zdroj jej uvádí jako spoluautora původní škály."
+          },
+          {
+            "id": "b",
+            "label": "Théodore Simon",
+            "isCorrect": true,
+            "rationale": "Zdroj jej uvádí jako spoluautora původní škály."
+          },
+          {
+            "id": "c",
+            "label": "Lewis Terman",
+            "isCorrect": false,
+            "rationale": "Terman vytvořil až stanfordskou revizi."
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Kdo vytvořil stanfordskou revizi původní škály?",
+        "answerMode": "single-choice",
+        "unlockAfterClueIds": [
+          "c2"
+        ],
+        "relatedEntityIds": [
+          "lewis-terman"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Lewis Terman",
+            "isCorrect": true,
+            "rationale": "Zdroj jej výslovně spojuje se Stanford-Binet."
+          },
+          {
+            "id": "b",
+            "label": "Alfred Binet",
+            "isCorrect": false,
+            "rationale": "Binet patří k původní škále."
+          },
+          {
+            "id": "c",
+            "label": "Théodore Simon",
+            "isCorrect": false,
+            "rationale": "Simon patří k původní škále."
+          }
+        ]
+      }
+    ],
+    "evaluation": {
+      "minimumCorrectQuestions": 2,
+      "allowHintRecovery": true
+    },
+    "followUpExplanation": "Zdroj vede Bineta a Simona jako autory původní škály a Termanovo jméno spojuje se stanfordskou revizí. Přesně tato síťová návaznost je pro studium zásadní.",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lewis Terman",
+        "excerpt": "Vytvořil stanfordskou revizi původní Binet-Simonovy škály."
+      }
+    ]
+  },
+  {
+    "id": "pripad-braille-a-predchudci",
+    "title": "Který systém se stal standardem",
+    "targetEntityIds": [
+      "josef-julius-barbier",
+      "louis-braille",
+      "william-moon"
+    ],
+    "targetRelationIds": [
+      "josef-julius-barbier__associated-with__bodove-nocni-pismo",
+      "josef-julius-barbier__inspired__louis-braille",
+      "louis-braille__associated-with__braillovo-pismo"
+    ],
+    "goal": "Odlišit předstupeň Braillova písma od standardní bodové soustavy a od alternativního Moonova systému.",
+    "difficulty": "intermediate",
+    "clues": [
+      {
+        "id": "c1",
+        "title": "Předstupeň",
+        "text": "Jedno jméno je ve zdroji spojeno s bodovým nočním písmem, z něhož později Louis Braille vyšel.",
+        "unlockAfterClueIds": [],
+        "focusEntityIds": [
+          "josef-julius-barbier",
+          "bodove-nocni-pismo"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c2",
+        "title": "Standard",
+        "text": "Druhé jméno je spojeno se světovým standardem čtení a psaní pro nevidomé.",
+        "unlockAfterClueIds": [
+          "c1"
+        ],
+        "focusEntityIds": [
+          "louis-braille",
+          "braillovo-pismo"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c3",
+        "title": "Alternativa",
+        "text": "Třetí jméno představuje důležitou alternativu k Braillovu písmu.",
+        "unlockAfterClueIds": [
+          "c2"
+        ],
+        "focusEntityIds": [
+          "william-moon",
+          "moonovo-reliefni-pismo"
+        ],
+        "weight": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Kdo vytvořil systém, z něhož Louis Braille vyšel?",
+        "answerMode": "single-choice",
+        "unlockAfterClueIds": [],
+        "relatedEntityIds": [
+          "josef-julius-barbier",
+          "louis-braille",
+          "william-moon"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Josef Julius Barbier",
+            "isCorrect": true,
+            "rationale": "Zdroj jej uvádí jako autora bodového nočního písma."
+          },
+          {
+            "id": "b",
+            "label": "Louis Braille",
+            "isCorrect": false,
+            "rationale": "Braille vytvořil až vlastní soustavu."
+          },
+          {
+            "id": "c",
+            "label": "William Moon",
+            "isCorrect": false,
+            "rationale": "Moon představuje alternativní reliéfní písmo."
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Který systém se ve zdroji stal světovým standardem?",
+        "answerMode": "single-choice",
+        "unlockAfterClueIds": [
+          "c2"
+        ],
+        "relatedEntityIds": [
+          "braillovo-pismo",
+          "moonovo-reliefni-pismo"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Braillovo písmo",
+            "isCorrect": true,
+            "rationale": "Zdroj výslovně mluví o světovém standardu."
+          },
+          {
+            "id": "b",
+            "label": "Moonovo reliéfní písmo",
+            "isCorrect": false,
+            "rationale": "Zdroj je uvádí jako alternativu."
+          }
+        ]
+      }
+    ],
+    "evaluation": {
+      "minimumCorrectQuestions": 2,
+      "allowHintRecovery": true
+    },
+    "followUpExplanation": "Nosná vazba vede od Barbierova nočního písma k Braillově šestibodové soustavě. Moonův systém je ve zdroji zachycen jako alternativa, nikoli jako standard.",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Louis Braille",
+        "excerpt": "Braillovo písmo se stalo světovým standardem."
+      }
+    ]
+  },
+  {
+    "id": "pripad-broca-wernicke",
+    "title": "Dvě afatické stopy",
+    "targetEntityIds": [
+      "paul-broca",
+      "carl-wernicke"
+    ],
+    "targetRelationIds": [
+      "paul-broca__contrasts-with__carl-wernicke"
+    ],
+    "goal": "Rozlišit neurologické základy motorické a senzorické afázie.",
+    "difficulty": "introductory",
+    "clues": [
+      {
+        "id": "c1",
+        "title": "Motorická linie",
+        "text": "Jedno jméno musí mít student pevně spojeno s motorickou složkou řeči.",
+        "unlockAfterClueIds": [],
+        "focusEntityIds": [
+          "paul-broca",
+          "brocova-oblast",
+          "motoricka-afazie"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c2",
+        "title": "Porozumění řeči",
+        "text": "Druhé jméno patří k porozumění řeči a senzorické afázii.",
+        "unlockAfterClueIds": [
+          "c1"
+        ],
+        "focusEntityIds": [
+          "carl-wernicke",
+          "wernickeova-oblast",
+          "senzoricka-afazie"
+        ],
+        "weight": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Které jméno patří k motorické afázii?",
+        "answerMode": "single-choice",
+        "unlockAfterClueIds": [],
+        "relatedEntityIds": [
+          "paul-broca",
+          "carl-wernicke"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Paul Broca",
+            "isCorrect": true,
+            "rationale": "Zdroj to uvádí výslovně."
+          },
+          {
+            "id": "b",
+            "label": "Carl Wernicke",
+            "isCorrect": false,
+            "rationale": "Wernicke patří k porozumění řeči a senzorické afázii."
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Které jméno patří k porozumění řeči?",
+        "answerMode": "single-choice",
+        "unlockAfterClueIds": [
+          "c2"
+        ],
+        "relatedEntityIds": [
+          "paul-broca",
+          "carl-wernicke"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Carl Wernicke",
+            "isCorrect": true,
+            "rationale": "Zdroj uvádí senzorickou afázii a porozumění řeči."
+          },
+          {
+            "id": "b",
+            "label": "Paul Broca",
+            "isCorrect": false,
+            "rationale": "Broca patří k motorické složce řeči."
+          }
+        ]
+      }
+    ],
+    "evaluation": {
+      "minimumCorrectQuestions": 2,
+      "allowHintRecovery": false
+    },
+    "followUpExplanation": "Broca a Wernicke tvoří základní kontrastní dvojici logopedické faktografie. V aplikaci se budou vracet i v rychlých rozlišovacích úlohách.",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Paul Broca",
+        "excerpt": "Jméno Broca musí mít student pevně spojeno s motorickou složkou řeči."
+      }
+    ]
+  },
+  {
+    "id": "pripad-francouzska-nemecka-ceska-surdopedie",
+    "title": "Znak, mluvená řeč a český kompromis",
+    "targetEntityIds": [
+      "charles-michel-de-l-epee",
+      "samuel-heinicke",
+      "vaclav-frost"
+    ],
+    "targetRelationIds": [
+      "charles-michel-de-l-epee__developed__znakove-a-manualni-vyucovani",
+      "samuel-heinicke__represents-approach__nemecka-oralni-metoda",
+      "vaclav-frost__developed__frostova-kombinovana-metoda"
+    ],
+    "goal": "Rozlišit tři odlišné metodické linie ve vzdělávání neslyšících.",
+    "difficulty": "intermediate",
+    "clues": [
+      {
+        "id": "c1",
+        "title": "Pařížská stopa",
+        "text": "Jedna osobnost rozvíjela znakové a manuální vyučování.",
+        "unlockAfterClueIds": [],
+        "focusEntityIds": [
+          "charles-michel-de-l-epee",
+          "znakove-a-manualni-vyucovani"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c2",
+        "title": "Německá protiváha",
+        "text": "Druhé jméno představuje hlavní německou orální metodu.",
+        "unlockAfterClueIds": [
+          "c1"
+        ],
+        "focusEntityIds": [
+          "samuel-heinicke",
+          "nemecka-oralni-metoda"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c3",
+        "title": "Český kompromis",
+        "text": "Třetí jméno zdroj spojuje s kombinovanou metodou mezi znakem a mluvenou řečí.",
+        "unlockAfterClueIds": [
+          "c2"
+        ],
+        "focusEntityIds": [
+          "vaclav-frost",
+          "frostova-kombinovana-metoda"
+        ],
+        "weight": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Kdo je ve zdroji otcem francouzské tradice vzdělávání neslyšících?",
+        "answerMode": "single-choice",
+        "unlockAfterClueIds": [],
+        "relatedEntityIds": [
+          "charles-michel-de-l-epee",
+          "samuel-heinicke",
+          "vaclav-frost"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Charles-Michel de l’Épée",
+            "isCorrect": true,
+            "rationale": "Zdroj jej takto charakterizuje."
+          },
+          {
+            "id": "b",
+            "label": "Samuel Heinicke",
+            "isCorrect": false,
+            "rationale": "Heinicke představuje německou orální metodu."
+          },
+          {
+            "id": "c",
+            "label": "Václav Frost",
+            "isCorrect": false,
+            "rationale": "Frost patří k českému metodickému kompromisu."
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Které jméno patří k českému kompromisu mezi znakem a mluvenou řečí?",
+        "answerMode": "single-choice",
+        "unlockAfterClueIds": [
+          "c3"
+        ],
+        "relatedEntityIds": [
+          "vaclav-frost"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Václav Frost",
+            "isCorrect": true,
+            "rationale": "Zdroj jej spojuje s Frostovou kombinovanou metodou."
+          },
+          {
+            "id": "b",
+            "label": "Charles-Michel de l’Épée",
+            "isCorrect": false,
+            "rationale": "Patří k pařížské znakové tradici."
+          },
+          {
+            "id": "c",
+            "label": "Samuel Heinicke",
+            "isCorrect": false,
+            "rationale": "Patří k německé orální metodě."
+          }
+        ]
+      }
+    ],
+    "evaluation": {
+      "minimumCorrectQuestions": 2,
+      "allowHintRecovery": true
+    },
+    "followUpExplanation": "Případ ukazuje jednu z nejdůležitějších metodických os surdopedie. Právě rozlišování znakové, orální a kombinované linie vytváří hlubší síťové porozumění.",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Václav Frost",
+        "excerpt": "Spojil prvky znakového a orálního vyučování."
+      }
+    ]
+  },
+  {
+    "id": "pripad-howe-bridgman-keller",
+    "title": "Historická linie edukace hluchoslepých",
+    "targetEntityIds": [
+      "samuel-gridley-howe",
+      "laura-bridgman",
+      "helen-keller"
+    ],
+    "targetRelationIds": [
+      "samuel-gridley-howe__led__perkins-school-for-the-blind",
+      "samuel-gridley-howe__taught__laura-bridgman",
+      "laura-bridgman__preceded__helen-keller"
+    ],
+    "goal": "Poskládat základní historickou linii edukace hluchoslepých podle zdrojového textu.",
+    "difficulty": "intermediate",
+    "clues": [
+      {
+        "id": "c1",
+        "title": "Instituce",
+        "text": "Jedna osobnost působila jako zakládající ředitel Perkins School for the Blind.",
+        "unlockAfterClueIds": [],
+        "focusEntityIds": [
+          "samuel-gridley-howe",
+          "perkins-school-for-the-blind"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c2",
+        "title": "První formální vzdělání",
+        "text": "Další jméno patří první osobě s hluchoslepotou, která získala formální vzdělání.",
+        "unlockAfterClueIds": [
+          "c1"
+        ],
+        "focusEntityIds": [
+          "laura-bridgman"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c3",
+        "title": "Symbol možnosti edukace",
+        "text": "Třetí jméno je spojeno s průlomem ve vzdělávání osob s hluchoslepotou a se získáním vysokoškolského titulu.",
+        "unlockAfterClueIds": [
+          "c2"
+        ],
+        "focusEntityIds": [
+          "helen-keller"
+        ],
+        "weight": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Kdo ve zdroji působil jako zakládající ředitel Perkins School for the Blind?",
+        "answerMode": "single-choice",
+        "unlockAfterClueIds": [],
+        "relatedEntityIds": [
+          "samuel-gridley-howe",
+          "laura-bridgman",
+          "helen-keller"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Samuel Gridley Howe",
+            "isCorrect": true,
+            "rationale": "Zdroj to uvádí výslovně."
+          },
+          {
+            "id": "b",
+            "label": "Laura Bridgman",
+            "isCorrect": false,
+            "rationale": "Bridgman je vzdělávaná žákyně."
+          },
+          {
+            "id": "c",
+            "label": "Helen Keller",
+            "isCorrect": false,
+            "rationale": "Keller představuje pozdější průlom ve vzdělávání hluchoslepých."
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Které jméno připravilo půdu pro pozdější vzdělávání Helen Keller?",
+        "answerMode": "single-choice",
+        "unlockAfterClueIds": [
+          "c2"
+        ],
+        "relatedEntityIds": [
+          "laura-bridgman"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Laura Bridgman",
+            "isCorrect": true,
+            "rationale": "Zdroj to uvádí výslovně."
+          },
+          {
+            "id": "b",
+            "label": "Samuel Gridley Howe",
+            "isCorrect": false,
+            "rationale": "Howe je důležitý jako pedagog a ředitel instituce."
+          },
+          {
+            "id": "c",
+            "label": "Louis Braille",
+            "isCorrect": false,
+            "rationale": "Braille patří do jiné linie tyflopedie."
+          }
+        ]
+      }
+    ],
+    "evaluation": {
+      "minimumCorrectQuestions": 2,
+      "allowHintRecovery": true
+    },
+    "followUpExplanation": "Zdroj propojuje osobnost, instituci i historickou návaznost. Právě tato síťová vazba dává studentovi hlubší orientaci v dějinách edukace hluchoslepých.",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Laura Bridgman",
+        "excerpt": "V dějinách oboru připravila půdu pro pozdější vzdělávání Helen Keller."
+      }
+    ]
+  },
+  {
+    "id": "pripad-itard-seguin-montessori",
+    "title": "Od Viktora z Aveyronu k systematické edukaci",
+    "targetEntityIds": [
+      "jean-marc-gaspard-itard",
+      "edouard-seguin",
+      "maria-montessori"
+    ],
+    "targetRelationIds": [
+      "jean-marc-gaspard-itard__inspired__edouard-seguin",
+      "jean-marc-gaspard-itard__inspired__maria-montessori"
+    ],
+    "goal": "Pochopit návaznost mezi Itardovým experimentem, Séguinovou systematickou péčí a širším přesahem k Montessoriové.",
+    "difficulty": "intermediate",
+    "clues": [
+      {
+        "id": "c1",
+        "title": "Případ divokého chlapce",
+        "text": "Jedna osobnost je ve zdroji spojena s Viktorem z Aveyronu a se smyslovým tréninkem.",
+        "unlockAfterClueIds": [],
+        "focusEntityIds": [
+          "jean-marc-gaspard-itard",
+          "viktor-z-aveyronu"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c2",
+        "title": "Systematická péče",
+        "text": "Navazující osobnost rozpracovala fyziologickou metodu a Séguinovu triádu.",
+        "unlockAfterClueIds": [
+          "c1"
+        ],
+        "focusEntityIds": [
+          "edouard-seguin",
+          "fyziologicka-metoda",
+          "seguinova-triada"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c3",
+        "title": "Přesah do reformní pedagogiky",
+        "text": "Zdroj výslovně říká, že Itard inspiroval nejen Séguina, ale i Montessoriovou.",
+        "unlockAfterClueIds": [
+          "c2"
+        ],
+        "focusEntityIds": [
+          "maria-montessori"
+        ],
+        "weight": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Které jméno patří k případu Viktora z Aveyronu?",
+        "answerMode": "single-choice",
+        "unlockAfterClueIds": [],
+        "relatedEntityIds": [
+          "jean-marc-gaspard-itard",
+          "edouard-seguin",
+          "maria-montessori"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Jean-Marc Gaspard Itard",
+            "isCorrect": true,
+            "rationale": "Zdroj jej s tímto případem spojuje přímo."
+          },
+          {
+            "id": "b",
+            "label": "Édouard Séguin",
+            "isCorrect": false,
+            "rationale": "Séguin navazuje systematickou péčí."
+          },
+          {
+            "id": "c",
+            "label": "Maria Montessori",
+            "isCorrect": false,
+            "rationale": "Montessoriová představuje pozdější širší pedagogický přesah."
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Kdo rozpracoval fyziologickou metodu a Séguinovu triádu?",
+        "answerMode": "single-choice",
+        "unlockAfterClueIds": [
+          "c2"
+        ],
+        "relatedEntityIds": [
+          "edouard-seguin"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Édouard Séguin",
+            "isCorrect": true,
+            "rationale": "Zdroj uvádí jeho fyziologickou metodu i triádu."
+          },
+          {
+            "id": "b",
+            "label": "Jean-Marc Gaspard Itard",
+            "isCorrect": false,
+            "rationale": "Itard je spojen se smyslovým tréninkem a Viktorem z Aveyronu."
+          },
+          {
+            "id": "c",
+            "label": "Maria Montessori",
+            "isCorrect": false,
+            "rationale": "Montessoriová navazuje jinou linií."
+          }
+        ]
+      }
+    ],
+    "evaluation": {
+      "minimumCorrectQuestions": 2,
+      "allowHintRecovery": true
+    },
+    "followUpExplanation": "Případ ukazuje, že studijní hodnota nevzniká jen z medailonu jedné osobnosti. Klíčem je návaznost Itard – Séguin – Montessoriová.",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jean-Marc Gaspard Itard",
+        "excerpt": "Jeho práce se stala jedním z prvních známých psychopedických experimentů a inspirovala pozdějšího Séguina i Montessoriovou."
+      }
+    ]
+  },
+  {
+    "id": "pripad-makaton-aak",
+    "title": "Kdo stál u vzniku Makatonu",
+    "targetEntityIds": [
+      "margaret-walker",
+      "katherine-johnston",
+      "tony-cornforth",
+      "lucie-laudova"
+    ],
+    "targetRelationIds": [
+      "margaret-walker__created-system__makaton",
+      "katherine-johnston__co-authored__makaton",
+      "tony-cornforth__co-authored__makaton",
+      "lucie-laudova__introduced__makaton"
+    ],
+    "goal": "Odlišit původní spolutvůrce programu Makaton od osoby spojené s jeho rozvojem v českém prostředí.",
+    "difficulty": "intermediate",
+    "clues": [
+      {
+        "id": "c1",
+        "title": "Tvůrkyně",
+        "text": "Zdroj označuje jednu logopedku za hlavní tvůrkyni systému Makaton.",
+        "unlockAfterClueIds": [],
+        "focusEntityIds": [
+          "margaret-walker",
+          "makaton"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c2",
+        "title": "Spolutvůrci",
+        "text": "Program vznikal spolu s dalšími dvěma jmény, která tvoří jeho název.",
+        "unlockAfterClueIds": [
+          "c1"
+        ],
+        "focusEntityIds": [
+          "katherine-johnston",
+          "tony-cornforth"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c3",
+        "title": "České zavedení",
+        "text": "Další české jméno zdroj spojuje s rozvojem Makatonu v českém prostředí.",
+        "unlockAfterClueIds": [
+          "c2"
+        ],
+        "focusEntityIds": [
+          "lucie-laudova"
+        ],
+        "weight": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Která jména patří k původním tvůrcům programu Makaton?",
+        "answerMode": "multi-choice",
+        "unlockAfterClueIds": [],
+        "relatedEntityIds": [
+          "margaret-walker",
+          "katherine-johnston",
+          "tony-cornforth",
+          "lucie-laudova"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Margaret Walker",
+            "isCorrect": true,
+            "rationale": "Zdroj ji označuje za hlavní tvůrkyni."
+          },
+          {
+            "id": "b",
+            "label": "Katherine Johnston",
+            "isCorrect": true,
+            "rationale": "Zdroj ji uvádí jako spoluautorku."
+          },
+          {
+            "id": "c",
+            "label": "Tony Cornforth",
+            "isCorrect": true,
+            "rationale": "Zdroj jej uvádí jako spoluautora."
+          },
+          {
+            "id": "d",
+            "label": "Lucie Laudová",
+            "isCorrect": false,
+            "rationale": "Zdroj ji spojuje s českým rozvojem systému."
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Které jméno je ve zdroji spojeno s rozvojem Makatonu v českém prostředí?",
+        "answerMode": "single-choice",
+        "unlockAfterClueIds": [
+          "c3"
+        ],
+        "relatedEntityIds": [
+          "lucie-laudova"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Lucie Laudová",
+            "isCorrect": true,
+            "rationale": "Zdroj to uvádí výslovně."
+          },
+          {
+            "id": "b",
+            "label": "Margaret Walker",
+            "isCorrect": false,
+            "rationale": "Walker patří k původním tvůrcům."
+          },
+          {
+            "id": "c",
+            "label": "Katherine Johnston",
+            "isCorrect": false,
+            "rationale": "Johnston patří k původním tvůrcům."
+          }
+        ]
+      }
+    ],
+    "evaluation": {
+      "minimumCorrectQuestions": 2,
+      "allowHintRecovery": true
+    },
+    "followUpExplanation": "Tento případ pomáhá oddělit historické autorství komunikačního systému od jeho pozdějšího českého rozvíjení.",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lucie Laudová",
+        "excerpt": "Je spojena s rozvojem Makatonu v českém prostředí."
+      }
+    ]
+  },
+  {
+    "id": "pripad-vymezeni-oboru",
+    "title": "Kdo reprezentuje starší a kdo současné vymezení oboru",
+    "targetEntityIds": [
+      "karel-dvorak",
+      "slavomir-fischer",
+      "jiri-skoda",
+      "josef-slowik"
+    ],
+    "targetRelationIds": [
+      "karel-dvorak__contrasts-with__slavomir-fischer",
+      "karel-dvorak__contrasts-with__jiri-skoda",
+      "karel-dvorak__contrasts-with__josef-slowik"
+    ],
+    "goal": "Rozlišit starší kategoriální vymezení speciální pedagogiky od současných širších a funkčně orientovaných definic.",
+    "difficulty": "introductory",
+    "clues": [
+      {
+        "id": "c1",
+        "title": "První stopa",
+        "text": "Jedna osobnost ve zdroji představuje starší, užší a kategoriálně formulované vymezení speciální pedagogiky.",
+        "unlockAfterClueIds": [],
+        "focusEntityIds": [
+          "karel-dvorak"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c2",
+        "title": "Druhá stopa",
+        "text": "Další jména zdůrazňují podporu, socializaci, pracovní uplatnění a celkové životní fungování člověka se speciálními potřebami.",
+        "unlockAfterClueIds": [
+          "c1"
+        ],
+        "focusEntityIds": [
+          "slavomir-fischer",
+          "jiri-skoda",
+          "josef-slowik"
+        ],
+        "weight": 1
+      },
+      {
+        "id": "c3",
+        "title": "Kontrast",
+        "text": "Zdroj výslovně doporučuje číst jednu z těchto osobností jako kontrast k novějším definicím.",
+        "unlockAfterClueIds": [
+          "c2"
+        ],
+        "focusEntityIds": [
+          "karel-dvorak"
+        ],
+        "weight": 1
+      }
+    ],
+    "questions": [
+      {
+        "id": "q1",
+        "prompt": "Které jméno patří ke staršímu kategoriálnímu vymezení oboru?",
+        "answerMode": "single-choice",
+        "unlockAfterClueIds": [],
+        "relatedEntityIds": [
+          "karel-dvorak",
+          "slavomir-fischer",
+          "jiri-skoda",
+          "josef-slowik"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Karel Dvořák",
+            "isCorrect": true,
+            "rationale": "Zdroj jej přímo spojuje se starším užším a kategoriálním vymezením."
+          },
+          {
+            "id": "b",
+            "label": "Slavomír Fischer",
+            "isCorrect": false,
+            "rationale": "Fischer patří k současnému širšímu pojetí."
+          },
+          {
+            "id": "c",
+            "label": "Jiří Škoda",
+            "isCorrect": false,
+            "rationale": "Škoda spoluutváří současné funkčně orientované vymezení."
+          },
+          {
+            "id": "d",
+            "label": "Josef Slowík",
+            "isCorrect": false,
+            "rationale": "Slowík rozvíjí širší inkluzivní a socializačně orientované pojetí."
+          }
+        ]
+      },
+      {
+        "id": "q2",
+        "prompt": "Která jména ve zdroji patří k širšímu současnému pojetí oboru?",
+        "answerMode": "multi-choice",
+        "unlockAfterClueIds": [
+          "c2"
+        ],
+        "relatedEntityIds": [
+          "slavomir-fischer",
+          "jiri-skoda",
+          "josef-slowik"
+        ],
+        "options": [
+          {
+            "id": "a",
+            "label": "Slavomír Fischer",
+            "isCorrect": true,
+            "rationale": "Zdroj jej řadí k novodobému širšímu a funkčně orientovanému pojetí."
+          },
+          {
+            "id": "b",
+            "label": "Jiří Škoda",
+            "isCorrect": true,
+            "rationale": "Zdroj jej uvádí jako spoluautora současného funkčně orientovaného vymezení."
+          },
+          {
+            "id": "c",
+            "label": "Josef Slowík",
+            "isCorrect": true,
+            "rationale": "Zdroj jej spojuje s širším inkluzivním a socializačně orientovaným pojetím."
+          },
+          {
+            "id": "d",
+            "label": "Karel Dvořák",
+            "isCorrect": false,
+            "rationale": "Dvořák je ve zdroji kontrastní starší linie."
+          }
+        ]
+      }
+    ],
+    "evaluation": {
+      "minimumCorrectQuestions": 2,
+      "allowHintRecovery": true
+    },
+    "followUpExplanation": "Případ uzavírá základní kontrast, který se v aplikaci vrací napříč režimy. Dvořák představuje starší kategoriální vymezení, zatímco Fischer, Škoda a Slowík současnější podpůrné pojetí.",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Dvořák",
+        "excerpt": "Ve studiu je důležitý jako kontrast k novějším definicím."
+      }
+    ]
+  }
+]

@@ -1,0 +1,921 @@
+[
+  {
+    "id": "andragogika-a-gerontagogika-ve-specialni-pedagogice",
+    "title": "Andragogika, gerontagogika a speciální andragogika",
+    "didacticGoal": "Usadit terminologický vývoj vzdělávání dospělých a seniorů v návaznosti na speciální pedagogiku.",
+    "disciplineIds": [
+      "andragogika-a-gerontagogika"
+    ],
+    "eraIds": [
+      "19-stoleti",
+      "20-stoleti",
+      "20-21-stoleti"
+    ],
+    "steps": [
+      {
+        "id": "kapp",
+        "entityId": "alexandr-kapp",
+        "role": "entry"
+      },
+      {
+        "id": "kehrer",
+        "entityId": "ferdinand-adalbert-kehrer",
+        "role": "bridge"
+      },
+      {
+        "id": "bollnow",
+        "entityId": "otto-friedrich-bollnow",
+        "role": "bridge"
+      },
+      {
+        "id": "livecka",
+        "entityId": "emil-livecka",
+        "role": "bridge"
+      },
+      {
+        "id": "muhlpachr",
+        "entityId": "pavel-muhlpachr",
+        "role": "milestone"
+      },
+      {
+        "id": "langer",
+        "entityId": "jiri-langer",
+        "role": "target"
+      }
+    ],
+    "requiredNodeIds": [
+      "alexandr-kapp",
+      "ferdinand-adalbert-kehrer",
+      "emil-livecka",
+      "pavel-muhlpachr",
+      "jiri-langer"
+    ],
+    "contrastMoments": [
+      {
+        "id": "terminologie-dospelost-stari",
+        "title": "Andragogika a gerontagogika",
+        "focusEntityIds": [
+          "andragogika",
+          "gerontagogika",
+          "specialni-andragogika"
+        ],
+        "question": "Jak se ve zdroji liší terminologické počátky andragogiky, geragogiky a současné speciální andragogiky?"
+      }
+    ],
+    "recommendedDifficulty": "introductory",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jiří Langer",
+        "excerpt": "Je důležitý pro vymezení speciální andragogiky jako samostatné aplikační oblasti oboru."
+      }
+    ]
+  },
+  {
+    "id": "ceska-somatopedicka-tradice",
+    "title": "Česká somatopedická a rehabilitační tradice",
+    "didacticGoal": "Propojit institucionální, rehabilitační a výchovně-pracovní linii české somatopedie.",
+    "disciplineIds": [
+      "somatopedie"
+    ],
+    "eraIds": [
+      "19-20-stoleti",
+      "20-stoleti"
+    ],
+    "steps": [
+      {
+        "id": "jedlicka",
+        "entityId": "rudolf-jedlicka",
+        "role": "entry"
+      },
+      {
+        "id": "bakule",
+        "entityId": "frantisek-bakule",
+        "role": "bridge"
+      },
+      {
+        "id": "mauer",
+        "entityId": "jan-mauer",
+        "role": "contrast"
+      },
+      {
+        "id": "jan-chlup",
+        "entityId": "jan-chlup",
+        "role": "bridge"
+      },
+      {
+        "id": "monatova",
+        "entityId": "lili-monatova",
+        "role": "target"
+      }
+    ],
+    "requiredNodeIds": [
+      "rudolf-jedlicka",
+      "frantisek-bakule",
+      "jan-mauer",
+      "lili-monatova"
+    ],
+    "contrastMoments": [
+      {
+        "id": "jedlicka-bakule",
+        "title": "Instituce a výchova prací",
+        "focusEntityIds": [
+          "rudolf-jedlicka",
+          "frantisek-bakule"
+        ],
+        "question": "Jak se liší Jedličkův ústav a Bakulův ústav v akcentu léčby, edukace a výchovy prací?"
+      }
+    ],
+    "recommendedDifficulty": "introductory",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Rudolf Jedlička",
+        "excerpt": "Spojil léčbu, edukaci, rehabilitaci a přípravu na pracovní život."
+      }
+    ]
+  },
+  {
+    "id": "ceske-vymezeni-specialni-pedagogiky",
+    "title": "České vymezování speciální pedagogiky",
+    "didacticGoal": "Projít proměnu českého vymezování oboru od humanistického předpolí přes terminologické a kategoriální pojetí k současnému funkčně orientovanému modelu.",
+    "disciplineIds": [
+      "specialni-pedagogika-a-dejiny-oboru"
+    ],
+    "eraIds": [
+      "17-stoleti",
+      "20-stoleti",
+      "20-21-stoleti"
+    ],
+    "steps": [
+      {
+        "id": "komensky",
+        "entityId": "jan-amos-komensky",
+        "role": "entry",
+        "prompt": "Začni u humanistického předpolí vzdělavatelnosti."
+      },
+      {
+        "id": "popelar",
+        "entityId": "bohumir-justyn-popelar",
+        "role": "bridge",
+        "prompt": "Sleduj terminologický přechod od defektologie ke speciální pedagogice."
+      },
+      {
+        "id": "dvorak",
+        "entityId": "karel-dvorak",
+        "role": "contrast",
+        "prompt": "Porovnej užší kategoriální vymezení oboru."
+      },
+      {
+        "id": "vitkova",
+        "entityId": "marie-vitkova",
+        "role": "bridge",
+        "prompt": "Přesuň se k integrativnímu a inkluzivnímu pojetí."
+      },
+      {
+        "id": "fischer",
+        "entityId": "slavomir-fischer",
+        "role": "target",
+        "prompt": "Uzavři trasu současným širším funkčně orientovaným vymezením."
+      }
+    ],
+    "requiredNodeIds": [
+      "jan-amos-komensky",
+      "karel-dvorak",
+      "bohumir-justyn-popelar",
+      "marie-vitkova",
+      "slavomir-fischer"
+    ],
+    "contrastMoments": [
+      {
+        "id": "dvorak-vs-soucasnost",
+        "title": "Starší a současné pojetí",
+        "focusEntityIds": [
+          "karel-dvorak",
+          "slavomir-fischer",
+          "jiri-skoda",
+          "josef-slowik"
+        ],
+        "question": "Které jméno reprezentuje starší kategoriální vymezení a která jména širší podpůrný model?"
+      }
+    ],
+    "recommendedDifficulty": "intermediate",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Dvořák",
+        "excerpt": "Ve studiu je důležitý jako kontrast k novějším definicím."
+      }
+    ]
+  },
+  {
+    "id": "dejiny-autismu-ve-zdroji",
+    "title": "Dějiny autismu ve zdrojovém přehledu",
+    "didacticGoal": "Seřadit jména, která zdroj používá pro historickou a současnou orientaci v PAS.",
+    "disciplineIds": [
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "eraIds": [
+      "20-stoleti",
+      "20-21-stoleti"
+    ],
+    "steps": [
+      {
+        "id": "kanner",
+        "entityId": "leo-kanner",
+        "role": "entry"
+      },
+      {
+        "id": "asperger",
+        "entityId": "hans-asperger",
+        "role": "bridge"
+      },
+      {
+        "id": "wing",
+        "entityId": "lorna-wingova",
+        "role": "milestone"
+      },
+      {
+        "id": "thorova",
+        "entityId": "katerina-thorova",
+        "role": "target"
+      }
+    ],
+    "requiredNodeIds": [
+      "leo-kanner",
+      "hans-asperger",
+      "lorna-wingova",
+      "katerina-thorova"
+    ],
+    "contrastMoments": [
+      {
+        "id": "autismus-historie",
+        "title": "Od klinického popisu ke spektru",
+        "focusEntityIds": [
+          "leo-kanner",
+          "hans-asperger",
+          "lorna-wingova"
+        ],
+        "question": "Která jména patří k prvním klinickým popisům a které ke spektrálnímu chápání autismu?"
+      }
+    ],
+    "recommendedDifficulty": "introductory",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lorna Wingová",
+        "excerpt": "Je důležitá pro modernější spektrální chápání autismu."
+      }
+    ]
+  },
+  {
+    "id": "dejiny-edukace-nevidomych-a-hluchoslepych",
+    "title": "Dějiny edukace nevidomých a hluchoslepých",
+    "didacticGoal": "Sledovat vývoj institucí, písem a přístupů od raného předpolí tyflopedie po moderní technické a institucionální opory.",
+    "disciplineIds": [
+      "tyflopedie"
+    ],
+    "eraIds": [
+      "stredovek-a-rane-predpoli",
+      "18-stoleti",
+      "19-stoleti",
+      "19-20-stoleti",
+      "20-21-stoleti"
+    ],
+    "steps": [
+      {
+        "id": "al-amidi",
+        "entityId": "arab-al-amidi",
+        "role": "entry"
+      },
+      {
+        "id": "diderot",
+        "entityId": "denis-diderot",
+        "role": "bridge"
+      },
+      {
+        "id": "hauy",
+        "entityId": "valentin-hauy",
+        "role": "milestone"
+      },
+      {
+        "id": "barbier",
+        "entityId": "josef-julius-barbier",
+        "role": "bridge"
+      },
+      {
+        "id": "braille",
+        "entityId": "louis-braille",
+        "role": "target"
+      },
+      {
+        "id": "howe",
+        "entityId": "samuel-gridley-howe",
+        "role": "bridge"
+      },
+      {
+        "id": "laura",
+        "entityId": "laura-bridgman",
+        "role": "bridge"
+      },
+      {
+        "id": "keller",
+        "entityId": "helen-keller",
+        "role": "target"
+      }
+    ],
+    "requiredNodeIds": [
+      "valentin-hauy",
+      "josef-julius-barbier",
+      "louis-braille",
+      "samuel-gridley-howe",
+      "laura-bridgman",
+      "helen-keller"
+    ],
+    "contrastMoments": [
+      {
+        "id": "predbraillske-systemy",
+        "title": "Předbraillské systémy",
+        "focusEntityIds": [
+          "josef-julius-barbier",
+          "thomas-mark-lucas",
+          "william-moon"
+        ],
+        "question": "Který systém je přímým předstupněm Braillova písma a které jsou alternativní reliéfní soustavy?"
+      },
+      {
+        "id": "howe-bridgman-keller",
+        "title": "Linie hluchoslepoty",
+        "focusEntityIds": [
+          "samuel-gridley-howe",
+          "laura-bridgman",
+          "helen-keller"
+        ],
+        "question": "Jak na sebe navazují jména Howe, Bridgman a Keller?"
+      }
+    ],
+    "recommendedDifficulty": "advanced",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Louis Braille",
+        "excerpt": "Braillovo písmo zásadně změnilo možnosti samostatného čtení, psaní a vzdělávání nevidomých."
+      }
+    ]
+  },
+  {
+    "id": "dejiny-logopedie-od-neurologie-k-aak",
+    "title": "Od neurologických základů k AAK v logopedii",
+    "didacticGoal": "Spojit neurologické, klinické a komunikační linie logopedie do jedné studijní osy.",
+    "disciplineIds": [
+      "logopedie"
+    ],
+    "eraIds": [
+      "19-stoleti",
+      "20-stoleti",
+      "20-21-stoleti"
+    ],
+    "steps": [
+      {
+        "id": "broca",
+        "entityId": "paul-broca",
+        "role": "entry"
+      },
+      {
+        "id": "wernicke",
+        "entityId": "carl-wernicke",
+        "role": "contrast"
+      },
+      {
+        "id": "gutzmann",
+        "entityId": "hermann-gutzmann",
+        "role": "bridge"
+      },
+      {
+        "id": "van-riper",
+        "entityId": "charles-van-riper",
+        "role": "bridge"
+      },
+      {
+        "id": "bliss",
+        "entityId": "charles-bliss",
+        "role": "milestone"
+      },
+      {
+        "id": "walker",
+        "entityId": "margaret-walker",
+        "role": "target"
+      }
+    ],
+    "requiredNodeIds": [
+      "paul-broca",
+      "carl-wernicke",
+      "hermann-gutzmann",
+      "charles-van-riper",
+      "charles-bliss",
+      "margaret-walker"
+    ],
+    "contrastMoments": [
+      {
+        "id": "broca-wernicke",
+        "title": "Dvě afatické linie",
+        "focusEntityIds": [
+          "paul-broca",
+          "carl-wernicke"
+        ],
+        "question": "Které jméno patří k motorické afázii a které k porozumění řeči?"
+      },
+      {
+        "id": "bliss-makaton",
+        "title": "AAK není jen jeden systém",
+        "focusEntityIds": [
+          "charles-bliss",
+          "margaret-walker"
+        ],
+        "question": "V čem se liší Blissymbolics a Makaton?"
+      }
+    ],
+    "recommendedDifficulty": "intermediate",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Charles Bliss",
+        "excerpt": "Ve speciální pedagogice je významný především v oblasti AAK."
+      }
+    ]
+  },
+  {
+    "id": "etopedie-od-filozofickych-korenu-k-reedukaci",
+    "title": "Od filozofických kořenů k reedukaci v etopedii",
+    "didacticGoal": "Propojit filozofické předpolí etopedie s novodobými reedukačními a resocializačními přístupy.",
+    "disciplineIds": [
+      "etopedie"
+    ],
+    "eraIds": [
+      "starovek",
+      "18-19-stoleti",
+      "20-stoleti"
+    ],
+    "steps": [
+      {
+        "id": "konfucius",
+        "entityId": "konfucius",
+        "role": "entry"
+      },
+      {
+        "id": "sokrates",
+        "entityId": "sokrates",
+        "role": "bridge"
+      },
+      {
+        "id": "rush",
+        "entityId": "benjamin-rush",
+        "role": "bridge"
+      },
+      {
+        "id": "redl",
+        "entityId": "fritz-redl",
+        "role": "milestone"
+      },
+      {
+        "id": "zikmund",
+        "entityId": "alois-zikmund",
+        "role": "target"
+      },
+      {
+        "id": "stampach",
+        "entityId": "frantisek-stampach",
+        "role": "target"
+      }
+    ],
+    "requiredNodeIds": [
+      "konfucius",
+      "benjamin-rush",
+      "fritz-redl",
+      "alois-zikmund",
+      "frantisek-stampach"
+    ],
+    "contrastMoments": [
+      {
+        "id": "filozofie-vs-reedukace",
+        "title": "Filozofické předpolí a praktická reedukace",
+        "focusEntityIds": [
+          "sokrates",
+          "fritz-redl",
+          "alois-zikmund"
+        ],
+        "question": "Která jména představují filozofické zázemí a která praktické reedukační přístupy?"
+      }
+    ],
+    "recommendedDifficulty": "introductory",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Fritz Redl",
+        "excerpt": "Proslul skupinovou prací, terapeutickou komunitou a důrazem na výchovné prostředí."
+      }
+    ]
+  },
+  {
+    "id": "metodicke-linie-surdopedie",
+    "title": "Metodické linie surdopedie",
+    "didacticGoal": "Projít evropské a americké větve vzdělávání neslyšících od raných pokusů po českou tradici.",
+    "disciplineIds": [
+      "surdopedie"
+    ],
+    "eraIds": [
+      "16-stoleti",
+      "17-18-stoleti",
+      "18-stoleti",
+      "19-stoleti",
+      "20-stoleti"
+    ],
+    "steps": [
+      {
+        "id": "ponce",
+        "entityId": "pedro-ponce-de-leon",
+        "role": "entry"
+      },
+      {
+        "id": "bonet",
+        "entityId": "juan-pablo-bonet",
+        "role": "bridge"
+      },
+      {
+        "id": "amman",
+        "entityId": "johann-konrad-amman",
+        "role": "contrast"
+      },
+      {
+        "id": "epee",
+        "entityId": "charles-michel-de-l-epee",
+        "role": "contrast"
+      },
+      {
+        "id": "sicard",
+        "entityId": "roch-ambroise-cucurron-abbe-sicard",
+        "role": "bridge"
+      },
+      {
+        "id": "clerc",
+        "entityId": "laurent-clerc",
+        "role": "bridge"
+      },
+      {
+        "id": "gallaudet",
+        "entityId": "thomas-hopkins-gallaudet",
+        "role": "milestone"
+      },
+      {
+        "id": "frost",
+        "entityId": "vaclav-frost",
+        "role": "target"
+      }
+    ],
+    "requiredNodeIds": [
+      "pedro-ponce-de-leon",
+      "johann-konrad-amman",
+      "charles-michel-de-l-epee",
+      "thomas-hopkins-gallaudet",
+      "vaclav-frost"
+    ],
+    "contrastMoments": [
+      {
+        "id": "oral-vs-manual",
+        "title": "Orální a znaková tradice",
+        "focusEntityIds": [
+          "johann-konrad-amman",
+          "charles-michel-de-l-epee",
+          "samuel-heinicke"
+        ],
+        "question": "Kdo reprezentuje orální metodu a kdo znakové a manuální vyučování?"
+      }
+    ],
+    "recommendedDifficulty": "advanced",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Václav Frost",
+        "excerpt": "Spojil prvky znakového a orálního vyučování."
+      }
+    ]
+  },
+  {
+    "id": "novodoba-ceska-podpora-a-institucni-rozvoj",
+    "title": "Novodobá česká tradice a institucionální rozvoj",
+    "didacticGoal": "Ukázat, že novodobý rozvoj oboru stojí vedle univerzitní tradice i na občanské a terapeutické podpoře.",
+    "disciplineIds": [
+      "novodoba-ceska-tradice-a-institucni-rozvoj"
+    ],
+    "eraIds": [
+      "20-21-stoleti"
+    ],
+    "steps": [
+      {
+        "id": "havlova",
+        "entityId": "olga-havlova",
+        "role": "entry"
+      },
+      {
+        "id": "kysucan",
+        "entityId": "jaroslav-kysucan",
+        "role": "bridge"
+      },
+      {
+        "id": "peutel",
+        "entityId": "alzbeta-peutelschmiedova",
+        "role": "bridge"
+      },
+      {
+        "id": "benickova",
+        "entityId": "marie-benickova",
+        "role": "target"
+      }
+    ],
+    "requiredNodeIds": [
+      "olga-havlova",
+      "jaroslav-kysucan",
+      "alzbeta-peutelschmiedova",
+      "marie-benickova"
+    ],
+    "contrastMoments": [
+      {
+        "id": "instituce-a-terapie",
+        "title": "Nadační a terapeutická podpora",
+        "focusEntityIds": [
+          "olga-havlova",
+          "marie-benickova"
+        ],
+        "question": "Jak se liší občanská nadační podpora od terapeuticko-formativních metod?"
+      }
+    ],
+    "recommendedDifficulty": "introductory",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Olga Havlová",
+        "excerpt": "Její jméno připomíná, že novodobý rozvoj oboru nestojí jen na univerzitách, ale i na občanské a nadační podpoře."
+      }
+    ]
+  },
+  {
+    "id": "psychologicke-pozadi-speciální-pedagogiky",
+    "title": "Psychologické a psychoterapeutické pozadí speciální pedagogiky",
+    "didacticGoal": "Uspořádat hlavní psychologické směry, které ve zdroji tvoří teoretické zázemí speciální pedagogiky.",
+    "disciplineIds": [
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "eraIds": [
+      "19-20-stoleti",
+      "20-stoleti",
+      "20-21-stoleti"
+    ],
+    "steps": [
+      {
+        "id": "pavlov",
+        "entityId": "ivan-pavlov",
+        "role": "entry"
+      },
+      {
+        "id": "freud",
+        "entityId": "sigmund-freud",
+        "role": "bridge"
+      },
+      {
+        "id": "adler",
+        "entityId": "alfred-adler",
+        "role": "bridge"
+      },
+      {
+        "id": "watson",
+        "entityId": "john-b-watson",
+        "role": "contrast"
+      },
+      {
+        "id": "skinner",
+        "entityId": "b-f-skinner",
+        "role": "bridge"
+      },
+      {
+        "id": "vygotskij",
+        "entityId": "lev-vygotskij",
+        "role": "milestone"
+      },
+      {
+        "id": "rogers",
+        "entityId": "carl-rogers",
+        "role": "bridge"
+      },
+      {
+        "id": "bandura",
+        "entityId": "albert-bandura",
+        "role": "target"
+      }
+    ],
+    "requiredNodeIds": [
+      "ivan-pavlov",
+      "sigmund-freud",
+      "john-b-watson",
+      "b-f-skinner",
+      "lev-vygotskij",
+      "carl-rogers",
+      "albert-bandura"
+    ],
+    "contrastMoments": [
+      {
+        "id": "behaviorismus-kognice",
+        "title": "Behaviorální a sociokulturní linie",
+        "focusEntityIds": [
+          "john-b-watson",
+          "b-f-skinner",
+          "lev-vygotskij",
+          "albert-bandura"
+        ],
+        "question": "Která jména patří spíše k behaviorální linii a která k sociálnímu a mediovanému učení?"
+      }
+    ],
+    "recommendedDifficulty": "intermediate",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lev Vygotskij",
+        "excerpt": "Jeho pojetí je klíčové pro pedagogickou intervenci a mediaci učení."
+      }
+    ]
+  },
+  {
+    "id": "vyvoj-inteligencni-a-vyvojove-diagnostiky",
+    "title": "Vývoj inteligenční a vývojové diagnostiky",
+    "didacticGoal": "Usadit vedle sebe hlavní jména škál, testů a diagnostických nástrojů používaných ve speciální pedagogice.",
+    "disciplineIds": [
+      "diagnostika-a-psychometrie"
+    ],
+    "eraIds": [
+      "19-stoleti",
+      "19-20-stoleti",
+      "20-stoleti",
+      "20-21-stoleti"
+    ],
+    "steps": [
+      {
+        "id": "jager",
+        "entityId": "eduard-jager",
+        "role": "entry"
+      },
+      {
+        "id": "snellen",
+        "entityId": "herman-snellen",
+        "role": "bridge"
+      },
+      {
+        "id": "binet",
+        "entityId": "alfred-binet",
+        "role": "milestone"
+      },
+      {
+        "id": "simon",
+        "entityId": "theodore-simon",
+        "role": "bridge"
+      },
+      {
+        "id": "terman",
+        "entityId": "lewis-terman",
+        "role": "contrast"
+      },
+      {
+        "id": "wechsler",
+        "entityId": "david-wechsler",
+        "role": "bridge"
+      },
+      {
+        "id": "gesell",
+        "entityId": "arnold-gesell",
+        "role": "bridge"
+      },
+      {
+        "id": "bayley",
+        "entityId": "nancy-bayley",
+        "role": "bridge"
+      },
+      {
+        "id": "jirasek",
+        "entityId": "jaroslav-jirasek",
+        "role": "target"
+      }
+    ],
+    "requiredNodeIds": [
+      "alfred-binet",
+      "theodore-simon",
+      "lewis-terman",
+      "david-wechsler",
+      "jaroslav-jirasek"
+    ],
+    "contrastMoments": [
+      {
+        "id": "binet-terman",
+        "title": "Původní škála a její revize",
+        "focusEntityIds": [
+          "alfred-binet",
+          "theodore-simon",
+          "lewis-terman"
+        ],
+        "question": "Kdo vytvořil původní škálu a kdo její stanfordskou revizi?"
+      },
+      {
+        "id": "gesell-bayley-jirasek",
+        "title": "Vývoj versus školní připravenost",
+        "focusEntityIds": [
+          "arnold-gesell",
+          "nancy-bayley",
+          "jaroslav-jirasek"
+        ],
+        "question": "Které nástroje míří k ranému vývoji a který ke školní zralosti?"
+      }
+    ],
+    "recommendedDifficulty": "advanced",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lewis Terman",
+        "excerpt": "Vytvořil stanfordskou revizi původní Binet-Simonovy škály."
+      }
+    ]
+  },
+  {
+    "id": "vyvoj-psychopedie",
+    "title": "Od klinického rozlišení k systematické edukaci v psychopedii",
+    "didacticGoal": "Sledovat přechod od raného klinického odlišování mentálního postižení k systematické edukaci a českému pomocnému školství.",
+    "disciplineIds": [
+      "psychopedie"
+    ],
+    "eraIds": [
+      "16-stoleti",
+      "18-19-stoleti",
+      "19-20-stoleti",
+      "20-21-stoleti"
+    ],
+    "steps": [
+      {
+        "id": "platter",
+        "entityId": "felix-platter",
+        "role": "entry"
+      },
+      {
+        "id": "pinel",
+        "entityId": "philippe-pinel",
+        "role": "bridge"
+      },
+      {
+        "id": "esquirol",
+        "entityId": "jean-etienne-dominique-esquirol",
+        "role": "bridge"
+      },
+      {
+        "id": "itard",
+        "entityId": "jean-marc-gaspard-itard",
+        "role": "contrast"
+      },
+      {
+        "id": "seguin",
+        "entityId": "edouard-seguin",
+        "role": "milestone"
+      },
+      {
+        "id": "amerling",
+        "entityId": "karel-slavoj-amerling",
+        "role": "bridge"
+      },
+      {
+        "id": "zeman",
+        "entityId": "josef-zeman",
+        "role": "target"
+      }
+    ],
+    "requiredNodeIds": [
+      "philippe-pinel",
+      "jean-etienne-dominique-esquirol",
+      "edouard-seguin",
+      "karel-slavoj-amerling",
+      "josef-zeman"
+    ],
+    "contrastMoments": [
+      {
+        "id": "itard-seguin",
+        "title": "Experiment a systematická edukace",
+        "focusEntityIds": [
+          "jean-marc-gaspard-itard",
+          "edouard-seguin"
+        ],
+        "question": "Kdo je spojen s Viktorem z Aveyronu a kdo se systematickou péčí o osoby s mentálním postižením?"
+      }
+    ],
+    "recommendedDifficulty": "intermediate",
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Édouard Séguin",
+        "excerpt": "Jeho práce je klíčová pro pochopení přechodu od pouhé péče k systematické edukaci."
+      }
+    ]
+  }
+]

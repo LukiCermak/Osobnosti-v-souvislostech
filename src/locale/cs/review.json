@@ -1,0 +1,36 @@
+{
+  "page": {
+    "title": "Opakování",
+    "subtitle": "Fronta jednotek, které už dozrály k návratu.",
+    "eyebrow": "Dnešní blok"
+  },
+  "sidebar": {
+    "title": "Jak funguje opakování",
+    "footer": "Fronta se skládá z jednotek po termínu a z míst, kde aplikace zachytila vyšší riziko další chyby."
+  },
+  "next": {
+    "title": "Doporučený vstup je {mode}",
+    "text": "V dnešní frontě je {count} jednotek. Můžete navázat jedním souvislým blokem."
+  },
+  "summary": {
+    "dueCount": "Počet jednotek",
+    "recommendedMode": "Doporučený režim"
+  },
+  "queue": {
+    "title": "Co dnes čeká na zopakování",
+    "subtitle": "Každá položka je odvozená z lokální historie učení a z termínů dalšího návratu."
+  },
+  "empty": {
+    "eyebrow": "Dnes bez fronty",
+    "title": "Dnešní opakování je zatím prázdné",
+    "text": "Můžete pokračovat v běžném studiu nebo si otevřít přehled pokroku a podívat se na slabá místa."
+  },
+  "errors": {
+    "title": "Frontu opakování se nepodařilo načíst",
+    "text": "Zkuste obnovit lokální data a otevřít frontu znovu."
+  },
+  "actions": {
+    "start": "Spustit dnešní blok",
+    "openProgress": "Otevřít přehled pokroku"
+  }
+}

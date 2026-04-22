@@ -1,0 +1,220 @@
+- id: aak
+  label: AAK
+  description: Podpora komunikace pomocí augmentativních a alternativních systémů.
+  category: method
+- id: anner-a-asperger-a-wing
+  label: Kanner, Asperger a Wingová
+  description: Kontrastní sada pro dějiny autismu a spektrální pojetí PAS.
+  category: comparison
+- id: autismus
+  label: Autismus a PAS
+  description: Obsah spojený s dějinami a současným chápáním poruch autistického spektra.
+  category: topic
+- id: behaviorismus
+  label: Behaviorismus
+  description: Obsah navázaný na behaviorální výklad učení a chování.
+  category: topic
+- id: binet-simon-terman
+  label: Binet, Simon a Terman
+  description: Kontrastní sada původní škály a její revize.
+  category: comparison
+- id: bliss-versus-makaton
+  label: Blissymbolics a Makaton
+  description: Kontrastní sada dvou linií AAK.
+  category: comparison
+- id: braille-a-jeho-predchudci
+  label: Braille a předchůdci
+  description: Kontrastní sada bodové soustavy a předbraillských systémů.
+  category: comparison
+- id: broca-a-wernicke
+  label: Broca a Wernicke
+  description: Kontrastní sada dvou afatických linií.
+  category: comparison
+- id: ceske-prostredi
+  label: České prostředí
+  description: Obsah spojený s českou tradicí a institucemi.
+  category: historical
+- id: ctenarska-pripravenost
+  label: Čtenářská připravenost
+  description: Diagnostika a nástroje vztahující se k osvojování čtení.
+  category: assessment
+- id: diagnostika
+  label: Diagnostika
+  description: Obsah zaměřený na posuzování, vyšetřování a rozpoznávání obtíží.
+  category: assessment
+- id: didaktika
+  label: Didaktika
+  description: Obsah vztahující se k obecným pedagogickým základům a didaktice.
+  category: topic
+- id: expresivni-metody
+  label: Expresivní metody
+  description: Podpůrné a tvořivé terapeuticko-formativní postupy.
+  category: method
+- id: francouzska-a-nemecka-linie-surdopedie
+  label: Francouzská a německá linie surdopedie
+  description: Kontrastní sada metodických linií v surdopedii.
+  category: comparison
+- id: gesell-bayley-jirasek
+  label: Gesell, Bayley a Jirásek
+  description: Kontrastní sada raného vývoje a školní připravenosti.
+  category: comparison
+- id: historie-oboru
+  label: Dějiny oboru
+  description: Obsah důležitý pro historické linie a proměny speciální pedagogiky.
+  category: historical
+- id: hluchoslepota
+  label: Hluchoslepota
+  description: Obsah vztahující se k edukaci a komunikaci osob s hluchoslepotou.
+  category: topic
+- id: howe-bridgman-keller
+  label: Howe, Bridgman a Keller
+  description: Kontrastní sada dějin edukace hluchoslepých.
+  category: comparison
+- id: inkluze
+  label: Inkluze
+  description: Obsah propojený s inkluzivním a podpůrným pojetím vzdělávání.
+  category: topic
+- id: instituce
+  label: Instituce
+  description: Obsah, v němž hraje důležitou roli ústav, škola, klinika nebo nadace.
+  category: institution
+- id: intervence
+  label: Intervence
+  description: Obsah vztahující se k pedagogickému zásahu a vedení učení.
+  category: method
+- id: itard-seguin-montessori
+  label: Itard, Séguin a Montessoriová
+  description: Kontrastní sada návazné linie psychopedického experimentu a reformní pedagogiky.
+  category: comparison
+- id: jager-snellen-lea
+  label: Jäger, Snellen a LEA
+  description: Kontrastní sada diagnostiky zraku.
+  category: comparison
+- id: kazuistiky
+  label: Kazuistiky a případy
+  description: Obsah, v němž je důležitý konkrétní historický případ.
+  category: other
+- id: klinicka-logopedie
+  label: Klinická logopedie
+  description: Obsah navázaný na klinickou logopedii a foniatrii.
+  category: topic
+- id: kognice
+  label: Kognice
+  description: Obsah zaměřený na poznávání, myšlení a zpracování informací.
+  category: topic
+- id: komunikace
+  label: Komunikace
+  description: Obsah vztahující se k řeči, jazyku a komunikačním systémům.
+  category: topic
+- id: makaton-spolutvurci-a-ceske-zavedeni
+  label: Makaton a jeho autoři
+  description: Kontrastní sada autorství a českého zavedení Makatonu.
+  category: comparison
+- id: medicinsky-kontext
+  label: Medicínský kontext
+  description: Obsah silně propojený s lékařským a klinickým rámcem.
+  category: topic
+- id: metody-prace
+  label: Metody práce
+  description: Obsah zdůrazňující konkrétní pedagogické, reedukační nebo terapeutické postupy.
+  category: method
+- id: motivace
+  label: Motivace
+  description: Obsah související s potřebami, motivací a očekáváním úspěchu.
+  category: topic
+- id: motorika
+  label: Motorika
+  description: Obsah zaměřený na koordinaci, jemnou a hrubou motoriku.
+  category: assessment
+- id: neurologie
+  label: Neurologické souvislosti
+  description: Obsah propojený s neurologickým základem funkcí a poruch.
+  category: topic
+- id: plynulost-reci
+  label: Plynulost řeči
+  description: Obsah spojený s koktavostí a terapií plynulosti řeči.
+  category: topic
+- id: podpora
+  label: Podpora
+  description: Obsah zdůrazňující podpůrná opatření, pomoc a doprovázení.
+  category: topic
+- id: pomucky
+  label: Pomůcky a technická řešení
+  description: Obsah zaměřený na technické nebo komunikační pomůcky.
+  category: other
+- id: poradenstvi
+  label: Poradenství
+  description: Obsah vztahující se k poradenské práci a podpůrnému rozhovoru.
+  category: topic
+- id: psychiatrie
+  label: Psychiatrie
+  description: Obsah navázaný na psychiatrický a psychopatologický rámec.
+  category: topic
+- id: psychologie
+  label: Psychologie
+  description: Širší psychologické zázemí speciální pedagogiky.
+  category: topic
+- id: psychometrie
+  label: Psychometrie
+  description: Obsah spojený se škálami, testy a měřením schopností.
+  category: assessment
+- id: psychoterapie
+  label: Psychoterapie
+  description: Obsah vztahující se k psychoterapeutickým směrům a práci s osobností.
+  category: topic
+- id: rany-vyvoj
+  label: Raný vývoj
+  description: Obsah zaměřený na raný vývoj dítěte a jeho posuzování.
+  category: topic
+- id: rehabilitace
+  label: Rehabilitace
+  description: Obsah propojující edukaci s rehabilitační podporou.
+  category: topic
+- id: resilience
+  label: Resilience a smysl
+  description: Obsah vztahující se k odolnosti, smyslu a zvládání zátěže.
+  category: topic
+- id: rodina
+  label: Rodina a deprivace
+  description: Obsah navázaný na rodinné prostředí a jeho vliv na vývoj.
+  category: topic
+- id: skolni-zralost
+  label: Školní zralost
+  description: Obsah spojený s posuzováním připravenosti na školní docházku.
+  category: assessment
+- id: slovenske-prostredi
+  label: Slovenské prostředí
+  description: Obsah spojený se slovenskou tradicí a autory.
+  category: historical
+- id: socializace
+  label: Socializace
+  description: Obsah zdůrazňující sociální začlenění a životní fungování.
+  category: topic
+- id: socialni-prostredi
+  label: Sociální prostředí
+  description: Obsah zdůrazňující roli skupiny, vztahů a klimatu prostředí.
+  category: topic
+- id: uceni
+  label: Učení
+  description: Obsah související s teoriemi učení a osvojováním dovedností.
+  category: topic
+- id: vymezeni-oboru
+  label: Vymezení oboru
+  description: Obsah důležitý pro definování speciální pedagogiky a příbuzných oblastí.
+  category: historical
+- id: vymezeni-oboru-starsi-a-soucasne
+  label: Starší a současná vymezení oboru
+  description: Kontrastní sada kategoriálního a funkčně orientovaného pojetí.
+  category: comparison
+- id: vyvoj
+  label: Vývoj
+  description: Obsah vztahující se k vývojovým etapám a vývojovému pohledu.
+  category: topic
+- id: zahranicni-prostredi
+  label: Zahraniční prostředí
+  description: Obsah spojený se zahraniční tradicí a autory.
+  category: historical
+- id: zrak
+  label: Zrak a zrakové postižení
+  description: Obsah zaměřený na zrak, jeho diagnostiku a tyflopedii.
+  category: topic

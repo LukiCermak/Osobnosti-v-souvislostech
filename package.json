@@ -1,0 +1,53 @@
+{
+  "name": "osobnosti-v-souvislostech",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Interaktivní studijní aplikace pro speciální pedagogiku.",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.node.json --noEmit && vite build",
+    "preview": "vite preview",
+    "typecheck": "tsc -p tsconfig.json --noEmit && tsc -p tsconfig.node.json --noEmit",
+    "lint": "eslint .",
+    "content:validate": "tsx scripts/validate-content.ts",
+    "content:build": "tsx scripts/build-content.ts",
+    "content:check-required": "tsx scripts/check-required-figures.ts",
+    "content:search-index": "tsx scripts/generate-search-index.ts",
+    "docs:sync": "tsx scripts/sync-docs.ts",
+    "test": "vitest run --config vitest.config.ts",
+    "test:unit": "vitest run --config vitest.config.ts tests/unit tests/integration",
+    "test:e2e": "playwright test --config playwright.config.ts"
+  },
+  "dependencies": {
+    "ajv": "^8.17.1",
+    "dexie": "^4.0.11",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^6.30.1",
+    "yaml": "^2.8.1",
+    "zustand": "^5.0.4"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.25.1",
+    "@playwright/test": "^1.55.0",
+    "@types/node": "^22.15.18",
+    "@types/react": "^18.3.21",
+    "@types/react-dom": "^18.3.7",
+    "@vitejs/plugin-react-swc": "^3.8.0",
+    "eslint": "^9.25.1",
+    "eslint-plugin-react-hooks": "^5.2.0",
+    "eslint-plugin-react-refresh": "^0.4.19",
+    "fake-indexeddb": "^6.0.0",
+    "globals": "^16.0.0",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.30.1",
+    "vite": "^6.3.5",
+    "vite-plugin-pwa": "^1.0.3",
+    "vitest": "^2.1.8"
+  }
+}

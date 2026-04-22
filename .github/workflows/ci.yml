@@ -1,0 +1,58 @@
+name: CI
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+      - master
+
+permissions:
+  contents: read
+
+concurrency:
+  group: ci-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  verify:
+    name: Ověření aplikace
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Nastavení Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Instalace závislostí
+        run: npm install
+
+      - name: Validace obsahu
+        run: npm run content:validate
+
+      - name: Kontrola povinných osobností
+        run: npm run content:check-required
+
+      - name: Build runtime obsahu
+        run: npm run content:build
+
+      - name: Vygenerování vyhledávacího indexu
+        run: npm run content:search-index
+
+      - name: Lint
+        run: npm run lint
+
+      - name: Typecheck
+        run: npm run typecheck
+
+      - name: Jednotkové a integrační testy
+        run: npm run test
+
+      - name: Build aplikace
+        run: npm run build

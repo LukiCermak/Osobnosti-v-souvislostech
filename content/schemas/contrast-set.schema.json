@@ -1,0 +1,100 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://osobnosti-v-souvislostech.app/schemas/contrast-set.schema.json",
+  "title": "ContrastSetRecord",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "id",
+    "title",
+    "personIds",
+    "relatedEntityIds",
+    "confusionReason",
+    "distinguishingFeature",
+    "microtaskTypes",
+    "sourceReferences"
+  ],
+  "properties": {
+    "id": {
+      "type": "string",
+      "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+    },
+    "title": {
+      "type": "string",
+      "minLength": 1
+    },
+    "personIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "minItems": 2,
+      "uniqueItems": true
+    },
+    "relatedEntityIds": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[a-z0-9]+(?:-[a-z0-9]+)*$"
+      },
+      "uniqueItems": true
+    },
+    "confusionReason": {
+      "type": "string",
+      "minLength": 1
+    },
+    "distinguishingFeature": {
+      "type": "string",
+      "minLength": 1
+    },
+    "microtaskTypes": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "string",
+        "enum": [
+          "two-names-one-attribute",
+          "one-institution-two-people",
+          "one-scale-three-authors",
+          "historical-sequence",
+          "incorrect-link-detection",
+          "definition-discrimination"
+        ]
+      },
+      "uniqueItems": true
+    },
+    "sourceReferences": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/sourceReference"
+      },
+      "minItems": 1
+    }
+  },
+  "$defs": {
+    "sourceReference": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["sourceDocumentId"],
+      "properties": {
+        "sourceDocumentId": {
+          "type": "string",
+          "minLength": 1
+        },
+        "section": {
+          "type": "string"
+        },
+        "locator": {
+          "type": "string"
+        },
+        "excerpt": {
+          "type": "string"
+        },
+        "note": {
+          "type": "string"
+        }
+      }
+    }
+  }
+}

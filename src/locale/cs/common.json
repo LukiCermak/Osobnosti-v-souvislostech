@@ -1,0 +1,75 @@
+{
+  "app": {
+    "title": "Osobnosti v souvislostech",
+    "subtitle": "Interaktivní studijní aplikace pro speciální pedagogiku",
+    "description": "Studijní aplikace pro navazující magisterské studium speciální pedagogiky.",
+    "loading": "Aplikace připravuje obsah, lokální úložiště a doporučený studijní blok.",
+    "unexpectedError": "Nastala technická chyba. Zkuste aplikaci znovu načíst.",
+    "contentNotReady": "Studijní režim je dostupný až po načtení obsahových dat.",
+    "contentReady": "Obsah je připravený k použití.",
+    "storageRecovered": "Lokální úložiště bylo po chybě obnoveno. Některé údaje mohly být vyčištěny.",
+    "noResume": "Nemáte žádné rozpracované studium.",
+    "noReviewDue": "Dnes zatím nic nečeká na opakování."
+  },
+  "navigation": {
+    "home": "Přehled",
+    "onboarding": "První nastavení",
+    "atlas": "Atlas souvislostí",
+    "cases": "Detektivní spisy",
+    "lab": "Laboratoř rozlišení",
+    "progress": "Přehled pokroku",
+    "review": "Opakování",
+    "settings": "Nastavení",
+    "mainLabel": "Hlavní navigace"
+  },
+  "actions": {
+    "openMode": "Otevřít režim",
+    "showMode": "Zobrazit režim",
+    "continueStudy": "Pokračovat v rozpracovaném studiu",
+    "startToday": "Začít dnešní blok",
+    "retry": "Zkusit znovu",
+    "refresh": "Obnovit",
+    "goHome": "Zpět na přehled",
+    "switchToLight": "Světlý vzhled",
+    "switchToDark": "Tmavý vzhled"
+  },
+  "status": {
+    "ready": "Připraveno",
+    "loading": "Načítání",
+    "error": "Dočasná chyba",
+    "storageGood": "Úložiště je v pořádku",
+    "storageWarning": "Úložiště se blíží kapacitě",
+    "storageCritical": "Úložiště je téměř zaplněné",
+    "storageUnavailable": "Úložiště není k dispozici",
+    "idle": "Načítání"
+  },
+  "labels": {
+    "resume": "Pokračování",
+    "todayReview": "Dnes k opakování",
+    "recommendedMode": "Doporučený režim",
+    "preferredDisciplines": "Preferované disciplíny",
+    "storage": "Lokální úložiště",
+    "theme": "Vzhled"
+  },
+  "fallback": {
+    "pageMissingTitle": "Tato cesta v aplikaci zatím neexistuje",
+    "pageMissingText": "Vraťte se do přehledu a pokračujte z některého z dostupných režimů.",
+    "emptyValue": "Zatím bez údajů"
+  },
+  "profile": {
+    "intensity": {
+      "light": "Lehká",
+      "standard": "Standardní",
+      "deep": "Hlubší"
+    }
+  },
+  "pwa": {
+    "updateTitle": "Je připravená novější verze aplikace",
+    "updateText": "Uložte si rozpracované studium a načtěte novou verzi, aby byly dostupné nejnovější úpravy.",
+    "updateAction": "Načíst novou verzi",
+    "dismissAction": "Později",
+    "offlineReadyTitle": "Aplikace je připravená i pro offline použití",
+    "offlineReadyText": "Po prvním načtení můžete pokračovat i bez připojení, pokud už máte potřebný obsah v zařízení.",
+    "registrationError": "Offline vrstvu se nepodařilo připravit. Aplikace bude fungovat online."
+  }
+}

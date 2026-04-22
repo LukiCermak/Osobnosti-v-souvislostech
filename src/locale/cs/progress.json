@@ -1,0 +1,41 @@
+{
+  "page": {
+    "title": "Přehled pokroku",
+    "subtitle": "Souhrn upevněných vazeb, disciplín a slabých míst.",
+    "eyebrow": "Pokrok"
+  },
+  "sidebar": {
+    "title": "Jak s přehledem pracovat",
+    "footer": "Přehled vychází z lokálně uloženého progresu, z dnešní fronty opakování a z historie záměn."
+  },
+  "overview": {
+    "title": "Souhrn současného stavu",
+    "subtitle": "Uvidíte, co je už stabilní a co se vyplatí vrátit do denního plánu."
+  },
+  "disciplines": {
+    "title": "Pokrytí disciplín"
+  },
+  "confusions": {
+    "title": "Nejčastější záměny",
+    "emptyTitle": "Zatím nejsou zachycené žádné výrazné záměny",
+    "emptyText": "Jakmile aplikace zachytí opakované záměny, objeví se tady jako přehledová mapa."
+  },
+  "weaknesses": {
+    "title": "Slabá místa k návratu",
+    "subtitle": "Seznam vychází z chyb, termínů opakování a nestability konkrétních studijních jednotek.",
+    "emptyTitle": "Zatím není co vytáhnout jako slabé místo",
+    "emptyText": "Po několika relacích aplikace začne vytvářet cílený seznam oblastí, které potřebují upevnění."
+  },
+  "empty": {
+    "eyebrow": "Zatím bez dat",
+    "title": "Pokrok se začne tvořit po první studijní relaci",
+    "text": "Otevřete některý z režimů, dokončete první blok a potom se vraťte sem."
+  },
+  "errors": {
+    "title": "Přehled pokroku se nepodařilo načíst",
+    "text": "Zkuste znovu načíst lokální data a přehled přepočítat."
+  },
+  "actions": {
+    "openAtlas": "Otevřít Atlas souvislostí"
+  }
+}

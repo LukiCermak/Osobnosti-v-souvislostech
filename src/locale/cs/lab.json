@@ -1,0 +1,72 @@
+{
+  "page": {
+    "eyebrow": "Režim 3",
+    "title": "Laboratoř rozlišení",
+    "subtitle": "Krátké adaptivní bloky pro opravu záměn a upevnění jemných rozdílů"
+  },
+  "sidebar": {
+    "title": "Nastavení laboratoře",
+    "dueToday": "Dnes čeká k opakování {{count}} položek.",
+    "tempo": "Aktivní tempo: {{value}}."
+  },
+  "actions": {
+    "startBlock": "Spustit rozlišovací blok",
+    "continueBlock": "Pokračovat v laboratoři",
+    "startNewBlock": "Spustit nový blok",
+    "showHints": "Zapnout nápovědy",
+    "hideHints": "Skrýt nápovědy",
+    "reloadContent": "Načíst obsah znovu"
+  },
+  "summary": {
+    "confusions": "Zachycené záměny: {{count}}",
+    "dueKnowledge": "Dnes k upevnění: {{count}}",
+    "taskType": "Typ bloku: {{value}}",
+    "confusionsShort": "záměny",
+    "dueKnowledgeShort": "dnes"
+  },
+  "settings": {
+    "eyebrow": "Tempo práce",
+    "tempoTitle": "Jak dlouhý má být blok",
+    "tempoText": "Krátké bloky jsou vhodné pro mobil a rychlé návraty. Delší bloky pomohou při větším objemu záměn."
+  },
+  "history": {
+    "eyebrow": "Historie záměn",
+    "title": "Na čem Laboratoř staví",
+    "subtitle": "Přednost dostávají záměny, které se u tebe vracejí nejčastěji.",
+    "empty": "Zatím ještě nemáš uložené záměny. Laboratoř začne z kontrastních sad dostupných v obsahu."
+  },
+  "study": {
+    "headerTitle": "Rozlišovací blok je aktivní",
+    "focusEyebrow": "Aktuální kontrast",
+    "focusTitle": "Rozlišovaný kontrast",
+    "focusFallback": "Jakmile vybereš blok, zobrazí se zde jeho hlavní rozdíl.",
+    "peopleLabel": "Osobnosti v sadě: {{value}}",
+    "relatedLabel": "Související pojmy: {{value}}",
+    "noRelated": "bez navazujících pojmů",
+    "progressEyebrow": "Průběh bloku",
+    "progressTitle": "Jak se blok vyvíjí",
+    "progressText": "Po každé odpovědi se přepočítá další krok i termín dalšího zopakování.",
+    "completed": "hotovo",
+    "remaining": "zbývá",
+    "coverage": "zpracováno",
+    "focusTitleFallback": "Vyber kontrastní sadu"
+  },
+  "queue": {
+    "title": "Doporučené kontrastní sady"
+  },
+  "empty": {
+    "eyebrow": "Laboratoř čeká na první krok",
+    "title": "Zatím není co rozlišovat",
+    "noHistory": "Jakmile se v Atlasu nebo v Detektivních spisech objeví záměny, Laboratoř na ně naváže cílenými bloky.",
+    "noContrasts": "V datech nebyly pro aktuální výběr nalezeny vhodné kontrastní sady. Zkus spustit obecný blok bez filtru.",
+    "action": "Spustit obecný blok"
+  },
+  "errors": {
+    "loadTitle": "Laboratoř se nepodařilo připravit",
+    "loadText": "Obsah nebo lokální údaje se nepodařilo načíst."
+  },
+  "guard": {
+    "title": "Laboratoř se připravuje",
+    "text": "Nejprve je potřeba načíst kontrastní sady a historii záměn."
+  }
+}

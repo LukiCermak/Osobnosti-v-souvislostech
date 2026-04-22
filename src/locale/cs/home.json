@@ -1,0 +1,38 @@
+{
+  "hero": {
+    "eyebrow": "Vstup do společného studijního prostředí",
+    "kicker": "Přehled, návrat a doporučený další krok",
+    "title": "Pokračuj tam, kde má další studium největší smysl",
+    "description": "Domovská obrazovka propojuje rozpracované studium, dnešní opakování, oborové zaměření i slabá místa do jednoho přehledu. Odtud můžeš navázat bez ztráty souvislostí."
+  },
+  "sidebar": {
+    "title": "Co odsud zvládneš",
+    "text": "Spustíš doporučený blok, vrátíš se k rozpracované relaci a uvidíš, kde se vyplatí pokračovat."
+  },
+  "actions": {
+    "completeSetup": "Dokončit první nastavení",
+    "adjustSetup": "Upravit vstupní nastavení"
+  },
+  "cards": {
+    "progress": {
+      "eyebrow": "Souhrn pokroku",
+      "title": "Jak vypadá aktuální stav",
+      "caption": "Podíl upevněných jednotek z dosud sledovaného obsahu.",
+      "totalUnits": "Sledované jednotky",
+      "dueToday": "Dnes k opakování",
+      "recommendedMode": "Doporučený režim"
+    }
+  },
+  "sections": {
+    "modeTitle": "Studijní režimy jedné aplikace",
+    "modeSubtitle": "Každý režim pracuje nad stejným obsahem, ale jiným způsobem učení.",
+    "disciplinesTitle": "Preferované disciplíny",
+    "weaknessTitle": "Nejčastější záměny"
+  },
+  "empty": {
+    "disciplinesTitle": "Ještě nejsou vybrané preferované disciplíny",
+    "disciplinesText": "První nastavení pomůže zpřesnit doporučené bloky i návrat k tomu, co studuješ nejčastěji.",
+    "weaknessTitle": "Zatím se nemají z čeho dopočítat slabá místa",
+    "weaknessText": "Po prvních odpovědích se tady začnou objevovat skutečné záměny a riziková místa."
+  }
+}

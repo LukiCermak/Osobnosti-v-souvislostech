@@ -1,0 +1,4217 @@
+[
+  {
+    "id": "abraham-maslow__associated-with__hierarchie-potreb",
+    "fromId": "abraham-maslow",
+    "toId": "hierarchie-potreb",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "motivace",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Abraham Maslow",
+        "excerpt": "Je známý hierarchií potřeb a pojmem seberealizace."
+      }
+    ]
+  },
+  {
+    "id": "adolf-meyer__developed__psychobiologicky-pristup",
+    "fromId": "adolf-meyer",
+    "toId": "psychobiologicky-pristup",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "context",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "psychiatrie",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Adolf Meyer",
+        "excerpt": "Psychiatr spojený s psychobiologickým přístupem, který zdůrazňoval životníhistorii člověka a vliv prostředí na psychický stav."
+      }
+    ]
+  },
+  {
+    "id": "ake-w-edfeldt__associated-with__specialnepedagogicka-diagnostika",
+    "fromId": "ake-w-edfeldt",
+    "toId": "specialnepedagogicka-diagnostika",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Åke W. Edfeldt",
+        "excerpt": "Jeho jméno patří k faktografii speciálněpedagogické diagnostiky, zejména voblasti čtenářské připravenosti."
+      }
+    ]
+  },
+  {
+    "id": "ake-w-edfeldt__developed__reverzni-test",
+    "fromId": "ake-w-edfeldt",
+    "toId": "reverzni-test",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "ctenarska-pripravenost",
+      "diagnostika",
+      "diagnostika-a-psychometrie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Åke W. Edfeldt",
+        "excerpt": "Autor reverzního testu využívaného při posuzování zrakově-prostorovéhozpracování a předpokladů pro osvojování čtení."
+      }
+    ]
+  },
+  {
+    "id": "albert-bandura__associated-with__self-efficacy",
+    "fromId": "albert-bandura",
+    "toId": "self-efficacy",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "motivace",
+      "psychologie-psychiatrie-a-psychoterapie",
+      "uceni"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Albert Bandura",
+        "excerpt": "Psycholog známý teorií sociálního učení, modelováním a pojmem self-efficacy."
+      }
+    ]
+  },
+  {
+    "id": "alexandr-kapp__associated-with__andragogika",
+    "fromId": "alexandr-kapp",
+    "toId": "andragogika",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "andragogika-a-gerontagogika",
+      "vymezeni-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Alexandr Kapp",
+        "excerpt": "Osobnost spojovaná s prvním doloženým užitím pojmu andragogika v roce 1833."
+      }
+    ]
+  },
+  {
+    "id": "alfred-adler__developed__individualni-psychologie",
+    "fromId": "alfred-adler",
+    "toId": "individualni-psychologie",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "psychologie-psychiatrie-a-psychoterapie",
+      "psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Alfred Adler",
+        "excerpt": "Rakouský psycholog a zakladatel individuální psychologie."
+      }
+    ]
+  },
+  {
+    "id": "alfred-binet__co-authored__theodore-simon",
+    "fromId": "alfred-binet",
+    "toId": "theodore-simon",
+    "type": "co-authored",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Alfred Binet spolu s Théodorem Simonem vytvořil Binet-Simonovu škálu.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Alfred Binet",
+        "excerpt": "Zdroj uvádí, že Alfred Binet spolu s Théodorem Simonem vytvořil Binet-Simonovu škálu."
+      }
+    ]
+  },
+  {
+    "id": "alfred-binet__developed__binet-simonova-skala",
+    "fromId": "alfred-binet",
+    "toId": "binet-simonova-skala",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Alfred Binet spolu s Théodorem Simonem vytvořil Binet-Simonovu škálu.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "psychometrie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Alfred Binet",
+        "excerpt": "Spolu s Théodorem Simonem vytvořil Binet-Simonovu škálu určenou k rozlišenídětí, které potřebují zvláštní školní podporu."
+      }
+    ]
+  },
+  {
+    "id": "alfred-binet__revised__stanford-binet",
+    "fromId": "alfred-binet",
+    "toId": "stanford-binet",
+    "type": "revised",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost je ve zdroji spojena s revizí tohoto nástroje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "psychometrie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Alfred Binet",
+        "excerpt": "Jeho jméno se spojuje také s pozdější stanfordskou revizí, známou jakoStanford–Binet."
+      }
+    ]
+  },
+  {
+    "id": "alois-zikmund__associated-with__mravne-ohrozena-narusena-a-vadna-mladez",
+    "fromId": "alois-zikmund",
+    "toId": "mravne-ohrozena-narusena-a-vadna-mladez",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "etopedie",
+      "historie-oboru",
+      "vymezeni-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Alois Zikmund",
+        "excerpt": "Ve vychovatelně v Opatovicích členil mládež na mravně ohroženou, mravněnarušenou a mravně vadnou."
+      }
+    ]
+  },
+  {
+    "id": "alois-zikmund__associated-with__vychovatelna-v-opatovicich",
+    "fromId": "alois-zikmund",
+    "toId": "vychovatelna-v-opatovicich",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto institucí výslovně spojuje.",
+    "tags": [
+      "ceske-prostredi",
+      "etopedie",
+      "instituce"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Alois Zikmund",
+        "excerpt": "Ve vychovatelně v Opatovicích členil mládež na mravně ohroženou, mravněnarušenou a mravně vadnou."
+      }
+    ]
+  },
+  {
+    "id": "alzbeta-peutelschmiedova__associated-with__koktavost",
+    "fromId": "alzbeta-peutelschmiedova",
+    "toId": "koktavost",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "novodoba-ceska-tradice-a-institucni-rozvoj",
+      "plynulost-reci"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Alžběta Peutelschmiedová",
+        "excerpt": "Česká logopedka a odbornice na koktavost patřící k výrazným osobnostem novodobéčeské logopedie."
+      }
+    ]
+  },
+  {
+    "id": "arab-al-amidi__associated-with__hmatove-rozlisitelne-znaky",
+    "fromId": "arab-al-amidi",
+    "toId": "hmatove-rozlisitelne-znaky",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto systémem výslovně spojuje.",
+    "tags": [
+      "historie-oboru",
+      "komunikace",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Arab al-Amidi",
+        "excerpt": "Slepý arabský učenec připomínaný jako časná historická osobnost spojená svyužíváním hmatově rozlišitelných znaků."
+      }
+    ]
+  },
+  {
+    "id": "arnold-gesell__associated-with__gesellovy-vyvojove-skaly",
+    "fromId": "arnold-gesell",
+    "toId": "gesellovy-vyvojove-skaly",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "rany-vyvoj"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Arnold Gesell",
+        "excerpt": "Americký psycholog a pediatr proslulý vývojovými škálami a maturačním pojetímvývoje dítěte."
+      }
+    ]
+  },
+  {
+    "id": "augustin-bartos__represents-approach__pracovni-terapie",
+    "fromId": "augustin-bartos",
+    "toId": "pracovni-terapie",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "metody-prace",
+      "rehabilitace",
+      "somatopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Augustin Bartoš",
+        "excerpt": "Významná osobnost české somatopedické tradice spojovaná s pracovní terapií, tvořivou činností a výchovou k praktické samostatnosti."
+      }
+    ]
+  },
+  {
+    "id": "b-f-skinner__associated-with__operantni-podminovani",
+    "fromId": "b-f-skinner",
+    "toId": "operantni-podminovani",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "behaviorismus",
+      "psychologie-psychiatrie-a-psychoterapie",
+      "uceni"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "B. F. Skinner",
+        "excerpt": "Americký behaviorista známý operantním podmiňováním, posilováním a shapingem."
+      }
+    ]
+  },
+  {
+    "id": "b-f-skinner__associated-with__shaping",
+    "fromId": "b-f-skinner",
+    "toId": "shaping",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "behaviorismus",
+      "psychologie-psychiatrie-a-psychoterapie",
+      "uceni"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "B. F. Skinner",
+        "excerpt": "Americký behaviorista známý operantním podmiňováním, posilováním a shapingem."
+      }
+    ]
+  },
+  {
+    "id": "bohumir-justyn-popelar__associated-with__defektologie",
+    "fromId": "bohumir-justyn-popelar",
+    "toId": "defektologie",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "historie-oboru",
+      "specialni-pedagogika-a-dejiny-oboru",
+      "vymezeni-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Bohumír Justyn Popelář",
+        "excerpt": "Je důležitý pro pochopení terminologického přechodu od defektologie k širšímu pedagogickému pojetí podpory osob se znevýhodněním."
+      }
+    ]
+  },
+  {
+    "id": "bohumir-justyn-popelar__associated-with__specialni-pedagogika",
+    "fromId": "bohumir-justyn-popelar",
+    "toId": "specialni-pedagogika",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "historie-oboru",
+      "specialni-pedagogika-a-dejiny-oboru",
+      "vymezeni-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Bohumír Justyn Popelář",
+        "excerpt": "Český speciální pedagog a historik oboru, spojovaný se stabilizací názvu speciální pedagogika v českém prostředí."
+      }
+    ]
+  },
+  {
+    "id": "caelius-aurelianus__associated-with__koktavost",
+    "fromId": "caelius-aurelianus",
+    "toId": "koktavost",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "logopedie",
+      "plynulost-reci"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Caelius Aurelianus",
+        "excerpt": "Starověký lékař spojovaný s léčbou koktavosti a s doporučováním řečovégymnastiky."
+      }
+    ]
+  },
+  {
+    "id": "carl-gustav-jung__represents-approach__analyticka-psychologie",
+    "fromId": "carl-gustav-jung",
+    "toId": "analyticka-psychologie",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "psychologie-psychiatrie-a-psychoterapie",
+      "psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Carl Gustav Jung",
+        "excerpt": "Švýcarský psycholog a představitel analytické psychologie."
+      }
+    ]
+  },
+  {
+    "id": "carl-rogers__represents-approach__klientsky-orientovany-pristup",
+    "fromId": "carl-rogers",
+    "toId": "klientsky-orientovany-pristup",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "poradenstvi",
+      "psychologie-psychiatrie-a-psychoterapie",
+      "psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Carl Rogers",
+        "excerpt": "Americký psycholog a psychoterapeut proslulý klientsky orientovaným přístupem."
+      }
+    ]
+  },
+  {
+    "id": "carl-wernicke__associated-with__senzoricka-afazie",
+    "fromId": "carl-wernicke",
+    "toId": "senzoricka-afazie",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "logopedie",
+      "neurologie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Carl Wernicke",
+        "excerpt": "Německý neurolog, jehož jméno je spojeno s Wernickeovou oblastí a sesenzorickou afázií."
+      }
+    ]
+  },
+  {
+    "id": "carl-wernicke__associated-with__wernickeova-oblast",
+    "fromId": "carl-wernicke",
+    "toId": "wernickeova-oblast",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "logopedie",
+      "neurologie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Carl Wernicke",
+        "excerpt": "Německý neurolog, jehož jméno je spojeno s Wernickeovou oblastí a sesenzorickou afázií."
+      }
+    ]
+  },
+  {
+    "id": "carl-wernicke__contrasts-with__paul-broca",
+    "fromId": "carl-wernicke",
+    "toId": "paul-broca",
+    "type": "contrasts-with",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj vede jména Wernicke a Broca jako základní dvojici pro odlišení senzorické a motorické afázie.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Carl Wernicke",
+        "excerpt": "Zdroj vede jména Wernicke a Broca jako základní dvojici pro odlišení senzorické a motorické afázie."
+      }
+    ]
+  },
+  {
+    "id": "clark-l-hull__represents-approach__behaviorismus",
+    "fromId": "clark-l-hull",
+    "toId": "behaviorismus",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "behaviorismus",
+      "psychologie-psychiatrie-a-psychoterapie",
+      "uceni"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Clark L. Hull",
+        "excerpt": "Ve speciální pedagogice má význam spíše jako širší teoretické pozadíbehaviorismu."
+      }
+    ]
+  },
+  {
+    "id": "constantin-malisch__developed__materska-metoda",
+    "fromId": "constantin-malisch",
+    "toId": "materska-metoda",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "metody-prace",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Constantin Malisch",
+        "excerpt": "Propagoval při vyučování řeči takzvanou mateřskou metodu."
+      }
+    ]
+  },
+  {
+    "id": "david-wechsler__associated-with__wais",
+    "fromId": "david-wechsler",
+    "toId": "wais",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "psychometrie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "David Wechsler",
+        "excerpt": "Jeho jméno se spojuje se škálami WAIS, WISC a WPPSI, které patří knejvýznamnějším nástrojům měření inteligence."
+      }
+    ]
+  },
+  {
+    "id": "david-wechsler__associated-with__wisc",
+    "fromId": "david-wechsler",
+    "toId": "wisc",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "psychometrie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "David Wechsler",
+        "excerpt": "Jeho jméno se spojuje se škálami WAIS, WISC a WPPSI, které patří knejvýznamnějším nástrojům měření inteligence."
+      }
+    ]
+  },
+  {
+    "id": "david-wechsler__associated-with__wppsi",
+    "fromId": "david-wechsler",
+    "toId": "wppsi",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "psychometrie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "David Wechsler",
+        "excerpt": "Jeho jméno se spojuje se škálami WAIS, WISC a WPPSI, které patří knejvýznamnějším nástrojům měření inteligence."
+      }
+    ]
+  },
+  {
+    "id": "denis-diderot__associated-with__dopis-o-slepcich",
+    "fromId": "denis-diderot",
+    "toId": "dopis-o-slepcich",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto publikací výslovně spojuje.",
+    "tags": [
+      "historie-oboru",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Denis Diderot",
+        "excerpt": "Francouzský filozof a autor Dopisu o slepcích."
+      }
+    ]
+  },
+  {
+    "id": "edouard-seguin__developed__fyziologicka-metoda",
+    "fromId": "edouard-seguin",
+    "toId": "fyziologicka-metoda",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "metody-prace",
+      "psychopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Édouard Séguin",
+        "excerpt": "Rozpracoval fyziologickou metodu a známou Séguinovu triádu: výchovu činnosti, výchovu myšlení a výchovu vůle."
+      }
+    ]
+  },
+  {
+    "id": "edouard-seguin__developed__seguinova-triada",
+    "fromId": "edouard-seguin",
+    "toId": "seguinova-triada",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "metody-prace",
+      "psychopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Édouard Séguin",
+        "excerpt": "Rozpracoval fyziologickou metodu a známou Séguinovu triádu: výchovu činnosti, výchovu myšlení a výchovu vůle."
+      }
+    ]
+  },
+  {
+    "id": "eduard-jager__associated-with__jagerovy-tabulky",
+    "fromId": "eduard-jager",
+    "toId": "jagerovy-tabulky",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "zrak"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Eduard Jäger",
+        "excerpt": "Oftalmolog, jehož jméno se spojuje s Jägerovými tabulkami pro hodnocení čtení azrakové ostrosti na blízko."
+      }
+    ]
+  },
+  {
+    "id": "edward-c-tolman__associated-with__kognitivni-mapa",
+    "fromId": "edward-c-tolman",
+    "toId": "kognitivni-mapa",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "kognice",
+      "psychologie-psychiatrie-a-psychoterapie",
+      "uceni"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Edward C. Tolman",
+        "excerpt": "Psycholog známý kognitivně orientovaným behaviorismem a pojmem kognitivní mapa."
+      }
+    ]
+  },
+  {
+    "id": "emil-livecka__associated-with__gerontagogika",
+    "fromId": "emil-livecka",
+    "toId": "gerontagogika",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "andragogika-a-gerontagogika",
+      "vymezeni-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Emil Livečka",
+        "excerpt": "Český autor spojený s gerontagogikou jako nově budovanou disciplínou přípravyna aktivní a tvořivé stáří."
+      }
+    ]
+  },
+  {
+    "id": "erik-erikson__represents-approach__psychosocialni-teorie-vyvoje",
+    "fromId": "erik-erikson",
+    "toId": "psychosocialni-teorie-vyvoje",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "psychologie-psychiatrie-a-psychoterapie",
+      "vyvoj"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Erik Erikson",
+        "excerpt": "Psycholog a autor psychosociální teorie vývoje."
+      }
+    ]
+  },
+  {
+    "id": "eva-skodova__associated-with__asociace-klinickych-logopedu",
+    "fromId": "eva-skodova",
+    "toId": "asociace-klinickych-logopedu",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto institucí výslovně spojuje.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "klinicka-logopedie",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Eva Škodová",
+        "excerpt": "Je spojena s českou klinickou logopedií, s Foniatrickou klinikou 1. LF UK a sradou Asociace klinických logopedů."
+      }
+    ]
+  },
+  {
+    "id": "eva-skodova__associated-with__foniatricka-klinika-1-lf-uk",
+    "fromId": "eva-skodova",
+    "toId": "foniatricka-klinika-1-lf-uk",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto institucí výslovně spojuje.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "klinicka-logopedie",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Eva Škodová",
+        "excerpt": "Je spojena s českou klinickou logopedií, s Foniatrickou klinikou 1. LF UK a sradou Asociace klinických logopedů."
+      }
+    ]
+  },
+  {
+    "id": "eva-skodova__associated-with__hodnoceni-fonematickeho-sluchu-u-predskolnich-deti",
+    "fromId": "eva-skodova",
+    "toId": "hodnoceni-fonematickeho-sluchu-u-predskolnich-deti",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto publikací výslovně spojuje.",
+    "tags": [
+      "klinicka-logopedie",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Eva Škodová",
+        "excerpt": "Patří k autorkám publikací Klinická logopedie a Hodnocení fonematického sluchu u předškolních dětí."
+      }
+    ]
+  },
+  {
+    "id": "eva-skodova__associated-with__klinicka-logopedie",
+    "fromId": "eva-skodova",
+    "toId": "klinicka-logopedie",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto publikací výslovně spojuje.",
+    "tags": [
+      "klinicka-logopedie",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Eva Škodová",
+        "excerpt": "Patří k autorkám publikací Klinická logopedie a Hodnocení fonematického sluchu u předškolních dětí."
+      }
+    ]
+  },
+  {
+    "id": "ferdinand-adalbert-kehrer__associated-with__geragogika",
+    "fromId": "ferdinand-adalbert-kehrer",
+    "toId": "geragogika",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "andragogika-a-gerontagogika",
+      "vymezeni-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Ferdinand Adalbert Kehrer",
+        "excerpt": "Autor spojovaný s raným užitím pojmu geragogika, tedy vzdělávání lidí ve vyššímvěku."
+      }
+    ]
+  },
+  {
+    "id": "francis-bacon__associated-with__koktavost",
+    "fromId": "francis-bacon",
+    "toId": "koktavost",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "context",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "logopedie",
+      "plynulost-reci"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Francis Bacon",
+        "excerpt": "Anglický filozof, který se okrajově zabýval i řečí, sluchovým vnímáním akoktavostí."
+      }
+    ]
+  },
+  {
+    "id": "frantisek-bakule__associated-with__bakulovi-zpevacci",
+    "fromId": "frantisek-bakule",
+    "toId": "bakulovi-zpevacci",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "instituce",
+      "metody-prace",
+      "somatopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "František Bakule",
+        "excerpt": "Proslul také souborem Bakulovi zpěváčci, který se stal symbolem jeho výchovnémetody založené na aktivitě a odpovědnosti dětí."
+      }
+    ]
+  },
+  {
+    "id": "frantisek-bakule__associated-with__bakuluv-ustav",
+    "fromId": "frantisek-bakule",
+    "toId": "bakuluv-ustav",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto institucí výslovně spojuje.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "somatopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "František Bakule",
+        "excerpt": "Pedagog spojený s Jedličkovým ústavem a později se samostatným Bakulovýmústavem pro výchovu životem a prací."
+      }
+    ]
+  },
+  {
+    "id": "frantisek-bakule__associated-with__jedlickuv-ustav",
+    "fromId": "frantisek-bakule",
+    "toId": "jedlickuv-ustav",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto institucí výslovně spojuje.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "somatopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "František Bakule",
+        "excerpt": "Pedagog spojený s Jedličkovým ústavem a později se samostatným Bakulovýmústavem pro výchovu životem a prací."
+      }
+    ]
+  },
+  {
+    "id": "frantisek-bakule__developed__pracovni-vychova",
+    "fromId": "frantisek-bakule",
+    "toId": "pracovni-vychova",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "metody-prace",
+      "somatopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "František Bakule",
+        "excerpt": "Zdůrazňoval tvořivou práci, samosprávu, hudební a pracovní výchovu a přípravuna skutečný život."
+      }
+    ]
+  },
+  {
+    "id": "frantisek-cada__associated-with__pomocne-skolstvi",
+    "fromId": "frantisek-cada",
+    "toId": "pomocne-skolstvi",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "historie-oboru",
+      "instituce",
+      "psychopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "František Čáda",
+        "excerpt": "Významně přispěl k rozvoji pomocného školství a k odbornému propojenípsychologie, pedagogiky a speciální pedagogiky."
+      }
+    ]
+  },
+  {
+    "id": "frantisek-stampach__associated-with__napravna-pedagogika",
+    "fromId": "frantisek-stampach",
+    "toId": "napravna-pedagogika",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "etopedie",
+      "historie-oboru",
+      "metody-prace"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "František Štampach",
+        "excerpt": "Viděl působnost nápravné pedagogiky zejména tam, kde potíže dítěte souvisejí sesociálně patologickými vlivy prostředí."
+      }
+    ]
+  },
+  {
+    "id": "fritz-redl__represents-approach__terapeuticka-komunita",
+    "fromId": "fritz-redl",
+    "toId": "terapeuticka-komunita",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "etopedie",
+      "metody-prace"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Fritz Redl",
+        "excerpt": "Proslul skupinovou prací, terapeutickou komunitou a důrazem na výchovnéprostředí jako nástroj změny chování."
+      }
+    ]
+  },
+  {
+    "id": "george-a-kelly__represents-approach__teorie-osobnich-konstruktu",
+    "fromId": "george-a-kelly",
+    "toId": "teorie-osobnich-konstruktu",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "kognice",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "George A. Kelly",
+        "excerpt": "Americký psycholog a autor teorie osobních konstruktů."
+      }
+    ]
+  },
+  {
+    "id": "hans-asperger__associated-with__autisticke-spektrum",
+    "fromId": "hans-asperger",
+    "toId": "autisticke-spektrum",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "autismus",
+      "diagnostika",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Hans Asperger",
+        "excerpt": "Ve speciální pedagogice je důležitý v rámci dějin diagnostiky poruchautistického spektra."
+      }
+    ]
+  },
+  {
+    "id": "hans-asperger__diagnosed__aspergeruv-syndrom",
+    "fromId": "hans-asperger",
+    "toId": "aspergeruv-syndrom",
+    "type": "diagnosed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "autismus",
+      "diagnostika",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Hans Asperger",
+        "excerpt": "Jeho jméno je spojeno s popisem autismu u dětí s relativně dobrou jazykovou aintelektovou úrovní, dříve označovaného jako Aspergerův syndrom."
+      }
+    ]
+  },
+  {
+    "id": "henry-a-murray__associated-with__tat",
+    "fromId": "henry-a-murray",
+    "toId": "tat",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Henry A. Murray",
+        "excerpt": "Je spojován také s TAT a s důrazem na motivační strukturu člověka."
+      }
+    ]
+  },
+  {
+    "id": "herman-snellen__associated-with__snellenuv-optotyp",
+    "fromId": "herman-snellen",
+    "toId": "snellenuv-optotyp",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "zrak"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Herman Snellen",
+        "excerpt": "Nizozemský oftalmolog, jehož jméno je spojeno se Snellenovým optotypem a sběžným vyjadřováním zrakové ostrosti."
+      }
+    ]
+  },
+  {
+    "id": "charles-bliss__associated-with__augmentativni-a-alternativni-komunikace",
+    "fromId": "charles-bliss",
+    "toId": "augmentativni-a-alternativni-komunikace",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "aak",
+      "komunikace",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Charles Bliss",
+        "excerpt": "Ve speciální pedagogice je významný především v oblasti AAK a podpory funkčníkomunikace."
+      }
+    ]
+  },
+  {
+    "id": "charles-bliss__created-system__blissymbolics",
+    "fromId": "charles-bliss",
+    "toId": "blissymbolics",
+    "type": "created-system",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí Charlese Blisse jako tvůrce systému Blissymbolics.",
+    "tags": [
+      "aak",
+      "komunikace",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Charles Bliss",
+        "excerpt": "Tvůrce systému Blissymbolics."
+      }
+    ]
+  },
+  {
+    "id": "charles-michel-de-l-epee__associated-with__verejny-ustav-pro-neslysici-v-parizi",
+    "fromId": "charles-michel-de-l-epee",
+    "toId": "verejny-ustav-pro-neslysici-v-parizi",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto institucí výslovně spojuje.",
+    "tags": [
+      "instituce",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Charles-Michel de l’Épée",
+        "excerpt": "Francouzský kněz a zakladatel veřejného ústavu pro neslyšící v Paříži."
+      }
+    ]
+  },
+  {
+    "id": "charles-michel-de-l-epee__developed__znakove-a-manualni-vyucovani",
+    "fromId": "charles-michel-de-l-epee",
+    "toId": "znakove-a-manualni-vyucovani",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "komunikace",
+      "metody-prace",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Charles-Michel de l’Épée",
+        "excerpt": "Rozvíjel znakové a manuální vyučování a bývá označován za otce francouzskétradice vzdělávání neslyšících."
+      }
+    ]
+  },
+  {
+    "id": "charles-michel-de-l-epee__succeeded__roch-ambroise-cucurron-abbe-sicard",
+    "fromId": "charles-michel-de-l-epee",
+    "toId": "roch-ambroise-cucurron-abbe-sicard",
+    "type": "succeeded",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí Sicarda jako pokračovatele pařížské tradice po Abbém de l’Épéem.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Roch-Ambroise Cucurron, Abbé Sicard",
+        "excerpt": "Zdroj uvádí Sicarda jako pokračovatele pařížské tradice po Abbém de l’Épéem."
+      }
+    ]
+  },
+  {
+    "id": "charles-van-riper__associated-with__koktavost",
+    "fromId": "charles-van-riper",
+    "toId": "koktavost",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "logopedie",
+      "plynulost-reci"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Charles Van Riper",
+        "excerpt": "Americký logoped proslulý výzkumem a terapií koktavosti."
+      }
+    ]
+  },
+  {
+    "id": "charles-van-riper__associated-with__speech-correction",
+    "fromId": "charles-van-riper",
+    "toId": "speech-correction",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto publikací výslovně spojuje.",
+    "tags": [
+      "logopedie",
+      "plynulost-reci"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Charles Van Riper",
+        "excerpt": "Je autorem klasik The Nature of Stuttering, The Treatment of Stuttering aSpeech Correction."
+      }
+    ]
+  },
+  {
+    "id": "charles-van-riper__associated-with__the-nature-of-stuttering",
+    "fromId": "charles-van-riper",
+    "toId": "the-nature-of-stuttering",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto publikací výslovně spojuje.",
+    "tags": [
+      "logopedie",
+      "plynulost-reci"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Charles Van Riper",
+        "excerpt": "Je autorem klasik The Nature of Stuttering, The Treatment of Stuttering aSpeech Correction."
+      }
+    ]
+  },
+  {
+    "id": "charles-van-riper__associated-with__the-treatment-of-stuttering",
+    "fromId": "charles-van-riper",
+    "toId": "the-treatment-of-stuttering",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto publikací výslovně spojuje.",
+    "tags": [
+      "logopedie",
+      "plynulost-reci"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Charles Van Riper",
+        "excerpt": "Je autorem klasik The Nature of Stuttering, The Treatment of Stuttering aSpeech Correction."
+      }
+    ]
+  },
+  {
+    "id": "charles-van-riper__developed__van-riper-therapy",
+    "fromId": "charles-van-riper",
+    "toId": "van-riper-therapy",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "logopedie",
+      "plynulost-reci"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Charles Van Riper",
+        "excerpt": "Jeho terapeutický přístup je znám jako Van Riper therapy a patří k nejznámějšímmodelům práce s poruchami plynulosti řeči."
+      }
+    ]
+  },
+  {
+    "id": "ivan-pavlov__associated-with__klasicke-podminovani",
+    "fromId": "ivan-pavlov",
+    "toId": "klasicke-podminovani",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "behaviorismus",
+      "psychologie-psychiatrie-a-psychoterapie",
+      "uceni"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Ivan Pavlov",
+        "excerpt": "Jeho práce je zásadní pro porozumění klasickému podmiňování, vytváření návyků abehaviorálním principům učení."
+      }
+    ]
+  },
+  {
+    "id": "ivan-pavlov__associated-with__podminene-reflexy",
+    "fromId": "ivan-pavlov",
+    "toId": "podminene-reflexy",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "behaviorismus",
+      "psychologie-psychiatrie-a-psychoterapie",
+      "uceni"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Ivan Pavlov",
+        "excerpt": "Ruský fyziolog a představitel reflexologické tradice, proslulý výzkumempodmíněných reflexů."
+      }
+    ]
+  },
+  {
+    "id": "jan-amos-komensky__associated-with__didactica-magna",
+    "fromId": "jan-amos-komensky",
+    "toId": "didactica-magna",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto publikací výslovně spojuje.",
+    "tags": [
+      "didaktika",
+      "historie-oboru",
+      "specialni-pedagogika-a-dejiny-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jan Amos Komenský",
+        "excerpt": "Jeho Didactica magna a další didaktické texty pomáhají chápat obecné pedagogické základy práce s dětmi se speciálními potřebami."
+      }
+    ]
+  },
+  {
+    "id": "jan-chlup__associated-with__kocianka",
+    "fromId": "jan-chlup",
+    "toId": "kocianka",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto institucí výslovně spojuje.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "somatopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jan Chlup",
+        "excerpt": "Osobnost spojená s rozvojem somatopedické a rehabilitační linie v Brně a sKociánkou."
+      }
+    ]
+  },
+  {
+    "id": "jan-jesensky__represents-approach__skolni-inkluze",
+    "fromId": "jan-jesensky",
+    "toId": "skolni-inkluze",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "inkluze",
+      "podpora",
+      "specialni-pedagogika-a-dejiny-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Ján Jesenský",
+        "excerpt": "Významně přesahuje do tyflopedie a do problematiky školské integrace a inkluze."
+      }
+    ]
+  },
+  {
+    "id": "jan-mauer__associated-with__napravna-pedagogika",
+    "fromId": "jan-mauer",
+    "toId": "napravna-pedagogika",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "historie-oboru",
+      "metody-prace",
+      "somatopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jan Mauer",
+        "excerpt": "Zakladatel nápravné pedagogiky v českém prostředí a výrazný propagátorpedagogické protiváhy čistě medicínskému pohledu."
+      }
+    ]
+  },
+  {
+    "id": "jan-mauer__represents-approach__lecebna-telesna-vychova",
+    "fromId": "jan-mauer",
+    "toId": "lecebna-telesna-vychova",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "rehabilitace",
+      "somatopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jan Mauer",
+        "excerpt": "Usiloval o školy při nemocnicích, léčebnou tělesnou výchovu a odbornou přípravupedagogů pro práci s dětmi s tělesným postižením."
+      }
+    ]
+  },
+  {
+    "id": "jarmila-pipekova__associated-with__specialnepedagogicka-diagnostika",
+    "fromId": "jarmila-pipekova",
+    "toId": "specialnepedagogicka-diagnostika",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "specialni-pedagogika-a-dejiny-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jarmila Pipeková",
+        "excerpt": "Česká speciální pedagožka, která patří k nejcitovanějším autorkámspeciálněpedagogické diagnostiky v českém prostředí."
+      }
+    ]
+  },
+  {
+    "id": "jaroslav-jirasek__associated-with__orientacni-test-skolni-zralosti",
+    "fromId": "jaroslav-jirasek",
+    "toId": "orientacni-test-skolni-zralosti",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "skolni-zralost"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jaroslav Jirásek",
+        "excerpt": "Český psycholog spojovaný s orientačním testem školní zralosti a s posuzovánímpřipravenosti dítěte na školní docházku."
+      }
+    ]
+  },
+  {
+    "id": "jean-marc-gaspard-itard__associated-with__viktor-z-aveyronu",
+    "fromId": "jean-marc-gaspard-itard",
+    "toId": "viktor-z-aveyronu",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "historie-oboru",
+      "kazuistiky",
+      "psychopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jean-Marc Gaspard Itard",
+        "excerpt": "Francouzský lékař a pedagog proslulý případem Viktora z Aveyronu, takzvanéhodivokého chlapce."
+      }
+    ]
+  },
+  {
+    "id": "jean-marc-gaspard-itard__inspired__edouard-seguin",
+    "fromId": "jean-marc-gaspard-itard",
+    "toId": "edouard-seguin",
+    "type": "inspired",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Itardova práce inspirovala pozdějšího Séguina.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jean-Marc Gaspard Itard",
+        "excerpt": "Zdroj uvádí, že Itardova práce inspirovala pozdějšího Séguina."
+      }
+    ]
+  },
+  {
+    "id": "jean-marc-gaspard-itard__inspired__maria-montessori",
+    "fromId": "jean-marc-gaspard-itard",
+    "toId": "maria-montessori",
+    "type": "inspired",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Itardova práce inspirovala pozdější Montessoriovou.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jean-Marc Gaspard Itard",
+        "excerpt": "Zdroj uvádí, že Itardova práce inspirovala pozdější Montessoriovou."
+      }
+    ]
+  },
+  {
+    "id": "jean-marc-gaspard-itard__represents-approach__smyslovy-trenink",
+    "fromId": "jean-marc-gaspard-itard",
+    "toId": "smyslovy-trenink",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "metody-prace",
+      "psychopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jean-Marc Gaspard Itard",
+        "excerpt": "Je spojován se smyslovým tréninkem, systematickým pozorováním a s hledánímhranic vzdělavatelnosti dítěte s těžkými vývojovými obtížemi."
+      }
+    ]
+  },
+  {
+    "id": "jeronym-lorm__created-system__lormova-dotekova-abeceda",
+    "fromId": "jeronym-lorm",
+    "toId": "lormova-dotekova-abeceda",
+    "type": "created-system",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto komunikačním nebo technickým systémem výslovně spojuje.",
+    "tags": [
+      "hluchoslepota",
+      "komunikace",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jeronym Lorm",
+        "excerpt": "Brněnský básník, po němž je pojmenována Lormova doteková abeceda."
+      }
+    ]
+  },
+  {
+    "id": "joan-reynell__associated-with__reynell-zinkin-skaly",
+    "fromId": "joan-reynell",
+    "toId": "reynell-zinkin-skaly",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "rany-vyvoj",
+      "zrak"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Joan Reynell",
+        "excerpt": "Ve speciální pedagogice je důležitá především ve spojení s Pamelou Zinkinovou as Reynell–Zinkin škálami pro malé děti se zrakovým postižením."
+      }
+    ]
+  },
+  {
+    "id": "johann-konrad-amman__developed__oralni-metoda",
+    "fromId": "johann-konrad-amman",
+    "toId": "oralni-metoda",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "metody-prace",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Johann Konrad Amman",
+        "excerpt": "Švýcarský lékař působící v Nizozemsku, považovaný za zakladatele orální metodyve vzdělávání neslyšících."
+      }
+    ]
+  },
+  {
+    "id": "johann-wilhelm-klein__associated-with__jehlove-pismo",
+    "fromId": "johann-wilhelm-klein",
+    "toId": "jehlove-pismo",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto systémem výslovně spojuje.",
+    "tags": [
+      "komunikace",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Johann Wilhelm Klein",
+        "excerpt": "Je spojován s takzvaným jehlovým písmem a s důrazem na pracovní uplatnění apraktickou samostatnost nevidomých."
+      }
+    ]
+  },
+  {
+    "id": "johann-wilhelm-klein__associated-with__vidensky-ustav-pro-nevidome",
+    "fromId": "johann-wilhelm-klein",
+    "toId": "vidensky-ustav-pro-nevidome",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto institucí výslovně spojuje.",
+    "tags": [
+      "instituce",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Johann Wilhelm Klein",
+        "excerpt": "Zakladatel vídeňského ústavu pro nevidomé z roku 1804 a významná osobnostnovodobé evropské tyflopedie."
+      }
+    ]
+  },
+  {
+    "id": "john-b-watson__developed__behaviorismus",
+    "fromId": "john-b-watson",
+    "toId": "behaviorismus",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "behaviorismus",
+      "psychologie-psychiatrie-a-psychoterapie",
+      "uceni"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "John B. Watson",
+        "excerpt": "Americký psycholog a zakladatelská osobnost behaviorismu."
+      }
+    ]
+  },
+  {
+    "id": "josef-dietmann__associated-with__ustav-pro-neslysici-a-nevidome-deti-v-brne",
+    "fromId": "josef-dietmann",
+    "toId": "ustav-pro-neslysici-a-nevidome-deti-v-brne",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto institucí výslovně spojuje.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Josef Dietmann",
+        "excerpt": "Díky jeho úsilí a sbírkám vznikl v Brně ústav pro neslyšící a nevidomé děti."
+      }
+    ]
+  },
+  {
+    "id": "josef-julius-barbier__associated-with__bodove-nocni-pismo",
+    "fromId": "josef-julius-barbier",
+    "toId": "bodove-nocni-pismo",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto systémem výslovně spojuje.",
+    "tags": [
+      "komunikace",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Josef Julius Barbier",
+        "excerpt": "Autor bodového nočního písma, z něhož Louis Braille později vyšel při tvorběvlastní soustavy."
+      }
+    ]
+  },
+  {
+    "id": "josef-julius-barbier__inspired__louis-braille",
+    "fromId": "josef-julius-barbier",
+    "toId": "louis-braille",
+    "type": "inspired",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Louis Braille při tvorbě vlastní soustavy vyšel z Barbierova systému.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Josef Julius Barbier",
+        "excerpt": "Zdroj uvádí, že Louis Braille při tvorbě vlastní soustavy vyšel z Barbierova systému."
+      }
+    ]
+  },
+  {
+    "id": "josef-kettner__represents-approach__resocializacni-pristupy",
+    "fromId": "josef-kettner",
+    "toId": "resocializacni-pristupy",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "context",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "etopedie",
+      "metody-prace"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Josef Kettner",
+        "excerpt": "Osobnost české etopedické tradice připomínaná v souvislosti s reedukačními aresocializačními přístupy."
+      }
+    ]
+  },
+  {
+    "id": "josef-zeman__associated-with__pomocne-skolstvi",
+    "fromId": "josef-zeman",
+    "toId": "pomocne-skolstvi",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "historie-oboru",
+      "instituce",
+      "psychopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Josef Zeman",
+        "excerpt": "Jedna z nejdůležitějších osobností českého pomocného školství."
+      }
+    ]
+  },
+  {
+    "id": "juan-pablo-bonet__associated-with__kniha-o-zjednoduseni-zvuku-a-umeni-naucit-neme-mluvit",
+    "fromId": "juan-pablo-bonet",
+    "toId": "kniha-o-zjednoduseni-zvuku-a-umeni-naucit-neme-mluvit",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto publikací výslovně spojuje.",
+    "tags": [
+      "historie-oboru",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Juan Pablo Bonet",
+        "excerpt": "Španělský autor knihy o zjednodušení zvuků a umění naučit němé mluvit, vydanéroku 1620."
+      }
+    ]
+  },
+  {
+    "id": "juan-pablo-bonet__associated-with__prstova-abeceda",
+    "fromId": "juan-pablo-bonet",
+    "toId": "prstova-abeceda",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto systémem výslovně spojuje.",
+    "tags": [
+      "komunikace",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Juan Pablo Bonet",
+        "excerpt": "Proslul využíváním prstové abecedy a systematickou výukou artikulované řeči."
+      }
+    ]
+  },
+  {
+    "id": "julian-rotter__associated-with__locus-of-control",
+    "fromId": "julian-rotter",
+    "toId": "locus-of-control",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "motivace",
+      "poradenstvi",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Julian Rotter",
+        "excerpt": "Psycholog známý pojmem locus of control."
+      }
+    ]
+  },
+  {
+    "id": "karel-berger__led__prazsky-ustav-pro-hluchoneme",
+    "fromId": "karel-berger",
+    "toId": "prazsky-ustav-pro-hluchoneme",
+    "type": "led",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost spojuje s vedením této instituce.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Berger",
+        "excerpt": "První ředitel pražského ústavu pro hluchoněmé otevřeného roku 1786."
+      }
+    ]
+  },
+  {
+    "id": "karel-dvorak__associated-with__podporna-opatreni",
+    "fromId": "karel-dvorak",
+    "toId": "podporna-opatreni",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "inkluze",
+      "podpora",
+      "specialni-pedagogika-a-dejiny-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Dvořák",
+        "excerpt": "Jeho definice dobře ukazuje období, kdy se obor chápal především podle typů postižení, nikoli podle podpůrných opatření a participace."
+      }
+    ]
+  },
+  {
+    "id": "karel-dvorak__contrasts-with__jiri-skoda",
+    "fromId": "karel-dvorak",
+    "toId": "jiri-skoda",
+    "type": "contrasts-with",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj výslovně staví starší kategoriální vymezení Karla Dvořáka do kontrastu s novějšími funkčně orientovanými definicemi.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Dvořák",
+        "excerpt": "Zdroj výslovně staví starší kategoriální vymezení Karla Dvořáka do kontrastu s novějšími funkčně orientovanými definicemi."
+      }
+    ]
+  },
+  {
+    "id": "karel-dvorak__contrasts-with__josef-slowik",
+    "fromId": "karel-dvorak",
+    "toId": "josef-slowik",
+    "type": "contrasts-with",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj výslovně staví starší kategoriální vymezení Karla Dvořáka do kontrastu s novějšími funkčně orientovanými definicemi.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Dvořák",
+        "excerpt": "Zdroj výslovně staví starší kategoriální vymezení Karla Dvořáka do kontrastu s novějšími funkčně orientovanými definicemi."
+      }
+    ]
+  },
+  {
+    "id": "karel-dvorak__contrasts-with__slavomir-fischer",
+    "fromId": "karel-dvorak",
+    "toId": "slavomir-fischer",
+    "type": "contrasts-with",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj výslovně staví starší kategoriální vymezení Karla Dvořáka do kontrastu s novějšími funkčně orientovanými definicemi.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Dvořák",
+        "excerpt": "Zdroj výslovně staví starší kategoriální vymezení Karla Dvořáka do kontrastu s novějšími funkčně orientovanými definicemi."
+      }
+    ]
+  },
+  {
+    "id": "karel-herfort__associated-with__detska-psychiatrie",
+    "fromId": "karel-herfort",
+    "toId": "detska-psychiatrie",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "medicinsky-kontext",
+      "psychopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Herfort",
+        "excerpt": "Lékař a pedagog spojený s Ernestinem, dětskou psychiatrií a propojením lékařskédiagnostiky s pedagogickým vedením dítěte."
+      }
+    ]
+  },
+  {
+    "id": "karel-herfort__associated-with__ernestinum",
+    "fromId": "karel-herfort",
+    "toId": "ernestinum",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto institucí výslovně spojuje.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "psychopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Herfort",
+        "excerpt": "Lékař a pedagog spojený s Ernestinem, dětskou psychiatrií a propojením lékařskédiagnostiky s pedagogickým vedením dítěte."
+      }
+    ]
+  },
+  {
+    "id": "karel-herfort__developed__napravny-telocvik",
+    "fromId": "karel-herfort",
+    "toId": "napravny-telocvik",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "psychopedie",
+      "rehabilitace"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Herfort",
+        "excerpt": "Prosazoval pracovní výchovu, nápravný tělocvik a systematickou péči o děti smentálním postižením."
+      }
+    ]
+  },
+  {
+    "id": "karel-herfort__developed__pracovni-vychova",
+    "fromId": "karel-herfort",
+    "toId": "pracovni-vychova",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "metody-prace",
+      "psychopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Herfort",
+        "excerpt": "Prosazoval pracovní výchovu, nápravný tělocvik a systematickou péči o děti smentálním postižením."
+      }
+    ]
+  },
+  {
+    "id": "karel-slavoj-amerling__associated-with__ernestinum",
+    "fromId": "karel-slavoj-amerling",
+    "toId": "ernestinum",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto institucí výslovně spojuje.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "psychopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Slavoj Amerling",
+        "excerpt": "V Praze stál u Ernestina, prvního ústavu pro děti tehdy označované jako„idioti“."
+      }
+    ]
+  },
+  {
+    "id": "karel-slavoj-amerling__associated-with__pomocne-skolstvi",
+    "fromId": "karel-slavoj-amerling",
+    "toId": "pomocne-skolstvi",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "historie-oboru",
+      "instituce",
+      "psychopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karel Slavoj Amerling",
+        "excerpt": "Jeho jméno je klíčové pro dějiny české psychopedie a pomocného školství."
+      }
+    ]
+  },
+  {
+    "id": "karen-horneyova__developed__psychoanalyza",
+    "fromId": "karen-horneyova",
+    "toId": "psychoanalyza",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "psychologie-psychiatrie-a-psychoterapie",
+      "psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Karen Horneyová",
+        "excerpt": "Psycholožka a představitelka neopsychoanalýzy, která zdůrazňovala významzákladní úzkosti a vztahového prostředí."
+      }
+    ]
+  },
+  {
+    "id": "katerina-thorova__associated-with__autisticke-spektrum",
+    "fromId": "katerina-thorova",
+    "toId": "autisticke-spektrum",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "autismus",
+      "diagnostika",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Kateřina Thorová",
+        "excerpt": "Česká psycholožka specializovaná na poruchy autistického spektra."
+      }
+    ]
+  },
+  {
+    "id": "katerina-thorova__associated-with__poruchy-autistickeho-spektra",
+    "fromId": "katerina-thorova",
+    "toId": "poruchy-autistickeho-spektra",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "autismus",
+      "diagnostika",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Kateřina Thorová",
+        "excerpt": "Česká psycholožka specializovaná na poruchy autistického spektra."
+      }
+    ]
+  },
+  {
+    "id": "katherine-johnston__co-authored__makaton",
+    "fromId": "katherine-johnston",
+    "toId": "makaton",
+    "type": "co-authored",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí Katherine Johnston jako spoluautorku systému Makaton.",
+    "tags": [
+      "aak",
+      "komunikace",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Katherine Johnston",
+        "excerpt": "Spoluautorka systému Makaton."
+      }
+    ]
+  },
+  {
+    "id": "katherine-johnston__co-authored__margaret-walker",
+    "fromId": "katherine-johnston",
+    "toId": "margaret-walker",
+    "type": "co-authored",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí Katherine Johnston mezi spolutvůrci programu Makaton.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Katherine Johnston",
+        "excerpt": "Zdroj uvádí Katherine Johnston mezi spolutvůrci programu Makaton."
+      }
+    ]
+  },
+  {
+    "id": "kurt-lewin__represents-approach__teorie-pole",
+    "fromId": "kurt-lewin",
+    "toId": "teorie-pole",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "psychologie-psychiatrie-a-psychoterapie",
+      "socialni-prostredi"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Kurt Lewin",
+        "excerpt": "Psycholog známý teorií pole, analýzou skupinové dynamiky a výzkumem motivace."
+      }
+    ]
+  },
+  {
+    "id": "laura-bridgman__preceded__helen-keller",
+    "fromId": "laura-bridgman",
+    "toId": "helen-keller",
+    "type": "preceded",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že edukace Laury Bridgman připravila půdu pro pozdější vzdělávání Helen Keller.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Laura Bridgman",
+        "excerpt": "Zdroj uvádí, že edukace Laury Bridgman připravila půdu pro pozdější vzdělávání Helen Keller."
+      }
+    ]
+  },
+  {
+    "id": "laurent-clerc__co-authored__thomas-hopkins-gallaudet",
+    "fromId": "laurent-clerc",
+    "toId": "thomas-hopkins-gallaudet",
+    "type": "co-authored",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Laurent Clerc spolu s Gallaudetem stál u vzniku první americké školy pro neslyšící.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Laurent Clerc",
+        "excerpt": "Zdroj uvádí, že Laurent Clerc spolu s Gallaudetem stál u vzniku první americké školy pro neslyšící."
+      }
+    ]
+  },
+  {
+    "id": "lea-hyvarinen__developed__lea-gratings",
+    "fromId": "lea-hyvarinen",
+    "toId": "lea-gratings",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "zrak"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lea Hyvärinen",
+        "excerpt": "Vyvinula nástroje LEA Symbols, LEA Gratings a další metody pro vyšetřovánízraku malých dětí."
+      }
+    ]
+  },
+  {
+    "id": "lea-hyvarinen__developed__lea-symbols",
+    "fromId": "lea-hyvarinen",
+    "toId": "lea-symbols",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "zrak"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lea Hyvärinen",
+        "excerpt": "Vyvinula nástroje LEA Symbols, LEA Gratings a další metody pro vyšetřovánízraku malých dětí."
+      }
+    ]
+  },
+  {
+    "id": "leo-kanner__diagnosed__poruchy-autistickeho-spektra",
+    "fromId": "leo-kanner",
+    "toId": "poruchy-autistickeho-spektra",
+    "type": "diagnosed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "autismus",
+      "diagnostika",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Leo Kanner",
+        "excerpt": "Jeho jméno je spojeno s pojmem raný dětský autismus a s počátkem moderníklinické diagnostiky PAS."
+      }
+    ]
+  },
+  {
+    "id": "leo-kanner__diagnosed__rany-detsky-autismus",
+    "fromId": "leo-kanner",
+    "toId": "rany-detsky-autismus",
+    "type": "diagnosed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "autismus",
+      "diagnostika",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Leo Kanner",
+        "excerpt": "Jeho jméno je spojeno s pojmem raný dětský autismus a s počátkem moderníklinické diagnostiky PAS."
+      }
+    ]
+  },
+  {
+    "id": "leo-kanner__related-to__hans-asperger",
+    "fromId": "leo-kanner",
+    "toId": "hans-asperger",
+    "type": "related-to",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj obě jména spojuje v dějinách diagnostiky poruch autistického spektra.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Leo Kanner",
+        "excerpt": "Zdroj obě jména spojuje v dějinách diagnostiky poruch autistického spektra."
+      }
+    ]
+  },
+  {
+    "id": "lev-vygotskij__associated-with__zona-nejblizsiho-vyvoje",
+    "fromId": "lev-vygotskij",
+    "toId": "zona-nejblizsiho-vyvoje",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "intervence",
+      "psychologie-psychiatrie-a-psychoterapie",
+      "uceni"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lev Vygotskij",
+        "excerpt": "Psycholog sociokulturní orientace, který zdůrazňoval roli jazyka, sociálníinterakce a zóny nejbližšího vývoje."
+      }
+    ]
+  },
+  {
+    "id": "lewis-terman__associated-with__inteligencni-kvocient",
+    "fromId": "lewis-terman",
+    "toId": "inteligencni-kvocient",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "diagnostika-a-psychometrie",
+      "psychometrie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lewis Terman",
+        "excerpt": "Je důležitý pro vývoj standardizovaného psychometrického testování a prorozšíření práce s inteligenčním kvocientem."
+      }
+    ]
+  },
+  {
+    "id": "lewis-terman__revised__alfred-binet",
+    "fromId": "lewis-terman",
+    "toId": "alfred-binet",
+    "type": "revised",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Lewis Terman vytvořil revizi původní Binet-Simonovy škály.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lewis Terman",
+        "excerpt": "Zdroj uvádí, že Lewis Terman vytvořil revizi původní Binet-Simonovy škály."
+      }
+    ]
+  },
+  {
+    "id": "lewis-terman__revised__stanford-binet",
+    "fromId": "lewis-terman",
+    "toId": "stanford-binet",
+    "type": "revised",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Lewis Terman vytvořil stanfordskou revizi původní Binet-Simonovy škály.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "psychometrie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lewis Terman",
+        "excerpt": "Vytvořil stanfordskou revizi původní Binet-Simonovy škály, známou jakoStanford-Binet."
+      }
+    ]
+  },
+  {
+    "id": "lorna-wingova__associated-with__autisticke-spektrum",
+    "fromId": "lorna-wingova",
+    "toId": "autisticke-spektrum",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "autismus",
+      "diagnostika",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lorna Wingová",
+        "excerpt": "Britská psychiatrička, která významně přispěla k pojetí autistického spektra."
+      }
+    ]
+  },
+  {
+    "id": "lorna-wingova__associated-with__poruchy-autistickeho-spektra",
+    "fromId": "lorna-wingova",
+    "toId": "poruchy-autistickeho-spektra",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "autismus",
+      "diagnostika",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lorna Wingová",
+        "excerpt": "Je spojena s rozšířením porozumění různým formám autismu a s triádou poruch vklasickém evropském výkladu PAS."
+      }
+    ]
+  },
+  {
+    "id": "lorna-wingova__associated-with__triada-poruch",
+    "fromId": "lorna-wingova",
+    "toId": "triada-poruch",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "autismus",
+      "diagnostika",
+      "psychologie-psychiatrie-a-psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lorna Wingová",
+        "excerpt": "Je spojena s rozšířením porozumění různým formám autismu a s triádou poruch vklasickém evropském výkladu PAS."
+      }
+    ]
+  },
+  {
+    "id": "lorna-wingova__related-to__hans-asperger",
+    "fromId": "lorna-wingova",
+    "toId": "hans-asperger",
+    "type": "related-to",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj spojuje Lornu Wingovou s rozšířením porozumění různým formám autismu a se spektrálním chápáním navazujícím na dřívější klinické popisy.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lorna Wingová",
+        "excerpt": "Zdroj spojuje Lornu Wingovou s rozšířením porozumění různým formám autismu a se spektrálním chápáním navazujícím na dřívější klinické popisy."
+      }
+    ]
+  },
+  {
+    "id": "louis-braille__associated-with__braillovo-pismo",
+    "fromId": "louis-braille",
+    "toId": "braillovo-pismo",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto systémem výslovně spojuje.",
+    "tags": [
+      "komunikace",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Louis Braille",
+        "excerpt": "Braillovo písmo zásadně změnilo možnosti samostatného čtení, psaní a vzdělávánínevidomých a stalo se světovým standardem."
+      }
+    ]
+  },
+  {
+    "id": "lucie-laudova__associated-with__augmentativni-a-alternativni-komunikace",
+    "fromId": "lucie-laudova",
+    "toId": "augmentativni-a-alternativni-komunikace",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "aak",
+      "komunikace",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lucie Laudová",
+        "excerpt": "Česká logopedka spojená s rozvojem Makatonu v českém prostředí a s podporouaugmentativní a alternativní komunikace."
+      }
+    ]
+  },
+  {
+    "id": "lucie-laudova__introduced__makaton",
+    "fromId": "lucie-laudova",
+    "toId": "makaton",
+    "type": "introduced",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj spojuje Lucii Laudovou s rozvojem Makatonu v českém prostředí.",
+    "tags": [
+      "aak",
+      "komunikace",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Lucie Laudová",
+        "excerpt": "Česká logopedka spojená s rozvojem Makatonu v českém prostředí a s podporouaugmentativní a alternativní komunikace."
+      }
+    ]
+  },
+  {
+    "id": "ludvik-edelsberger__associated-with__specialni-pedagogika",
+    "fromId": "ludvik-edelsberger",
+    "toId": "specialni-pedagogika",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "historie-oboru",
+      "specialni-pedagogika-a-dejiny-oboru",
+      "vymezeni-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Ludvík Edelsberger",
+        "excerpt": "Pomáhá porozumět tomu, z jakého pojmosloví a z jakého odborného rámce sesoučasná speciální pedagogika historicky vyvíjela."
+      }
+    ]
+  },
+  {
+    "id": "margaret-walker__associated-with__augmentativni-a-alternativni-komunikace",
+    "fromId": "margaret-walker",
+    "toId": "augmentativni-a-alternativni-komunikace",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "aak",
+      "komunikace",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Margaret Walker",
+        "excerpt": "Její jméno je v logopedii a AAK pevně spojeno s programem využívajícím znaky, symboly a mluvenou řeč."
+      }
+    ]
+  },
+  {
+    "id": "margaret-walker__co-authored__katherine-johnston",
+    "fromId": "margaret-walker",
+    "toId": "katherine-johnston",
+    "type": "co-authored",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Margaret Walker spolu s Kathy Johnston stála u vzniku Makatonu.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Margaret Walker",
+        "excerpt": "Zdroj uvádí, že Margaret Walker spolu s Kathy Johnston stála u vzniku Makatonu."
+      }
+    ]
+  },
+  {
+    "id": "margaret-walker__co-authored__tony-cornforth",
+    "fromId": "margaret-walker",
+    "toId": "tony-cornforth",
+    "type": "co-authored",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Margaret Walker spolu s Tonym Cornforthem stála u vzniku Makatonu.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Margaret Walker",
+        "excerpt": "Zdroj uvádí, že Margaret Walker spolu s Tonym Cornforthem stála u vzniku Makatonu."
+      }
+    ]
+  },
+  {
+    "id": "margaret-walker__created-system__makaton",
+    "fromId": "margaret-walker",
+    "toId": "makaton",
+    "type": "created-system",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí Margaret Walker jako hlavní tvůrkyni systému Makaton.",
+    "tags": [
+      "aak",
+      "komunikace",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Margaret Walker",
+        "excerpt": "Britská logopedka a hlavní tvůrkyně systému Makaton."
+      }
+    ]
+  },
+  {
+    "id": "marianne-frostig__associated-with__test-zrakoveho-vnimani-frostigove",
+    "fromId": "marianne-frostig",
+    "toId": "test-zrakoveho-vnimani-frostigove",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "zrak"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Marianne Frostig",
+        "excerpt": "Psycholožka a pedagožka známá testem zrakového vnímání."
+      }
+    ]
+  },
+  {
+    "id": "marie-benickova__represents-approach__muzikoterapie",
+    "fromId": "marie-benickova",
+    "toId": "muzikoterapie",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "expresivni-metody",
+      "metody-prace",
+      "novodoba-ceska-tradice-a-institucni-rozvoj"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Marie Beníčková",
+        "excerpt": "Česká odbornice spojovaná zejména s muzikoterapií a s terapeuticko-formativnímipřístupy ve speciální pedagogice."
+      }
+    ]
+  },
+  {
+    "id": "marie-vitkova__associated-with__podporna-opatreni",
+    "fromId": "marie-vitkova",
+    "toId": "podporna-opatreni",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "inkluze",
+      "podpora",
+      "specialni-pedagogika-a-dejiny-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Marie Vítková",
+        "excerpt": "Patří k výrazným osobnostem brněnské školy a k autorům, kteří rozvíjejí témaspeciálních vzdělávacích potřeb, podpůrných opatření a školní inkluze."
+      }
+    ]
+  },
+  {
+    "id": "marie-vitkova__associated-with__specialni-vzdelavaci-potreby",
+    "fromId": "marie-vitkova",
+    "toId": "specialni-vzdelavaci-potreby",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "inkluze",
+      "podpora",
+      "specialni-pedagogika-a-dejiny-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Marie Vítková",
+        "excerpt": "Patří k výrazným osobnostem brněnské školy a k autorům, kteří rozvíjejí témaspeciálních vzdělávacích potřeb, podpůrných opatření a školní inkluze."
+      }
+    ]
+  },
+  {
+    "id": "marie-vitkova__represents-approach__skolni-inkluze",
+    "fromId": "marie-vitkova",
+    "toId": "skolni-inkluze",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "inkluze",
+      "podpora",
+      "specialni-pedagogika-a-dejiny-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Marie Vítková",
+        "excerpt": "Patří k výrazným osobnostem brněnské školy a k autorům, kteří rozvíjejí témaspeciálních vzdělávacích potřeb, podpůrných opatření a školní inkluze."
+      }
+    ]
+  },
+  {
+    "id": "milos-sovak__founded__logopedicky-ustav",
+    "fromId": "milos-sovak",
+    "toId": "logopedicky-ustav",
+    "type": "founded",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj spojuje osobnost se založením nebo vznikem této instituce.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Miloš Sovák",
+        "excerpt": "Založil Logopedický ústav hlavního města Prahy a prosazoval terénní, školskou izdravotnickou organizaci logopedické péče."
+      }
+    ]
+  },
+  {
+    "id": "nancy-bayley__associated-with__bayleyovy-skaly-raneho-vyvoje",
+    "fromId": "nancy-bayley",
+    "toId": "bayleyovy-skaly-raneho-vyvoje",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "rany-vyvoj"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Nancy Bayley",
+        "excerpt": "Psycholožka spojená s Bayleyovými škálami raného vývoje."
+      }
+    ]
+  },
+  {
+    "id": "nikolaj-ozeretskij__associated-with__ozeretskeho-skala-motorickeho-vyvoje",
+    "fromId": "nikolaj-ozeretskij",
+    "toId": "ozeretskeho-skala-motorickeho-vyvoje",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "motorika"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Nikolaj Ozeretskij",
+        "excerpt": "Je spojován se škálou motorického vývoje Ozeretského, využívanou při hodnoceníkoordinace, jemné i hrubé motoriky."
+      }
+    ]
+  },
+  {
+    "id": "nikolaj-ozeretskij__associated-with__specialni-pedagogika",
+    "fromId": "nikolaj-ozeretskij",
+    "toId": "specialni-pedagogika",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "diagnostika-a-psychometrie",
+      "historie-oboru",
+      "vymezeni-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Nikolaj Ozeretskij",
+        "excerpt": "Jeho jméno je důležité tam, kde speciální pedagogika pracuje s motorickoudiagnostikou a školní zralostí."
+      }
+    ]
+  },
+  {
+    "id": "olga-havlova__associated-with__vybor-dobre-vule-nadace-olgy-havlove",
+    "fromId": "olga-havlova",
+    "toId": "vybor-dobre-vule-nadace-olgy-havlove",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto institucí výslovně spojuje.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "novodoba-ceska-tradice-a-institucni-rozvoj"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Olga Havlová",
+        "excerpt": "Zakladatelka Výboru dobré vůle – Nadace Olgy Havlové."
+      }
+    ]
+  },
+  {
+    "id": "oribasius__associated-with__koktavost",
+    "fromId": "oribasius",
+    "toId": "koktavost",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "logopedie",
+      "plynulost-reci"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Oribasius",
+        "excerpt": "Antický lékař a autor lékařské encyklopedie, který se zabýval koktavostí aporuchami řeči."
+      }
+    ]
+  },
+  {
+    "id": "oskar-picht__associated-with__braillovo-pismo",
+    "fromId": "oskar-picht",
+    "toId": "braillovo-pismo",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto systémem výslovně spojuje.",
+    "tags": [
+      "komunikace",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Oskar Picht",
+        "excerpt": "Konstruktér a pedagog spojený s Pichtovým psacím strojem pro Braillovo písmo."
+      }
+    ]
+  },
+  {
+    "id": "oskar-picht__associated-with__pichtuv-psaci-stroj-pro-braillovo-pismo",
+    "fromId": "oskar-picht",
+    "toId": "pichtuv-psaci-stroj-pro-braillovo-pismo",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto systémem výslovně spojuje.",
+    "tags": [
+      "komunikace",
+      "pomucky",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Oskar Picht",
+        "excerpt": "Konstruktér a pedagog spojený s Pichtovým psacím strojem pro Braillovo písmo."
+      }
+    ]
+  },
+  {
+    "id": "otokar-chlup__led__ustav-pro-deti-zmrzacele-v-brne",
+    "fromId": "otokar-chlup",
+    "toId": "ustav-pro-deti-zmrzacele-v-brne",
+    "type": "led",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost spojuje s vedením této instituce.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "somatopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Otokar Chlup",
+        "excerpt": "Byl jmenován ředitelem Ústavu pro děti zmrzačelé v Brně a bývá označován jako„moravský Jedlička“."
+      }
+    ]
+  },
+  {
+    "id": "pamela-zinkin__associated-with__reynell-zinkin-skaly",
+    "fromId": "pamela-zinkin",
+    "toId": "reynell-zinkin-skaly",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto testem nebo škálou výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "rany-vyvoj",
+      "zrak"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Pamela Zinkin",
+        "excerpt": "Nejčastěji je připomínána ve spojení s Reynell–Zinkin škálami."
+      }
+    ]
+  },
+  {
+    "id": "paul-broca__associated-with__brocova-oblast",
+    "fromId": "paul-broca",
+    "toId": "brocova-oblast",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "logopedie",
+      "neurologie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Paul Broca",
+        "excerpt": "Francouzský lékař a neurolog, jehož jméno je spojeno s Brocovou oblastí a smotorickou afázií."
+      }
+    ]
+  },
+  {
+    "id": "paul-broca__associated-with__motoricka-afazie",
+    "fromId": "paul-broca",
+    "toId": "motoricka-afazie",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "diagnostika",
+      "logopedie",
+      "neurologie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Paul Broca",
+        "excerpt": "Francouzský lékař a neurolog, jehož jméno je spojeno s Brocovou oblastí a smotorickou afázií."
+      }
+    ]
+  },
+  {
+    "id": "paul-broca__contrasts-with__carl-wernicke",
+    "fromId": "paul-broca",
+    "toId": "carl-wernicke",
+    "type": "contrasts-with",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj vede jména Broca a Wernicke jako základní dvojici pro odlišení motorické a senzorické afázie.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Paul Broca",
+        "excerpt": "Zdroj vede jména Broca a Wernicke jako základní dvojici pro odlišení motorické a senzorické afázie."
+      }
+    ]
+  },
+  {
+    "id": "pavel-muhlpachr__associated-with__gerontagogika",
+    "fromId": "pavel-muhlpachr",
+    "toId": "gerontagogika",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "andragogika-a-gerontagogika",
+      "vymezeni-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Pavel Mühlpachr",
+        "excerpt": "Český speciální pedagog spojený především se speciální andragogikou, gerontagogikou a kvalitou života dospělých osob se zdravotním postižením."
+      }
+    ]
+  },
+  {
+    "id": "pavel-muhlpachr__associated-with__specialni-andragogika",
+    "fromId": "pavel-muhlpachr",
+    "toId": "specialni-andragogika",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "andragogika-a-gerontagogika",
+      "vymezeni-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Pavel Mühlpachr",
+        "excerpt": "Český speciální pedagog spojený především se speciální andragogikou, gerontagogikou a kvalitou života dospělých osob se zdravotním postižením."
+      }
+    ]
+  },
+  {
+    "id": "philippe-pinel__inspired__jean-etienne-dominique-esquirol",
+    "fromId": "philippe-pinel",
+    "toId": "jean-etienne-dominique-esquirol",
+    "type": "inspired",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj popisuje Esquirola jako žáka Pinela a navazující osobnost klinického vymezení idiocie.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Jean-Étienne Dominique Esquirol",
+        "excerpt": "Zdroj popisuje Esquirola jako žáka Pinela a navazující osobnost klinického vymezení idiocie."
+      }
+    ]
+  },
+  {
+    "id": "raymond-b-cattell__associated-with__fluidni-a-krystalicka-inteligence",
+    "fromId": "raymond-b-cattell",
+    "toId": "fluidni-a-krystalicka-inteligence",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "kognice",
+      "psychologie-psychiatrie-a-psychoterapie",
+      "psychometrie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Raymond B. Cattell",
+        "excerpt": "Psycholog známý faktorovým přístupem k osobnosti a rozlišením fluidní akrystalické inteligence."
+      }
+    ]
+  },
+  {
+    "id": "richard-luchsinger__associated-with__folia-phoniatrica",
+    "fromId": "richard-luchsinger",
+    "toId": "folia-phoniatrica",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto publikací výslovně spojuje.",
+    "tags": [
+      "klinicka-logopedie",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Richard Luchsinger",
+        "excerpt": "Byl prezidentem Mezinárodní asociace logopedů a foniatrů a spoluvytvářelčasopis Folia Phoniatrica."
+      }
+    ]
+  },
+  {
+    "id": "robert-m-zingg__associated-with__vlci-deti",
+    "fromId": "robert-m-zingg",
+    "toId": "vlci-deti",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "etopedie",
+      "kazuistiky",
+      "socializace"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Robert M. Zingg",
+        "excerpt": "Badatel spojovaný s výzkumem izolovaných a zanedbaných dětí a s problematikoutakzvaných vlčích dětí."
+      }
+    ]
+  },
+  {
+    "id": "roch-ambroise-cucurron-abbe-sicard__developed__znakove-a-manualni-vyucovani",
+    "fromId": "roch-ambroise-cucurron-abbe-sicard",
+    "toId": "znakove-a-manualni-vyucovani",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "komunikace",
+      "metody-prace",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Roch-Ambroise Cucurron, Abbé Sicard",
+        "excerpt": "Navázal na manuální vyučování a dále rozvíjel evropskou institucionální tradicivzdělávání neslyšících."
+      }
+    ]
+  },
+  {
+    "id": "roch-ambroise-cucurron-abbe-sicard__influenced__thomas-hopkins-gallaudet",
+    "fromId": "roch-ambroise-cucurron-abbe-sicard",
+    "toId": "thomas-hopkins-gallaudet",
+    "type": "influenced",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Sicardovo působení ovlivnilo Thomase H. Gallaudeta.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Roch-Ambroise Cucurron, Abbé Sicard",
+        "excerpt": "Zdroj uvádí, že Sicardovo působení ovlivnilo Thomase H. Gallaudeta."
+      }
+    ]
+  },
+  {
+    "id": "rudolf-jedlicka__associated-with__jedlickuv-ustav",
+    "fromId": "rudolf-jedlicka",
+    "toId": "jedlickuv-ustav",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto institucí výslovně spojuje.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "somatopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Rudolf Jedlička",
+        "excerpt": "Lékař a zakladatel Jedličkova ústavu v Praze, který spojil léčbu, edukaci, rehabilitaci a přípravu na pracovní život."
+      }
+    ]
+  },
+  {
+    "id": "samuel-gridley-howe__led__perkins-school-for-the-blind",
+    "fromId": "samuel-gridley-howe",
+    "toId": "perkins-school-for-the-blind",
+    "type": "led",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost spojuje s vedením této instituce.",
+    "tags": [
+      "instituce",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Samuel Gridley Howe",
+        "excerpt": "Působil jako zakládající ředitel Perkins School for the Blind."
+      }
+    ]
+  },
+  {
+    "id": "samuel-gridley-howe__taught__laura-bridgman",
+    "fromId": "samuel-gridley-howe",
+    "toId": "laura-bridgman",
+    "type": "taught",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí práci Samuela G. Howea s Laurou Bridgmanovou.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Samuel Gridley Howe",
+        "excerpt": "Zdroj uvádí práci Samuela G. Howea s Laurou Bridgmanovou."
+      }
+    ]
+  },
+  {
+    "id": "samuel-heinicke__represents-approach__nemecka-oralni-metoda",
+    "fromId": "samuel-heinicke",
+    "toId": "nemecka-oralni-metoda",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "metody-prace",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Samuel Heinicke",
+        "excerpt": "Německý pedagog a hlavní představitel německé orální metody."
+      }
+    ]
+  },
+  {
+    "id": "samuel-heinicke__represents-approach__oralni-metoda",
+    "fromId": "samuel-heinicke",
+    "toId": "oralni-metoda",
+    "type": "represents-approach",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost představuje jako nositele tohoto pojetí nebo metody.",
+    "tags": [
+      "metody-prace",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Samuel Heinicke",
+        "excerpt": "Německý pedagog a hlavní představitel německé orální metody."
+      }
+    ]
+  },
+  {
+    "id": "sigmund-freud__associated-with__id-ego-superego",
+    "fromId": "sigmund-freud",
+    "toId": "id-ego-superego",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "psychologie-psychiatrie-a-psychoterapie",
+      "psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Sigmund Freud",
+        "excerpt": "Zakladatel psychoanalýzy a autor teorie nevědomí, obranných mechanismů a modeluosobnosti id – ego – superego."
+      }
+    ]
+  },
+  {
+    "id": "sigmund-freud__developed__psychoanalyza",
+    "fromId": "sigmund-freud",
+    "toId": "psychoanalyza",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "psychologie-psychiatrie-a-psychoterapie",
+      "psychoterapie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Sigmund Freud",
+        "excerpt": "Zakladatel psychoanalýzy a autor teorie nevědomí, obranných mechanismů a modeluosobnosti id – ego – superego."
+      }
+    ]
+  },
+  {
+    "id": "theodor-heller__associated-with__heilpadagogik",
+    "fromId": "theodor-heller",
+    "toId": "heilpadagogik",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "historie-oboru",
+      "medicinsky-kontext",
+      "specialni-pedagogika-a-dejiny-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Theodor Heller",
+        "excerpt": "Je spojován s rozvojem Heilpädagogik a s propojením léčebného, diagnostického apedagogického přístupu k dětem se speciálními potřebami."
+      }
+    ]
+  },
+  {
+    "id": "theodor-heller__associated-with__helleruv-syndrom",
+    "fromId": "theodor-heller",
+    "toId": "helleruv-syndrom",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "autismus",
+      "diagnostika",
+      "specialni-pedagogika-a-dejiny-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Theodor Heller",
+        "excerpt": "V medicíně a vývojové psychopatologii je připomínán také přes Hellerův syndrom, tedy dětskou dezintegrační poruchu."
+      }
+    ]
+  },
+  {
+    "id": "theodore-simon__co-authored__alfred-binet",
+    "fromId": "theodore-simon",
+    "toId": "alfred-binet",
+    "type": "co-authored",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Théodore Simon spolu s Alfredem Binetem vytvořil Binet-Simonovu škálu.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Théodore Simon",
+        "excerpt": "Zdroj uvádí, že Théodore Simon spolu s Alfredem Binetem vytvořil Binet-Simonovu škálu."
+      }
+    ]
+  },
+  {
+    "id": "theodore-simon__co-authored__binet-simonova-skala",
+    "fromId": "theodore-simon",
+    "toId": "binet-simonova-skala",
+    "type": "co-authored",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Théodore Simon spolu s Alfredem Binetem vytvořil Binet-Simonovu škálu.",
+    "tags": [
+      "diagnostika",
+      "diagnostika-a-psychometrie",
+      "psychometrie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Théodore Simon",
+        "excerpt": "Spolu s Alfredem Binetem vytvořil Binet-Simonovu škálu určenou k rozlišenídětí, které potřebují zvláštní školní podporu."
+      }
+    ]
+  },
+  {
+    "id": "thomas-braidwood__founded__prvni-skola-pro-neslysici-v-edinburghu",
+    "fromId": "thomas-braidwood",
+    "toId": "prvni-skola-pro-neslysici-v-edinburghu",
+    "type": "founded",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj spojuje osobnost se založením nebo vznikem této instituce.",
+    "tags": [
+      "instituce",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Thomas Braidwood",
+        "excerpt": "Roku 1760 otevřel v Edinburghu první školu pro neslyšící děti v Británii."
+      }
+    ]
+  },
+  {
+    "id": "thomas-hopkins-gallaudet__co-authored__laurent-clerc",
+    "fromId": "thomas-hopkins-gallaudet",
+    "toId": "laurent-clerc",
+    "type": "co-authored",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí, že Thomas Hopkins Gallaudet spolu s Laurentem Clercem založil American School for the Deaf.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Thomas Hopkins Gallaudet",
+        "excerpt": "Zdroj uvádí, že Thomas Hopkins Gallaudet spolu s Laurentem Clercem založil American School for the Deaf."
+      }
+    ]
+  },
+  {
+    "id": "thomas-hopkins-gallaudet__founded__american-school-for-the-deaf",
+    "fromId": "thomas-hopkins-gallaudet",
+    "toId": "american-school-for-the-deaf",
+    "type": "founded",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj spojuje osobnost se založením nebo vznikem této instituce.",
+    "tags": [
+      "instituce",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Thomas Hopkins Gallaudet",
+        "excerpt": "Spolu s Laurentem Clercem založil roku 1817 American School for the Deaf."
+      }
+    ]
+  },
+  {
+    "id": "tony-cornforth__co-authored__makaton",
+    "fromId": "tony-cornforth",
+    "toId": "makaton",
+    "type": "co-authored",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí Tonyho Cornfortha jako spoluautora systému Makaton.",
+    "tags": [
+      "aak",
+      "komunikace",
+      "logopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Tony Cornforth",
+        "excerpt": "Spoluautor systému Makaton."
+      }
+    ]
+  },
+  {
+    "id": "tony-cornforth__co-authored__margaret-walker",
+    "fromId": "tony-cornforth",
+    "toId": "margaret-walker",
+    "type": "co-authored",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj uvádí Tonyho Cornfortha mezi spolutvůrci programu Makaton.",
+    "tags": [
+      "historie-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Tony Cornforth",
+        "excerpt": "Zdroj uvádí Tonyho Cornfortha mezi spolutvůrci programu Makaton."
+      }
+    ]
+  },
+  {
+    "id": "vaclav-frost__developed__frostova-kombinovana-metoda",
+    "fromId": "vaclav-frost",
+    "toId": "frostova-kombinovana-metoda",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "komunikace",
+      "metody-prace",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Václav Frost",
+        "excerpt": "Ředitel pražského ústavu pro hluchoněmé a tvůrce Frostovy kombinované metody."
+      }
+    ]
+  },
+  {
+    "id": "vaclav-frost__led__prazsky-ustav-pro-hluchoneme",
+    "fromId": "vaclav-frost",
+    "toId": "prazsky-ustav-pro-hluchoneme",
+    "type": "led",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost spojuje s vedením této instituce.",
+    "tags": [
+      "ceske-prostredi",
+      "instituce",
+      "surdopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Václav Frost",
+        "excerpt": "Ředitel pražského ústavu pro hluchoněmé a tvůrce Frostovy kombinované metody."
+      }
+    ]
+  },
+  {
+    "id": "valentin-hauy__associated-with__myslenky-o-vychove-slepcu",
+    "fromId": "valentin-hauy",
+    "toId": "myslenky-o-vychove-slepcu",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto publikací výslovně spojuje.",
+    "tags": [
+      "historie-oboru",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Valentin Haüy",
+        "excerpt": "Je spojován také s textem Myšlenky o výchově slepců a s prvním systematickýmpokusem o jejich školní vzdělávání."
+      }
+    ]
+  },
+  {
+    "id": "valentin-hauy__associated-with__reliefni-tisk",
+    "fromId": "valentin-hauy",
+    "toId": "reliefni-tisk",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto systémem výslovně spojuje.",
+    "tags": [
+      "komunikace",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Valentin Haüy",
+        "excerpt": "Prosazoval vzdělavatelnost nevidomých a pracoval s reliéfním tiskem jakopředstupněm pozdějších hmatových systémů."
+      }
+    ]
+  },
+  {
+    "id": "valentin-hauy__founded__prvni-vychovne-vzdelavaci-ustav-pro-nevidome-v-parizi",
+    "fromId": "valentin-hauy",
+    "toId": "prvni-vychovne-vzdelavaci-ustav-pro-nevidome-v-parizi",
+    "type": "founded",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj spojuje osobnost se založením nebo vznikem této instituce.",
+    "tags": [
+      "instituce",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Valentin Haüy",
+        "excerpt": "Francouzský pedagog a filantrop, který roku 1784 založil v Paříži prvnívýchovně-vzdělávací ústav pro nevidomé na světě."
+      }
+    ]
+  },
+  {
+    "id": "viktor-e-frankl__developed__logoterapie",
+    "fromId": "viktor-e-frankl",
+    "toId": "logoterapie",
+    "type": "developed",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto postupem nebo pojetím výslovně spojuje.",
+    "tags": [
+      "psychologie-psychiatrie-a-psychoterapie",
+      "psychoterapie",
+      "resilience"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Viktor E. Frankl",
+        "excerpt": "Psychiatr a psychoterapeut, zakladatel logoterapie."
+      }
+    ]
+  },
+  {
+    "id": "viktor-lechta__associated-with__koktavost",
+    "fromId": "viktor-lechta",
+    "toId": "koktavost",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "logopedie",
+      "plynulost-reci"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Viktor Lechta",
+        "excerpt": "Je autorem významných prací o terapii NKS, koktavosti a inkluzivní pedagogice."
+      }
+    ]
+  },
+  {
+    "id": "viktor-lechta__associated-with__narusena-komunikacni-schopnost",
+    "fromId": "viktor-lechta",
+    "toId": "narusena-komunikacni-schopnost",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "komunikace",
+      "logopedie",
+      "vymezeni-oboru"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Viktor Lechta",
+        "excerpt": "Slovenský logoped a speciální pedagog, jehož jméno je úzce spojeno s pojmemnarušená komunikační schopnost."
+      }
+    ]
+  },
+  {
+    "id": "william-moon__created-system__braillovo-pismo",
+    "fromId": "william-moon",
+    "toId": "braillovo-pismo",
+    "type": "created-system",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto komunikačním nebo technickým systémem výslovně spojuje.",
+    "tags": [
+      "komunikace",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "William Moon",
+        "excerpt": "Tvůrce Moonova reliéfního písma, které využívá jednodušší reliéfní tvary nežBraillova soustava."
+      }
+    ]
+  },
+  {
+    "id": "william-moon__created-system__moonovo-reliefni-pismo",
+    "fromId": "william-moon",
+    "toId": "moonovo-reliefni-pismo",
+    "type": "created-system",
+    "strength": "primary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto komunikačním nebo technickým systémem výslovně spojuje.",
+    "tags": [
+      "komunikace",
+      "tyflopedie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "William Moon",
+        "excerpt": "Tvůrce Moonova reliéfního písma, které využívá jednodušší reliéfní tvary nežBraillova soustava."
+      }
+    ]
+  },
+  {
+    "id": "william-stern__associated-with__inteligencni-kvocient",
+    "fromId": "william-stern",
+    "toId": "inteligencni-kvocient",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": true,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "psychologie-psychiatrie-a-psychoterapie",
+      "psychometrie"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "William Stern",
+        "excerpt": "Jeho jméno se připomíná také v souvislosti s inteligenčním kvocientem."
+      }
+    ]
+  },
+  {
+    "id": "zdenek-matejcek__associated-with__psychicka-deprivace",
+    "fromId": "zdenek-matejcek",
+    "toId": "psychicka-deprivace",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "core",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s tímto pojmem nebo jevem výslovně spojuje.",
+    "tags": [
+      "diagnostika-a-psychometrie",
+      "psychologie",
+      "rodina"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Zdeněk Matějček",
+        "excerpt": "Český psycholog, který proslul výzkumem psychické deprivace a poradenskou pracís dětmi a rodinami."
+      }
+    ]
+  },
+  {
+    "id": "zikmund-janke__associated-with__koktavost",
+    "fromId": "zikmund-janke",
+    "toId": "koktavost",
+    "type": "associated-with",
+    "strength": "secondary",
+    "direction": "forward",
+    "studyPriority": "important",
+    "suitableForContrast": false,
+    "explanation": "Zdroj osobnost s touto diagnostickou kategorií výslovně spojuje.",
+    "tags": [
+      "logopedie",
+      "plynulost-reci"
+    ],
+    "sourceReferences": [
+      {
+        "sourceDocumentId": "mini-wikipedie-osobnosti-vs",
+        "locator": "Zikmund Janke",
+        "excerpt": "Autor raných českých textů o koktavosti a prevenci vad řeči."
+      }
+    ]
+  }
+]

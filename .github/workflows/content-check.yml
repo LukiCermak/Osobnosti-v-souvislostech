@@ -1,0 +1,55 @@
+name: Content check
+
+on:
+  pull_request:
+    paths:
+      - 'content/**'
+      - 'scripts/**'
+      - 'docs/**'
+      - 'package.json'
+      - 'tsconfig.node.json'
+  push:
+    branches:
+      - main
+      - master
+    paths:
+      - 'content/**'
+      - 'scripts/**'
+      - 'docs/**'
+      - 'package.json'
+      - 'tsconfig.node.json'
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  content:
+    name: Kontrola obsahových dat
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Nastavení Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version-file: .nvmrc
+          cache: npm
+
+      - name: Instalace závislostí
+        run: npm install
+
+      - name: Validace obsahu
+        run: npm run content:validate
+
+      - name: Kontrola povinných osobností
+        run: npm run content:check-required
+
+      - name: Build runtime obsahu
+        run: npm run content:build
+
+      - name: Generování vyhledávacího indexu
+        run: npm run content:search-index

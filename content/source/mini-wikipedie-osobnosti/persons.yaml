@@ -1,0 +1,5379 @@
+- id: jan-amos-komensky
+  displayName: Jan Amos Komenský
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1592
+    deathYear: 1670
+    displayLabel: 1592-1670
+  eraId: 17-stoleti
+  periodLabel: 17. století
+  nationalContext: české prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  significanceSummary: Český myslitel a pedagog, který prosazoval vzdělávání všech dětí a odmítal představu,
+    že některé skupiny jsou nevzdělavatelné.
+  mainAnchors:
+  - Český myslitel a pedagog, který prosazoval vzdělávání všech dětí a odmítal představu, že některé skupiny
+    jsou nevzdělavatelné.
+  - Pro speciální pedagogiku je důležitý důrazem na názornost, přiměřenost, individualizaci a zapojení
+    více smyslů do učení.
+  - Jeho Didactica magna a další didaktické texty pomáhají chápat obecné pedagogické základy práce s dětmi
+    se speciálními potřebami.
+  - V dějinách oboru představuje předchůdce humanistického a vzdělavatelského pojetí péče o osoby s postižením.
+  relationTargets:
+  - didactica-magna
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Jan Amos Komenský
+    excerpt: Český myslitel a pedagog, který prosazoval vzdělávání všech dětí a odmítal představu, že
+      některé skupiny jsou nevzdělavatelné.
+- id: karel-dvorak
+  displayName: Karel Dvořák
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1903
+    deathYear: 1983
+    displayLabel: 1903-1983
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  significanceSummary: Je spojen se starším, užším a kategoriálně formulovaným vymezením speciálnípedagogiky
+    jako vědy o speciální výchově, vyučování a vzdělávání osob s postižením.
+  mainAnchors:
+  - Je spojen se starším, užším a kategoriálně formulovaným vymezením speciálnípedagogiky jako vědy o
+    speciální výchově, vyučování a vzdělávání osob s postižením.
+  - Jeho definice dobře ukazuje období, kdy se obor chápal především podle typů postižení, nikoli podle
+    podpůrných opatření a participace.
+  - Ve studiu je důležitý jako kontrast k novějším definicím, které více zdůrazňujífunkční důsledky, socializaci
+    a kvalitu života.
+  relationTargets:
+  - jiri-skoda
+  - josef-slowik
+  - podporna-opatreni
+  - slavomir-fischer
+  studyPriority: important
+  confusionTags:
+  - vymezeni-oboru-starsi-a-soucasne
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Karel Dvořák
+    excerpt: Je spojen se starším, užším a kategoriálně formulovaným vymezením speciálnípedagogiky jako
+      vědy o speciální výchově, vyučování a vzdělávání osob s postižením.
+- id: bohumir-justyn-popelar
+  displayName: Bohumír Justyn Popelář
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1914
+    deathYear: 1969
+    displayLabel: 1914-1969
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  significanceSummary: Český speciální pedagog a historik oboru, spojovaný se stabilizací názvu speciální
+    pedagogika v českém prostředí.
+  mainAnchors:
+  - Český speciální pedagog a historik oboru, spojovaný se stabilizací názvu speciální pedagogika v českém
+    prostředí.
+  - Významně přispěl k historiografickému zpracování vývoje oboru a k vymezování jeho samostatnosti vůči
+    medicíně i obecné pedagogice.
+  - Je důležitý pro pochopení terminologického přechodu od defektologie k širšímu pedagogickému pojetí
+    podpory osob se znevýhodněním.
+  - Jeho práce pomáhají studentovi spojit dějiny oboru s proměnou jeho odbornéhojazyka.
+  relationTargets:
+  - defektologie
+  - specialni-pedagogika
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - historie-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Bohumír Justyn Popelář
+    excerpt: Český speciální pedagog a historik oboru, spojovaný se stabilizací názvu speciální pedagogika
+      v českém prostředí.
+- id: vladimir-juva
+  displayName: Vladimír Jůva
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1925
+    deathYear: 2005
+    displayLabel: 1925-2005
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  significanceSummary: Český pedagog spojený s obecnou pedagogikou a didaktikou.
+  mainAnchors:
+  - Český pedagog spojený s obecnou pedagogikou a didaktikou.
+  - Jeho práce z obecné pedagogiky a didaktiky tvoří důležité teoretické zázemí ipro speciální pedagogiku,
+    zejména při výkladu cílů, zásad a metod edukace.
+  - Ve speciálněpedagogickém kontextu je důležitý hlavně jako autor pedagogickéhorámce, na němž stojí
+    školní práce s žákem se speciálními potřebami.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Vladimír Jůva
+    excerpt: Český pedagog spojený s obecnou pedagogikou a didaktikou.
+- id: ludvik-edelsberger
+  displayName: Ludvík Edelsberger
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1926
+    deathYear: null
+    displayLabel: 1926-
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  significanceSummary: Český představitel starší defektologické tradice, která více zdůrazňovalamedicínské
+    a kategoriální vymezování cílových skupin.
+  mainAnchors:
+  - Český představitel starší defektologické tradice, která více zdůrazňovalamedicínské a kategoriální
+    vymezování cílových skupin.
+  - Jeho jméno připomíná období, kdy se obor vymezoval převážně podle druhupostižení a méně podle funkčních
+    důsledků a podpory.
+  - Pomáhá porozumět tomu, z jakého pojmosloví a z jakého odborného rámce sesoučasná speciální pedagogika
+    historicky vyvíjela.
+  relationTargets:
+  - specialni-pedagogika
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - historie-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Ludvík Edelsberger
+    excerpt: Český představitel starší defektologické tradice, která více zdůrazňovalamedicínské a kategoriální
+      vymezování cílových skupin.
+- id: boris-titzl
+  displayName: Boris Titzl
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1936
+    deathYear: null
+    displayLabel: 1936-
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  significanceSummary: Český historik speciální pedagogiky, který rozpracoval periodizaci přístupůspolečnosti
+    k osobám se zdravotním postižením.
+  mainAnchors:
+  - Český historik speciální pedagogiky, který rozpracoval periodizaci přístupůspolečnosti k osobám se
+    zdravotním postižením.
+  - Je spojován s výkladem přechodu od represivních a charitativních forem péče korganizované, rehabilitační
+    a inkluzivně orientované podpoře.
+  - Jeho práce pomáhají spojit jednotlivé osobnosti s historickými etapami, vznikemústavů a proměnou společenských
+    postojů k jinakosti.
+  - Pro studium je důležitý jako autor, který dává oboru historickou ainterpretační osu.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - historie-oboru
+  - inkluze
+  - rehabilitace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Boris Titzl
+    excerpt: Český historik speciální pedagogiky, který rozpracoval periodizaci přístupůspolečnosti k
+      osobám se zdravotním postižením.
+- id: marie-vitkova
+  displayName: Marie Vítková
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1947
+    deathYear: null
+    displayLabel: 1947-
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  significanceSummary: Česká speciální pedagožka spojená s moderním, integrativním a inkluzivnímpojetím
+    speciální pedagogiky.
+  mainAnchors:
+  - Česká speciální pedagožka spojená s moderním, integrativním a inkluzivnímpojetím speciální pedagogiky.
+  - Patří k výrazným osobnostem brněnské školy a k autorům, kteří rozvíjejí témaspeciálních vzdělávacích
+    potřeb, podpůrných opatření a školní inkluze.
+  - Její práce propojuje teorii oboru s praxí současného školství a s podporou žákův běžném vzdělávacím
+    proudu.
+  relationTargets:
+  - podporna-opatreni
+  - skolni-inkluze
+  - specialni-vzdelavaci-potreby
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - inkluze
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Marie Vítková
+    excerpt: Česká speciální pedagožka spojená s moderním, integrativním a inkluzivnímpojetím speciální
+      pedagogiky.
+- id: marie-renotierova
+  displayName: Marie Renotiérová
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1949
+    deathYear: null
+    displayLabel: 1949-
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  - somatopedie
+  significanceSummary: Česká speciální pedagožka spojená s olomouckou tradicí oboru a se systematizacíspeciální
+    pedagogiky.
+  mainAnchors:
+  - Česká speciální pedagožka spojená s olomouckou tradicí oboru a se systematizacíspeciální pedagogiky.
+  - Významně zasahuje do somatopedického a rehabilitačního kontextu, zejména votázkách edukace osob s
+    tělesným postižením a dlouhodobým onemocněním.
+  - Její jméno je důležité i pro vysokoškolskou přípravu speciálních pedagogů a pronovodobé profilování
+    olomoucké školy.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - rehabilitace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Marie Renotiérová
+    excerpt: Česká speciální pedagožka spojená s olomouckou tradicí oboru a se systematizacíspeciální
+      pedagogiky.
+- id: jarmila-pipekova
+  displayName: Jarmila Pipeková
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1955
+    deathYear: null
+    displayLabel: 1955-
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  - diagnostika-a-psychometrie
+  significanceSummary: Česká speciální pedagožka, která patří k nejcitovanějším autorkámspeciálněpedagogické
+    diagnostiky v českém prostředí.
+  mainAnchors:
+  - Česká speciální pedagožka, která patří k nejcitovanějším autorkámspeciálněpedagogické diagnostiky
+    v českém prostředí.
+  - Zdůrazňuje funkční posouzení obtíží, vztah mezi možnostmi jedince a nárokyprostředí a praktické využití
+    diagnostiky jako východiska intervence.
+  - Je spojována také s vymezováním cílových skupin speciální pedagogiky a snovodobým terminologickým
+    rámcem oboru.
+  - Pro studenty je důležitá hlavně tam, kde se řeší diagnostika, systém oboru asoučasné pojetí podpory.
+  relationTargets:
+  - specialnepedagogicka-diagnostika
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - diagnostika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Jarmila Pipeková
+    excerpt: Česká speciální pedagožka, která patří k nejcitovanějším autorkámspeciálněpedagogické diagnostiky
+      v českém prostředí.
+- id: slavomir-fischer
+  displayName: Slavomír Fischer
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1962
+    deathYear: null
+    displayLabel: 1962-
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  significanceSummary: Český speciální pedagog a spoluautor novodobého vymezení speciální pedagogikyjako
+    oboru zaměřeného na výchovu, vzdělávání a osobnostní rozvoj znevýhodněnéhočlověka.
+  mainAnchors:
+  - Český speciální pedagog a spoluautor novodobého vymezení speciální pedagogikyjako oboru zaměřeného
+    na výchovu, vzdělávání a osobnostní rozvoj znevýhodněnéhočlověka.
+  - Zdůrazňuje nejen edukaci, ale také socializaci, pracovní uplatnění a celkovéživotní fungování člověka
+    se speciálními potřebami.
+  - Jeho definice patří k důležitým oporám současného širšího a funkčněorientovaného pojetí oboru.
+  relationTargets: []
+  studyPriority: important
+  confusionTags:
+  - vymezeni-oboru-starsi-a-soucasne
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Slavomír Fischer
+    excerpt: Český speciální pedagog a spoluautor novodobého vymezení speciální pedagogikyjako oboru zaměřeného
+      na výchovu, vzdělávání a osobnostní rozvoj znevýhodněnéhočlověka.
+- id: jiri-skoda
+  displayName: Jiří Škoda
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1972
+    deathYear: null
+    displayLabel: 1972-
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  significanceSummary: Český pedagog a spoluautor současného funkčně orientovaného vymezení speciálnípedagogiky.
+  mainAnchors:
+  - Český pedagog a spoluautor současného funkčně orientovaného vymezení speciálnípedagogiky.
+  - Ve spoluautorství rozvíjí definice, které kladou důraz na podporu, rozvoj asociální začlenění znevýhodněného
+    člověka.
+  - Jeho pojetí pomáhá překonat starší úzké a kategoriální chápání oboru apřibližuje jej současnému podpůrnému
+    modelu.
+  relationTargets: []
+  studyPriority: important
+  confusionTags:
+  - vymezeni-oboru-starsi-a-soucasne
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Jiří Škoda
+    excerpt: Český pedagog a spoluautor současného funkčně orientovaného vymezení speciálnípedagogiky.
+- id: josef-slowik
+  displayName: Josef Slowík
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1973
+    deathYear: null
+    displayLabel: 1973-
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  significanceSummary: Český speciální pedagog, který rozvíjí širší, inkluzivní a socializačně orientované
+    pojetí speciální pedagogiky.
+  mainAnchors:
+  - Český speciální pedagog, který rozvíjí širší, inkluzivní a socializačně orientované pojetí speciální
+    pedagogiky.
+  - Ve svých definicích klade důraz na sociální integraci, pracovní uplatnění acelkový osobnostní rozvoj
+    člověka se znevýhodněním.
+  - Pro studenty je důležitý jako autor moderního, prakticky využitelného vymezeníoboru.
+  relationTargets: []
+  studyPriority: important
+  confusionTags:
+  - vymezeni-oboru-starsi-a-soucasne
+  tags:
+  - ceske-prostredi
+  - inkluze
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Josef Slowík
+    excerpt: Český speciální pedagog, který rozvíjí širší, inkluzivní a socializačně orientované pojetí
+      speciální pedagogiky.
+- id: lucie-zormanova
+  displayName: Lucie Zormanová
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1983
+    deathYear: null
+    displayLabel: 1983-
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  significanceSummary: Pedagožka a autorka didakticky zaměřených textů využívaných jako přehlednépedagogické
+    zázemí studia.
+  mainAnchors:
+  - Pedagožka a autorka didakticky zaměřených textů využívaných jako přehlednépedagogické zázemí studia.
+  - Ve speciálněpedagogickém kontextu je důležitá hlavně jako součást obecněpedagogického a kurikulárního
+    rámce výuky.
+  - Je spojena především s didaktikou a s přehledným zpracováním pedagogickýchtémat, nikoli s jednou specifickou
+    pedií.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Lucie Zormanová
+    excerpt: Pedagožka a autorka didakticky zaměřených textů využívaných jako přehlednépedagogické zázemí
+      studia.
+- id: jan-jesensky
+  displayName: Ján Jesenský
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1931
+    deathYear: 2009
+    displayLabel: 1931-2009
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: slovenské prostředí
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  - tyflopedie
+  - diagnostika-a-psychometrie
+  significanceSummary: Slovenský speciální pedagog spojený s komprehenzivním pojetím speciálnípedagogiky
+    a s důrazem na propojení diagnostiky, podpory a integrace.
+  mainAnchors:
+  - Slovenský speciální pedagog spojený s komprehenzivním pojetím speciálnípedagogiky a s důrazem na propojení
+    diagnostiky, podpory a integrace.
+  - Významně přesahuje do tyflopedie a do problematiky školské integrace a inkluze.
+  - Jeho jméno je důležité hlavně tam, kde se řeší širší systémové a podpůrnépojetí speciální pedagogiky.
+  relationTargets:
+  - skolni-inkluze
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - diagnostika
+  - inkluze
+  - slovenske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Ján Jesenský
+    excerpt: Slovenský speciální pedagog spojený s komprehenzivním pojetím speciálnípedagogiky a s důrazem
+      na propojení diagnostiky, podpory a integrace.
+- id: theodor-heller
+  displayName: Theodor Heller
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1869
+    deathYear: 1938
+    displayLabel: 1869–1938
+  eraId: 19-20-stoleti
+  periodLabel: 19. –20. století
+  nationalContext: rakouský kontext
+  disciplines:
+  - specialni-pedagogika-a-dejiny-oboru
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Rakouský odborník patřící k raným zakladatelským osobnostem speciálnípedagogiky
+    ve středoevropském prostoru.
+  mainAnchors:
+  - Rakouský odborník patřící k raným zakladatelským osobnostem speciálnípedagogiky ve středoevropském
+    prostoru.
+  - Je spojován s rozvojem Heilpädagogik a s propojením léčebného, diagnostického apedagogického přístupu
+    k dětem se speciálními potřebami.
+  - V medicíně a vývojové psychopatologii je připomínán také přes Hellerův syndrom, tedy dětskou dezintegrační
+    poruchu.
+  - Pro dějiny oboru je významný jako most mezi léčebně orientovanou péčí apedagogickým vedením.
+  relationTargets:
+  - heilpadagogik
+  - helleruv-syndrom
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - diagnostika
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Speciální pedagogika a dějiny oboru
+    locator: Theodor Heller
+    excerpt: Rakouský odborník patřící k raným zakladatelským osobnostem speciálnípedagogiky ve středoevropském
+      prostoru.
+- id: felix-platter
+  displayName: Felix Platter
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1536
+    deathYear: 1614
+    displayLabel: 1536-1614
+  eraId: 16-stoleti
+  periodLabel: 16. století
+  nationalContext: basilejský kontext
+  disciplines:
+  - psychopedie
+  significanceSummary: Basilejský lékař spojovaný s první systematičtější klasifikací duševních poruchv
+    novověku.
+  mainAnchors:
+  - Basilejský lékař spojovaný s první systematičtější klasifikací duševních poruchv novověku.
+  - Je důležitý tím, že odlišoval poruchy intelektu od jiných psychických stavů apřipravil půdu pro pozdější
+    klinické vymezení mentálního postižení.
+  - Ve speciální pedagogice se připomíná také přes spis o nemocech ducha a ranousnahu přesněji pojmenovat
+    duševní poruchy.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Felix Platter
+    excerpt: Basilejský lékař spojovaný s první systematičtější klasifikací duševních poruchv novověku.
+- id: philippe-pinel
+  displayName: Philippe Pinel
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1745
+    deathYear: 1826
+    displayLabel: 1745-1826
+  eraId: 18-19-stoleti
+  periodLabel: 18. -19. století
+  nationalContext: zakladatelská kontext
+  disciplines:
+  - psychopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Zakladatelská osobnost moderní psychiatrie a reformátor ústavní péče o duševněnemocné.
+  mainAnchors:
+  - Zakladatelská osobnost moderní psychiatrie a reformátor ústavní péče o duševněnemocné.
+  - Proslul humánnějším zacházením s pacienty a odmítnutím represivních forem péče; symbolicky je spojován
+    se sejmutím okovů nemocným.
+  - Je důležitý pro oddělení mentálního postižení od jiných duševních poruch a propřechod od represe k
+    léčbě a výchovnému působení.
+  - V psychopedii představuje počátek humanizačního obratu.
+  relationTargets:
+  - jean-etienne-dominique-esquirol
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Philippe Pinel
+    excerpt: Zakladatelská osobnost moderní psychiatrie a reformátor ústavní péče o duševněnemocné.
+- id: jean-etienne-dominique-esquirol
+  displayName: Jean-Étienne Dominique Esquirol
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1772
+    deathYear: 1840
+    displayLabel: 1772-1840
+  eraId: 18-19-stoleti
+  periodLabel: 18. -19. století
+  nationalContext: francouzský kontext
+  disciplines:
+  - psychopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Francouzský psychiatr a žák Pinela, který klinicky vymezil idiocii jako stav, nikoli
+    jako nemoc.
+  mainAnchors:
+  - Francouzský psychiatr a žák Pinela, který klinicky vymezil idiocii jako stav, nikoli jako nemoc.
+  - Rozlišoval mezi duševní nemocí a trvalým nedostatkem rozumových schopností, cožbylo klíčové pro další
+    vývoj psychopedie.
+  - Jeho práce položila základy přesnějšího klinického popisu mentálního postiženía jeho odlišení od psychóz.
+  relationTargets: []
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Jean-Étienne Dominique Esquirol
+    excerpt: Francouzský psychiatr a žák Pinela, který klinicky vymezil idiocii jako stav, nikoli jako
+      nemoc.
+- id: jean-marc-gaspard-itard
+  displayName: Jean-Marc Gaspard Itard
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1774
+    deathYear: 1838
+    displayLabel: 1774-1838
+  eraId: 18-19-stoleti
+  periodLabel: 18. -19. století
+  nationalContext: francouzský kontext
+  disciplines:
+  - psychopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Francouzský lékař a pedagog proslulý případem Viktora z Aveyronu, takzvanéhodivokého
+    chlapce.
+  mainAnchors:
+  - Francouzský lékař a pedagog proslulý případem Viktora z Aveyronu, takzvanéhodivokého chlapce.
+  - Je spojován se smyslovým tréninkem, systematickým pozorováním a s hledánímhranic vzdělavatelnosti
+    dítěte s těžkými vývojovými obtížemi.
+  - Jeho práce se stala jedním z prvních známých psychopedických experimentů ainspirovala pozdějšího Séguina
+    i Montessoriovou.
+  - Ve studiu je důležitý jako spojovací článek mezi medicínou, pedagogikou aspeciálněpedagogickým experimentem.
+  relationTargets:
+  - edouard-seguin
+  - maria-montessori
+  - smyslovy-trenink
+  - viktor-z-aveyronu
+  studyPriority: important
+  confusionTags:
+  - itard-seguin-montessori
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Jean-Marc Gaspard Itard
+    excerpt: Francouzský lékař a pedagog proslulý případem Viktora z Aveyronu, takzvanéhodivokého chlapce.
+- id: edouard-seguin
+  displayName: Édouard Séguin
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1812
+    deathYear: 1880
+    displayLabel: 1812-1880
+  eraId: 18-19-stoleti
+  periodLabel: 18. -19. století
+  nationalContext: francouzský kontext
+  disciplines:
+  - psychopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Francouzský lékař a pedagog považovaný za zakladatele systematické péče o osobys
+    mentálním postižením.
+  mainAnchors:
+  - Francouzský lékař a pedagog považovaný za zakladatele systematické péče o osobys mentálním postižením.
+  - 'Rozpracoval fyziologickou metodu a známou Séguinovu triádu: výchovu činnosti, výchovu myšlení a výchovu
+    vůle.'
+  - V roce 1841 otevřel v Paříži školu pro slabomyslné a výrazně ovlivnil evropskoui americkou psychopedii.
+  - Jeho práce je klíčová pro pochopení přechodu od pouhé péče k systematickéedukaci osob s mentálním
+    postižením.
+  relationTargets:
+  - fyziologicka-metoda
+  - seguinova-triada
+  studyPriority: core
+  confusionTags:
+  - itard-seguin-montessori
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Édouard Séguin
+    excerpt: Francouzský lékař a pedagog považovaný za zakladatele systematické péče o osobys mentálním
+      postižením.
+- id: john-langdon-down
+  displayName: John Langdon Down
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1828
+    deathYear: 1896
+    displayLabel: 1828-1896
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: britský kontext
+  disciplines:
+  - psychopedie
+  significanceSummary: Britský lékař a průkopník péče o osoby s mentálním postižením.
+  mainAnchors:
+  - Britský lékař a průkopník péče o osoby s mentálním postižením.
+  - Jeho jméno je spojeno s popisem Downova syndromu a s humánnějším přístupem kpéči o osoby s intelektovým
+    postižením.
+  - Usiloval o zlepšování životních podmínek, péče a vzdělávacích možností těchtoosob.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: John Langdon Down
+    excerpt: Britský lékař a průkopník péče o osoby s mentálním postižením.
+- id: jean-demoor
+  displayName: Jean Demoor
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1867
+    deathYear: 1941
+    displayLabel: 1867-1941
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: belgický kontext
+  disciplines:
+  - psychopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Belgický lékař a pedagog spojený s vědeckým studiem dětí s mentálním postiženíma
+    s rozvojem zvláštního vzdělávání v Belgii.
+  mainAnchors:
+  - Belgický lékař a pedagog spojený s vědeckým studiem dětí s mentálním postiženíma s rozvojem zvláštního
+    vzdělávání v Belgii.
+  - Je připomínán hlavně v souvislosti s organizací zvláštního školství, diagnostickými třídami a snahou
+    diferencovat děti podle potřeb podpory.
+  - V psychopedii představuje důležitý most mezi lékařským pozorováním a školskouorganizací péče.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - diagnostika
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Jean Demoor
+    excerpt: Belgický lékař a pedagog spojený s vědeckým studiem dětí s mentálním postiženíma s rozvojem
+      zvláštního vzdělávání v Belgii.
+- id: maria-montessori
+  displayName: Maria Montessori
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1870
+    deathYear: 1952
+    displayLabel: 1870-1952
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: italská kontext
+  disciplines:
+  - psychopedie
+  significanceSummary: Italská lékařka a pedagožka, která nejprve pracovala s dětmi s mentálnímpostižením
+    a teprve z této zkušenosti vyrostl její obecně pedagogický systém.
+  mainAnchors:
+  - Italská lékařka a pedagožka, která nejprve pracovala s dětmi s mentálnímpostižením a teprve z této
+    zkušenosti vyrostl její obecně pedagogický systém.
+  - Ve speciální pedagogice je důležitá smyslovým materiálem, důrazem na aktivitudítěte, samostatnost
+    a připravené prostředí.
+  - Její přístup ukazuje, jak zkušenost se speciálněpedagogickou praxí ovlivnilaširší reformní pedagogiku.
+  relationTargets: []
+  studyPriority: important
+  confusionTags:
+  - itard-seguin-montessori
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Maria Montessori
+    excerpt: Italská lékařka a pedagožka, která nejprve pracovala s dětmi s mentálnímpostižením a teprve
+      z této zkušenosti vyrostl její obecně pedagogický systém.
+- id: ovide-decroly
+  displayName: Ovide Decroly
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1871
+    deathYear: 1932
+    displayLabel: 1871-1932
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: belgický kontext
+  disciplines:
+  - psychopedie
+  significanceSummary: Belgický lékař a pedagog, který rozvíjel činnostní a zájmově orientovanoupedagogiku.
+  mainAnchors:
+  - Belgický lékař a pedagog, který rozvíjel činnostní a zájmově orientovanoupedagogiku.
+  - Zakládal diagnostické třídy pro děti s obtížemi a prosazoval vyučovánívycházející z potřeb, zájmů
+    a praktické činnosti dítěte.
+  - Patří k reformním pedagogům, kteří ovlivnili i speciálněpedagogické pojetíindividualizace výuky.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - diagnostika
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Ovide Decroly
+    excerpt: Belgický lékař a pedagog, který rozvíjel činnostní a zájmově orientovanoupedagogiku.
+- id: rudolf-steiner
+  displayName: Rudolf Steiner
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1861
+    deathYear: 1925
+    displayLabel: 1861-1925
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: rakouský kontext
+  disciplines:
+  - psychopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Rakouský filozof a zakladatel waldorfské pedagogiky, připomínaný jako širšíreformně
+    pedagogické pozadí speciální pedagogiky.
+  mainAnchors:
+  - Rakouský filozof a zakladatel waldorfské pedagogiky, připomínaný jako širšíreformně pedagogické pozadí
+    speciální pedagogiky.
+  - Ve speciálněpedagogickém kontextu je důležitý hlavně důrazem na celostní rozvojosobnosti a na respekt
+    k individuálnímu tempu vývoje.
+  - Jeho význam je spíše podpůrný a kontextový než přímo psychopedický.
+  relationTargets: []
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Rudolf Steiner
+    excerpt: Rakouský filozof a zakladatel waldorfské pedagogiky, připomínaný jako širšíreformně pedagogické
+      pozadí speciální pedagogiky.
+- id: samuel-torrey-orton
+  displayName: Samuel Torrey Orton
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1879
+    deathYear: 1948
+    displayLabel: 1879-1948
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: americký kontext
+  disciplines:
+  - psychopedie
+  significanceSummary: Americký neurolog a badatel spojovaný především s výzkumem specifických poruchčtení
+    a psaní.
+  mainAnchors:
+  - Americký neurolog a badatel spojovaný především s výzkumem specifických poruchčtení a psaní.
+  - Jeho jméno se váže k posunu od globálních kategorií mentálního postižení kdiferencovanému chápání
+    školních obtíží.
+  - Je důležitý hlavně pro propojení neurologického výkladu a speciálněpedagogicképraxe u dyslexie a příbuzných
+    obtíží.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Samuel Torrey Orton
+    excerpt: Americký neurolog a badatel spojovaný především s výzkumem specifických poruchčtení a psaní.
+- id: peter-petersen
+  displayName: Peter Petersen
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1884
+    deathYear: 1952
+    displayLabel: 1884-1952
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: německý kontext
+  disciplines:
+  - psychopedie
+  significanceSummary: Německý pedagog a autor Jenského plánu.
+  mainAnchors:
+  - Německý pedagog a autor Jenského plánu.
+  - Jeho koncepce kladla důraz na individualizaci, spolupráci, heterogenní skupinya respekt k vývojovým
+    možnostem dítěte.
+  - Ve speciální pedagogice je připomínán jako reformně pedagogické pozadídiferencované práce s žáky různé
+    výkonnostní úrovně.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Peter Petersen
+    excerpt: Německý pedagog a autor Jenského plánu.
+- id: ivar-asbjorn-f-lling
+  displayName: Ivar Asbjörn Følling
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1888
+    deathYear: 1973
+    displayLabel: 1888-1973
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: norský kontext
+  disciplines:
+  - psychopedie
+  - diagnostika-a-psychometrie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Norský lékař, který popsal fenylketonurii jako metabolickou příčinu mentálníhopostižení.
+  mainAnchors:
+  - Norský lékař, který popsal fenylketonurii jako metabolickou příčinu mentálníhopostižení.
+  - Jeho práce ukázala, že část mentálních postižení má zjistitelnou biologickoupříčinu a že včasná diagnostika
+    má zásadní preventivní význam.
+  - V psychopedii představuje důležitou vazbu mezi medicínou, prevencí a vývojovýmpoškozením.
+  relationTargets: []
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - diagnostika
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Ivar Asbjörn Følling
+    excerpt: Norský lékař, který popsal fenylketonurii jako metabolickou příčinu mentálníhopostižení.
+- id: carleton-washburne
+  displayName: Carleton Washburne
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1889
+    deathYear: 1968
+    displayLabel: 1889-1968
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: americký kontext
+  disciplines:
+  - psychopedie
+  significanceSummary: Americký reformní pedagog a autor Winnetské soustavy.
+  mainAnchors:
+  - Americký reformní pedagog a autor Winnetské soustavy.
+  - Je důležitý individualizací výuky, diferenciací učiva a snahou přizpůsobitvzdělávání rozdílné úrovni
+    schopností žáků.
+  - Ve speciální pedagogice se připomíná jako součást reformního pozadí podporyžáků s nižším kognitivním
+    výkonem.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Carleton Washburne
+    excerpt: Americký reformní pedagog a autor Winnetské soustavy.
+- id: karel-slavoj-amerling
+  displayName: Karel Slavoj Amerling
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1807
+    deathYear: 1884
+    displayLabel: 1807-1884
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: české prostředí
+  disciplines:
+  - psychopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Zakladatelská osobnost rané české psychopedické tradice a obhájcevzdělavatelnosti
+    dětí s mentálním postižením.
+  mainAnchors:
+  - Zakladatelská osobnost rané české psychopedické tradice a obhájcevzdělavatelnosti dětí s mentálním
+    postižením.
+  - V Praze stál u Ernestina, prvního ústavu pro děti tehdy označované jako„idioti“.
+  - Prosazoval názorné, praktické a pracovní vyučování a patří k prvním českýmautorům, kteří odmítali
+    úplnou nevzdělavatelnost těchto dětí.
+  - Jeho jméno je klíčové pro dějiny české psychopedie a pomocného školství.
+  relationTargets:
+  - ernestinum
+  - pomocne-skolstvi
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Karel Slavoj Amerling
+    excerpt: Zakladatelská osobnost rané české psychopedické tradice a obhájcevzdělavatelnosti dětí s
+      mentálním postižením.
+- id: frantisek-cada
+  displayName: František Čáda
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1865
+    deathYear: 1918
+    displayLabel: 1865-1918
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - psychopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Český psycholog, reformní pedagog a organizátor péče o děti s mentálnímpostižením.
+  mainAnchors:
+  - Český psycholog, reformní pedagog a organizátor péče o děti s mentálnímpostižením.
+  - Významně přispěl k rozvoji pomocného školství a k odbornému propojenípsychologie, pedagogiky a speciální
+    pedagogiky.
+  - Jeho jméno se váže k systematické školské péči, diferenciaci dětí podle potřeba k přípravě odborného
+    zázemí oboru.
+  relationTargets:
+  - pomocne-skolstvi
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: František Čáda
+    excerpt: Český psycholog, reformní pedagog a organizátor péče o děti s mentálnímpostižením.
+- id: josef-zeman
+  displayName: Josef Zeman
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1867
+    deathYear: 1961
+    displayLabel: 1867-1961
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - psychopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Jedna z nejdůležitějších osobností českého pomocného školství.
+  mainAnchors:
+  - Jedna z nejdůležitějších osobností českého pomocného školství.
+  - Podílel se na budování sítě pomocných škol, na tvorbě osnov i na přípravěučitelů pro tuto oblast.
+  - Jeho jméno je spojeno také se zákonným a organizačním ukotvením vzdělávání žákůs mentálním postižením
+    v českých zemích.
+  - Pro psychopedii představuje klíčovou osobnost institucionálního a školskéhorozvoje.
+  relationTargets:
+  - pomocne-skolstvi
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Josef Zeman
+    excerpt: Jedna z nejdůležitějších osobností českého pomocného školství.
+- id: karel-herfort
+  displayName: Karel Herfort
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1871
+    deathYear: 1939
+    displayLabel: 1871-1939
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - psychopedie
+  - diagnostika-a-psychometrie
+  significanceSummary: Lékař a pedagog spojený s Ernestinem, dětskou psychiatrií a propojením lékařskédiagnostiky
+    s pedagogickým vedením dítěte.
+  mainAnchors:
+  - Lékař a pedagog spojený s Ernestinem, dětskou psychiatrií a propojením lékařskédiagnostiky s pedagogickým
+    vedením dítěte.
+  - Prosazoval pracovní výchovu, nápravný tělocvik a systematickou péči o děti smentálním postižením.
+  - Jeho význam spočívá v institucionálním rozvoji péče a v důrazu na spoluprácimedicínského a pedagogického
+    pohledu.
+  relationTargets:
+  - detska-psychiatrie
+  - ernestinum
+  - napravny-telocvik
+  - pracovni-vychova
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - diagnostika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Karel Herfort
+    excerpt: Lékař a pedagog spojený s Ernestinem, dětskou psychiatrií a propojením lékařskédiagnostiky
+      s pedagogickým vedením dítěte.
+- id: vaclav-prihoda
+  displayName: Václav Příhoda
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1889
+    deathYear: 1979
+    displayLabel: 1889-1979
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - psychopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Český pedagog a psycholog, který ovlivnil české školství důrazem nadiferenciaci,
+    modernizaci a pedagogickou psychologii.
+  mainAnchors:
+  - Český pedagog a psycholog, který ovlivnil české školství důrazem nadiferenciaci, modernizaci a pedagogickou
+    psychologii.
+  - Ve speciálněpedagogickém kontextu je důležitý hlavně jako širší odborné pozadíindividualizované práce
+    s žákem.
+  - Jeho význam spočívá spíše v teoretickém a školském rámci než v přímépsychopedické instituci.
+  relationTargets: []
+  studyPriority: context
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Václav Příhoda
+    excerpt: Český pedagog a psycholog, který ovlivnil české školství důrazem nadiferenciaci, modernizaci
+      a pedagogickou psychologii.
+- id: milan-valenta
+  displayName: Milan Valenta
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1958
+    deathYear: null
+    displayLabel: 1958-
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - psychopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Český speciální pedagog výrazně spojovaný s psychopedií a s modernímvymezováním
+    speciální pedagogiky.
+  mainAnchors:
+  - Český speciální pedagog výrazně spojovaný s psychopedií a s modernímvymezováním speciální pedagogiky.
+  - Zabývá se teorií mentálního postižení, edukací osob s nižším kognitivnímvýkonem a širším kontextem
+    podpory.
+  - Je důležitý také svým užším a širším pojetím speciální pedagogiky a důrazem nainterdisciplinární přesah
+    oboru.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychopedie
+    locator: Milan Valenta
+    excerpt: Český speciální pedagog výrazně spojovaný s psychopedií a s modernímvymezováním speciální
+      pedagogiky.
+- id: rudolf-jedlicka
+  displayName: Rudolf Jedlička
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1869
+    deathYear: 1926
+    displayLabel: 1869-1926
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - somatopedie
+  significanceSummary: Lékař a zakladatel Jedličkova ústavu v Praze, který spojil léčbu, edukaci, rehabilitaci
+    a přípravu na pracovní život.
+  mainAnchors:
+  - Lékař a zakladatel Jedličkova ústavu v Praze, který spojil léčbu, edukaci, rehabilitaci a přípravu
+    na pracovní život.
+  - Patří k nejvýznamnějším osobnostem české péče o osoby s postižením hybnosti a kzakladatelům institucionální
+    somatopedické tradice.
+  - Jeho jméno je spojeno s ucelenou péčí o děti a mladé lidi s tělesným postiženíma s důrazem na praktickou
+    soběstačnost.
+  relationTargets:
+  - jedlickuv-ustav
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - rehabilitace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Somatopedie
+    locator: Rudolf Jedlička
+    excerpt: Lékař a zakladatel Jedličkova ústavu v Praze, který spojil léčbu, edukaci, rehabilitaci a
+      přípravu na pracovní život.
+- id: otokar-chlup
+  displayName: Otokar Chlup
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1875
+    deathYear: 1965
+    displayLabel: 1875-1965
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - somatopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Pedagog a psycholog, který se podílel na institucionálním rozvoji péče o děti stělesným
+    postižením na Moravě.
+  mainAnchors:
+  - Pedagog a psycholog, který se podílel na institucionálním rozvoji péče o děti stělesným postižením
+    na Moravě.
+  - Byl jmenován ředitelem Ústavu pro děti zmrzačelé v Brně a bývá označován jako„moravský Jedlička“.
+  - Vedle somatopedického působení rozvíjel i pedagogickou psychologii a teoretickézázemí speciální pedagogiky.
+  relationTargets:
+  - ustav-pro-deti-zmrzacele-v-brne
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Somatopedie
+    locator: Otokar Chlup
+    excerpt: Pedagog a psycholog, který se podílel na institucionálním rozvoji péče o děti stělesným postižením
+      na Moravě.
+- id: frantisek-bakule
+  displayName: František Bakule
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1877
+    deathYear: 1957
+    displayLabel: 1877-1957
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - somatopedie
+  significanceSummary: Pedagog spojený s Jedličkovým ústavem a později se samostatným Bakulovýmústavem
+    pro výchovu životem a prací.
+  mainAnchors:
+  - Pedagog spojený s Jedličkovým ústavem a později se samostatným Bakulovýmústavem pro výchovu životem
+    a prací.
+  - Zdůrazňoval tvořivou práci, samosprávu, hudební a pracovní výchovu a přípravuna skutečný život.
+  - Proslul také souborem Bakulovi zpěváčci, který se stal symbolem jeho výchovnémetody založené na aktivitě
+    a odpovědnosti dětí.
+  relationTargets:
+  - bakulovi-zpevacci
+  - bakuluv-ustav
+  - jedlickuv-ustav
+  - pracovni-vychova
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Somatopedie
+    locator: František Bakule
+    excerpt: Pedagog spojený s Jedličkovým ústavem a později se samostatným Bakulovýmústavem pro výchovu
+      životem a prací.
+- id: jan-mauer
+  displayName: Jan Mauer
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1884
+    deathYear: 1963
+    displayLabel: 1884-1963
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - somatopedie
+  significanceSummary: Zakladatel nápravné pedagogiky v českém prostředí a výrazný propagátorpedagogické
+    protiváhy čistě medicínskému pohledu.
+  mainAnchors:
+  - Zakladatel nápravné pedagogiky v českém prostředí a výrazný propagátorpedagogické protiváhy čistě
+    medicínskému pohledu.
+  - Usiloval o školy při nemocnicích, léčebnou tělesnou výchovu a odbornou přípravupedagogů pro práci
+    s dětmi s tělesným postižením.
+  - Jeho význam spočívá v propojení edukace, rehabilitace a sociálního začleněníosob s postižením hybnosti.
+  relationTargets:
+  - lecebna-telesna-vychova
+  - napravna-pedagogika
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - rehabilitace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Somatopedie
+    locator: Jan Mauer
+    excerpt: Zakladatel nápravné pedagogiky v českém prostředí a výrazný propagátorpedagogické protiváhy
+      čistě medicínskému pohledu.
+- id: augustin-bartos
+  displayName: Augustin Bartoš
+  alternativeNames:
+  - Augustin Roman Bartoš
+  lifeSpan:
+    birthYear: 1888
+    deathYear: 1969
+    displayLabel: 1888-1969
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - somatopedie
+  significanceSummary: Významná osobnost české somatopedické tradice spojovaná s pracovní terapií, tvořivou
+    činností a výchovou k praktické samostatnosti.
+  mainAnchors:
+  - Významná osobnost české somatopedické tradice spojovaná s pracovní terapií, tvořivou činností a výchovou
+    k praktické samostatnosti.
+  - Jeho jméno připomíná směr somatopedie, který vedl od ochrany a péče k aktivnímupracovnímu začlenění
+    osob s tělesným postižením.
+  - V dokumentech bývá uváděn také jako Augustin Roman Bartoš.
+  relationTargets:
+  - pracovni-terapie
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Somatopedie
+    locator: Augustin Bartoš
+    excerpt: Významná osobnost české somatopedické tradice spojovaná s pracovní terapií, tvořivou činností
+      a výchovou k praktické samostatnosti.
+- id: jan-chlup
+  displayName: Jan Chlup
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1908
+    deathYear: 1992
+    displayLabel: 1908-1992
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - somatopedie
+  significanceSummary: Osobnost spojená s rozvojem somatopedické a rehabilitační linie v Brně a sKociánkou.
+  mainAnchors:
+  - Osobnost spojená s rozvojem somatopedické a rehabilitační linie v Brně a sKociánkou.
+  - Jeho jméno připomíná rozvoj moravské institucionální péče o děti s tělesnýmpostižením a rehabilitačně
+    orientovaný přístup.
+  - V dějinách oboru představuje pokračování brněnské somatopedické tradice poprvní zakladatelské generaci.
+  relationTargets:
+  - kocianka
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - rehabilitace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Somatopedie
+    locator: Jan Chlup
+    excerpt: Osobnost spojená s rozvojem somatopedické a rehabilitační linie v Brně a sKociánkou.
+- id: frantisek-kabele
+  displayName: František Kábele
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1913
+    deathYear: 1998
+    displayLabel: 1913-1998
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - somatopedie
+  - logopedie
+  significanceSummary: Český speciální pedagog, jehož práce přesahovala mezi somatopedii, logopedii aširší
+    speciálněpedagogickou teorií.
+  mainAnchors:
+  - Český speciální pedagog, jehož práce přesahovala mezi somatopedii, logopedii aširší speciálněpedagogickou
+    teorií.
+  - Patří k výrazným osobnostem poválečného rozvoje oboru a k autorům, kteřípropojovali pedagogické a
+    rehabilitační hledisko.
+  - Je připomínán také v souvislosti s českou logopedickou literaturou a suniverzitní přípravou speciálních
+    pedagogů.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - rehabilitace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Somatopedie
+    locator: František Kábele
+    excerpt: Český speciální pedagog, jehož práce přesahovala mezi somatopedii, logopedii aširší speciálněpedagogickou
+      teorií.
+- id: lili-monatova
+  displayName: Lili Monatová
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1925
+    deathYear: 2005
+    displayLabel: 1925-2005
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - somatopedie
+  significanceSummary: Významná osobnost brněnské speciální pedagogiky a vysokoškolské přípravyspeciálních
+    pedagogů.
+  mainAnchors:
+  - Významná osobnost brněnské speciální pedagogiky a vysokoškolské přípravyspeciálních pedagogů.
+  - Je spojována hlavně se somatopedickou a rehabilitační tradicí Brna a snovodobým profilováním oboru.
+  - Její jméno je důležité také pro institucionální kontinuitu brněnské školyspeciální pedagogiky.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - rehabilitace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Somatopedie
+    locator: Lili Monatová
+    excerpt: Významná osobnost brněnské speciální pedagogiky a vysokoškolské přípravyspeciálních pedagogů.
+- id: hippokrates
+  displayName: Hippokrates
+  alternativeNames: []
+  lifeSpan:
+    birthYear: -460
+    deathYear: -370
+    displayLabel: asi 460-370 př. n. l.
+  eraId: starovek
+  periodLabel: Starověk
+  nationalContext: antický kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Antický lékař, jehož jméno je spojováno s nejstaršími lékařskými pozorovánímiporuch
+    řeči, hlasu a vztahu mezi tělesným stavem a mluvením.
+  mainAnchors:
+  - Antický lékař, jehož jméno je spojováno s nejstaršími lékařskými pozorovánímiporuch řeči, hlasu a
+    vztahu mezi tělesným stavem a mluvením.
+  - V dějinách logopedie představuje rané biologické a medicínské předpolípozdějšího studia řeči.
+  - Je připomínán hlavně jako jeden z prvních autorů, kteří spojovali poruchy řečis tělesnými a neurologickými
+    příčinami.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Hippokrates
+    excerpt: Antický lékař, jehož jméno je spojováno s nejstaršími lékařskými pozorovánímiporuch řeči,
+      hlasu a vztahu mezi tělesným stavem a mluvením.
+- id: isokrates
+  displayName: Isokratés
+  alternativeNames: []
+  lifeSpan:
+    birthYear: -436
+    deathYear: -338
+    displayLabel: 436-338 př. n. l.
+  eraId: starovek
+  periodLabel: Starověk
+  nationalContext: antický kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Antický řečník a učitel rétoriky, spojovaný s kultivací mluveného projevu avýchovou
+    řečníků.
+  mainAnchors:
+  - Antický řečník a učitel rétoriky, spojovaný s kultivací mluveného projevu avýchovou řečníků.
+  - V dějinách logopedie připomíná linii systematického nácviku řeči, hlasu ajazykového projevu.
+  - Jeho význam je spíše historický a rétorický než klinicky logopedický.
+  relationTargets: []
+  studyPriority: context
+  confusionTags: []
+  tags:
+  - historie-oboru
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Isokratés
+    excerpt: Antický řečník a učitel rétoriky, spojovaný s kultivací mluveného projevu avýchovou řečníků.
+- id: aristoteles
+  displayName: Aristotelés
+  alternativeNames: []
+  lifeSpan:
+    birthYear: -384
+    deathYear: -322
+    displayLabel: 384-322 př. n. l.
+  eraId: starovek
+  periodLabel: Starověk
+  nationalContext: antický kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Antický filozof, který se zabýval hlasem, artikulací a řečí jako zvláštnímznakem
+    člověka.
+  mainAnchors:
+  - Antický filozof, který se zabýval hlasem, artikulací a řečí jako zvláštnímznakem člověka.
+  - Jeho úvahy tvoří součást starého teoretického pozadí logopedie a kultivacemluveného projevu.
+  - Pro studium je důležitý hlavně jako filozofické východisko přemýšlení o řeči, jazyce a komunikaci.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - komunikace
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Aristotelés
+    excerpt: Antický filozof, který se zabýval hlasem, artikulací a řečí jako zvláštnímznakem člověka.
+- id: demosthenes
+  displayName: Démosthenés
+  alternativeNames: []
+  lifeSpan:
+    birthYear: -384
+    deathYear: -322
+    displayLabel: 384-322 př. n. l.
+  eraId: starovek
+  periodLabel: Starověk
+  nationalContext: antický kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Antický řečník, který se stal symbolem cílevědomého překonávání řečových obtížípomocí
+    intenzivního nácviku.
+  mainAnchors:
+  - Antický řečník, který se stal symbolem cílevědomého překonávání řečových obtížípomocí intenzivního
+    nácviku.
+  - V logopedické tradici je často připomínán pro dechová, artikulační a hlasovácvičení, s nimiž je spojena
+    legenda o tréninku s oblázky v ústech.
+  - Je významný jako historický příklad sebeřízené kompenzace poruchy řeči.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - historie-oboru
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Démosthenés
+    excerpt: Antický řečník, který se stal symbolem cílevědomého překonávání řečových obtížípomocí intenzivního
+      nácviku.
+- id: oribasius
+  displayName: Oribasius
+  alternativeNames: []
+  lifeSpan:
+    displayLabel: asi 320-400
+  eraId: starovek
+  periodLabel: Starověk
+  nationalContext: antický kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Antický lékař a autor lékařské encyklopedie, který se zabýval koktavostí aporuchami
+    řeči.
+  mainAnchors:
+  - Antický lékař a autor lékařské encyklopedie, který se zabýval koktavostí aporuchami řeči.
+  - Zdůrazňoval význam soustavného nácviku a vztahu mezi léčitelem a pacientem přiterapii.
+  - Je připomínán jako jeden z prvních autorů, kteří spojovali pozorování poruchřeči s praktickým cvičením.
+  relationTargets:
+  - koktavost
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Oribasius
+    excerpt: Antický lékař a autor lékařské encyklopedie, který se zabýval koktavostí aporuchami řeči.
+- id: caelius-aurelianus
+  displayName: Caelius Aurelianus
+  alternativeNames: []
+  lifeSpan:
+    displayLabel: 5. století
+  eraId: starovek
+  periodLabel: Starověk
+  nationalContext: starověký kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Starověký lékař spojovaný s léčbou koktavosti a s doporučováním řečovégymnastiky.
+  mainAnchors:
+  - Starověký lékař spojovaný s léčbou koktavosti a s doporučováním řečovégymnastiky.
+  - Jeho jméno připomíná rané terapeutické pokusy o systematické procvičování řeči.
+  - V dějinách logopedie představuje jednu z prvních linií vědomé terapie poruchplynulosti řeči.
+  relationTargets:
+  - koktavost
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Caelius Aurelianus
+    excerpt: Starověký lékař spojovaný s léčbou koktavosti a s doporučováním řečovégymnastiky.
+- id: francis-bacon
+  displayName: Francis Bacon
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1561
+    deathYear: 1626
+    displayLabel: 1561-1626
+  eraId: 17-stoleti
+  periodLabel: 17. století
+  nationalContext: anglický kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Anglický filozof, který se okrajově zabýval i řečí, sluchovým vnímáním akoktavostí.
+  mainAnchors:
+  - Anglický filozof, který se okrajově zabýval i řečí, sluchovým vnímáním akoktavostí.
+  - V logopedickém kontextu se připomíná jako součást raně novověkého zájmu o řeč, jazyk a jejich poruchy.
+  - Jeho význam je spíše historický a kontextový než klinicky terapeutický.
+  relationTargets:
+  - koktavost
+  studyPriority: context
+  confusionTags: []
+  tags:
+  - historie-oboru
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Francis Bacon
+    excerpt: Anglický filozof, který se okrajově zabýval i řečí, sluchovým vnímáním akoktavostí.
+- id: paul-broca
+  displayName: Paul Broca
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1824
+    deathYear: 1880
+    displayLabel: 1824-1880
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: francouzský kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Francouzský lékař a neurolog, jehož jméno je spojeno s Brocovou oblastí a smotorickou
+    afázií.
+  mainAnchors:
+  - Francouzský lékař a neurolog, jehož jméno je spojeno s Brocovou oblastí a smotorickou afázií.
+  - Prokázal vztah mezi poruchou řeči a poškozením konkrétní mozkové oblasti vdominantní hemisféře.
+  - Jeho práce je pro logopedii klíčová při vysvětlování neurologického základujazyka a afázií.
+  - Jméno Broca musí mít student pevně spojeno s motorickou složkou řeči.
+  relationTargets:
+  - brocova-oblast
+  - carl-wernicke
+  - motoricka-afazie
+  studyPriority: core
+  confusionTags:
+  - broca-a-wernicke
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Paul Broca
+    excerpt: Francouzský lékař a neurolog, jehož jméno je spojeno s Brocovou oblastí a smotorickou afázií.
+- id: carl-wernicke
+  displayName: Carl Wernicke
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1848
+    deathYear: 1905
+    displayLabel: 1848-1905
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: německý kontext
+  disciplines:
+  - logopedie
+  - diagnostika-a-psychometrie
+  significanceSummary: Německý neurolog, jehož jméno je spojeno s Wernickeovou oblastí a sesenzorickou
+    afázií.
+  mainAnchors:
+  - Německý neurolog, jehož jméno je spojeno s Wernickeovou oblastí a sesenzorickou afázií.
+  - Ukázal, že různé typy jazykových poruch mají odlišný neurologický základ a žejazykové porozumění nelze
+    ztotožnit s artikulací.
+  - Jeho práce patří k základům neurologického chápání řeči a logopedickédiferenciální diagnostiky.
+  - Jméno Wernicke je třeba spojovat především s porozuměním řeči a senzorickouafázií.
+  relationTargets:
+  - paul-broca
+  - senzoricka-afazie
+  - wernickeova-oblast
+  studyPriority: important
+  confusionTags:
+  - broca-a-wernicke
+  tags:
+  - diagnostika
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Carl Wernicke
+    excerpt: Německý neurolog, jehož jméno je spojeno s Wernickeovou oblastí a sesenzorickou afázií.
+- id: hermann-gutzmann
+  displayName: Hermann Gutzmann
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1865
+    deathYear: 1922
+    displayLabel: 1865-1922
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: německý kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Německý lékař a foniatr, často označovaný za zakladatele vědecky pojatélogopedie
+    v německém prostředí.
+  mainAnchors:
+  - Německý lékař a foniatr, často označovaný za zakladatele vědecky pojatélogopedie v německém prostředí.
+  - Systematicky se věnoval poruchám hlasu a řeči a jejich odborné terapii.
+  - Jeho jméno připomíná spojení logopedie s foniatrií a s profesionálnímmedicínským zázemím oboru.
+  relationTargets: []
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Hermann Gutzmann
+    excerpt: Německý lékař a foniatr, často označovaný za zakladatele vědecky pojatélogopedie v německém
+      prostředí.
+- id: charles-bliss
+  displayName: Charles Bliss
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1897
+    deathYear: 1985
+    displayLabel: 1897-1985
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: tvůrce kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Tvůrce systému Blissymbolics.
+  mainAnchors:
+  - Tvůrce systému Blissymbolics.
+  - Jeho symbolový systém se stal důležitým nástrojem augmentativní a alternativníkomunikace u osob, u
+    nichž se mluvená řeč nerozvíjí nebo není hlavnímkomunikačním prostředkem.
+  - Ve speciální pedagogice je významný především v oblasti AAK a podpory funkčníkomunikace.
+  relationTargets:
+  - augmentativni-a-alternativni-komunikace
+  - blissymbolics
+  studyPriority: important
+  confusionTags:
+  - bliss-versus-makaton
+  tags:
+  - komunikace
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Charles Bliss
+    excerpt: Tvůrce systému Blissymbolics.
+- id: richard-luchsinger
+  displayName: Richard Luchsinger
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1900
+    deathYear: 1993
+    displayLabel: 1900-1993
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: švýcarský kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Švýcarský lékař a odborník na poruchy hlasu a řeči.
+  mainAnchors:
+  - Švýcarský lékař a odborník na poruchy hlasu a řeči.
+  - Vedl univerzitní hlasovou a řečovou kliniku a významně se podílel na rozvojifoniatrie a logopedie.
+  - Byl prezidentem Mezinárodní asociace logopedů a foniatrů a spoluvytvářelčasopis Folia Phoniatrica.
+  - Je důležitý jako představitel mezinárodní klinické a foniatrické tradice oboru.
+  relationTargets:
+  - folia-phoniatrica
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Richard Luchsinger
+    excerpt: Švýcarský lékař a odborník na poruchy hlasu a řeči.
+- id: charles-van-riper
+  displayName: Charles Van Riper
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1905
+    deathYear: 1994
+    displayLabel: 1905-1994
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: americký kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Americký logoped proslulý výzkumem a terapií koktavosti.
+  mainAnchors:
+  - Americký logoped proslulý výzkumem a terapií koktavosti.
+  - Je autorem klasik The Nature of Stuttering, The Treatment of Stuttering aSpeech Correction.
+  - Jeho terapeutický přístup je znám jako Van Riper therapy a patří k nejznámějšímmodelům práce s poruchami
+    plynulosti řeči.
+  - Sám se potýkal s koktavostí, což výrazně ovlivnilo jeho praktické pojetíterapie.
+  relationTargets:
+  - koktavost
+  - speech-correction
+  - the-nature-of-stuttering
+  - the-treatment-of-stuttering
+  - van-riper-therapy
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Charles Van Riper
+    excerpt: Americký logoped proslulý výzkumem a terapií koktavosti.
+- id: margaret-walker
+  displayName: Margaret Walker
+  alternativeNames: []
+  lifeSpan:
+    displayLabel: 20. století
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: britská kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Britská logopedka a hlavní tvůrkyně systému Makaton.
+  mainAnchors:
+  - Britská logopedka a hlavní tvůrkyně systému Makaton.
+  - Program rozvíjela jako podporu komunikace osob s mentálním postižením a dalšíchskupin s těžkými komunikačními
+    potížemi.
+  - Spolu s Kathy Johnston a Tonym Cornforthem stála u vzniku programu Makaton.
+  - Její jméno je v logopedii a AAK pevně spojeno s programem využívajícím znaky, symboly a mluvenou řeč.
+  relationTargets:
+  - augmentativni-a-alternativni-komunikace
+  - katherine-johnston
+  - makaton
+  - tony-cornforth
+  studyPriority: important
+  confusionTags:
+  - bliss-versus-makaton
+  - makaton-spolutvurci-a-ceske-zavedeni
+  tags:
+  - komunikace
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Margaret Walker
+    excerpt: Britská logopedka a hlavní tvůrkyně systému Makaton.
+- id: katherine-johnston
+  displayName: Katherine Johnston
+  alternativeNames:
+  - Kathy Johnston
+  lifeSpan:
+    displayLabel: 20. století
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: spoluautorka kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Spoluautorka systému Makaton.
+  mainAnchors:
+  - Spoluautorka systému Makaton.
+  - Patří ke spolutvůrcům programu Makaton používaného v augmentativní aalternativní komunikaci.
+  - Její práce směřovala k praktické komunikační podpoře osob s komplexnímikomunikačními obtížemi.
+  relationTargets:
+  - makaton
+  - margaret-walker
+  studyPriority: important
+  confusionTags:
+  - makaton-spolutvurci-a-ceske-zavedeni
+  tags:
+  - komunikace
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Katherine Johnston
+    excerpt: Spoluautorka systému Makaton.
+- id: tony-cornforth
+  displayName: Tony Cornforth
+  alternativeNames: []
+  lifeSpan:
+    displayLabel: 20. století
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: spoluautor kontext
+  disciplines:
+  - logopedie
+  significanceSummary: Spoluautor systému Makaton.
+  mainAnchors:
+  - Spoluautor systému Makaton.
+  - Je jedním ze tří jmen, z nichž vznikl název programu Makaton.
+  - Spolu s Margaret Walker a Kathy Johnston se podílel na tvorbě tohoto podpůrnéhokomunikačního systému.
+  relationTargets:
+  - makaton
+  - margaret-walker
+  studyPriority: important
+  confusionTags:
+  - makaton-spolutvurci-a-ceske-zavedeni
+  tags:
+  - komunikace
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Tony Cornforth
+    excerpt: Spoluautor systému Makaton.
+- id: jan-hus
+  displayName: Jan Hus
+  alternativeNames: []
+  lifeSpan:
+    displayLabel: asi 1370-1415
+  eraId: 14-15-stoleti
+  periodLabel: 14. -15. století
+  nationalContext: české prostředí
+  disciplines:
+  - logopedie
+  significanceSummary: Český kazatel a reformátor, který usiloval o přesnější podobu českého jazyka asprávnou
+    výslovnost.
+  mainAnchors:
+  - Český kazatel a reformátor, který usiloval o přesnější podobu českého jazyka asprávnou výslovnost.
+  - V logopedické tradici je připomínán pro vztah mezi jazykovou normou, výslovností a řečovou kulturou.
+  - Jeho jméno je spojeno s reformou českého pravopisu a s důrazem na přesnostzvukové stránky jazyka.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Jan Hus
+    excerpt: Český kazatel a reformátor, který usiloval o přesnější podobu českého jazyka asprávnou výslovnost.
+- id: jan-evangelista-purkyne
+  displayName: Jan Evangelista Purkyně
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1787
+    deathYear: 1869
+    displayLabel: 1787-1869
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: české prostředí
+  disciplines:
+  - logopedie
+  significanceSummary: Český fyziolog a přírodovědec, který se zabýval fyziologií řeči, artikulací avýznamem
+    mateřského jazyka.
+  mainAnchors:
+  - Český fyziolog a přírodovědec, který se zabýval fyziologií řeči, artikulací avýznamem mateřského jazyka.
+  - Jeho práce ukazují vztah mezi funkcí mluvidel, nervovým systémem a zvukovoustránkou jazyka.
+  - V dějinách logopedie představuje důležité české přírodovědné pozadí studiařeči.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Jan Evangelista Purkyně
+    excerpt: Český fyziolog a přírodovědec, který se zabýval fyziologií řeči, artikulací avýznamem mateřského
+      jazyka.
+- id: karel-maly
+  displayName: Karel Malý
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1882
+    deathYear: 1953
+    displayLabel: 1882-1953
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - logopedie
+  - surdopedie
+  significanceSummary: Český pedagog a autor publikací věnovaných dětem neslyšícím, nedoslýchavým idětem
+    s poruchami řeči.
+  mainAnchors:
+  - Český pedagog a autor publikací věnovaných dětem neslyšícím, nedoslýchavým idětem s poruchami řeči.
+  - Organizoval kurzy nápravy vad řeči a propojoval surdopedii s logopedií.
+  - Je důležitý jako osobnost na pomezí sluchového a komunikačního postižení včeském prostředí.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Karel Malý
+    excerpt: Český pedagog a autor publikací věnovaných dětem neslyšícím, nedoslýchavým idětem s poruchami
+      řeči.
+- id: antonin-haveroch
+  displayName: Antonín Haveroch
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1882
+    deathYear: 1969
+    displayLabel: 1882-1969
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - logopedie
+  significanceSummary: Významný průkopník české logopedie, který se zabýval zejména afáziemi asložitějšími
+    poruchami řeči.
+  mainAnchors:
+  - Významný průkopník české logopedie, který se zabýval zejména afáziemi asložitějšími poruchami řeči.
+  - Je spojován také s pojmem amerisie a s ranou českou odbornou reflexícentrálních poruch komunikace.
+  - Jeho jméno připomíná neurologicky a klinicky orientovanou linii českélogopedie.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Antonín Haveroch
+    excerpt: Významný průkopník české logopedie, který se zabýval zejména afáziemi asložitějšími poruchami
+      řeči.
+- id: rudolf-kratochvil
+  displayName: Rudolf Kratochvíl
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1885
+    deathYear: 1944
+    displayLabel: 1885-1944
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - logopedie
+  significanceSummary: Autor první české učebnice logopedie Vady řeči z roku 1924.
+  mainAnchors:
+  - Autor první české učebnice logopedie Vady řeči z roku 1924.
+  - Patří k důležitým osobnostem počátků samostatného oborového myšlení v českémprostředí.
+  - Jeho jméno je klíčové pro pochopení počátků české odborné logopedickéliteratury.
+  relationTargets: []
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Rudolf Kratochvíl
+    excerpt: Autor první české učebnice logopedie Vady řeči z roku 1924.
+- id: miloslav-seeman
+  displayName: Miloslav Seeman
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1892
+    deathYear: 1975
+    displayLabel: 1892-1975
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - logopedie
+  - surdopedie
+  significanceSummary: Český foniatr a zakladatel české foniatrie, který výrazně ovlivnil vztah mezifoniatrií,
+    logopedií a surdopedií.
+  mainAnchors:
+  - Český foniatr a zakladatel české foniatrie, který výrazně ovlivnil vztah mezifoniatrií, logopedií
+    a surdopedií.
+  - Zdůrazňoval včasnou řečovou výchovu a založil foniatrické oddělení v Praze.
+  - Je důležitý pro organizaci péče o poruchy řeči, hlasu a sluchu v českémprostředí.
+  relationTargets: []
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Miloslav Seeman
+    excerpt: Český foniatr a zakladatel české foniatrie, který výrazně ovlivnil vztah mezifoniatrií, logopedií
+      a surdopedií.
+- id: zikmund-janke
+  displayName: Zikmund Janke
+  alternativeNames: []
+  lifeSpan:
+    displayLabel: 19.-20. století
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - logopedie
+  significanceSummary: Autor raných českých textů o koktavosti a prevenci vad řeči.
+  mainAnchors:
+  - Autor raných českých textů o koktavosti a prevenci vad řeči.
+  - Je připomínán zejména spisy O vzniku koktavosti a Vady řeči a jak se jichchránit.
+  - Jeho jméno připomíná období, kdy se logopedie v českém prostředí teprveformovala jako samostatnější
+    odborná oblast.
+  relationTargets:
+  - koktavost
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Zikmund Janke
+    excerpt: Autor raných českých textů o koktavosti a prevenci vad řeči.
+- id: milos-sovak
+  displayName: Miloš Sovák
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1905
+    deathYear: 1989
+    displayLabel: 1905-1989
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - logopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Zakladatelská osobnost moderní české logopedie i celé speciální pedagogiky.
+  mainAnchors:
+  - Zakladatelská osobnost moderní české logopedie i celé speciální pedagogiky.
+  - Založil Logopedický ústav hlavního města Prahy a prosazoval terénní, školskou izdravotnickou organizaci
+    logopedické péče.
+  - Je autorem zásadních českých logopedických a speciálněpedagogických publikací avýrazně ovlivnil univerzitní
+    přípravu logopedů.
+  - Jeho jméno je třeba spojovat s československou logopedií, systematizací oboru as propojením pedagogiky,
+    psychologie a medicíny.
+  relationTargets:
+  - logopedicky-ustav
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Miloš Sovák
+    excerpt: Zakladatelská osobnost moderní české logopedie i celé speciální pedagogiky.
+- id: bohuslav-blaha
+  displayName: Bohuslav Bláha
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1914
+    deathYear: 2000
+    displayLabel: 1914-2000
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - logopedie
+  significanceSummary: Český logoped a spoluautor odborných textů navazujících na práci Miloše Sováka.
+  mainAnchors:
+  - Český logoped a spoluautor odborných textů navazujících na práci Miloše Sováka.
+  - Je spojován zejména s publikací Hlas, řeč, sluch, která patří k tradičněcitovaným českým logopedickým
+    textům.
+  - Jeho jméno připomíná kontinuitu české logopedické literatury ve 20. století.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Bohuslav Bláha
+    excerpt: Český logoped a spoluautor odborných textů navazujících na práci Miloše Sováka.
+- id: karel-neubauer
+  displayName: Karel Neubauer
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1963
+    deathYear: null
+    displayLabel: 1963-
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - logopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Český logoped a speciální pedagog spojený s modernějším, informačně-komunikačním
+    pojetím logopedie.
+  mainAnchors:
+  - Český logoped a speciální pedagog spojený s modernějším, informačně-komunikačním pojetím logopedie.
+  - Je připomínán hlavně v souvislosti s proměnou oborových paradigmat odsomatopatologicko-zdravotního
+    k informačně-komunikačnímu pohledu.
+  - Zdůrazňuje funkční komunikaci a širší bio-psycho-sociální pohled na člověka snarušenou komunikační
+    schopností.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Karel Neubauer
+    excerpt: Český logoped a speciální pedagog spojený s modernějším, informačně-komunikačním pojetím
+      logopedie.
+- id: eva-skodova
+  displayName: Eva Škodová
+  alternativeNames: []
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - logopedie
+  significanceSummary: Česká logopedka a vysokoškolská pedagožka patřící k novodobým osobnostem českélogopedie
+    a klinické logopedie.
+  mainAnchors:
+  - Česká logopedka a vysokoškolská pedagožka patřící k novodobým osobnostem českélogopedie a klinické
+    logopedie.
+  - Je spojena s českou klinickou logopedií, s Foniatrickou klinikou 1. LF UK a sradou Asociace klinických
+    logopedů.
+  - Patří k autorkám publikací Klinická logopedie a Hodnocení fonematického sluchu u předškolních dětí.
+  relationTargets:
+  - asociace-klinickych-logopedu
+  - foniatricka-klinika-1-lf-uk
+  - hodnoceni-fonematickeho-sluchu-u-predskolnich-deti
+  - klinicka-logopedie
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Eva Škodová
+    excerpt: Česká logopedka a vysokoškolská pedagožka patřící k novodobým osobnostem českélogopedie a
+      klinické logopedie.
+- id: lucie-laudova
+  displayName: Lucie Laudová
+  alternativeNames: []
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - logopedie
+  significanceSummary: Česká logopedka spojená s rozvojem Makatonu v českém prostředí a s podporouaugmentativní
+    a alternativní komunikace.
+  mainAnchors:
+  - Česká logopedka spojená s rozvojem Makatonu v českém prostředí a s podporouaugmentativní a alternativní
+    komunikace.
+  - Je důležitá hlavně tam, kde se řeší praktické zavádění komunikačních systémůpro osoby s těžšími komunikačními
+    obtížemi.
+  - V českém prostředí představuje spojení mezi logopedií, speciální pedagogikou aAAK.
+  relationTargets:
+  - augmentativni-a-alternativni-komunikace
+  - makaton
+  studyPriority: important
+  confusionTags:
+  - bliss-versus-makaton
+  - makaton-spolutvurci-a-ceske-zavedeni
+  tags:
+  - ceske-prostredi
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Lucie Laudová
+    excerpt: Česká logopedka spojená s rozvojem Makatonu v českém prostředí a s podporouaugmentativní
+      a alternativní komunikace.
+- id: viktor-lechta
+  displayName: Viktor Lechta
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1948
+    deathYear: null
+    displayLabel: 1948-
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: slovenské prostředí
+  disciplines:
+  - logopedie
+  significanceSummary: Slovenský logoped a speciální pedagog, jehož jméno je úzce spojeno s pojmemnarušená
+    komunikační schopnost.
+  mainAnchors:
+  - Slovenský logoped a speciální pedagog, jehož jméno je úzce spojeno s pojmemnarušená komunikační schopnost.
+  - Je autorem významných prací o terapii NKS, koktavosti a inkluzivní pedagogice.
+  - V logopedii je důležitý i svou klasifikací NKS a moderním vymezením oboru.
+  relationTargets:
+  - koktavost
+  - narusena-komunikacni-schopnost
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - inkluze
+  - komunikace
+  - slovenske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Logopedie
+    locator: Viktor Lechta
+    excerpt: Slovenský logoped a speciální pedagog, jehož jméno je úzce spojeno s pojmemnarušená komunikační
+      schopnost.
+- id: pedro-ponce-de-leon
+  displayName: Pedro Ponce de León
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1520
+    deathYear: 1584
+    displayLabel: 1520-1584
+  eraId: 16-stoleti
+  periodLabel: 16. století
+  nationalContext: španělský kontext
+  disciplines:
+  - surdopedie
+  significanceSummary: Španělský mnich považovaný za raného průkopníka výchovy neslyšících.
+  mainAnchors:
+  - Španělský mnich považovaný za raného průkopníka výchovy neslyšících.
+  - Je spojován s jedním z prvních doložených pokusů systematicky vzdělávatneslyšící děti šlechtického
+    původu.
+  - V dějinách surdopedie představuje počátek evropské tradice výuky psaní, odezírání a artikulované řeči.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Pedro Ponce de León
+    excerpt: Španělský mnich považovaný za raného průkopníka výchovy neslyšících.
+- id: juan-pablo-bonet
+  displayName: Juan Pablo Bonet
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1573
+    deathYear: 1633
+    displayLabel: 1573-1633
+  eraId: 16-stoleti
+  periodLabel: 16. století
+  nationalContext: španělský kontext
+  disciplines:
+  - surdopedie
+  significanceSummary: Španělský autor knihy o zjednodušení zvuků a umění naučit němé mluvit, vydanéroku
+    1620.
+  mainAnchors:
+  - Španělský autor knihy o zjednodušení zvuků a umění naučit němé mluvit, vydanéroku 1620.
+  - Proslul využíváním prstové abecedy a systematickou výukou artikulované řeči.
+  - Je považován za jednu z klíčových raných osobností vzdělávání neslyšících a zavýznamný zdroj pozdějších
+    evropských metod.
+  relationTargets:
+  - kniha-o-zjednoduseni-zvuku-a-umeni-naucit-neme-mluvit
+  - prstova-abeceda
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Juan Pablo Bonet
+    excerpt: Španělský autor knihy o zjednodušení zvuků a umění naučit němé mluvit, vydanéroku 1620.
+- id: johann-konrad-amman
+  displayName: Johann Konrad Amman
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1669
+    deathYear: 1724
+    displayLabel: 1669-1724
+  eraId: 17-18-stoleti
+  periodLabel: 17. -18. století
+  nationalContext: švýcarský kontext
+  disciplines:
+  - surdopedie
+  significanceSummary: Švýcarský lékař působící v Nizozemsku, považovaný za zakladatele orální metodyve
+    vzdělávání neslyšících.
+  mainAnchors:
+  - Švýcarský lékař působící v Nizozemsku, považovaný za zakladatele orální metodyve vzdělávání neslyšících.
+  - Zdůrazňoval možnost naučit neslyšící mluvit pomocí odezírání, hlasové produkcea práce s mluvidly.
+  - Jeho význam spočívá v přesvědčení, že neslyšící mají zachovaná mluvidla a lze unich rozvíjet mluvenou
+    řeč.
+  relationTargets:
+  - oralni-metoda
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Johann Konrad Amman
+    excerpt: Švýcarský lékař působící v Nizozemsku, považovaný za zakladatele orální metodyve vzdělávání
+      neslyšících.
+- id: charles-michel-de-l-epee
+  displayName: Charles-Michel de l’Épée
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1712
+    deathYear: 1789
+    displayLabel: 1712-1789
+  eraId: 18-stoleti
+  periodLabel: 18. století
+  nationalContext: francouzský kontext
+  disciplines:
+  - surdopedie
+  significanceSummary: Francouzský kněz a zakladatel veřejného ústavu pro neslyšící v Paříži.
+  mainAnchors:
+  - Francouzský kněz a zakladatel veřejného ústavu pro neslyšící v Paříži.
+  - Rozvíjel znakové a manuální vyučování a bývá označován za otce francouzskétradice vzdělávání neslyšících.
+  - Jeho pařížský ústav se stal důležitým evropským centrem, z něhož vycházeladalší institucionální tradice.
+  relationTargets:
+  - roch-ambroise-cucurron-abbe-sicard
+  - verejny-ustav-pro-neslysici-v-parizi
+  - znakove-a-manualni-vyucovani
+  studyPriority: core
+  confusionTags:
+  - francouzska-a-nemecka-linie-surdopedie
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Charles-Michel de l’Épée
+    excerpt: Francouzský kněz a zakladatel veřejného ústavu pro neslyšící v Paříži.
+- id: thomas-braidwood
+  displayName: Thomas Braidwood
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1715
+    deathYear: 1806
+    displayLabel: 1715–1806
+  eraId: 18-stoleti
+  periodLabel: 18. století
+  nationalContext: skotský kontext
+  disciplines:
+  - surdopedie
+  significanceSummary: Skotský pedagog spojovaný s počátky institucionálního vzdělávání neslyšících vbritském
+    prostředí.
+  mainAnchors:
+  - Skotský pedagog spojovaný s počátky institucionálního vzdělávání neslyšících vbritském prostředí.
+  - Roku 1760 otevřel v Edinburghu první školu pro neslyšící děti v Británii.
+  - Je důležitý jako představitel rané britské linie vyučování, která spojovalařečové vedení s využíváním
+    znaků.
+  relationTargets:
+  - prvni-skola-pro-neslysici-v-edinburghu
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Thomas Braidwood
+    excerpt: Skotský pedagog spojovaný s počátky institucionálního vzdělávání neslyšících vbritském prostředí.
+- id: samuel-heinicke
+  displayName: Samuel Heinicke
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1727
+    deathYear: 1790
+    displayLabel: 1727-1790
+  eraId: 18-stoleti
+  periodLabel: 18. století
+  nationalContext: německý kontext
+  disciplines:
+  - surdopedie
+  significanceSummary: Německý pedagog a hlavní představitel německé orální metody.
+  mainAnchors:
+  - Německý pedagog a hlavní představitel německé orální metody.
+  - Zdůrazňoval výuku mluvené řeči, odezírání a systematický nácvik hlasovékomunikace.
+  - V dějinách surdopedie představuje hlavní protiváhu francouzské znakové tradicia klíčovou postavu metodického
+    sporu.
+  relationTargets:
+  - nemecka-oralni-metoda
+  - oralni-metoda
+  studyPriority: core
+  confusionTags:
+  - francouzska-a-nemecka-linie-surdopedie
+  tags:
+  - komunikace
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Samuel Heinicke
+    excerpt: Německý pedagog a hlavní představitel německé orální metody.
+- id: roch-ambroise-cucurron-abbe-sicard
+  displayName: Roch-Ambroise Cucurron, Abbé Sicard
+  alternativeNames:
+  - Abbé Sicard
+  lifeSpan:
+    birthYear: 1742
+    deathYear: 1822
+    displayLabel: 1742–1822
+  eraId: 18-stoleti
+  periodLabel: 18. století
+  nationalContext: francouzský kontext
+  disciplines:
+  - surdopedie
+  significanceSummary: Francouzský pedagog a pokračovatel pařížské tradice vzdělávání neslyšících poAbbém
+    de l’Épéem.
+  mainAnchors:
+  - Francouzský pedagog a pokračovatel pařížské tradice vzdělávání neslyšících poAbbém de l’Épéem.
+  - Navázal na manuální vyučování a dále rozvíjel evropskou institucionální tradicivzdělávání neslyšících.
+  - Je významný i tím, že jeho působení ovlivnilo Thomase H. Gallaudeta a nepřímotaké americkou surdopedii.
+  relationTargets:
+  - thomas-hopkins-gallaudet
+  - znakove-a-manualni-vyucovani
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Roch-Ambroise Cucurron, Abbé Sicard
+    excerpt: Francouzský pedagog a pokračovatel pařížské tradice vzdělávání neslyšících poAbbém de l’Épéem.
+- id: laurent-clerc
+  displayName: Laurent Clerc
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1785
+    deathYear: 1869
+    displayLabel: 1785–1869
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: francouzský kontext
+  disciplines:
+  - surdopedie
+  significanceSummary: Francouzský neslyšící pedagog a jedna z nejvýznamnějších osobností dějinvzdělávání
+    neslyšících v USA.
+  mainAnchors:
+  - Francouzský neslyšící pedagog a jedna z nejvýznamnějších osobností dějinvzdělávání neslyšících v USA.
+  - Spolu s Gallaudetem stál u vzniku první americké školy pro neslyšící a bývápřipomínán jako první neslyšící
+    učitel neslyšících v USA.
+  - Je důležitý především přenesením francouzské znakové tradice do americkéhoprostředí.
+  relationTargets:
+  - thomas-hopkins-gallaudet
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Laurent Clerc
+    excerpt: Francouzský neslyšící pedagog a jedna z nejvýznamnějších osobností dějinvzdělávání neslyšících
+      v USA.
+- id: thomas-hopkins-gallaudet
+  displayName: Thomas Hopkins Gallaudet
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1787
+    deathYear: 1851
+    displayLabel: 1787–1851
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: americký kontext
+  disciplines:
+  - surdopedie
+  significanceSummary: Americký pedagog spojený se vznikem první trvalé školy pro neslyšící v USA.
+  mainAnchors:
+  - Americký pedagog spojený se vznikem první trvalé školy pro neslyšící v USA.
+  - Spolu s Laurentem Clercem založil roku 1817 American School for the Deaf.
+  - V dějinách surdopedie je důležitý jako zprostředkovatel evropských, zejménafrancouzských, přístupů
+    do amerického prostředí.
+  relationTargets:
+  - american-school-for-the-deaf
+  - laurent-clerc
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Thomas Hopkins Gallaudet
+    excerpt: Americký pedagog spojený se vznikem první trvalé školy pro neslyšící v USA.
+- id: karel-berger
+  displayName: Karel Berger
+  alternativeNames: []
+  lifeSpan:
+    displayLabel: 18. století
+  eraId: 18-stoleti
+  periodLabel: 18. století
+  nationalContext: české prostředí
+  disciplines:
+  - surdopedie
+  significanceSummary: První ředitel pražského ústavu pro hluchoněmé otevřeného roku 1786.
+  mainAnchors:
+  - První ředitel pražského ústavu pro hluchoněmé otevřeného roku 1786.
+  - Je spojen s počátky organizované institucionální péče o neslyšící v českýchzemích.
+  - V české surdopedii představuje počátek pražské ústavní tradice.
+  relationTargets:
+  - prazsky-ustav-pro-hluchoneme
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Karel Berger
+    excerpt: První ředitel pražského ústavu pro hluchoněmé otevřeného roku 1786.
+- id: vaclav-frost
+  displayName: Václav Frost
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1791
+    deathYear: 1868
+    displayLabel: 1791-1868
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: české prostředí
+  disciplines:
+  - surdopedie
+  significanceSummary: Ředitel pražského ústavu pro hluchoněmé a tvůrce Frostovy kombinované metody.
+  mainAnchors:
+  - Ředitel pražského ústavu pro hluchoněmé a tvůrce Frostovy kombinované metody.
+  - Spojil prvky znakového a orálního vyučování a významně ovlivnil českousurdopedickou tradici.
+  - Jeho jméno je důležité hlavně tam, kde se řeší český metodický kompromis meziznakem a mluvenou řečí.
+  relationTargets:
+  - frostova-kombinovana-metoda
+  - prazsky-ustav-pro-hluchoneme
+  studyPriority: important
+  confusionTags:
+  - francouzska-a-nemecka-linie-surdopedie
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Václav Frost
+    excerpt: Ředitel pražského ústavu pro hluchoněmé a tvůrce Frostovy kombinované metody.
+- id: jeronym-lorm
+  displayName: Jeronym Lorm
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1821
+    deathYear: 1902
+    displayLabel: 1821-1902
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: české prostředí
+  disciplines:
+  - surdopedie
+  significanceSummary: Brněnský básník, po němž je pojmenována Lormova doteková abeceda.
+  mainAnchors:
+  - Brněnský básník, po němž je pojmenována Lormova doteková abeceda.
+  - Tento systém se využívá zejména v komunikaci osob s hluchoslepotou.
+  - V dějinách speciální pedagogiky je důležitý především přes komunikační systém, který nese jeho jméno.
+  relationTargets:
+  - lormova-dotekova-abeceda
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - komunikace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Jeronym Lorm
+    excerpt: Brněnský básník, po němž je pojmenována Lormova doteková abeceda.
+- id: josef-dietmann
+  displayName: Josef Dietmann
+  alternativeNames: []
+  lifeSpan:
+    displayLabel: 19. století
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: české prostředí
+  disciplines:
+  - surdopedie
+  significanceSummary: Osobnost spojená s počátky vzdělávání neslyšících na Moravě.
+  mainAnchors:
+  - Osobnost spojená s počátky vzdělávání neslyšících na Moravě.
+  - Díky jeho úsilí a sbírkám vznikl v Brně ústav pro neslyšící a nevidomé děti.
+  - Je připomínán hlavně jako organizátor a podporovatel institucionální péče vmoravském prostředí.
+  relationTargets:
+  - ustav-pro-neslysici-a-nevidome-deti-v-brne
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Josef Dietmann
+    excerpt: Osobnost spojená s počátky vzdělávání neslyšících na Moravě.
+- id: constantin-malisch
+  displayName: Constantin Malisch
+  alternativeNames: []
+  lifeSpan:
+    displayLabel: 20. století
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - surdopedie
+  significanceSummary: Pedagog, který po roce 1918 ovlivnil práci československých škol pro neslyšící.
+  mainAnchors:
+  - Pedagog, který po roce 1918 ovlivnil práci československých škol pro neslyšící.
+  - Propagoval při vyučování řeči takzvanou mateřskou metodu.
+  - Jeho jméno připomíná novodobou československou debatu o metodách vzděláváníneslyšících.
+  relationTargets:
+  - materska-metoda
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Surdopedie
+    locator: Constantin Malisch
+    excerpt: Pedagog, který po roce 1918 ovlivnil práci československých škol pro neslyšící.
+- id: arab-al-amidi
+  displayName: Arab al-Amidi
+  alternativeNames: []
+  lifeSpan:
+    displayLabel: 14. století
+  eraId: stredovek-a-rane-predpoli
+  periodLabel: Středověka rané předpolí
+  nationalContext: slepý kontext
+  disciplines:
+  - tyflopedie
+  significanceSummary: Slepý arabský učenec připomínaný jako časná historická osobnost spojená svyužíváním
+    hmatově rozlišitelných znaků.
+  mainAnchors:
+  - Slepý arabský učenec připomínaný jako časná historická osobnost spojená svyužíváním hmatově rozlišitelných
+    znaků.
+  - V dějinách tyflopedie představuje velmi rané předpolí hledání cest ke čtení arozlišování textu bez
+    zraku.
+  - 'Jeho význam je hlavně historický: ukazuje, že snahy o hmatové rozlišování znakůjsou mnohem starší
+    než novověké evropské systémy.'
+  relationTargets:
+  - hmatove-rozlisitelne-znaky
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - historie-oboru
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Arab al-Amidi
+    excerpt: Slepý arabský učenec připomínaný jako časná historická osobnost spojená svyužíváním hmatově
+      rozlišitelných znaků.
+- id: denis-diderot
+  displayName: Denis Diderot
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1713
+    deathYear: 1784
+    displayLabel: 1713-1784
+  eraId: 18-stoleti
+  periodLabel: 18. století
+  nationalContext: francouzský kontext
+  disciplines:
+  - tyflopedie
+  significanceSummary: Francouzský filozof a autor Dopisu o slepcích.
+  mainAnchors:
+  - Francouzský filozof a autor Dopisu o slepcích.
+  - Upozorňoval na význam hmatu a na svébytné poznávání světa u osob se zrakovýmpostižením.
+  - V dějinách tyflopedie je důležitý jako autor, který teoreticky promýšlelpoznávání bez zraku a význam
+    kompenzačních smyslů.
+  relationTargets:
+  - dopis-o-slepcich
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Denis Diderot
+    excerpt: Francouzský filozof a autor Dopisu o slepcích.
+- id: valentin-hauy
+  displayName: Valentin Haüy
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1745
+    deathYear: 1822
+    displayLabel: 1745-1822
+  eraId: 18-stoleti
+  periodLabel: 18. století
+  nationalContext: francouzský kontext
+  disciplines:
+  - tyflopedie
+  significanceSummary: Francouzský pedagog a filantrop, který roku 1784 založil v Paříži prvnívýchovně-vzdělávací
+    ústav pro nevidomé na světě.
+  mainAnchors:
+  - Francouzský pedagog a filantrop, který roku 1784 založil v Paříži prvnívýchovně-vzdělávací ústav pro
+    nevidomé na světě.
+  - Prosazoval vzdělavatelnost nevidomých a pracoval s reliéfním tiskem jakopředstupněm pozdějších hmatových
+    systémů.
+  - Jeho působení položilo základ evropské institucionální péče o nevidomé aovlivnilo vznik dalších ústavů.
+  - Je spojován také s textem Myšlenky o výchově slepců a s prvním systematickýmpokusem o jejich školní
+    vzdělávání.
+  relationTargets:
+  - myslenky-o-vychove-slepcu
+  - prvni-vychovne-vzdelavaci-ustav-pro-nevidome-v-parizi
+  - reliefni-tisk
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Valentin Haüy
+    excerpt: Francouzský pedagog a filantrop, který roku 1784 založil v Paříži prvnívýchovně-vzdělávací
+      ústav pro nevidomé na světě.
+- id: johann-wilhelm-klein
+  displayName: Johann Wilhelm Klein
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1765
+    deathYear: 1848
+    displayLabel: 1765-1848
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: zakladatel kontext
+  disciplines:
+  - tyflopedie
+  significanceSummary: Zakladatel vídeňského ústavu pro nevidomé z roku 1804 a významná osobnostnovodobé
+    evropské tyflopedie.
+  mainAnchors:
+  - Zakladatel vídeňského ústavu pro nevidomé z roku 1804 a významná osobnostnovodobé evropské tyflopedie.
+  - Zajímal se také o vzdělávání částečně vidících a upozorňoval, že jejich potřebyse liší od potřeb nevidomých.
+  - Je spojován s takzvaným jehlovým písmem a s důrazem na pracovní uplatnění apraktickou samostatnost
+    nevidomých.
+  relationTargets:
+  - jehlove-pismo
+  - vidensky-ustav-pro-nevidome
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Johann Wilhelm Klein
+    excerpt: Zakladatel vídeňského ústavu pro nevidomé z roku 1804 a významná osobnostnovodobé evropské
+      tyflopedie.
+- id: josef-julius-barbier
+  displayName: Josef Julius Barbier
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1767
+    deathYear: 1841
+    displayLabel: 1767-1841
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: autor kontext
+  disciplines:
+  - tyflopedie
+  significanceSummary: Autor bodového nočního písma, z něhož Louis Braille později vyšel při tvorběvlastní
+    soustavy.
+  mainAnchors:
+  - Autor bodového nočního písma, z něhož Louis Braille později vyšel při tvorběvlastní soustavy.
+  - Jeho myšlenka, že bod je pro hmat čitelnější než reliéfní křivka, měla zásadnívýznam pro další vývoj
+    písma pro nevidomé.
+  - V dějinách tyflopedie představuje klíčový předstupeň Braillovy šestibodovésoustavy.
+  relationTargets:
+  - bodove-nocni-pismo
+  - louis-braille
+  studyPriority: core
+  confusionTags:
+  - braille-a-jeho-predchudci
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Josef Julius Barbier
+    excerpt: Autor bodového nočního písma, z něhož Louis Braille později vyšel při tvorběvlastní soustavy.
+- id: james-gall
+  displayName: James Gall
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1780
+    deathYear: 1874
+    displayLabel: 1780-1874
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: osobnost kontext
+  disciplines:
+  - tyflopedie
+  significanceSummary: Osobnost spojovaná s ranými pokusy o reliéfní písmo pro nevidomé v britskémprostředí.
+  mainAnchors:
+  - Osobnost spojovaná s ranými pokusy o reliéfní písmo pro nevidomé v britskémprostředí.
+  - Patří k vývojové linii, která předcházela všeobecnému přijetí Braillova písma ahledala účelnou podobu
+    hmatového čtení.
+  - Jeho význam spočívá hlavně ve vývoji reliéfních systémů, nikoli v pozdějipřijaté bodové soustavě.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: James Gall
+    excerpt: Osobnost spojovaná s ranými pokusy o reliéfní písmo pro nevidomé v britskémprostředí.
+- id: samuel-gridley-howe
+  displayName: Samuel Gridley Howe
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1801
+    deathYear: 1876
+    displayLabel: 1801–1876
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: americký kontext
+  disciplines:
+  - tyflopedie
+  significanceSummary: Americký pedagog spojený s počátky systematického vzdělávání nevidomých ahluchoslepých.
+  mainAnchors:
+  - Americký pedagog spojený s počátky systematického vzdělávání nevidomých ahluchoslepých.
+  - Působil jako zakládající ředitel Perkins School for the Blind.
+  - Ve speciálněpedagogickém kontextu je důležitý hlavně prací s LaurouBridgmanovou a rozvojem americké
+    tradice edukace nevidomých.
+  relationTargets:
+  - laura-bridgman
+  - perkins-school-for-the-blind
+  studyPriority: important
+  confusionTags:
+  - howe-bridgman-keller
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Samuel Gridley Howe
+    excerpt: Americký pedagog spojený s počátky systematického vzdělávání nevidomých ahluchoslepých.
+- id: thomas-mark-lucas
+  displayName: Thomas Mark Lucas
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1804
+    deathYear: 1861
+    displayLabel: 1804-1861
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: anglický kontext
+  disciplines:
+  - tyflopedie
+  significanceSummary: Anglický autor jednoho z předbraillských reliéfních systémů pro nevidomé.
+  mainAnchors:
+  - Anglický autor jednoho z předbraillských reliéfních systémů pro nevidomé.
+  - V dějinách tyflopedie představuje etapu hledání účelnějšího písma ještě předpřevahou Braillovy soustavy.
+  - Je připomínán hlavně jako představitel alternativních reliéfních systémů 19.století.
+  relationTargets: []
+  studyPriority: important
+  confusionTags:
+  - braille-a-jeho-predchudci
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Thomas Mark Lucas
+    excerpt: Anglický autor jednoho z předbraillských reliéfních systémů pro nevidomé.
+- id: louis-braille
+  displayName: Louis Braille
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1809
+    deathYear: 1852
+    displayLabel: 1809-1852
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: francouzský kontext
+  disciplines:
+  - tyflopedie
+  significanceSummary: Francouzský pedagog a tvůrce šestibodového reliéfního systému čtení a psaní pronevidomé.
+  mainAnchors:
+  - Francouzský pedagog a tvůrce šestibodového reliéfního systému čtení a psaní pronevidomé.
+  - Jako bývalý žák pařížského ústavu přepracoval Barbierův systém do přehlednéšestibodové soustavy.
+  - Braillovo písmo zásadně změnilo možnosti samostatného čtení, psaní a vzdělávánínevidomých a stalo
+    se světovým standardem.
+  - Jeho jméno je ve speciální pedagogice spojeno nejen s písmem, ale i s modernípředstavou autonomie
+    nevidomého čtenáře.
+  relationTargets:
+  - braillovo-pismo
+  studyPriority: core
+  confusionTags:
+  - braille-a-jeho-predchudci
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Louis Braille
+    excerpt: Francouzský pedagog a tvůrce šestibodového reliéfního systému čtení a psaní pronevidomé.
+- id: william-moon
+  displayName: William Moon
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1818
+    deathYear: 1894
+    displayLabel: 1818-1894
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: tvůrce kontext
+  disciplines:
+  - tyflopedie
+  significanceSummary: Tvůrce Moonova reliéfního písma, které využívá jednodušší reliéfní tvary nežBraillova
+    soustava.
+  mainAnchors:
+  - Tvůrce Moonova reliéfního písma, které využívá jednodušší reliéfní tvary nežBraillova soustava.
+  - Jeho systém se osvědčil zejména u osob, které ztratily zrak později a obtížněse učily bodové písmo.
+  - V tyflopedii představuje důležitou alternativu k Braillovu písmu.
+  relationTargets:
+  - braillovo-pismo
+  - moonovo-reliefni-pismo
+  studyPriority: important
+  confusionTags:
+  - braille-a-jeho-predchudci
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: William Moon
+    excerpt: Tvůrce Moonova reliéfního písma, které využívá jednodušší reliéfní tvary nežBraillova soustava.
+- id: laura-bridgman
+  displayName: Laura Bridgman
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1829
+    deathYear: 1889
+    displayLabel: 1829–1889
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: americká kontext
+  disciplines:
+  - tyflopedie
+  significanceSummary: Americká hluchoslepá žákyně považovaná za první osobu s hluchoslepotou, kterázískala
+    formální vzdělání.
+  mainAnchors:
+  - Americká hluchoslepá žákyně považovaná za první osobu s hluchoslepotou, kterázískala formální vzdělání.
+  - Její edukace pod vedením Samuela G. Howea představuje zásadní historický mezníkpro vzdělávání osob
+    s kombinovaným smyslovým postižením.
+  - V dějinách oboru připravila půdu pro pozdější vzdělávání Helen Keller.
+  relationTargets:
+  - helen-keller
+  studyPriority: core
+  confusionTags:
+  - howe-bridgman-keller
+  tags:
+  - historie-oboru
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Laura Bridgman
+    excerpt: Americká hluchoslepá žákyně považovaná za první osobu s hluchoslepotou, kterázískala formální
+      vzdělání.
+- id: helen-keller
+  displayName: Helen Keller
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1880
+    deathYear: 1968
+    displayLabel: 1880–1968
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: osobnost kontext
+  disciplines:
+  - tyflopedie
+  significanceSummary: Osobnost dějin edukace hluchoslepých spojovaná s průlomem ve vzdělávání osob skombinovaným
+    smyslovým postižením.
+  mainAnchors:
+  - Osobnost dějin edukace hluchoslepých spojovaná s průlomem ve vzdělávání osob skombinovaným smyslovým
+    postižením.
+  - Byla první osobou s hluchoslepotou, která získala vysokoškolský titul, a stalase symbolem možností
+    edukace i společenského uplatnění.
+  - Je významná nejen biograficky, ale i jako důkaz, že systematická podpora můžepřekonat velmi těžké
+    komunikační bariéry.
+  relationTargets: []
+  studyPriority: important
+  confusionTags:
+  - howe-bridgman-keller
+  tags:
+  - komunikace
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Helen Keller
+    excerpt: Osobnost dějin edukace hluchoslepých spojovaná s průlomem ve vzdělávání osob skombinovaným
+      smyslovým postižením.
+- id: oskar-picht
+  displayName: Oskar Picht
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1871
+    deathYear: 1945
+    displayLabel: 1871-1945
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: konstruktér kontext
+  disciplines:
+  - tyflopedie
+  significanceSummary: Konstruktér a pedagog spojený s Pichtovým psacím strojem pro Braillovo písmo.
+  mainAnchors:
+  - Konstruktér a pedagog spojený s Pichtovým psacím strojem pro Braillovo písmo.
+  - Jeho zařízení významně usnadnilo praktické používání bodového písma ve školní iběžné komunikaci.
+  - V tyflopedii představuje důležitou pomůckovou a technickou inovaci.
+  relationTargets:
+  - braillovo-pismo
+  - pichtuv-psaci-stroj-pro-braillovo-pismo
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - komunikace
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Oskar Picht
+    excerpt: Konstruktér a pedagog spojený s Pichtovým psacím strojem pro Braillovo písmo.
+- id: alois-klar
+  displayName: Alois Klár
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1763
+    deathYear: 1833
+    displayLabel: 1763-1833
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: české prostředí
+  disciplines:
+  - tyflopedie
+  significanceSummary: Průkopník české péče o nevidomé a jedna z klíčových osobností českétyflopedické
+    tradice.
+  mainAnchors:
+  - Průkopník české péče o nevidomé a jedna z klíčových osobností českétyflopedické tradice.
+  - Je spojen se zakládáním ústavů pro výchovu, léčení, zaopatření a zaměstnávánínevidomých v Praze.
+  - Jeho význam spočívá v propojení péče, edukace, sociální podpory a pracovníhouplatnění nevidomých.
+  relationTargets: []
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Alois Klár
+    excerpt: Průkopník české péče o nevidomé a jedna z klíčových osobností českétyflopedické tradice.
+- id: jan-deyl
+  displayName: Jan Deyl
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1855
+    deathYear: 1924
+    displayLabel: 1855-1924
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - tyflopedie
+  significanceSummary: Český oftalmolog a univerzitní profesor, který roku 1910 založil Deylovuvýchovnu
+    slepých v Praze.
+  mainAnchors:
+  - Český oftalmolog a univerzitní profesor, který roku 1910 založil Deylovuvýchovnu slepých v Praze.
+  - Patří k nejvýznamnějším osobnostem české péče o osoby se zrakovým postižením ak oftalmologicky orientované
+    linii tyflopedie.
+  - Jeho jméno je spojeno s institucí, která zásadně ovlivnila české vzdělávánínevidomých.
+  relationTargets: []
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Jan Deyl
+    excerpt: Český oftalmolog a univerzitní profesor, který roku 1910 založil Deylovuvýchovnu slepých
+      v Praze.
+- id: vaclav-vejdovsky
+  displayName: Václav Vejdovský
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1862
+    deathYear: 1944
+    displayLabel: 1862-1944
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: české prostředí
+  disciplines:
+  - tyflopedie
+  significanceSummary: Český oftalmolog spojený s péčí o osoby se zrakovým postižením v českémprostředí.
+  mainAnchors:
+  - Český oftalmolog spojený s péčí o osoby se zrakovým postižením v českémprostředí.
+  - Jeho jméno je připomínáno i v názvu školy pro zrakově postižené v Olomouci.
+  - V dějinách tyflopedie představuje spíše institucionální než čistě teoretickoulinii.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Václav Vejdovský
+    excerpt: Český oftalmolog spojený s péčí o osoby se zrakovým postižením v českémprostředí.
+- id: drahomir-hanak
+  displayName: Drahomír Hanák
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1915
+    deathYear: 1999
+    displayLabel: 1915-1999
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - tyflopedie
+  significanceSummary: Český speciální pedagog spojený s novodobým odborným rozvíjením tyflopedie včeském
+    prostředí.
+  mainAnchors:
+  - Český speciální pedagog spojený s novodobým odborným rozvíjením tyflopedie včeském prostředí.
+  - Je významný jako autor a vysokoškolský pedagog orientovaný na edukaci osob sezrakovým postižením.
+  - Jeho jméno je důležité hlavně v rámci novodobé české tyflopedické literatury auniverzitní výuky.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Drahomír Hanák
+    excerpt: Český speciální pedagog spojený s novodobým odborným rozvíjením tyflopedie včeském prostředí.
+- id: libuse-ludikova
+  displayName: Libuše Ludíková
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1957
+    deathYear: null
+    displayLabel: 1957-
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - tyflopedie
+  significanceSummary: Česká speciální pedagožka spojená s olomouckou tradicí speciální pedagogiky a spodporou
+    osob se zrakovým postižením.
+  mainAnchors:
+  - Česká speciální pedagožka spojená s olomouckou tradicí speciální pedagogiky a spodporou osob se zrakovým
+    postižením.
+  - V novodobém kontextu je důležitá hlavně pro vysokoškolskou přípravu a prorozpracování současných speciálněpedagogických
+    témat.
+  - Její význam přesahuje z tyflopedie i do širšího systému speciální pedagogiky.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Libuše Ludíková
+    excerpt: Česká speciální pedagožka spojená s olomouckou tradicí speciální pedagogiky a spodporou osob
+      se zrakovým postižením.
+- id: kamila-ruzickova
+  displayName: Kamila Růžičková
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1971
+    deathYear: null
+    displayLabel: 1971-
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - tyflopedie
+  - diagnostika-a-psychometrie
+  significanceSummary: Česká speciální pedagožka a vysokoškolská pedagožka spojená s novodoboutyflopedií.
+  mainAnchors:
+  - Česká speciální pedagožka a vysokoškolská pedagožka spojená s novodoboutyflopedií.
+  - Zaměřuje se na edukaci, rehabilitaci a podporu osob se zrakovým postižením vrůzných životních etapách,
+    včetně rané péče.
+  - Její jméno je významné zejména v oblasti funkční diagnostiky zrakovéhopotenciálu a praktické tyflopedické
+    intervence.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - diagnostika
+  - rehabilitace
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Tyflopedie
+    locator: Kamila Růžičková
+    excerpt: Česká speciální pedagožka a vysokoškolská pedagožka spojená s novodoboutyflopedií.
+- id: konfucius
+  displayName: Konfucius
+  alternativeNames: []
+  lifeSpan:
+    birthYear: -551
+    deathYear: -479
+    displayLabel: 551-479 př. n. l.
+  eraId: starovek
+  periodLabel: Starověk
+  nationalContext: čínský kontext
+  disciplines:
+  - etopedie
+  significanceSummary: Čínský myslitel zdůrazňující mravní kultivaci člověka, sebekázeň a významvýchovy.
+  mainAnchors:
+  - Čínský myslitel zdůrazňující mravní kultivaci člověka, sebekázeň a významvýchovy.
+  - V etopedii představuje filozofické předpolí úvah o nápravě chování a o výchově charakteru.
+  - Jeho význam je historický a hodnotový, nikoli přímo reedukační.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - historie-oboru
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Etopedie
+    locator: Konfucius
+    excerpt: Čínský myslitel zdůrazňující mravní kultivaci člověka, sebekázeň a významvýchovy.
+- id: sokrates
+  displayName: Sokrates
+  alternativeNames: []
+  lifeSpan:
+    birthYear: -469
+    deathYear: -399
+    displayLabel: 469-399 př. n. l.
+  eraId: starovek
+  periodLabel: Starověk
+  nationalContext: antický kontext
+  disciplines:
+  - etopedie
+  significanceSummary: Antický filozof, jehož důraz na sebepoznání a výchovný dialog bývá připomínánjako
+    součást filozofických kořenů etopedického myšlení.
+  mainAnchors:
+  - Antický filozof, jehož důraz na sebepoznání a výchovný dialog bývá připomínánjako součást filozofických
+    kořenů etopedického myšlení.
+  - Jeho pojetí dialogu a mravní reflexe představuje rané východisko úvah o výchově charakteru.
+  - V etopedii vystupuje spíše jako filozofické pozadí než jako přímý autorreedukačních metod.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Etopedie
+    locator: Sokrates
+    excerpt: Antický filozof, jehož důraz na sebepoznání a výchovný dialog bývá připomínánjako součást
+      filozofických kořenů etopedického myšlení.
+- id: xenofon
+  displayName: Xenofón
+  alternativeNames: []
+  lifeSpan:
+    birthYear: -430
+    deathYear: -354
+    displayLabel: asi 430-354 př. n. l.
+  eraId: starovek
+  periodLabel: Starověk
+  nationalContext: antický kontext
+  disciplines:
+  - etopedie
+  significanceSummary: Antický autor spojovaný s úvahami o výchově, kázni a mravním vedení člověka.
+  mainAnchors:
+  - Antický autor spojovaný s úvahami o výchově, kázni a mravním vedení člověka.
+  - V etopedii připomíná rané pojetí výchovy jako nástroje usměrňování chování aspolečenské odpovědnosti.
+  - Jeho význam je historický a podpůrný.
+  relationTargets: []
+  studyPriority: context
+  confusionTags: []
+  tags:
+  - historie-oboru
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Etopedie
+    locator: Xenofón
+    excerpt: Antický autor spojovaný s úvahami o výchově, kázni a mravním vedení člověka.
+- id: platon
+  displayName: Platón
+  alternativeNames: []
+  lifeSpan:
+    birthYear: -427
+    deathYear: -347
+    displayLabel: 427-347 př. n. l.
+  eraId: starovek
+  periodLabel: Starověk
+  nationalContext: antický kontext
+  disciplines:
+  - etopedie
+  significanceSummary: Antický filozof, který spojoval výchovu s utvářením charakteru a se správnýmuspořádáním
+    života obce.
+  mainAnchors:
+  - Antický filozof, který spojoval výchovu s utvářením charakteru a se správnýmuspořádáním života obce.
+  - V etopedickém kontextu představuje rané filozofické východisko úvah o mravnívýchově a řízeném formování
+    osobnosti.
+  - Jeho význam je v této sekci především historicko-myšlenkový.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - historie-oboru
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Etopedie
+    locator: Platón
+    excerpt: Antický filozof, který spojoval výchovu s utvářením charakteru a se správnýmuspořádáním života
+      obce.
+- id: benjamin-rush
+  displayName: Benjamin Rush
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1746
+    deathYear: 1813
+    displayLabel: 1746-1813
+  eraId: 18-19-stoleti
+  periodLabel: 18. -19. století
+  nationalContext: americký kontext
+  disciplines:
+  - etopedie
+  significanceSummary: Americký lékař a reformátor, který do dějin etopedického a psychiatrickéhomyšlení
+    vstupuje důrazem na humánnější přístup k problémovému chování aduševním obtížím.
+  mainAnchors:
+  - Americký lékař a reformátor, který do dějin etopedického a psychiatrickéhomyšlení vstupuje důrazem
+    na humánnější přístup k problémovému chování aduševním obtížím.
+  - Patří k autorům, kteří prosazovali vlídnější a méně represivní zacházení sklienty a pacienty.
+  - V etopedickém kontextu je důležitý jako předchůdce humanizace péče.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Etopedie
+    locator: Benjamin Rush
+    excerpt: Americký lékař a reformátor, který do dějin etopedického a psychiatrickéhomyšlení vstupuje
+      důrazem na humánnější přístup k problémovému chování aduševním obtížím.
+- id: robert-m-zingg
+  displayName: Robert M. Zingg
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1900
+    deathYear: 1957
+    displayLabel: 1900-1957
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: badatel kontext
+  disciplines:
+  - etopedie
+  - psychopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Badatel spojovaný s výzkumem izolovaných a zanedbaných dětí a s problematikoutakzvaných
+    vlčích dětí.
+  mainAnchors:
+  - Badatel spojovaný s výzkumem izolovaných a zanedbaných dětí a s problematikoutakzvaných vlčích dětí.
+  - V širším etopedickém a psychopedickém kontextu připomíná zásadní významprostředí a socializace pro
+    vývoj osobnosti.
+  - Jeho práce je důležitá hlavně jako důkaz, že bez sociálního a výchovnéhoprostředí se vývoj dítěte
+    těžce narušuje.
+  relationTargets:
+  - vlci-deti
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Etopedie
+    locator: Robert M. Zingg
+    excerpt: Badatel spojovaný s výzkumem izolovaných a zanedbaných dětí a s problematikoutakzvaných vlčích
+      dětí.
+- id: fritz-redl
+  displayName: Fritz Redl
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1902
+    deathYear: 1988
+    displayLabel: 1902-1988
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholog kontext
+  disciplines:
+  - etopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholog a pedagog známý prací s dětmi s poruchami chování a emocí.
+  mainAnchors:
+  - Psycholog a pedagog známý prací s dětmi s poruchami chování a emocí.
+  - Proslul skupinovou prací, terapeutickou komunitou a důrazem na výchovnéprostředí jako nástroj změny
+    chování.
+  - Zdůrazňoval každodenní režim, skupinovou dynamiku a vztahový rámec jako klíčovéprvky reedukace.
+  relationTargets:
+  - terapeuticka-komunita
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Etopedie
+    locator: Fritz Redl
+    excerpt: Psycholog a pedagog známý prací s dětmi s poruchami chování a emocí.
+- id: alois-zikmund
+  displayName: Alois Zikmund
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1882
+    deathYear: 1952
+    displayLabel: 1882-1952
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - etopedie
+  significanceSummary: Významná osobnost české etopedické tradice spojená s vychovatelnami apolepšovnami.
+  mainAnchors:
+  - Významná osobnost české etopedické tradice spojená s vychovatelnami apolepšovnami.
+  - Ve vychovatelně v Opatovicích členil mládež na mravně ohroženou, mravněnarušenou a mravně vadnou.
+  - Zdůrazňoval individuální přístup, rozvoj mravní citlivosti a sociálních hodnotu každého chovance.
+  - Jeho jméno je klíčové pro dějiny české etopedické terminologie.
+  relationTargets:
+  - mravne-ohrozena-narusena-a-vadna-mladez
+  - vychovatelna-v-opatovicich
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Etopedie
+    locator: Alois Zikmund
+    excerpt: Významná osobnost české etopedické tradice spojená s vychovatelnami apolepšovnami.
+- id: josef-kettner
+  displayName: Josef Kettner
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1891
+    deathYear: 1943
+    displayLabel: 1891-1943
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - etopedie
+  significanceSummary: Osobnost české etopedické tradice připomínaná v souvislosti s reedukačními aresocializačními
+    přístupy.
+  mainAnchors:
+  - Osobnost české etopedické tradice připomínaná v souvislosti s reedukačními aresocializačními přístupy.
+  - Je spojován s péčí o děti s poruchami chování a s hledáním účinných nápravnýchpostupů v institucionálním
+    prostředí.
+  - V oboru představuje spíše odbornou linii praktické reedukace než širokéteoretické pojetí.
+  relationTargets:
+  - resocializacni-pristupy
+  studyPriority: context
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Etopedie
+    locator: Josef Kettner
+    excerpt: Osobnost české etopedické tradice připomínaná v souvislosti s reedukačními aresocializačními
+      přístupy.
+- id: frantisek-stampach
+  displayName: František Štampach
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1895
+    deathYear: 1969
+    displayLabel: 1895-1969
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - etopedie
+  significanceSummary: Česká osobnost spojená s etopedií a se sociálně-výchovnou prací s ohroženoumládeží.
+  mainAnchors:
+  - Česká osobnost spojená s etopedií a se sociálně-výchovnou prací s ohroženoumládeží.
+  - Viděl působnost nápravné pedagogiky zejména tam, kde potíže dítěte souvisejí sesociálně patologickými
+    vlivy prostředí.
+  - Je připomínán v souvislosti s péčí o ohroženou a obtížně vychovatelnou mládež as reedukačním zaměřením
+    oboru.
+  relationTargets:
+  - napravna-pedagogika
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Etopedie
+    locator: František Štampach
+    excerpt: Česká osobnost spojená s etopedií a se sociálně-výchovnou prací s ohroženoumládeží.
+- id: eduard-jager
+  displayName: Eduard Jäger
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1818
+    deathYear: 1884
+    displayLabel: 1818-1884
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: oftalmolog, kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  - tyflopedie
+  significanceSummary: Oftalmolog, jehož jméno se spojuje s Jägerovými tabulkami pro hodnocení čtení azrakové
+    ostrosti na blízko.
+  mainAnchors:
+  - Oftalmolog, jehož jméno se spojuje s Jägerovými tabulkami pro hodnocení čtení azrakové ostrosti na
+    blízko.
+  - Tyto tabulky patří k základním nástrojům oční diagnostiky s přesahem dotyflopedie a funkčního posuzování
+    zraku.
+  - Ve studiu je důležité spojit jeho jméno přímo s Jägerovými tabulkami.
+  relationTargets:
+  - jagerovy-tabulky
+  studyPriority: core
+  confusionTags:
+  - jager-snellen-lea
+  tags:
+  - diagnostika
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Eduard Jäger
+    excerpt: Oftalmolog, jehož jméno se spojuje s Jägerovými tabulkami pro hodnocení čtení azrakové ostrosti
+      na blízko.
+- id: herman-snellen
+  displayName: Herman Snellen
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1834
+    deathYear: 1908
+    displayLabel: 1834-1908
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: nizozemský kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  significanceSummary: Nizozemský oftalmolog, jehož jméno je spojeno se Snellenovým optotypem a sběžným
+    vyjadřováním zrakové ostrosti.
+  mainAnchors:
+  - Nizozemský oftalmolog, jehož jméno je spojeno se Snellenovým optotypem a sběžným vyjadřováním zrakové
+    ostrosti.
+  - Snellenův optotyp se stal klasickým nástrojem pro měření zrakové ostrosti vklinické i speciálněpedagogické
+    praxi.
+  - Jeho jméno patří k základní faktografii diagnostiky zrakového postižení.
+  relationTargets:
+  - snellenuv-optotyp
+  studyPriority: core
+  confusionTags:
+  - jager-snellen-lea
+  tags:
+  - diagnostika
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Herman Snellen
+    excerpt: Nizozemský oftalmolog, jehož jméno je spojeno se Snellenovým optotypem a sběžným vyjadřováním
+      zrakové ostrosti.
+- id: alfred-binet
+  displayName: Alfred Binet
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1857
+    deathYear: 1911
+    displayLabel: 1857-1911
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: francouzský kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Francouzský psycholog a jeden ze zakladatelů psychometrie a školní diagnostiky.
+  mainAnchors:
+  - Francouzský psycholog a jeden ze zakladatelů psychometrie a školní diagnostiky.
+  - Spolu s Théodorem Simonem vytvořil Binet-Simonovu škálu určenou k rozlišenídětí, které potřebují zvláštní
+    školní podporu.
+  - Jeho jméno se spojuje také s pozdější stanfordskou revizí, známou jakoStanford–Binet.
+  - Pro speciální pedagogiku je klíčový propojením testování intelektovýchschopností a školní praxe.
+  relationTargets:
+  - binet-simonova-skala
+  - stanford-binet
+  - theodore-simon
+  studyPriority: core
+  confusionTags:
+  - binet-simon-terman
+  tags:
+  - diagnostika
+  - psychometrie
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Alfred Binet
+    excerpt: Francouzský psycholog a jeden ze zakladatelů psychometrie a školní diagnostiky.
+- id: theodore-simon
+  displayName: Théodore Simon
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1873
+    deathYear: 1961
+    displayLabel: 1873–1961
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: francouzský kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Francouzský psychiatr a spoluautor jedné z nejvýznamnějších ranýchinteligenčních
+    škál.
+  mainAnchors:
+  - Francouzský psychiatr a spoluautor jedné z nejvýznamnějších ranýchinteligenčních škál.
+  - Spolu s Alfredem Binetem vytvořil Binet-Simonovu škálu určenou k rozlišenídětí, které potřebují zvláštní
+    školní podporu.
+  - Je důležitý pro dějiny školní diagnostiky a raného psychometrického rozlišovánívývojových odchylek.
+  relationTargets:
+  - alfred-binet
+  - binet-simonova-skala
+  studyPriority: core
+  confusionTags:
+  - binet-simon-terman
+  tags:
+  - diagnostika
+  - psychometrie
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Théodore Simon
+    excerpt: Francouzský psychiatr a spoluautor jedné z nejvýznamnějších ranýchinteligenčních škál.
+- id: lewis-terman
+  displayName: Lewis Terman
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1877
+    deathYear: 1956
+    displayLabel: 1877–1956
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: americký kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Americký psycholog spojený s rozšířením inteligenční diagnostiky ve školnípraxi.
+  mainAnchors:
+  - Americký psycholog spojený s rozšířením inteligenční diagnostiky ve školnípraxi.
+  - Vytvořil stanfordskou revizi původní Binet-Simonovy škály, známou jakoStanford-Binet.
+  - Je důležitý pro vývoj standardizovaného psychometrického testování a prorozšíření práce s inteligenčním
+    kvocientem.
+  relationTargets:
+  - alfred-binet
+  - inteligencni-kvocient
+  - stanford-binet
+  studyPriority: important
+  confusionTags:
+  - binet-simon-terman
+  tags:
+  - diagnostika
+  - psychometrie
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Lewis Terman
+    excerpt: Americký psycholog spojený s rozšířením inteligenční diagnostiky ve školnípraxi.
+- id: arnold-gesell
+  displayName: Arnold Gesell
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1880
+    deathYear: 1961
+    displayLabel: 1880-1961
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: americký kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Americký psycholog a pediatr proslulý vývojovými škálami a maturačním pojetímvývoje
+    dítěte.
+  mainAnchors:
+  - Americký psycholog a pediatr proslulý vývojovými škálami a maturačním pojetímvývoje dítěte.
+  - Jeho vývojové škály patří k základním nástrojům rané vývojové diagnostiky.
+  - Zdůrazňoval zákonitý průběh zrání a vývoje, což mělo velký dopad na posuzovánívývojové úrovně dítěte.
+  relationTargets:
+  - gesellovy-vyvojove-skaly
+  studyPriority: core
+  confusionTags:
+  - gesell-bayley-jirasek
+  tags:
+  - diagnostika
+  - psychometrie
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Arnold Gesell
+    excerpt: Americký psycholog a pediatr proslulý vývojovými škálami a maturačním pojetímvývoje dítěte.
+- id: nikolaj-ozeretskij
+  displayName: Nikolaj Ozeretskij
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1893
+    deathYear: 1955
+    displayLabel: 1893-1955
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: je kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  significanceSummary: Je spojován se škálou motorického vývoje Ozeretského, využívanou při hodnoceníkoordinace,
+    jemné i hrubé motoriky.
+  mainAnchors:
+  - Je spojován se škálou motorického vývoje Ozeretského, využívanou při hodnoceníkoordinace, jemné i
+    hrubé motoriky.
+  - Jeho jméno je důležité tam, kde speciální pedagogika pracuje s motorickoudiagnostikou a školní zralostí.
+  - V praxi představuje spojení jména a konkrétní diagnostické škály.
+  relationTargets:
+  - ozeretskeho-skala-motorickeho-vyvoje
+  - specialni-pedagogika
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - diagnostika
+  - psychometrie
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Nikolaj Ozeretskij
+    excerpt: Je spojován se škálou motorického vývoje Ozeretského, využívanou při hodnoceníkoordinace,
+      jemné i hrubé motoriky.
+- id: david-wechsler
+  displayName: David Wechsler
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1896
+    deathYear: 1981
+    displayLabel: 1896-1981
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholog kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholog a autor významných inteligenčních testů pro děti i dospělé.
+  mainAnchors:
+  - Psycholog a autor významných inteligenčních testů pro děti i dospělé.
+  - Jeho jméno se spojuje se škálami WAIS, WISC a WPPSI, které patří knejvýznamnějším nástrojům měření
+    inteligence.
+  - Zdůrazňoval, že inteligence má více složek a nelze ji redukovat na jedinouschopnost.
+  relationTargets:
+  - wais
+  - wisc
+  - wppsi
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - psychometrie
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: David Wechsler
+    excerpt: Psycholog a autor významných inteligenčních testů pro děti i dospělé.
+- id: nancy-bayley
+  displayName: Nancy Bayley
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1899
+    deathYear: 1994
+    displayLabel: 1899-1994
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholožka kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholožka spojená s Bayleyovými škálami raného vývoje.
+  mainAnchors:
+  - Psycholožka spojená s Bayleyovými škálami raného vývoje.
+  - Její škály slouží k hodnocení vývoje kojenců a batolat a k včasnému zachycenívývojových odchylek.
+  - V diagnostice představuje klíčový nástroj raného vývojového screeningu.
+  relationTargets:
+  - bayleyovy-skaly-raneho-vyvoje
+  studyPriority: core
+  confusionTags:
+  - gesell-bayley-jirasek
+  tags:
+  - diagnostika
+  - psychometrie
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Nancy Bayley
+    excerpt: Psycholožka spojená s Bayleyovými škálami raného vývoje.
+- id: marianne-frostig
+  displayName: Marianne Frostig
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1906
+    deathYear: 1996
+    displayLabel: 1906-1996
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholožka kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholožka a pedagožka známá testem zrakového vnímání.
+  mainAnchors:
+  - Psycholožka a pedagožka známá testem zrakového vnímání.
+  - Její práce se využívá zejména u dětí s poruchami učení a s obtížemi vevizuálně-percepční oblasti.
+  - Ve speciální pedagogice je důležitá hlavně spojením jména a testu zrakovéhovnímání.
+  relationTargets:
+  - test-zrakoveho-vnimani-frostigove
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - psychometrie
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Marianne Frostig
+    excerpt: Psycholožka a pedagožka známá testem zrakového vnímání.
+- id: joan-reynell
+  displayName: Joan Reynell
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1913
+    deathYear: 2012
+    displayLabel: 1913-2012
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: autorka kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  significanceSummary: Autorka jazykových a vývojových škál používaných v rané diagnostice.
+  mainAnchors:
+  - Autorka jazykových a vývojových škál používaných v rané diagnostice.
+  - Ve speciální pedagogice je důležitá především ve spojení s Pamelou Zinkinovou as Reynell–Zinkin škálami
+    pro malé děti se zrakovým postižením.
+  - Její jméno připomíná vazbu mezi jazykovým vývojem a speciální diagnostikou.
+  relationTargets:
+  - reynell-zinkin-skaly
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - diagnostika
+  - psychometrie
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Joan Reynell
+    excerpt: Autorka jazykových a vývojových škál používaných v rané diagnostice.
+- id: pamela-zinkin
+  displayName: Pamela Zinkin
+  alternativeNames: []
+  lifeSpan:
+    displayLabel: 20.-21. století
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: autorka kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  significanceSummary: Autorka a spoluautorka vývojových škál pro malé děti se zrakovým postižením.
+  mainAnchors:
+  - Autorka a spoluautorka vývojových škál pro malé děti se zrakovým postižením.
+  - Nejčastěji je připomínána ve spojení s Reynell–Zinkin škálami.
+  - Je důležitá hlavně v rané diagnostice dětí se zrakovým postižením.
+  relationTargets:
+  - reynell-zinkin-skaly
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - diagnostika
+  - psychometrie
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Pamela Zinkin
+    excerpt: Autorka a spoluautorka vývojových škál pro malé děti se zrakovým postižením.
+- id: ake-w-edfeldt
+  displayName: Åke W. Edfeldt
+  alternativeNames: []
+  lifeSpan:
+    displayLabel: 20. století
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: autor kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  significanceSummary: Autor reverzního testu využívaného při posuzování zrakově-prostorovéhozpracování
+    a předpokladů pro osvojování čtení.
+  mainAnchors:
+  - Autor reverzního testu využívaného při posuzování zrakově-prostorovéhozpracování a předpokladů pro
+    osvojování čtení.
+  - Ve speciální pedagogice je připomínán hlavně přes konkrétní diagnostickýnástroj.
+  - Jeho jméno patří k faktografii speciálněpedagogické diagnostiky, zejména voblasti čtenářské připravenosti.
+  relationTargets:
+  - reverzni-test
+  - specialnepedagogicka-diagnostika
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - diagnostika
+  - psychometrie
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Åke W. Edfeldt
+    excerpt: Autor reverzního testu využívaného při posuzování zrakově-prostorovéhozpracování a předpokladů
+      pro osvojování čtení.
+- id: lea-hyvarinen
+  displayName: Lea Hyvärinen
+  alternativeNames: []
+  lifeSpan:
+    displayLabel: 20.-21. století
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: finská kontext
+  disciplines:
+  - diagnostika-a-psychometrie
+  significanceSummary: Finská oftalmoložka a autorka diagnostických pomůcek LEA.
+  mainAnchors:
+  - Finská oftalmoložka a autorka diagnostických pomůcek LEA.
+  - Vyvinula nástroje LEA Symbols, LEA Gratings a další metody pro vyšetřovánízraku malých dětí.
+  - Její jméno je zásadní pro ranou funkční diagnostiku zrakového potenciálu vtyflopedii.
+  relationTargets:
+  - lea-gratings
+  - lea-symbols
+  studyPriority: core
+  confusionTags:
+  - jager-snellen-lea
+  tags:
+  - diagnostika
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Lea Hyvärinen
+    excerpt: Finská oftalmoložka a autorka diagnostických pomůcek LEA.
+- id: jaroslav-jirasek
+  displayName: Jaroslav Jirásek
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1922
+    deathYear: 2000
+    displayLabel: 1922-2000
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - diagnostika-a-psychometrie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Český psycholog spojovaný s orientačním testem školní zralosti a s posuzovánímpřipravenosti
+    dítěte na školní docházku.
+  mainAnchors:
+  - Český psycholog spojovaný s orientačním testem školní zralosti a s posuzovánímpřipravenosti dítěte
+    na školní docházku.
+  - V poradenské praxi je jeho jméno spojeno hlavně s orientačním testem školnízralosti.
+  - Patří k základním českým jménům školně poradenské diagnostiky.
+  relationTargets:
+  - orientacni-test-skolni-zralosti
+  studyPriority: core
+  confusionTags:
+  - gesell-bayley-jirasek
+  tags:
+  - ceske-prostredi
+  - diagnostika
+  - psychometrie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Jaroslav Jirásek
+    excerpt: Český psycholog spojovaný s orientačním testem školní zralosti a s posuzovánímpřipravenosti
+      dítěte na školní docházku.
+- id: zdenek-matejcek
+  displayName: Zdeněk Matějček
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1922
+    deathYear: 2004
+    displayLabel: 1922-2004
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - diagnostika-a-psychometrie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Český psycholog, který proslul výzkumem psychické deprivace a poradenskou pracís
+    dětmi a rodinami.
+  mainAnchors:
+  - Český psycholog, který proslul výzkumem psychické deprivace a poradenskou pracís dětmi a rodinami.
+  - Je významný také pro diagnostické přístupy ke školní zralosti, vývojovýmobtížím a rodinnému prostředí
+    dítěte.
+  - V české speciální pedagogice a psychologii patří k nejvýznamnějším autorůmvývojové a poradenské tradice.
+  relationTargets:
+  - psychicka-deprivace
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - diagnostika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Zdeněk Matějček
+    excerpt: Český psycholog, který proslul výzkumem psychické deprivace a poradenskou pracís dětmi a
+      rodinami.
+- id: marie-vagnerova
+  displayName: Marie Vágnerová
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1946
+    deathYear: null
+    displayLabel: 1946-
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - diagnostika-a-psychometrie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Česká psycholožka a autorka odborných textů věnovaných vývojové psychologii, psychopatologii
+    a diagnostickému myšlení.
+  mainAnchors:
+  - Česká psycholožka a autorka odborných textů věnovaných vývojové psychologii, psychopatologii a diagnostickému
+    myšlení.
+  - Ve speciálněpedagogickém kontextu je důležitá výklady normality, vývoje, školních obtíží a práce s
+    diagnostickými kategoriemi.
+  - Její jméno je významné hlavně pro teoretické zázemí diagnostiky, ne pro jedinýkonkrétní test.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - diagnostika
+  - psychometrie
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Diagnostika a psychometrie
+    locator: Marie Vágnerová
+    excerpt: Česká psycholožka a autorka odborných textů věnovaných vývojové psychologii, psychopatologii
+      a diagnostickému myšlení.
+- id: ivan-pavlov
+  displayName: Ivan Pavlov
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1849
+    deathYear: 1936
+    displayLabel: 1849-1936
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: ruský kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Ruský fyziolog a představitel reflexologické tradice, proslulý výzkumempodmíněných
+    reflexů.
+  mainAnchors:
+  - Ruský fyziolog a představitel reflexologické tradice, proslulý výzkumempodmíněných reflexů.
+  - Jeho práce je zásadní pro porozumění klasickému podmiňování, vytváření návyků abehaviorálním principům
+    učení.
+  - Ve speciální pedagogice má význam hlavně v pozadí nácviku, posilování areedukace.
+  relationTargets:
+  - klasicke-podminovani
+  - podminene-reflexy
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Ivan Pavlov
+    excerpt: Ruský fyziolog a představitel reflexologické tradice, proslulý výzkumempodmíněných reflexů.
+- id: sigmund-freud
+  displayName: Sigmund Freud
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1856
+    deathYear: 1939
+    displayLabel: 1856-1939
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: zakladatel kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Zakladatel psychoanalýzy a autor teorie nevědomí, obranných mechanismů a modeluosobnosti
+    id – ego – superego.
+  mainAnchors:
+  - Zakladatel psychoanalýzy a autor teorie nevědomí, obranných mechanismů a modeluosobnosti id – ego
+    – superego.
+  - Jeho práce zásadně ovlivnila psychoterapii, vývojovou psychologii i způsobpřemýšlení o motivaci a
+    konfliktech osobnosti.
+  - Ve speciální pedagogice je významný hlavně jako součást psychologického zázemíporadenství, vývoje
+    a psychických obtíží.
+  relationTargets:
+  - id-ego-superego
+  - psychoanalyza
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Sigmund Freud
+    excerpt: Zakladatel psychoanalýzy a autor teorie nevědomí, obranných mechanismů a modeluosobnosti
+      id – ego – superego.
+- id: adolf-meyer
+  displayName: Adolf Meyer
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1866
+    deathYear: 1950
+    displayLabel: 1866-1950
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: psychiatr kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psychiatr spojený s psychobiologickým přístupem, který zdůrazňoval životníhistorii
+    člověka a vliv prostředí na psychický stav.
+  mainAnchors:
+  - Psychiatr spojený s psychobiologickým přístupem, který zdůrazňoval životníhistorii člověka a vliv
+    prostředí na psychický stav.
+  - Je důležitý pro komplexní, biografický a kontextový pohled na klienta, nikolijen na symptom nebo diagnózu.
+  - Ve speciální pedagogice má přesah hlavně do poradenského a interdisciplinárníhouvažování.
+  relationTargets:
+  - psychobiologicky-pristup
+  studyPriority: context
+  confusionTags: []
+  tags:
+  - historie-oboru
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Adolf Meyer
+    excerpt: Psychiatr spojený s psychobiologickým přístupem, který zdůrazňoval životníhistorii člověka
+      a vliv prostředí na psychický stav.
+- id: alfred-adler
+  displayName: Alfred Adler
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1870
+    deathYear: 1937
+    displayLabel: 1870-1937
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: rakouský kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Rakouský psycholog a zakladatel individuální psychologie.
+  mainAnchors:
+  - Rakouský psycholog a zakladatel individuální psychologie.
+  - Je spojován s pocity méněcennosti, kompenzací, sociálním cítěním a pojmemživotní styl.
+  - Jeho teorie je důležitá tam, kde se řeší sebeobraz, výkonové selhávání asociální zakotvení dítěte.
+  relationTargets:
+  - individualni-psychologie
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Alfred Adler
+    excerpt: Rakouský psycholog a zakladatel individuální psychologie.
+- id: william-stern
+  displayName: William Stern
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1871
+    deathYear: 1938
+    displayLabel: 1871-1938
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: psycholog kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholog spojený s diferenciální psychologií a s ranými úvahami o inteligenci.
+  mainAnchors:
+  - Psycholog spojený s diferenciální psychologií a s ranými úvahami o inteligenci.
+  - Jeho jméno se připomíná také v souvislosti s inteligenčním kvocientem.
+  - Ve speciální pedagogice je důležitý jako součást dějin měření schopností aindividualizace.
+  relationTargets:
+  - inteligencni-kvocient
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: William Stern
+    excerpt: Psycholog spojený s diferenciální psychologií a s ranými úvahami o inteligenci.
+- id: carl-gustav-jung
+  displayName: Carl Gustav Jung
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1875
+    deathYear: 1961
+    displayLabel: 1875-1961
+  eraId: 19-20-stoleti
+  periodLabel: 19. -20. století
+  nationalContext: švýcarský kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Švýcarský psycholog a představitel analytické psychologie.
+  mainAnchors:
+  - Švýcarský psycholog a představitel analytické psychologie.
+  - Proslul pojmy archetyp, kolektivní nevědomí, individuace a také rozlišenímintroverze a extraverze.
+  - Ve speciální pedagogice má význam hlavně jako součást širšího psychologického apsychoterapeutického
+    pozadí.
+  relationTargets:
+  - analyticka-psychologie
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Carl Gustav Jung
+    excerpt: Švýcarský psycholog a představitel analytické psychologie.
+- id: john-b-watson
+  displayName: John B. Watson
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1878
+    deathYear: 1958
+    displayLabel: 1878-1958
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: americký kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Americký psycholog a zakladatelská osobnost behaviorismu.
+  mainAnchors:
+  - Americký psycholog a zakladatelská osobnost behaviorismu.
+  - Zdůrazňoval pozorovatelné chování, vliv prostředí a experimentální výzkumučení.
+  - Ve speciální pedagogice je důležitý jako součást behaviorálního zázemíreedukace a nácviku.
+  relationTargets:
+  - behaviorismus
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: John B. Watson
+    excerpt: Americký psycholog a zakladatelská osobnost behaviorismu.
+- id: kurt-goldstein
+  displayName: Kurt Goldstein
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1878
+    deathYear: 1965
+    displayLabel: 1878-1965
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: neurolog kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Neurolog a psycholog, který zdůrazňoval organismus jako celek a význam adaptacepo
+    poškození.
+  mainAnchors:
+  - Neurolog a psycholog, který zdůrazňoval organismus jako celek a význam adaptacepo poškození.
+  - Jeho práce má přesah do rehabilitačního a speciálněpedagogického myšlení, zejména při práci s následky
+    neurologického poškození.
+  - Je významný pro celostní pohled na člověka a jeho možnosti kompenzace.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - rehabilitace
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Kurt Goldstein
+    excerpt: Neurolog a psycholog, který zdůrazňoval organismus jako celek a význam adaptacepo poškození.
+- id: clark-l-hull
+  displayName: Clark L. Hull
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1884
+    deathYear: 1952
+    displayLabel: 1884-1952
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: behaviorální kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Behaviorální psycholog spojený s teorií učení založenou na motivech, potřebácha
+    návycích.
+  mainAnchors:
+  - Behaviorální psycholog spojený s teorií učení založenou na motivech, potřebácha návycích.
+  - Jeho pojetí připomíná experimentální linii výkladu chování a motivačníchmechanismů.
+  - Ve speciální pedagogice má význam spíše jako širší teoretické pozadíbehaviorismu.
+  relationTargets:
+  - behaviorismus
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Clark L. Hull
+    excerpt: Behaviorální psycholog spojený s teorií učení založenou na motivech, potřebácha návycích.
+- id: karen-horneyova
+  displayName: Karen Horneyová
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1885
+    deathYear: 1952
+    displayLabel: 1885-1952
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholožka kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholožka a představitelka neopsychoanalýzy, která zdůrazňovala významzákladní
+    úzkosti a vztahového prostředí.
+  mainAnchors:
+  - Psycholožka a představitelka neopsychoanalýzy, která zdůrazňovala významzákladní úzkosti a vztahového
+    prostředí.
+  - Její pojetí je důležité pro výklad nejistoty, obranných strategií a vlivumezilidských vztahů na vývoj
+    osobnosti.
+  - Ve speciální pedagogice má přesah zejména do poradenství a práce s emočněnejistým dítětem.
+  relationTargets:
+  - psychoanalyza
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Karen Horneyová
+    excerpt: Psycholožka a představitelka neopsychoanalýzy, která zdůrazňovala významzákladní úzkosti
+      a vztahového prostředí.
+- id: edward-c-tolman
+  displayName: Edward C. Tolman
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1886
+    deathYear: 1959
+    displayLabel: 1886-1959
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholog kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholog známý kognitivně orientovaným behaviorismem a pojmem kognitivní mapa.
+  mainAnchors:
+  - Psycholog známý kognitivně orientovaným behaviorismem a pojmem kognitivní mapa.
+  - Pomohl překlenout čistě behaviorální a kognitivní vysvětlení chování, zejména voblasti učení a orientace.
+  - Ve speciální pedagogice je významný pro pochopení, že učení není jen mechanicképosilování, ale i práce
+    s významem a očekáváním.
+  relationTargets:
+  - kognitivni-mapa
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Edward C. Tolman
+    excerpt: Psycholog známý kognitivně orientovaným behaviorismem a pojmem kognitivní mapa.
+- id: kurt-lewin
+  displayName: Kurt Lewin
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1890
+    deathYear: 1947
+    displayLabel: 1890-1947
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholog kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholog známý teorií pole, analýzou skupinové dynamiky a výzkumem motivace.
+  mainAnchors:
+  - Psycholog známý teorií pole, analýzou skupinové dynamiky a výzkumem motivace.
+  - Zdůrazňoval, že chování je funkcí osoby a prostředí, což má přímý dopad napráci se sociálním klimatem
+    a skupinou.
+  - Ve speciální pedagogice je významný pro poradenství, práci se třídou a analýzusociálního prostředí.
+  relationTargets:
+  - teorie-pole
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Kurt Lewin
+    excerpt: Psycholog známý teorií pole, analýzou skupinové dynamiky a výzkumem motivace.
+- id: harry-stack-sullivan
+  displayName: Harry Stack Sullivan
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1892
+    deathYear: 1949
+    displayLabel: 1892-1949
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psychiatr kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psychiatr a psychoterapeut, který zdůrazňoval význam mezilidských vztahů provznik
+    a vývoj osobnosti.
+  mainAnchors:
+  - Psychiatr a psychoterapeut, který zdůrazňoval význam mezilidských vztahů provznik a vývoj osobnosti.
+  - Jeho interpersonální teorie je důležitá pro chápání vztahové nejistoty, sociálního vývoje a terapeutického
+    vztahu.
+  - Ve speciální pedagogice má přesah zejména do poradenství a práce s dítětem vsociálním kontextu.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Harry Stack Sullivan
+    excerpt: Psychiatr a psychoterapeut, který zdůrazňoval význam mezilidských vztahů provznik a vývoj
+      osobnosti.
+- id: henry-a-murray
+  displayName: Henry A. Murray
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1893
+    deathYear: 1988
+    displayLabel: 1893-1988
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholog kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  - diagnostika-a-psychometrie
+  significanceSummary: Psycholog známý personologickým pojetím osobnosti a důrazem na potřeby, tlakyprostředí
+    a životní příběh.
+  mainAnchors:
+  - Psycholog známý personologickým pojetím osobnosti a důrazem na potřeby, tlakyprostředí a životní příběh.
+  - Je spojován také s TAT a s důrazem na motivační strukturu člověka.
+  - Ve speciální pedagogice má přesah do diagnostiky motivace, poradenství ainterpretace životní situace
+    klienta.
+  relationTargets:
+  - tat
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - diagnostika
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Henry A. Murray
+    excerpt: Psycholog známý personologickým pojetím osobnosti a důrazem na potřeby, tlakyprostředí a
+      životní příběh.
+- id: leo-kanner
+  displayName: Leo Kanner
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1894
+    deathYear: 1981
+    displayLabel: 1894-1981
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: dětský kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  - diagnostika-a-psychometrie
+  significanceSummary: Dětský psychiatr, autor prvního samostatného klinického popisu dětského autismuve
+    20. století.
+  mainAnchors:
+  - Dětský psychiatr, autor prvního samostatného klinického popisu dětského autismuve 20. století.
+  - Jeho jméno je spojeno s pojmem raný dětský autismus a s počátkem moderníklinické diagnostiky PAS.
+  - Ve speciální pedagogice je významný jako výchozí jméno v dějinách autismu.
+  relationTargets:
+  - hans-asperger
+  - poruchy-autistickeho-spektra
+  - rany-detsky-autismus
+  studyPriority: important
+  confusionTags:
+  - anner-a-asperger-a-wing
+  tags:
+  - autismus
+  - diagnostika
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Leo Kanner
+    excerpt: Dětský psychiatr, autor prvního samostatného klinického popisu dětského autismuve 20. století.
+- id: jean-piaget
+  displayName: Jean Piaget
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1896
+    deathYear: 1980
+    displayLabel: 1896-1980
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: švýcarský kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Švýcarský vývojový psycholog spojovaný s pojmy asimilace, akomodace a se stadiikognitivního
+    vývoje.
+  mainAnchors:
+  - Švýcarský vývojový psycholog spojovaný s pojmy asimilace, akomodace a se stadiikognitivního vývoje.
+  - Jeho stadiální teorie pomáhá odhadovat, jaké úkoly a vysvětlení jsou pro dítěvývojově přiměřené.
+  - V pedagogické diagnostice a intervenci je důležitý pro posuzování vývojemyšlení dítěte.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - diagnostika
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Jean Piaget
+    excerpt: Švýcarský vývojový psycholog spojovaný s pojmy asimilace, akomodace a se stadiikognitivního
+      vývoje.
+- id: lev-vygotskij
+  displayName: Lev Vygotskij
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1896
+    deathYear: 1934
+    displayLabel: 1896-1934
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholog kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholog sociokulturní orientace, který zdůrazňoval roli jazyka, sociálníinterakce
+    a zóny nejbližšího vývoje.
+  mainAnchors:
+  - Psycholog sociokulturní orientace, který zdůrazňoval roli jazyka, sociálníinterakce a zóny nejbližšího
+    vývoje.
+  - Je mimořádně významný i pro speciální pedagogiku, protože rozvíjel takédefektologické myšlení a důraz
+    na kompenzační možnosti vývoje.
+  - Jeho pojetí je klíčové pro pedagogickou intervenci, mediaci učení a podporudítěte prostřednictvím
+    vztahu s dospělým.
+  relationTargets:
+  - zona-nejblizsiho-vyvoje
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Lev Vygotskij
+    excerpt: Psycholog sociokulturní orientace, který zdůrazňoval roli jazyka, sociálníinterakce a zóny
+      nejbližšího vývoje.
+- id: gordon-w-allport
+  displayName: Gordon W. Allport
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1897
+    deathYear: 1967
+    displayLabel: 1897-1967
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholog kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholog osobnosti, který zdůrazňoval jedinečnost osoby a význam osobnostníchdispozic.
+  mainAnchors:
+  - Psycholog osobnosti, který zdůrazňoval jedinečnost osoby a význam osobnostníchdispozic.
+  - Je důležitý pro pojetí rysů osobnosti a pro odmítnutí redukce člověka najedinou diagnózu nebo kategorii.
+  - Ve speciální pedagogice má význam hlavně jako personologické zázemíindividuálního přístupu.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Gordon W. Allport
+    excerpt: Psycholog osobnosti, který zdůrazňoval jedinečnost osoby a význam osobnostníchdispozic.
+- id: erich-fromm
+  displayName: Erich Fromm
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1900
+    deathYear: 1980
+    displayLabel: 1900-1980
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholog kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholog a sociální filozof spojovaný s humanistickou psychoanalýzou.
+  mainAnchors:
+  - Psycholog a sociální filozof spojovaný s humanistickou psychoanalýzou.
+  - Zdůrazňoval sociální podmíněnost osobnosti, svobodu, odpovědnost a problémúniku před svobodou.
+  - Ve speciální pedagogice je důležitý hlavně tam, kde se pracuje s identitou, hodnotami a sociálním
+    prostředím.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Erich Fromm
+    excerpt: Psycholog a sociální filozof spojovaný s humanistickou psychoanalýzou.
+- id: carl-rogers
+  displayName: Carl Rogers
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1902
+    deathYear: 1987
+    displayLabel: 1902-1987
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: americký kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Americký psycholog a psychoterapeut proslulý klientsky orientovaným přístupem.
+  mainAnchors:
+  - Americký psycholog a psychoterapeut proslulý klientsky orientovaným přístupem.
+  - Klientsky orientovaný přístup staví na empatii, bezpodmínečném přijetí aautenticitě.
+  - Ve speciální pedagogice má velký přesah do poradenství, podpůrného rozhovoru avztahu k člověku se
+    znevýhodněním.
+  relationTargets:
+  - klientsky-orientovany-pristup
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Carl Rogers
+    excerpt: Americký psycholog a psychoterapeut proslulý klientsky orientovaným přístupem.
+- id: erik-erikson
+  displayName: Erik Erikson
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1902
+    deathYear: 1994
+    displayLabel: 1902-1994
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholog kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholog a autor psychosociální teorie vývoje.
+  mainAnchors:
+  - Psycholog a autor psychosociální teorie vývoje.
+  - Je známý vývojovými konflikty a důrazem na identitu v jednotlivých životníchetapách.
+  - Ve speciální pedagogice je významný tam, kde se řeší psychosociální vývoj, sebepojetí a krizové momenty
+    dospívání.
+  relationTargets:
+  - psychosocialni-teorie-vyvoje
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Erik Erikson
+    excerpt: Psycholog a autor psychosociální teorie vývoje.
+- id: b-f-skinner
+  displayName: B. F. Skinner
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1904
+    deathYear: 1990
+    displayLabel: 1904-1990
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: americký kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Americký behaviorista známý operantním podmiňováním, posilováním a shapingem.
+  mainAnchors:
+  - Americký behaviorista známý operantním podmiňováním, posilováním a shapingem.
+  - Jeho práce ovlivnila behaviorální intervence, nácvik dovedností a systém odměna následků.
+  - Ve speciální pedagogice je významný hlavně tam, kde se pracuje s nácvikemchování a strukturovanou
+    podporou.
+  relationTargets:
+  - operantni-podminovani
+  - shaping
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: B. F. Skinner
+    excerpt: Americký behaviorista známý operantním podmiňováním, posilováním a shapingem.
+- id: george-a-kelly
+  displayName: George A. Kelly
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1905
+    deathYear: 1967
+    displayLabel: 1905-1967
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: americký kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Americký psycholog a autor teorie osobních konstruktů.
+  mainAnchors:
+  - Americký psycholog a autor teorie osobních konstruktů.
+  - Zdůrazňoval, že člověk aktivně vykládá svět a buduje vlastní významové systémy.
+  - Ve speciální pedagogice má význam hlavně jako rámec pro porozuměníindividuálnímu chápání situace klientem.
+  relationTargets:
+  - teorie-osobnich-konstruktu
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: George A. Kelly
+    excerpt: Americký psycholog a autor teorie osobních konstruktů.
+- id: viktor-e-frankl
+  displayName: Viktor E. Frankl
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1905
+    deathYear: 1997
+    displayLabel: 1905-1997
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psychiatr kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psychiatr a psychoterapeut, zakladatel logoterapie.
+  mainAnchors:
+  - Psychiatr a psychoterapeut, zakladatel logoterapie.
+  - Zdůrazňoval hledání smyslu života a schopnost člověka zaujmout postoj i vtěžkých podmínkách.
+  - Ve speciální pedagogice má přesah hlavně do poradenství, podpory resilience apráce s hodnotami a motivací.
+  relationTargets:
+  - logoterapie
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Viktor E. Frankl
+    excerpt: Psychiatr a psychoterapeut, zakladatel logoterapie.
+- id: raymond-b-cattell
+  displayName: Raymond B. Cattell
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1905
+    deathYear: 1998
+    displayLabel: 1905-1998
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholog kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  - diagnostika-a-psychometrie
+  significanceSummary: Psycholog známý faktorovým přístupem k osobnosti a rozlišením fluidní akrystalické
+    inteligence.
+  mainAnchors:
+  - Psycholog známý faktorovým přístupem k osobnosti a rozlišením fluidní akrystalické inteligence.
+  - Je významný pro psychometrii, diagnostiku inteligence a diferencované chápáníkognitivních schopností.
+  - Ve speciální pedagogice má význam jako součást teoretického zázemí diagnostiky.
+  relationTargets:
+  - fluidni-a-krystalicka-inteligence
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - diagnostika
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Raymond B. Cattell
+    excerpt: Psycholog známý faktorovým přístupem k osobnosti a rozlišením fluidní akrystalické inteligence.
+- id: hans-asperger
+  displayName: Hans Asperger
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1906
+    deathYear: 1980
+    displayLabel: 1906-1980
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: rakouský kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  - diagnostika-a-psychometrie
+  significanceSummary: Rakouský pediatr a odborník na dětskou psychopatologii.
+  mainAnchors:
+  - Rakouský pediatr a odborník na dětskou psychopatologii.
+  - Jeho jméno je spojeno s popisem autismu u dětí s relativně dobrou jazykovou aintelektovou úrovní,
+    dříve označovaného jako Aspergerův syndrom.
+  - Ve speciální pedagogice je důležitý v rámci dějin diagnostiky poruchautistického spektra.
+  relationTargets:
+  - aspergeruv-syndrom
+  - autisticke-spektrum
+  studyPriority: important
+  confusionTags:
+  - anner-a-asperger-a-wing
+  tags:
+  - autismus
+  - diagnostika
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Hans Asperger
+    excerpt: Rakouský pediatr a odborník na dětskou psychopatologii.
+- id: abraham-maslow
+  displayName: Abraham Maslow
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1908
+    deathYear: 1970
+    displayLabel: 1908-1970
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: americký kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Americký psycholog a představitel humanistické psychologie.
+  mainAnchors:
+  - Americký psycholog a představitel humanistické psychologie.
+  - Je známý hierarchií potřeb a pojmem seberealizace.
+  - Jeho pojetí pomáhá ve speciální pedagogice uvažovat o motivaci, bezpečí, přijetí a osobním růstu člověka.
+  relationTargets:
+  - hierarchie-potreb
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Abraham Maslow
+    excerpt: Americký psycholog a představitel humanistické psychologie.
+- id: julian-rotter
+  displayName: Julian Rotter
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1916
+    deathYear: 2014
+    displayLabel: 1916-2014
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholog kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholog známý pojmem locus of control.
+  mainAnchors:
+  - Psycholog známý pojmem locus of control.
+  - Jeho práce pomáhá vysvětlovat očekávání úspěchu, přisuzování odpovědnosti arozdíly mezi vnitřním a
+    vnějším řízením.
+  - Ve speciální pedagogice má přesah do poradenství, motivace a práce se školníneúspěšností.
+  relationTargets:
+  - locus-of-control
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Julian Rotter
+    excerpt: Psycholog známý pojmem locus of control.
+- id: albert-bandura
+  displayName: Albert Bandura
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1925
+    deathYear: 2021
+    displayLabel: 1925-2021
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: psycholog kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Psycholog známý teorií sociálního učení, modelováním a pojmem self-efficacy.
+  mainAnchors:
+  - Psycholog známý teorií sociálního učení, modelováním a pojmem self-efficacy.
+  - Ukázal, že chování se učíme i pozorováním druhých a že víra ve vlastní účinnostovlivňuje výkon a vytrvalost.
+  - Ve speciální pedagogice je důležitý pro podporu nácviku, modelování a motivace.
+  relationTargets:
+  - self-efficacy
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Albert Bandura
+    excerpt: Psycholog známý teorií sociálního učení, modelováním a pojmem self-efficacy.
+- id: lorna-wingova
+  displayName: Lorna Wingová
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1928
+    deathYear: 2014
+    displayLabel: 1928-2014
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: britská kontext
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Britská psychiatrička, která významně přispěla k pojetí autistického spektra.
+  mainAnchors:
+  - Britská psychiatrička, která významně přispěla k pojetí autistického spektra.
+  - Je spojena s rozšířením porozumění různým formám autismu a s triádou poruch vklasickém evropském výkladu
+    PAS.
+  - Ve speciální pedagogice je důležitá pro modernější spektrální chápání autismu.
+  relationTargets:
+  - autisticke-spektrum
+  - hans-asperger
+  - poruchy-autistickeho-spektra
+  - triada-poruch
+  studyPriority: important
+  confusionTags:
+  - anner-a-asperger-a-wing
+  tags:
+  - autismus
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Lorna Wingová
+    excerpt: Britská psychiatrička, která významně přispěla k pojetí autistického spektra.
+- id: katerina-thorova
+  displayName: Kateřina Thorová
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1969
+    deathYear: null
+    displayLabel: 1969-
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - psychologie-psychiatrie-a-psychoterapie
+  - diagnostika-a-psychometrie
+  significanceSummary: Česká psycholožka specializovaná na poruchy autistického spektra.
+  mainAnchors:
+  - Česká psycholožka specializovaná na poruchy autistického spektra.
+  - Zdůrazňuje funkční pohled na potíže dítěte, praktickou podporu rodiny amezioborovou spolupráci.
+  - Je spojena s českou diagnostikou a poradenskou podporou osob s PAS a jejichrodin.
+  relationTargets:
+  - autisticke-spektrum
+  - poruchy-autistickeho-spektra
+  studyPriority: important
+  confusionTags:
+  - anner-a-asperger-a-wing
+  tags:
+  - autismus
+  - ceske-prostredi
+  - diagnostika
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Psychologie, psychiatrie a psychoterapie
+    locator: Kateřina Thorová
+    excerpt: Česká psycholožka specializovaná na poruchy autistického spektra.
+- id: alexandr-kapp
+  displayName: Alexandr Kapp
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1799
+    deathYear: 1869
+    displayLabel: 1799-1869
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: osobnost kontext
+  disciplines:
+  - andragogika-a-gerontagogika
+  significanceSummary: Osobnost spojovaná s prvním doloženým užitím pojmu andragogika v roce 1833.
+  mainAnchors:
+  - Osobnost spojovaná s prvním doloženým užitím pojmu andragogika v roce 1833.
+  - Je důležitý jako historický výchozí bod teorie vzdělávání dospělých.
+  - V přehledu osobností představuje základní terminologický začátek andragogiky.
+  relationTargets:
+  - andragogika
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - historie-oboru
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Andragogika a gerontagogika
+    locator: Alexandr Kapp
+    excerpt: Osobnost spojovaná s prvním doloženým užitím pojmu andragogika v roce 1833.
+- id: ferdinand-adalbert-kehrer
+  displayName: Ferdinand Adalbert Kehrer
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1837
+    deathYear: 1914
+    displayLabel: 1837-1914
+  eraId: 19-stoleti
+  periodLabel: 19. století
+  nationalContext: autor kontext
+  disciplines:
+  - andragogika-a-gerontagogika
+  significanceSummary: Autor spojovaný s raným užitím pojmu geragogika, tedy vzdělávání lidí ve vyššímvěku.
+  mainAnchors:
+  - Autor spojovaný s raným užitím pojmu geragogika, tedy vzdělávání lidí ve vyššímvěku.
+  - Je významný především terminologicky a historicky pro vývoj edukace seniorů.
+  - V mini‑wikipedii představuje základní jméno počátků gerontagogického uvažování.
+  relationTargets:
+  - geragogika
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - historie-oboru
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Andragogika a gerontagogika
+    locator: Ferdinand Adalbert Kehrer
+    excerpt: Autor spojovaný s raným užitím pojmu geragogika, tedy vzdělávání lidí ve vyššímvěku.
+- id: otto-friedrich-bollnow
+  displayName: Otto Friedrich Bollnow
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1903
+    deathYear: 1991
+    displayLabel: 1903-1991
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: německý kontext
+  disciplines:
+  - andragogika-a-gerontagogika
+  significanceSummary: Německý filozof a pedagog spojovaný s pojetím vzdělávání starších lidí a sfilozofickým
+    rámcem gerontagogiky.
+  mainAnchors:
+  - Německý filozof a pedagog spojovaný s pojetím vzdělávání starších lidí a sfilozofickým rámcem gerontagogiky.
+  - Jeho význam spočívá v reflexi lidského zrání, životní zkušenosti a smysluvýchovy v pozdějších životních
+    etapách.
+  - Ve speciální pedagogice má význam hlavně jako širší filozofické pozadí edukaceseniorů.
+  relationTargets: []
+  studyPriority: context
+  confusionTags: []
+  tags:
+  - zahranicni-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Andragogika a gerontagogika
+    locator: Otto Friedrich Bollnow
+    excerpt: Německý filozof a pedagog spojovaný s pojetím vzdělávání starších lidí a sfilozofickým rámcem
+      gerontagogiky.
+- id: emil-livecka
+  displayName: Emil Livečka
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1919
+    deathYear: 1985
+    displayLabel: 1919-1985
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - andragogika-a-gerontagogika
+  significanceSummary: Český autor spojený s gerontagogikou jako nově budovanou disciplínou přípravyna
+    aktivní a tvořivé stáří.
+  mainAnchors:
+  - Český autor spojený s gerontagogikou jako nově budovanou disciplínou přípravyna aktivní a tvořivé
+    stáří.
+  - Jeho jméno je důležité pro české vymezování edukace seniorů a pro důraz nakvalitu života ve stáří.
+  - V této sekci představuje hlavně novodobou českou gerontagogickou tradici.
+  relationTargets:
+  - gerontagogika
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Andragogika a gerontagogika
+    locator: Emil Livečka
+    excerpt: Český autor spojený s gerontagogikou jako nově budovanou disciplínou přípravyna aktivní a
+      tvořivé stáří.
+- id: pavel-muhlpachr
+  displayName: Pavel Mühlpachr
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1962
+    deathYear: null
+    displayLabel: 1962-
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - andragogika-a-gerontagogika
+  significanceSummary: Český speciální pedagog spojený především se speciální andragogikou, gerontagogikou
+    a kvalitou života dospělých osob se zdravotním postižením.
+  mainAnchors:
+  - Český speciální pedagog spojený především se speciální andragogikou, gerontagogikou a kvalitou života
+    dospělých osob se zdravotním postižením.
+  - Jeho jméno je zásadní pro současné české vymezování edukace dospělých a seniorůse speciálními potřebami.
+  - V novodobé české tradici patří k nejvýznamnějším osobnostem této oblasti.
+  relationTargets:
+  - gerontagogika
+  - specialni-andragogika
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Andragogika a gerontagogika
+    locator: Pavel Mühlpachr
+    excerpt: Český speciální pedagog spojený především se speciální andragogikou, gerontagogikou a kvalitou
+      života dospělých osob se zdravotním postižením.
+- id: jiri-langer
+  displayName: Jiří Langer
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1979
+    deathYear: null
+    displayLabel: 1979-
+  eraId: 20-stoleti
+  periodLabel: 20. století
+  nationalContext: české prostředí
+  disciplines:
+  - andragogika-a-gerontagogika
+  significanceSummary: Speciální pedagog a andragog spojovaný s definicí speciální andragogiky.
+  mainAnchors:
+  - Speciální pedagog a andragog spojovaný s definicí speciální andragogiky.
+  - Zaměřuje se na vzdělávání dospělých osob se zdravotním postižením a naspecifika jejich podpory v dospělosti.
+  - Je důležitý pro vymezení speciální andragogiky jako samostatné aplikačníoblasti oboru.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Andragogika a gerontagogika
+    locator: Jiří Langer
+    excerpt: Speciální pedagog a andragog spojovaný s definicí speciální andragogiky.
+- id: olga-havlova
+  displayName: Olga Havlová
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1933
+    deathYear: 1996
+    displayLabel: 1933-1996
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - novodoba-ceska-tradice-a-institucni-rozvoj
+  significanceSummary: Zakladatelka Výboru dobré vůle – Nadace Olgy Havlové.
+  mainAnchors:
+  - Zakladatelka Výboru dobré vůle – Nadace Olgy Havlové.
+  - V širším rámci speciální pedagogiky je významná podporou lidí se zdravotnímpostižením, integrace a
+    občanských iniciativ.
+  - Její jméno připomíná, že novodobý rozvoj oboru nestojí jen na univerzitách, alei na občanské a nadační
+    podpoře.
+  relationTargets:
+  - vybor-dobre-vule-nadace-olgy-havlove
+  studyPriority: core
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Novodobá česká tradice a instituční rozvoj
+    locator: Olga Havlová
+    excerpt: Zakladatelka Výboru dobré vůle – Nadace Olgy Havlové.
+- id: jaroslav-kysucan
+  displayName: Jaroslav Kysučan
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1934
+    deathYear: null
+    displayLabel: 1934-
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - novodoba-ceska-tradice-a-institucni-rozvoj
+  - psychopedie
+  - psychologie-psychiatrie-a-psychoterapie
+  significanceSummary: Český speciální pedagog spojený zejména s psychopedií, dějinami oboru a moderníintegrativní
+    speciální pedagogikou.
+  mainAnchors:
+  - Český speciální pedagog spojený zejména s psychopedií, dějinami oboru a moderníintegrativní speciální
+    pedagogikou.
+  - Jeho jméno je důležité pro novodobou českou tradici a pro vysokoškolský rozvojoboru po roce 1989.
+  - Patří k osobnostem propojujícím historickou reflexi oboru se současnýmpedagogickým myšlením.
+  relationTargets: []
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  - historie-oboru
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Novodobá česká tradice a instituční rozvoj
+    locator: Jaroslav Kysučan
+    excerpt: Český speciální pedagog spojený zejména s psychopedií, dějinami oboru a moderníintegrativní
+      speciální pedagogikou.
+- id: alzbeta-peutelschmiedova
+  displayName: Alžběta Peutelschmiedová
+  alternativeNames: []
+  lifeSpan:
+    birthYear: 1941
+    deathYear: null
+    displayLabel: 1941-
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - novodoba-ceska-tradice-a-institucni-rozvoj
+  - logopedie
+  significanceSummary: Česká logopedka a odbornice na koktavost patřící k výrazným osobnostem novodobéčeské
+    logopedie.
+  mainAnchors:
+  - Česká logopedka a odbornice na koktavost patřící k výrazným osobnostem novodobéčeské logopedie.
+  - Je spojována především s terapií poruch plynulosti řeči a s odbornou klinickoupraxí.
+  - V dokumentu představuje důležité jméno novodobé české logopedické kontinuity.
+  relationTargets:
+  - koktavost
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Novodobá česká tradice a instituční rozvoj
+    locator: Alžběta Peutelschmiedová
+    excerpt: Česká logopedka a odbornice na koktavost patřící k výrazným osobnostem novodobéčeské logopedie.
+- id: marie-benickova
+  displayName: Marie Beníčková
+  alternativeNames: []
+  eraId: 20-21-stoleti
+  periodLabel: 20. -21. století
+  nationalContext: české prostředí
+  disciplines:
+  - novodoba-ceska-tradice-a-institucni-rozvoj
+  significanceSummary: Česká odbornice spojovaná zejména s muzikoterapií a s terapeuticko-formativnímipřístupy
+    ve speciální pedagogice.
+  mainAnchors:
+  - Česká odbornice spojovaná zejména s muzikoterapií a s terapeuticko-formativnímipřístupy ve speciální
+    pedagogice.
+  - Její jméno je důležité hlavně v oblasti podpůrných a expresivních metodvyužívaných v práci s lidmi
+    se speciálními potřebami.
+  - V novodobé české tradici představuje vazbu mezi speciální pedagogikou akreativními terapeutickými
+    přístupy.
+  relationTargets:
+  - muzikoterapie
+  studyPriority: important
+  confusionTags: []
+  tags:
+  - ceske-prostredi
+  sourceReferences:
+  - sourceDocumentId: mini-wikipedie-osobnosti-vs
+    section: Novodobá česká tradice a instituční rozvoj
+    locator: Marie Beníčková
+    excerpt: Česká odbornice spojovaná zejména s muzikoterapií a s terapeuticko-formativnímipřístupy ve
+      speciální pedagogice.

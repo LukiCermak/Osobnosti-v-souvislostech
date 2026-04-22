@@ -1,0 +1,50 @@
+{
+  "page": {
+    "eyebrow": "Režim 2",
+    "title": "Detektivní spisy",
+    "subtitle": "Rekonstrukce souvislostí z vícevrstvých indicií, otázek a závěrečné syntézy."
+  },
+  "sidebar": {
+    "title": "Přehled spisů",
+    "caseCount": "Dostupné spisy: {{count}}",
+    "reviewCount": "Jednotky k opakování dnes: {{count}}"
+  },
+  "actions": {
+    "refresh": "Obnovit přehled",
+    "reloadContent": "Načíst obsah znovu",
+    "startRecommended": "Spustit doporučený spis",
+    "startSelected": "Spustit vybraný spis",
+    "continueCase": "Pokračovat ve spisu",
+    "startNewCase": "Spustit nový spis"
+  },
+  "errors": {
+    "loadTitle": "Detektivní spisy se nepodařilo připravit",
+    "loadText": "Zkontroluj načtení obsahu a lokálního progresu a pak spusť režim znovu."
+  },
+  "summary": {
+    "availableCases": "Dostupné spisy: {{count}}",
+    "reviewCount": "Dnes čeká k opakování: {{count}}",
+    "recommendedId": "Doporučený spis: {{value}}",
+    "recommendedFallback": "Doporučení se připraví po načtení obsahu."
+  },
+  "study": {
+    "headerTitle": "Rozpracovaný detektivní spis"
+  },
+  "list": {
+    "eyebrow": "Knihovna spisů",
+    "title": "Vyber si případ k rozkrytí",
+    "subtitle": "Každý spis vede od obecnějších stop ke konkrétním vazbám mezi osobnostmi, pojmy a institucemi.",
+    "clues": "Indicie: {{count}}",
+    "questions": "Otázky: {{count}}",
+    "weaknessScore": "Priorita procvičení: {{count}}"
+  },
+  "preview": {
+    "eyebrow": "Náhled spisu",
+    "title": "Pracovní hypotéza",
+    "subtitle": "Zvolený spis můžeš otevřít samostatně nebo jej nechat doporučit systémem."
+  },
+  "empty": {
+    "title": "Zatím není co otevřít",
+    "text": "Po načtení případů a obsahu se zde objeví knihovna detektivních spisů."
+  }
+}
