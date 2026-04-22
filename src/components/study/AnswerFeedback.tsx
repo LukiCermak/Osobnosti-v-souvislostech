@@ -19,8 +19,8 @@ export function AnswerFeedback({ feedback }: AnswerFeedbackProps) {
       </div>
       <p className="text-body">{feedback.explanation}</p>
       <ul className="feature-list">
-        <li>{`Typ obtíže: ${feedback.problemType}`}</li>
-        <li>{`Další doporučené zopakování: ${formatDateTime(feedback.nextReviewAt)}`}</li>
+        <li>{`Na co se zaměřit příště: ${mapProblemTypeLabel(feedback.problemType)}`}</li>
+        <li>{`Doporučený návrat k tématu: ${formatDateTime(feedback.nextReviewAt)}`}</li>
       </ul>
     </section>
   );
@@ -49,5 +49,26 @@ function mapAccuracyTone(accuracy: StudyFeedbackState['accuracy']): 'mastered' |
       return 'needs-review';
     case 'incorrect':
       return 'at-risk';
+  }
+}
+
+function mapProblemTypeLabel(problemType: string): string {
+  switch (problemType) {
+    case 'discipline-assignment':
+      return 'oborové zařazení potřebuje ještě upevnit';
+    case 'institution-link':
+      return 'je potřeba lépe propojit osobnosti a instituce';
+    case 'test-link':
+      return 'je potřeba lépe odlišit škálu, test nebo autora';
+    case 'historical-sequence':
+      return 'historická návaznost ještě není jistá';
+    case 'similar-person-confusion':
+      return 'dochází k záměně podobných osobností';
+    case 'needed-hint':
+      return 'řešení se povedlo až s nápovědou';
+    case 'active-recall-gap':
+      return 'vybavení odpovědi z paměti ještě není jisté';
+    default:
+      return 'téma si zaslouží ještě jedno krátké zopakování';
   }
 }

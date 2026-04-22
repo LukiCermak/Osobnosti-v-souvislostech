@@ -14,7 +14,7 @@ export function AtlasMap({ summary, onFocusEntity }: AtlasMapProps) {
   if (summary.totalNodeCount === 0) {
     return (
       <EmptyState
-        title="Ve zvoleném řezu teď nejsou žádné vazby"
+        title="Ve zvoleném výběru teď nejsou žádné souvislosti"
         description="Zkus rozšířit filtry nebo vypnout zobrazení jen slabých míst."
       />
     );
@@ -23,17 +23,17 @@ export function AtlasMap({ summary, onFocusEntity }: AtlasMapProps) {
   return (
     <div className="stack gap-lg">
       <section className="grid grid-3 atlas-summary-grid">
-        <SummaryCard title="Uzly v záběru" value={summary.totalNodeCount} description="Osobnosti a pojmy, které zůstaly po aplikaci filtrů." />
-        <SummaryCard title="Zobrazené vazby" value={summary.totalRelationCount} description="Vztahy, z nichž Atlas právě skládá síť souvislostí." />
-        <SummaryCard title="Rizikové uzly" value={summary.weakNodeCount} description="Jednotky, které se objevují ve slabých místech a častých záměnách." />
+        <SummaryCard title="Body v mapě" value={summary.totalNodeCount} description="Osobnosti a pojmy, které zůstaly po použití filtrů." />
+        <SummaryCard title="Zobrazené souvislosti" value={summary.totalRelationCount} description="Propojení, ze kterých Atlas skládá aktuální mapu." />
+        <SummaryCard title="Místa k procvičení" value={summary.weakNodeCount} description="Témata, která se vracejí ve slabých místech a častých záměnách." />
       </section>
 
       <Card
         as="section"
         className="atlas-focus-card"
         eyebrow="Fokus mapy"
-        title="Který uzel chceš sledovat"
-        subtitle="Vyber centrum mapy a Atlas ukáže přímé návaznosti v obou směrech."
+        title="Na který bod mapy se chceš zaměřit"
+        subtitle="Vyber střed mapy a Atlas ukáže přímé souvislosti v obou směrech."
       >
         <div className="atlas-node-grid">
           {summary.focusCandidates.map((node) => (
@@ -50,8 +50,8 @@ export function AtlasMap({ summary, onFocusEntity }: AtlasMapProps) {
                 <strong>{node.label}</strong>
                 <span className="text-body">{joinLabels(node.disciplineIds.map(labelForDiscipline))}</span>
                 <div className="atlas-node-meta-row">
-                  <ProgressBadge label="vazby" value={node.relationCount} tone="growing" />
-                  {node.isWeak ? <ProgressBadge label="slabé místo" tone="needs-review" /> : null}
+                  <ProgressBadge label="souvislosti" value={node.relationCount} tone="growing" />
+                  {node.isWeak ? <ProgressBadge label="slabší místo" tone="needs-review" /> : null}
                 </div>
               </div>
             </button>
@@ -63,14 +63,14 @@ export function AtlasMap({ summary, onFocusEntity }: AtlasMapProps) {
         <Card
           as="section"
           className="atlas-node-detail-card"
-          eyebrow="Detail zvoleného uzlu"
+          eyebrow="Detail vybraného bodu"
           title={summary.focusedNode.label}
           subtitle={`Oborové zařazení: ${joinLabels(summary.focusedNode.disciplineIds.map(labelForDiscipline))}`}
         >
           <div className="atlas-focus-meta">
             <ProgressBadge label="typ" value={summary.focusedNode.kind === 'person' ? 'osobnost' : 'pojem'} tone="growing" />
             <ProgressBadge label="priorita" value={priorityLabel(summary.focusedNode.priority)} tone={priorityTone(summary.focusedNode.priority)} />
-            {summary.focusedNode.isWeak ? <ProgressBadge label="slabé místo" tone="needs-review" /> : null}
+            {summary.focusedNode.isWeak ? <ProgressBadge label="slabší místo" tone="needs-review" /> : null}
           </div>
 
           <div className="atlas-node-hero">
@@ -78,10 +78,8 @@ export function AtlasMap({ summary, onFocusEntity }: AtlasMapProps) {
               {summary.focusedNode.kind === 'person' ? 'Os' : 'Po'}
             </div>
             <div className="stack gap-sm">
-              <h3 className="subsection-title">Přímé návaznosti</h3>
-              <p className="text-body">
-                Atlas ukazuje vztahy, které vedou od zvoleného uzlu nebo k němu míří.
-              </p>
+              <h3 className="subsection-title">Přímé souvislosti</h3>
+              <p className="text-body">Atlas ukazuje vztahy, které vedou od vybraného bodu nebo k němu směřují.</p>
             </div>
           </div>
 
@@ -97,7 +95,7 @@ export function AtlasMap({ summary, onFocusEntity }: AtlasMapProps) {
                   </div>
                   <p className="text-body">{neighbor.explanation}</p>
                   <div className="atlas-focus-meta">
-                    <ProgressBadge label="typ vazby" value={labelForRelationType(neighbor.relationType)} tone="growing" />
+                    <ProgressBadge label="typ souvislosti" value={labelForRelationType(neighbor.relationType)} tone="growing" />
                     {neighbor.isWeak ? <ProgressBadge label="častá záměna" tone="needs-review" /> : null}
                   </div>
                 </div>

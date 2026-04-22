@@ -240,9 +240,24 @@
 .lab-drill-layout,
 .case-board-layout {
   display: grid;
-  grid-template-columns: minmax(0, 1.4fr) minmax(18rem, 22rem);
+  grid-template-columns: minmax(0, 1fr);
+  gap: var(--space-xl);
+  align-items: start;
+}
+
+.case-board-content {
+  min-width: 0;
+}
+
+.case-board-main-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1.45fr) minmax(20rem, 26rem);
   gap: var(--space-lg);
   align-items: start;
+}
+
+.case-board-secondary {
+  min-width: 0;
 }
 
 .atlas-task-sidebar {
@@ -476,8 +491,7 @@
 }
 
 .case-confidence-block {
-  border-top: 1px solid var(--color-border);
-  padding-top: var(--space-md);
+  gap: var(--space-md);
 }
 
 .case-text-answer {
@@ -626,6 +640,7 @@
   .atlas-task-layout,
   .lab-drill-layout,
   .case-board-layout,
+  .case-board-main-grid,
   .grid-3,
   .case-outcome-grid,
   .atlas-path-layout,
@@ -668,5 +683,13 @@
 
   .bottom-nav {
     display: grid;
+  }
+
+  .case-option-grid,
+  .lab-choice-grid,
+  .atlas-node-grid,
+  .case-library-grid,
+  .lab-set-grid {
+    grid-template-columns: 1fr;
   }
 }

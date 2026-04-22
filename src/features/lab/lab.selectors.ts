@@ -130,7 +130,7 @@ function mapProblemTypeLabel(problemType: string): string {
     case 'discipline-assignment':
       return 'oborové zařazení';
     case 'institution-link':
-      return 'instituce';
+      return 'propojení s institucí';
     case 'test-link':
       return 'test nebo škála';
     case 'historical-sequence':
@@ -141,6 +141,6 @@ function mapProblemTypeLabel(problemType: string): string {
       return 'správně až po nápovědě';
     case 'active-recall-gap':
     default:
-      return 'aktivní vybavení';
+      return 'vybavení z paměti';
   }
 }

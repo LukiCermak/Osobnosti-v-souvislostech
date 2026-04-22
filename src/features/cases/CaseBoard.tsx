@@ -66,7 +66,7 @@ export function CaseBoard({
 }: CaseBoardProps) {
   return (
     <div className="case-board-layout">
-      <div className="stack gap-lg">
+      <div className="stack gap-lg case-board-content">
         <Card as="section" eyebrow="Detektivní spis" title={record.title} subtitle={task.prompt}>
           <div className="case-meta-row">
             <ProgressBadge label="Obtížnost" value={mapDifficultyLabel(record.difficulty)} tone="growing" />
@@ -86,85 +86,109 @@ export function CaseBoard({
           </div>
         </Card>
 
-        <CaseClueList clues={revealedClues} nextClue={nextClue} onRevealNext={nextClue ? onRevealNextClue : undefined} />
+        <div className="case-board-main-grid">
+          <div className="stack gap-lg">
+            <CaseClueList clues={revealedClues} nextClue={nextClue} onRevealNext={nextClue ? onRevealNextClue : undefined} />
 
-        <Card
-          as="section"
-          eyebrow="Otázky"
-          title="Průběžné ověření případu"
-          subtitle="Každá odpověď pomáhá potvrdit nebo vyvrátit pracovní hypotézu nad spisem."
-        >
-          <div className="case-question-list">
-            {questionViews.map((question) => {
-              const draft = drafts[question.id];
-              return (
-                <article key={question.id} className="case-question-card stack gap-sm">
-                  <div className="feedback-header">
-                    <h3 className="subsection-title">{question.prompt}</h3>
-                    <ProgressBadge
-                      label={question.isCorrect ? 'zvládnuto' : question.isAnswered ? 'čeká oprava' : 'čeká odpověď'}
-                      tone={question.isCorrect ? 'mastered' : question.isAnswered ? 'at-risk' : 'needs-review'}
-                    />
-                  </div>
+            <Card
+              as="section"
+              eyebrow="Otázky"
+              title="Průběžné ověření případu"
+              subtitle="Každá odpověď pomáhá potvrdit nebo vyvrátit pracovní hypotézu nad spisem."
+            >
+              <div className="case-question-list">
+                {questionViews.map((question) => {
+                  const draft = drafts[question.id];
+                  return (
+                    <article key={question.id} className="case-question-card stack gap-sm">
+                      <div className="feedback-header">
+                        <h3 className="subsection-title">{question.prompt}</h3>
+                        <ProgressBadge
+                          label={question.isCorrect ? 'zvládnuto' : question.isAnswered ? 'čeká oprava' : 'čeká odpověď'}
+                          tone={question.isCorrect ? 'mastered' : question.isAnswered ? 'at-risk' : 'needs-review'}
+                        />
+                      </div>
 
-                  {question.answerMode === 'short-text' ? (
-                    <textarea
-                      className="input case-text-answer"
-                      value={draft?.textAnswer ?? ''}
-                      onChange={(event) => onTextAnswerChange(question.id, event.target.value)}
-                      rows={3}
-                      placeholder="Napiš stručnou odpověď vlastními slovy."
-                    />
-                  ) : (
-                    <div className="case-option-grid">
-                      {question.options?.map((option) => {
-                        const selected = draft?.selectedOptionIds?.includes(option.id) ?? false;
-                        return (
-                          <button
-                            key={option.id}
-                            type="button"
-                            className={['case-option-button', selected ? 'is-selected' : ''].filter(Boolean).join(' ')}
-                            onClick={() => onToggleOption(question.id, option.id, question.answerMode === 'multi-choice')}
-                          >
-                            <span>{option.label}</span>
-                          </button>
-                        );
-                      })}
-                    </div>
-                  )}
-                </article>
-              );
-            })}
+                      {question.answerMode === 'short-text' ? (
+                        <textarea
+                          className="input case-text-answer"
+                          value={draft?.textAnswer ?? ''}
+                          onChange={(event) => onTextAnswerChange(question.id, event.target.value)}
+                          rows={3}
+                          placeholder="Napiš stručnou odpověď vlastními slovy."
+                        />
+                      ) : (
+                        <div className="case-option-grid">
+                          {question.options?.map((option) => {
+                            const selected = draft?.selectedOptionIds?.includes(option.id) ?? false;
+                            return (
+                              <button
+                                key={option.id}
+                                type="button"
+                                className={['case-option-button', selected ? 'is-selected' : ''].filter(Boolean).join(' ')}
+                                onClick={() => onToggleOption(question.id, option.id, question.answerMode === 'multi-choice')}
+                              >
+                                <span>{option.label}</span>
+                              </button>
+                            );
+                          })}
+                        </div>
+                      )}
+                    </article>
+                  );
+                })}
+              </div>
+            </Card>
           </div>
 
-          <div className="case-confidence-block stack gap-sm">
-            <h3 className="subsection-title">Jak si jsi jistý nebo jistá řešením</h3>
-            <div className="atlas-confidence-row">
-              {[1, 2, 3, 4, 5].map((value) => (
-                <button
-                  key={value}
-                  type="button"
-                  className={['atlas-confidence-button', confidence === value ? 'is-selected' : ''].filter(Boolean).join(' ')}
-                  onClick={() => onConfidenceChange(value as StudyAnswer['confidence'])}
-                >
-                  {value}
-                </button>
-              ))}
-            </div>
-          </div>
+          <aside className="stack gap-lg case-board-secondary">
+            <Card as="section" eyebrow="Stav případu" title="Postup v tomto spisu">
+              <ul className="feature-list">
+                <li>{`Správně zodpovězeno: ${evaluation.correctCount}`}</li>
+                <li>{`Minimálně je potřeba: ${evaluation.minimumCorrectQuestions}`}</li>
+                <li>{`Povinné otázky: ${evaluation.requiredQuestionIds.length}`}</li>
+              </ul>
+            </Card>
 
-          <div className="button-row">
-            <Button variant="secondary" onClick={onToggleSynthesis}>
-              {showSynthesis ? 'Skrýt závěrečnou syntézu' : 'Otevřít závěrečnou syntézu'}
-            </Button>
-            <Button variant="ghost" onClick={onSkipCase}>
-              Přeskočit spis
-            </Button>
-            <Button onClick={onSubmitCase} disabled={!evaluation.canSubmit}>
-              Uzavřít spis a zobrazit výsledek
-            </Button>
-          </div>
-        </Card>
+            <Card as="section" eyebrow="Zaměření spisu" title="Hlavní osobnosti a témata">
+              <ul className="feature-list">
+                {targetLabels.map((label) => (
+                  <li key={label}>{label}</li>
+                ))}
+              </ul>
+            </Card>
+
+            <Card as="section" eyebrow="Jistota řešení" title="Jak si věříš">
+              <div className="case-confidence-block stack gap-sm">
+                <p className="text-body">Vyber, jak jistě si zatím připadáš při uzavření spisu.</p>
+                <div className="atlas-confidence-row">
+                  {[1, 2, 3, 4, 5].map((value) => (
+                    <button
+                      key={value}
+                      type="button"
+                      className={['atlas-confidence-button', confidence === value ? 'is-selected' : ''].filter(Boolean).join(' ')}
+                      onClick={() => onConfidenceChange(value as StudyAnswer['confidence'])}
+                    >
+                      {value}
+                    </button>
+                  ))}
+                </div>
+              </div>
+
+              <div className="button-row">
+                <Button variant="secondary" onClick={onToggleSynthesis}>
+                  {showSynthesis ? 'Skrýt závěrečné shrnutí' : 'Otevřít závěrečné shrnutí'}
+                </Button>
+                <Button variant="ghost" onClick={onSkipCase}>
+                  Přeskočit spis
+                </Button>
+                <Button onClick={onSubmitCase} disabled={!evaluation.canSubmit}>
+                  Uzavřít spis a zobrazit výsledek
+                </Button>
+              </div>
+            </Card>
+          </aside>
+        </div>
 
         <CaseSummary
           title="Uzavření spisu"
@@ -182,24 +206,6 @@ export function CaseBoard({
           onStartNewCase={onStartNewCase}
         />
       </div>
-
-      <aside className="stack gap-lg">
-        <Card as="section" eyebrow="Stav případu" title="Postup v tomto spisu">
-          <ul className="feature-list">
-            <li>{`Správně zodpovězeno: ${evaluation.correctCount}`}</li>
-            <li>{`Minimálně je potřeba: ${evaluation.minimumCorrectQuestions}`}</li>
-            <li>{`Povinné otázky: ${evaluation.requiredQuestionIds.length}`}</li>
-          </ul>
-        </Card>
-
-        <Card as="section" eyebrow="Zaměření spisu" title="Cílové entity">
-          <ul className="feature-list">
-            {targetLabels.map((label) => (
-              <li key={label}>{label}</li>
-            ))}
-          </ul>
-        </Card>
-      </aside>
     </div>
   );
 }

@@ -36,9 +36,9 @@ export function CaseSummary({
     return (
       <Card
         as="section"
-        eyebrow="Závěrečná syntéza"
+        eyebrow="Závěrečné shrnutí"
         title="Shrnutí případu"
-        subtitle="Po zpracování indicií a odpovědí uzavřeš spis vlastním shrnutím, které propojí hlavní osobnosti, pojmy a vazby."
+        subtitle="Po zpracování indicií a odpovědí uzavřeš spis vlastním shrnutím, které propojí hlavní osobnosti, pojmy a souvislosti."
       >
         {onToggleOpen ? (
           <div className="button-row">
@@ -54,9 +54,9 @@ export function CaseSummary({
   return (
     <Card
       as="section"
-      eyebrow={isCompleted ? 'Výsledek spisu' : 'Závěrečná syntéza'}
+      eyebrow={isCompleted ? 'Výsledek spisu' : 'Závěrečné shrnutí'}
       title={title}
-      subtitle={isCompleted ? 'Spis je uzavřený. Teď je důležité vědět, s čím z něj odejdeš a kam navázat dál.' : synthesisPrompt}
+      subtitle={isCompleted ? 'Spis je uzavřený. Teď je důležité vědět, s čím z něj odejdeš a na co navázat dál.' : synthesisPrompt}
       highlight={isCompleted}
       className="case-summary-card"
     >
@@ -66,12 +66,10 @@ export function CaseSummary({
             <p className="eyebrow">{isSolved ? 'Spis vyřešený' : 'Spis uzavřený s rezervou'}</p>
             <h3 className="subsection-title">
               {isSolved
-                ? 'Hlavní vazby v případu jsou rozpoznané správně.'
-                : 'Případ je dokončený, ale vyplatí se vrátit k některým vazbám a otázkám.'}
+                ? 'Hlavní souvislosti v případu jsou rozpoznané správně.'
+                : 'Případ je dokončený, ale vyplatí se vrátit k některým otázkám a souvislostem.'}
             </h3>
-            <p className="text-body">
-              {`Správně vyhodnocené otázky: ${correctCount} z ${totalQuestions}.`}
-            </p>
+            <p className="text-body">{`Správně vyhodnocené otázky: ${correctCount} z ${totalQuestions}.`}</p>
           </div>
           <div className="panel panel-contrast stack gap-sm">
             <h3 className="subsection-title">Co si ze spisu odnést</h3>
@@ -87,7 +85,7 @@ export function CaseSummary({
           value={synthesisDraft}
           onChange={(event) => onChangeSynthesis(event.target.value)}
           rows={5}
-          placeholder="Stručně shrň, jak spolu osobnosti, pojmy a vazby v tomto spisu souvisejí."
+          placeholder="Stručně shrň, jak spolu osobnosti, pojmy a souvislosti v tomto spisu souvisejí."
         />
       </label>
 
@@ -105,11 +103,7 @@ export function CaseSummary({
               Vrátit se do knihovny spisů
             </Button>
           ) : null}
-          {onStartNewCase ? (
-            <Button onClick={onStartNewCase}>
-              Otevřít další spis
-            </Button>
-          ) : null}
+          {onStartNewCase ? <Button onClick={onStartNewCase}>Otevřít další spis</Button> : null}
         </div>
       ) : null}
     </Card>

@@ -24,7 +24,7 @@ export function buildAnswerFeedback(index: ContentIndex, task: StudyTask, accura
     case 'skipped':
       return `Úloha byla přeskočena. ${baseExplanation}`;
     case 'incorrect':
-      return `Tato vazba potřebuje další upevnění. ${baseExplanation}`;
+      return `Tohle propojení si zaslouží ještě jedno upevnění. ${baseExplanation}`;
   }
 }
 
@@ -39,7 +39,7 @@ export function summarizeEntityList(index: ContentIndex, entityIds: EntityId[]):
 
 function buildAtlasExplanation(index: ContentIndex, relations: RelationRecord[]): string {
   if (relations.length === 0) {
-    return 'Správné spojení odpovídá studijním vazbám v obsahu aplikace.';
+    return 'Správné řešení odpovídá souvislostem, které jsou v obsahu aplikace zachycené.';
   }
 
   const first = relations[0];
@@ -47,10 +47,10 @@ function buildAtlasExplanation(index: ContentIndex, relations: RelationRecord[])
   const toLabel = labelFor(index, first.toId);
 
   if (relations.length === 1) {
-    return `${fromLabel} je v obsahu aplikace spojován s entitou ${toLabel}. ${first.explanation}`;
+    return `${fromLabel} je v obsahu aplikace přímo spojený s tématem ${toLabel}. ${first.explanation}`;
   }
 
-  return `Správné řešení spojuje více vazeb v jednom bloku. Základní oporou je spojení ${fromLabel} → ${toLabel}.`;
+  return `Správné řešení propojuje více souvislostí v jednom bloku. Jedním z klíčových vodítek je spojení ${fromLabel} a ${toLabel}.`;
 }
 
 function labelFor(index: ContentIndex, entityId: EntityId): string {

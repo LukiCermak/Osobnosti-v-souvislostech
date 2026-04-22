@@ -47,7 +47,7 @@ export function AtlasPathPanel({ paths, selectedPathId, onSelectPath, onApplyPat
                   {path.stepLabels.slice(0, 6).map((step) => (
                     <li key={step.id}>
                       {step.label}
-                      {step.mastered ? ' • upevněno' : ` • role ${step.role}`}
+                      {step.mastered ? ' • upevněno' : ` • ${mapStepRoleLabel(step.role)}`}
                     </li>
                   ))}
                 </ul>
@@ -77,5 +77,22 @@ function difficultyLabel(value: AtlasPathSummary['recommendedDifficulty']): stri
       return 'střední';
     case 'advanced':
       return 'pokročilá';
+  }
+}
+
+function mapStepRoleLabel(role: string): string {
+  switch (role) {
+    case 'entry':
+      return 'výchozí bod';
+    case 'bridge':
+      return 'propojovací krok';
+    case 'contrast':
+      return 'rozlišovací zastavení';
+    case 'milestone':
+      return 'klíčový krok';
+    case 'target':
+      return 'cílový bod';
+    default:
+      return 'důležitý krok';
   }
 }
