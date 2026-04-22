@@ -2,7 +2,7 @@
 
 Interaktivní studijní aplikace pro speciální pedagogiku.
 
-Projekt je navržen jako jedna klientská PWA aplikace bez povinného backendu. Stojí na Reactu, TypeScriptu, Vite, React Routeru, Zustandu, Dexie a PWA vrstvě. Obsah je oddělený do autorské YAML vrstvy a sestavené runtime vrstvy. Progres se ukládá lokálně do IndexedDB.
+Projekt je navržen jako jedna klientská PWA aplikace bez povinného backendu. Stojí na Reactu, TypeScriptu, Vite, React Routeru, Zustandu, Dexie a PWA vrstvě. Obsah je oddělený do autorské YAML vrstvy a sestavené runtime vrstvy. Progres se ukládá lokálně do IndexedDB. 
 
 ## Cíl aplikace
 
