@@ -94,6 +94,9 @@ export interface WeaknessFocus {
   disciplineId?: DisciplineId;
   tagIds: TagId[];
   relationIds: RelationId[];
+  entityIds?: EntityId[];
+  contrastSetId?: ContrastSetId;
+  pathId?: PathId;
   problemType: KnowledgeProblemType;
   urgency: 'low' | 'medium' | 'high';
 }

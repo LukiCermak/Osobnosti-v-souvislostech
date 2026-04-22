@@ -1,30 +1,22 @@
 import { useMemo } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { AppShell } from '@/components/layout/AppShell';
+import { createNavigationItems } from '@/app/navigation';
 import { DisciplineBars } from '@/components/charts/DisciplineBars';
 import { ProgressRing } from '@/components/charts/ProgressRing';
 import { WeaknessHeatmap } from '@/components/charts/WeaknessHeatmap';
+import { AppShell } from '@/components/layout/AppShell';
 import { Button } from '@/components/shared/Button';
 import { Card } from '@/components/shared/Card';
 import { EmptyState } from '@/components/shared/EmptyState';
 import { SectionTitle } from '@/components/shared/SectionTitle';
 import { NextStepCard } from '@/components/study/NextStepCard';
 import { ResumeCard } from '@/components/study/ResumeCard';
+import { createHomePageViewModel, describeHomeCoverage } from '@/features/home/home.presenter';
+import { useI18n } from '@/locale/i18n';
 import { useAppStore } from '@/state/appStore';
 import { useStudyStore } from '@/state/studyStore';
 import { useUiStore } from '@/state/uiStore';
-import { createHomePageViewModel, describeHomeCoverage } from '@/features/home/home.presenter';
-import { useI18n } from '@/locale/i18n';
-import type { NavigationItem } from '@/types/ui';
 import type { StudySessionPlan } from '@/types/study';
-
-const navigationItems: NavigationItem[] = [
-  { id: 'home', path: '/', label: 'Přehled' },
-  { id: 'atlas', path: '/atlas', label: 'Atlas souvislostí', mode: 'atlas' },
-  { id: 'cases', path: '/detektivni-spisy', label: 'Detektivní spisy', mode: 'cases' },
-  { id: 'lab', path: '/laborator-rozliseni', label: 'Laboratoř rozlišení', mode: 'lab' },
-  { id: 'onboarding', path: '/prvni-nastaveni', label: 'První nastavení' }
-];
 
 export function HomePage() {
   const navigate = useNavigate();
@@ -34,6 +26,10 @@ export function HomePage() {
   const resumeSession = useStudyStore((state) => state.resumeSession);
   const setLastVisitedRoute = useUiStore((state) => state.setLastVisitedRoute);
 
+  const navigationItems = useMemo(
+    () => createNavigationItems(tString, { includeSettings: true }),
+    [tString]
+  );
   const viewModel = useMemo(() => createHomePageViewModel(appState), [appState]);
   const coverageText = useMemo(() => describeHomeCoverage(appState.contentIndex), [appState.contentIndex]);
 
@@ -72,8 +68,8 @@ export function HomePage() {
       sidebarFooter={<p className="text-body">{coverageText}</p>}
       actions={
         <div className="button-row">
-          <Button variant="secondary" to="/prvni-nastaveni">
-            {viewModel.needsOnboarding ? tString('home.actions.completeSetup') : tString('home.actions.adjustSetup')}
+          <Button variant="secondary" to={viewModel.dueTodayCount > 0 ? '/opakovani' : '/pokrok'}>
+            {viewModel.dueTodayCount > 0 ? 'Otevřít dnešní opakování' : 'Otevřít přehled pokroku'}
           </Button>
           <Button onClick={() => void handleStartRecommended()}>{viewModel.recommendedActionLabel}</Button>
         </div>
@@ -107,6 +103,10 @@ export function HomePage() {
               <li>{`${tString('home.cards.progress.dueToday')}: ${viewModel.dueTodayCount}`}</li>
               <li>{`${tString('home.cards.progress.recommendedMode')}: ${viewModel.recommendedModeLabel}`}</li>
             </ul>
+            <div className="button-row">
+              <Button variant="secondary" to="/pokrok">Přejít do pokroku</Button>
+              {viewModel.dueTodayCount > 0 ? <Button to="/opakovani">Navázat dnešním blokem</Button> : null}
+            </div>
           </div>
         </Card>
       </div>
@@ -144,7 +144,7 @@ export function HomePage() {
           <EmptyState
             title={tString('home.empty.disciplinesTitle')}
             description={tString('home.empty.disciplinesText')}
-            action={{ label: tString('home.actions.completeSetup'), to: '/prvni-nastaveni' }}
+            action={{ label: 'Dokončit první nastavení', to: '/prvni-nastaveni' }}
           />
         )}
 

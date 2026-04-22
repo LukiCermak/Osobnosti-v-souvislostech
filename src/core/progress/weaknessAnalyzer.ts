@@ -1,24 +1,33 @@
-import type { WeaknessFocus, ConfusionRecord, KnowledgeState } from '@/types/progress';
+import type { ConfusionRecord, KnowledgeState, WeaknessFocus } from '@/types/progress';
 
 export function analyzeWeaknesses(states: KnowledgeState[], confusions: ConfusionRecord[]): WeaknessFocus[] {
   const stateWeaknesses = states
-    .filter((state) => state.errorCount > 0 || (state.dueAt && state.dueAt <= new Date().toISOString()))
+    .filter((state) =>
+      state.errorCount > 0
+      || (state.dueAt && state.dueAt <= new Date().toISOString())
+      || state.activeProblemType === 'needed-hint'
+      || state.activeProblemType === 'active-recall-gap'
+    )
     .map<WeaknessFocus>((state) => ({
       id: `weakness:${state.id}`,
       title: buildStateWeaknessTitle(state),
       disciplineId: undefined,
       tagIds: [],
       relationIds: state.relationId ? [state.relationId] : [],
+      entityIds: state.entityIds,
+      contrastSetId: state.contrastSetId,
+      pathId: state.pathId,
       problemType: state.activeProblemType ?? 'active-recall-gap',
       urgency: urgencyFromState(state)
     }));
 
   const confusionWeaknesses = confusions.map<WeaknessFocus>((record) => ({
     id: `confusion:${record.id}`,
-    title: `Častá záměna ${record.sourceEntityId} a ${record.confusedWithEntityId}`,
+    title: 'Častá záměna mezi podobnými položkami',
     disciplineId: record.disciplineIds[0],
     tagIds: [],
     relationIds: [],
+    entityIds: [record.sourceEntityId, record.confusedWithEntityId],
     problemType: record.problemType,
     urgency: record.count >= 4 ? 'high' : record.count >= 2 ? 'medium' : 'low'
   }));
@@ -28,20 +37,23 @@ export function analyzeWeaknesses(states: KnowledgeState[], confusions: Confusio
 
 function buildStateWeaknessTitle(state: KnowledgeState): string {
   if (state.relationId) {
-    return `Vazba ${state.relationId} potřebuje upevnění`;
+    return 'Jedna vazba potřebuje upevnění';
   }
   if (state.contrastSetId) {
-    return `Kontrastní sada ${state.contrastSetId} potřebuje rozlišení`;
+    return 'Jedna kontrastní sada potřebuje rozlišení';
   }
   if (state.pathId) {
-    return `Trasa ${state.pathId} není ještě stabilní`;
+    return 'Jedna studijní trasa ještě není stabilní';
   }
-  return `Studijní jednotka ${state.id} potřebuje další opakování`;
+  return 'Jedna studijní jednotka potřebuje další opakování';
 }
 
 function urgencyFromState(state: KnowledgeState): WeaknessFocus['urgency'] {
   if (state.errorCount >= state.successCount || state.masteryScore < 0.35) {
     return 'high';
+  }
+  if (state.activeProblemType === 'needed-hint' || state.activeProblemType === 'active-recall-gap') {
+    return 'medium';
   }
   if (state.dueAt && state.dueAt <= new Date().toISOString()) {
     return 'medium';

@@ -32,7 +32,7 @@ export function createProgressPageViewModel(
     metrics,
     disciplineSummaries: selectProgressDisciplineSummaries(state, index),
     confusionSummaries: selectProgressConfusionSummaries(state, index),
-    weaknessSummaries: selectProgressWeaknessSummaries(weaknesses),
+    weaknessSummaries: selectProgressWeaknessSummaries(weaknesses, index),
     latestSnapshotLabel: state.latestSnapshot?.capturedAt
       ? new Date(state.latestSnapshot.capturedAt).toLocaleString('cs-CZ')
       : 'Zatím bez uloženého přehledu',

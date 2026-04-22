@@ -49,13 +49,16 @@ export function selectProgressMetricSummary(state: AppStoreState): ProgressMetri
   };
 }
 
-export function selectProgressDisciplineSummaries(state: AppStoreState, _index?: ContentIndex): ProgressDisciplineSummary[] {
+export function selectProgressDisciplineSummaries(
+  state: AppStoreState,
+  index?: ContentIndex
+): ProgressDisciplineSummary[] {
   const coverage = state.latestSnapshot?.disciplineCoverage ?? [];
 
   return coverage
     .map((item) => ({
       id: item.disciplineId,
-      label: resolveDisciplineLabel(item.disciplineId),
+      label: resolveDisciplineLabel(item.disciplineId, index),
       mastered: item.mastered,
       total: item.total,
       unstable: item.unstable,
@@ -64,7 +67,10 @@ export function selectProgressDisciplineSummaries(state: AppStoreState, _index?:
     .sort((left, right) => right.total - left.total || left.label.localeCompare(right.label, 'cs'));
 }
 
-export function selectProgressConfusionSummaries(state: AppStoreState, index?: ContentIndex): ProgressConfusionSummary[] {
+export function selectProgressConfusionSummaries(
+  state: AppStoreState,
+  index?: ContentIndex
+): ProgressConfusionSummary[] {
   const confusions = state.latestSnapshot?.topConfusions ?? [];
 
   return confusions.map((item) => ({
@@ -75,20 +81,60 @@ export function selectProgressConfusionSummaries(state: AppStoreState, index?: C
   }));
 }
 
-export function selectProgressWeaknessSummaries(weaknesses: WeaknessFocus[]): ProgressWeaknessSummary[] {
+export function selectProgressWeaknessSummaries(
+  weaknesses: WeaknessFocus[],
+  index?: ContentIndex
+): ProgressWeaknessSummary[] {
   return weaknesses.map((item) => ({
     id: item.id,
-    title: item.title,
-    detail: buildWeaknessDetail(item),
+    title: buildWeaknessTitle(item, index),
+    detail: buildWeaknessDetail(item, index),
     urgency: item.urgency
   }));
 }
 
-function buildWeaknessDetail(item: WeaknessFocus): string {
-  const disciplinePart = item.disciplineId ? `Disciplína: ${resolveDisciplineLabel(item.disciplineId)}.` : '';
+function buildWeaknessTitle(item: WeaknessFocus, index?: ContentIndex): string {
+  if (item.relationIds.length > 0) {
+    const relation = index?.relations.get(item.relationIds[0]);
+    if (relation) {
+      return relation.explanation;
+    }
+  }
+
+  if (item.contrastSetId) {
+    const contrastSet = index?.contrastSets.get(item.contrastSetId);
+    if (contrastSet) {
+      return contrastSet.title;
+    }
+  }
+
+  if (item.pathId) {
+    const path = index?.paths.get(item.pathId);
+    if (path) {
+      return path.title;
+    }
+  }
+
+  if (item.entityIds && item.entityIds.length > 0) {
+    return item.entityIds.map((entityId) => getEntityLabel(index, entityId)).join(' × ');
+  }
+
+  return item.title;
+}
+
+function buildWeaknessDetail(item: WeaknessFocus, index?: ContentIndex): string {
+  const disciplinePart = item.disciplineId ? `Disciplína: ${resolveDisciplineLabel(item.disciplineId, index)}.` : '';
   const relationPart = item.relationIds.length > 0 ? ` Vazeb k upevnění: ${item.relationIds.length}.` : '';
-  const urgencyPart = item.urgency === 'high' ? ' Vyžaduje rychlý návrat.' : item.urgency === 'medium' ? ' Vyplatí se zařadit do nejbližší relace.' : ' Stačí průběžné upevnění.';
-  return `${disciplinePart}${relationPart}${urgencyPart}`.trim();
+  const entityPart = item.entityIds && item.entityIds.length > 1
+    ? ` Zaměřeno na ${item.entityIds.map((entityId) => getEntityLabel(index, entityId)).join(' a ')}.`
+    : '';
+  const urgencyPart = item.urgency === 'high'
+    ? ' Vyžaduje rychlý návrat.'
+    : item.urgency === 'medium'
+      ? ' Vyplatí se zařadit do nejbližší relace.'
+      : ' Stačí průběžné upevnění.';
+
+  return `${disciplinePart}${relationPart}${entityPart}${urgencyPart}`.trim();
 }
 
 function getEntityLabel(index: ContentIndex | undefined, entityId: string): string {
@@ -100,8 +146,22 @@ function getEntityLabel(index: ContentIndex | undefined, entityId: string): stri
   return 'displayName' in entity ? entity.displayName : entity.label;
 }
 
-function resolveDisciplineLabel(disciplineId: string): string {
-  return disciplineLabelMap[disciplineId] ?? disciplineId;
+function resolveDisciplineLabel(disciplineId: string, index?: ContentIndex): string {
+  if (disciplineLabelMap[disciplineId]) {
+    return disciplineLabelMap[disciplineId];
+  }
+
+  const entityFromPeople = index?.personsByDiscipline.get(disciplineId)?.[0];
+  if (entityFromPeople) {
+    return entityFromPeople.disciplines[0] ?? disciplineId;
+  }
+
+  const entityFromConcepts = index?.conceptsByDiscipline.get(disciplineId)?.[0];
+  if (entityFromConcepts) {
+    return entityFromConcepts.disciplineIds[0] ?? disciplineId;
+  }
+
+  return disciplineId;
 }
 
 const disciplineLabelMap: Record<string, string> = {

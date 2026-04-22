@@ -19,7 +19,7 @@ export function buildDailyReviewPlan(states: KnowledgeState[], confusions: Confu
 
 function deriveRecommendedModes(states: KnowledgeState[], weaknesses: WeaknessFocus[]) {
   const modes = new Set(states.map((state) => recommendedModeForProblem(state.activeProblemType)));
-  for (const weakness of weaknesses.slice(0, 3)) {
+  for (const weakness of weaknesses) {
     modes.add(recommendedModeForProblem(weakness.problemType));
   }
   return [...modes];

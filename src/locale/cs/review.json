@@ -9,8 +9,8 @@
     "footer": "Fronta se skládá z jednotek po termínu a z míst, kde aplikace zachytila vyšší riziko další chyby."
   },
   "next": {
-    "title": "Doporučený vstup je {mode}",
-    "text": "V dnešní frontě je {count} jednotek. Můžete navázat jedním souvislým blokem."
+    "title": "Doporučený vstup je {{mode}}",
+    "text": "V dnešní frontě je {{count}} jednotek. Můžete navázat jedním souvislým blokem."
   },
   "summary": {
     "dueCount": "Počet jednotek",

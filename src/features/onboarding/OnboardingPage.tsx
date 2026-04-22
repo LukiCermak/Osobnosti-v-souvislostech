@@ -6,24 +6,20 @@ import { Card } from '@/components/shared/Card';
 import { ErrorState } from '@/components/shared/ErrorState';
 import { SectionTitle } from '@/components/shared/SectionTitle';
 import { DisciplinePicker } from '@/features/onboarding/DisciplinePicker';
-import { ModeIntro } from '@/features/onboarding/ModeIntro';
 import {
   createInitialOnboardingDraft,
   createOnboardingViewModel,
   toggleDisciplineSelection,
   type OnboardingDraft
 } from '@/features/onboarding/onboarding.presenter';
-import { useAppStore } from '@/state/appStore';
 import { useI18n } from '@/locale/i18n';
+import { useAppStore } from '@/state/appStore';
 import { useUiStore } from '@/state/uiStore';
 import type { NavigationItem } from '@/types/ui';
 
 const navigationItems: NavigationItem[] = [
   { id: 'home', path: '/', label: 'Přehled' },
-  { id: 'onboarding', path: '/prvni-nastaveni', label: 'První nastavení' },
-  { id: 'atlas', path: '/atlas', label: 'Atlas souvislostí', mode: 'atlas' },
-  { id: 'cases', path: '/detektivni-spisy', label: 'Detektivní spisy', mode: 'cases' },
-  { id: 'lab', path: '/laborator-rozliseni', label: 'Laboratoř rozlišení', mode: 'lab' }
+  { id: 'onboarding', path: '/prvni-nastaveni', label: 'První nastavení' }
 ];
 
 export function OnboardingPage() {
@@ -101,9 +97,6 @@ export function OnboardingPage() {
       </section>
 
       {error ? <ErrorState title={tString('onboarding.validation.title')} description={error} /> : null}
-
-      <SectionTitle title={tString('onboarding.sections.modesTitle')} subtitle={tString('onboarding.sections.modesText')} />
-      <ModeIntro items={viewModel.modes} />
 
       <SectionTitle title={tString('onboarding.sections.disciplinesTitle')} subtitle={tString('onboarding.sections.disciplinesText')} />
       <DisciplinePicker

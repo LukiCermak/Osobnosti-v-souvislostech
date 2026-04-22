@@ -1,6 +1,6 @@
-import type { ContrastSetRecord } from '@/types/content';
 import type { ContentIndex } from '@/core/content/contentIndex';
-import { resolveContrastEntityLabels, rankContrastSets } from '@/core/graph/contrastResolver';
+import { rankContrastSets, resolveContrastEntityLabels } from '@/core/graph/contrastResolver';
+import type { ContrastSetRecord } from '@/types/content';
 import type { ConfusionRecord, KnowledgeState } from '@/types/progress';
 import type { LabTask, StudyHint, StudyUnitRef } from '@/types/study';
 
@@ -46,7 +46,7 @@ export function createLabTask(index: ContentIndex, contrastSet: ContrastSetRecor
 }
 
 function createPrompt(contrastSet: ContrastSetRecord): string {
-  return `Které jméno nejlépe odpovídá rozlišovacímu znaku této sady: ${contrastSet.distinguishingFeature}`;
+  return `Rozliš, které jméno nejlépe odpovídá rozlišovacímu znaku této sady: ${contrastSet.distinguishingFeature}`;
 }
 
 function createLabHints(contrastSet: ContrastSetRecord): StudyHint[] {

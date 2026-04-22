@@ -1,19 +1,19 @@
-import { useEffect, useMemo, useRef, useState, type ChangeEvent } from 'react';
+import { useCallback, useEffect, useMemo, useRef, useState, type ChangeEvent } from 'react';
+import { createNavigationItems } from '@/app/navigation';
+import { useTheme } from '@/app/providers/ThemeProvider';
 import { AppShell } from '@/components/layout/AppShell';
+import { Card } from '@/components/shared/Card';
 import { EmptyState } from '@/components/shared/EmptyState';
 import { ErrorState } from '@/components/shared/ErrorState';
-import { Card } from '@/components/shared/Card';
 import { PrivacySettings } from '@/features/settings/PrivacySettings';
 import { StorageSettings } from '@/features/settings/StorageSettings';
 import { createSettingsPageViewModel } from '@/features/settings/settings.presenter';
 import { exportProgressAsBlob, createExportFilename } from '@/db/backup/exportProgress';
 import { importProgressFromFile } from '@/db/backup/importProgress';
 import { resetDatabase } from '@/db/database';
-import { checkStorageHealth } from '@/services/storage/storageHealth';
 import { useI18n } from '@/locale/i18n';
+import { checkStorageHealth } from '@/services/storage/storageHealth';
 import { useAppStore } from '@/state/appStore';
-import { useTheme } from '@/app/providers/ThemeProvider';
-import type { NavigationItem } from '@/types/ui';
 
 export function SettingsPage() {
   const { tString } = useI18n();
@@ -26,28 +26,23 @@ export function SettingsPage() {
   const [notice, setNotice] = useState<string>();
   const inputRef = useRef<HTMLInputElement | null>(null);
 
-  useEffect(() => {
-    void refreshStorageHealth();
-  }, []);
-
-  async function refreshStorageHealth() {
+  const refreshStorageHealth = useCallback(async () => {
     try {
       const report = await checkStorageHealth();
       setStorageHealth(report);
     } catch (storageError) {
       setError(storageError instanceof Error ? storageError.message : 'Nepodařilo se ověřit lokální úložiště.');
     }
-  }
+  }, [setStorageHealth]);
 
-  const navigationItems = useMemo<NavigationItem[]>(() => [
-    { id: 'home', path: '/', label: tString('common.navigation.home') },
-    { id: 'atlas', path: '/atlas', label: tString('common.navigation.atlas'), mode: 'atlas' },
-    { id: 'cases', path: '/detektivni-spisy', label: tString('common.navigation.cases'), mode: 'cases' },
-    { id: 'lab', path: '/laborator-rozliseni', label: tString('common.navigation.lab'), mode: 'lab' },
-    { id: 'progress', path: '/pokrok', label: tString('common.navigation.progress') },
-    { id: 'review', path: '/opakovani', label: tString('common.navigation.review') },
-    { id: 'settings', path: '/nastaveni', label: tString('common.navigation.settings') }
-  ], [tString]);
+  useEffect(() => {
+    void refreshStorageHealth();
+  }, [refreshStorageHealth]);
+
+  const navigationItems = useMemo(
+    () => createNavigationItems(tString, { includeReview: true, includeSettings: true }),
+    [tString]
+  );
 
   const viewModel = useMemo(
     () => createSettingsPageViewModel(appState, appState.storageHealth, preference),

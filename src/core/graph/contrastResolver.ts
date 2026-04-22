@@ -1,7 +1,6 @@
-import type { EntityId } from '@/types/content';
-import type { ConfusionRecord, KnowledgeState } from '@/types/progress';
 import type { ContentIndex } from '@/core/content/contentIndex';
-import type { ContrastSetRecord } from '@/types/content';
+import type { ContrastSetRecord, EntityId } from '@/types/content';
+import type { ConfusionRecord, KnowledgeState } from '@/types/progress';
 
 export interface RankedContrastSet {
   record: ContrastSetRecord;
@@ -15,29 +14,14 @@ export function rankContrastSets(
   confusions: ConfusionRecord[] = [],
   knowledgeStates: KnowledgeState[] = []
 ): RankedContrastSet[] {
-  const dueEntityIds = new Set(
-    knowledgeStates
-      .filter((state) => isDue(state.dueAt))
-      .flatMap((state) => state.entityIds)
-  );
-
   return [...index.contrastSets.values()]
-    .map((record) => {
-      const personIds = new Set(record.personIds);
-      const matchedConfusions = confusions.filter(
-        (item) => personIds.has(item.sourceEntityId) || personIds.has(item.confusedWithEntityId)
-      );
-      const dueKnowledgeCount = record.personIds.filter((id) => dueEntityIds.has(id)).length;
-      const score = matchedConfusions.reduce((sum, item) => sum + item.count, 0) + dueKnowledgeCount * 2;
-
-      return {
-        record,
-        score,
-        matchedConfusionCount: matchedConfusions.length,
-        dueKnowledgeCount
-      };
-    })
-    .sort((left, right) => right.score - left.score || left.record.title.localeCompare(right.record.title, 'cs'));
+    .map((record) => rankSingleContrastSet(record, confusions, knowledgeStates))
+    .sort((left, right) =>
+      right.score - left.score
+      || right.matchedConfusionCount - left.matchedConfusionCount
+      || right.dueKnowledgeCount - left.dueKnowledgeCount
+      || left.record.title.localeCompare(right.record.title, 'cs')
+    );
 }
 
 export function resolveContrastEntityLabels(index: ContentIndex, entityIds: EntityId[]): string[] {
@@ -51,10 +35,24 @@ export function resolveContrastEntityLabels(index: ContentIndex, entityIds: Enti
   });
 }
 
-function isDue(dueAt?: string): boolean {
-  if (!dueAt) {
-    return false;
-  }
+function rankSingleContrastSet(
+  record: ContrastSetRecord,
+  confusions: ConfusionRecord[],
+  knowledgeStates: KnowledgeState[]
+): RankedContrastSet {
+  const personIds = new Set(record.personIds);
+  const matchedConfusions = confusions.filter(
+    (item) => personIds.has(item.sourceEntityId) && personIds.has(item.confusedWithEntityId)
+  );
+  const dueKnowledgeCount = knowledgeStates.filter(
+    (state) => state.contrastSetId === record.id && Boolean(state.dueAt)
+  ).length;
+  const score = matchedConfusions.reduce((sum, item) => sum + item.count, 0) + dueKnowledgeCount * 3;
 
-  return dueAt <= new Date().toISOString();
+  return {
+    record,
+    score,
+    matchedConfusionCount: matchedConfusions.length,
+    dueKnowledgeCount
+  };
 }

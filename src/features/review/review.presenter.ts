@@ -55,7 +55,7 @@ function resolveRowTitle(row: KnowledgeStateRow, index?: ContentIndex): string {
     return relation ? relation.explanation : row.relationId;
   }
 
-  return row.id;
+  return 'Studijní jednotka k opakování';
 }
 
 function resolveRowSubtitle(row: KnowledgeStateRow): string {

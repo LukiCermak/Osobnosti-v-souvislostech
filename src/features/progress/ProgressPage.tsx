@@ -1,19 +1,19 @@
 import { useEffect, useMemo, useState } from 'react';
+import { createNavigationItems } from '@/app/navigation';
+import { WeaknessHeatmap } from '@/components/charts/WeaknessHeatmap';
 import { AppShell } from '@/components/layout/AppShell';
 import { EmptyState } from '@/components/shared/EmptyState';
 import { ErrorState } from '@/components/shared/ErrorState';
 import { SectionTitle } from '@/components/shared/SectionTitle';
-import { WeaknessHeatmap } from '@/components/charts/WeaknessHeatmap';
-import { ProgressOverview } from '@/features/progress/ProgressOverview';
-import { DisciplineProgress } from '@/features/progress/DisciplineProgress';
-import { WeaknessList } from '@/features/progress/WeaknessList';
-import { createProgressPageViewModel } from '@/features/progress/progress.presenter';
 import { analyzeWeaknesses } from '@/core/progress/weaknessAnalyzer';
 import { confusionRepository } from '@/db/repositories/confusionRepository';
 import { knowledgeRepository } from '@/db/repositories/knowledgeRepository';
+import { DisciplineProgress } from '@/features/progress/DisciplineProgress';
+import { ProgressOverview } from '@/features/progress/ProgressOverview';
+import { createProgressPageViewModel } from '@/features/progress/progress.presenter';
+import { WeaknessList } from '@/features/progress/WeaknessList';
 import { useI18n } from '@/locale/i18n';
 import { useAppStore } from '@/state/appStore';
-import type { NavigationItem } from '@/types/ui';
 import type { ConfusionRecord, KnowledgeState, WeaknessFocus } from '@/types/progress';
 
 export function ProgressPage() {
@@ -41,21 +41,14 @@ export function ProgressPage() {
     }
   }
 
-  const navigationItems = useMemo<NavigationItem[]>(() => [
-    { id: 'home', path: '/', label: tString('common.navigation.home') },
-    { id: 'atlas', path: '/atlas', label: tString('common.navigation.atlas'), mode: 'atlas' },
-    { id: 'cases', path: '/detektivni-spisy', label: tString('common.navigation.cases'), mode: 'cases' },
-    { id: 'lab', path: '/laborator-rozliseni', label: tString('common.navigation.lab'), mode: 'lab' },
-    { id: 'progress', path: '/pokrok', label: tString('common.navigation.progress') },
-    { id: 'review', path: '/opakovani', label: tString('common.navigation.review') },
-    { id: 'settings', path: '/nastaveni', label: tString('common.navigation.settings') }
-  ], [tString]);
-
+  const navigationItems = useMemo(
+    () => createNavigationItems(tString, { includeReview: true, includeSettings: true }),
+    [tString]
+  );
   const weaknesses: WeaknessFocus[] = useMemo(
     () => analyzeWeaknesses(knowledgeStates, confusions),
     [knowledgeStates, confusions]
   );
-
   const viewModel = useMemo(
     () => createProgressPageViewModel(appState, appState.contentIndex, weaknesses, navigationItems),
     [appState, weaknesses, navigationItems]

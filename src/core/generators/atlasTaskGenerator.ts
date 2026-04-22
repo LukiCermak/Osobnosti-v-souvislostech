@@ -1,6 +1,6 @@
-import type { DisciplineId, EntityId, PathRecord, RelationRecord } from '@/types/content';
 import type { ContentIndex } from '@/core/content/contentIndex';
 import { summarizeEntityList } from '@/core/generators/explanationBuilder';
+import type { DisciplineId, EntityId, PathRecord, RelationRecord } from '@/types/content';
 import type { KnowledgeState } from '@/types/progress';
 import type { AtlasTask, StudyHint, StudyUnitRef } from '@/types/study';
 
@@ -47,11 +47,13 @@ export function createAtlasTask(index: ContentIndex, relation: RelationRecord, o
 }
 
 function pickCandidateRelations(input: AtlasTaskGenerationInput): RelationRecord[] {
-  const dueRelationIds = new Set(
-    (input.knowledgeStates ?? [])
-      .filter((state) => state.relationId && isDue(state.dueAt))
-      .map((state) => state.relationId as string)
-  );
+  const relationDueAt = new Map<string, string>();
+
+  for (const state of input.knowledgeStates ?? []) {
+    if (state.relationId && state.dueAt) {
+      relationDueAt.set(state.relationId, state.dueAt);
+    }
+  }
 
   let relations = [...input.index.relations.values()].filter((relation) => relation.studyPriority !== 'context');
 
@@ -71,9 +73,21 @@ function pickCandidateRelations(input: AtlasTaskGenerationInput): RelationRecord
   }
 
   return relations.sort((left, right) => {
-    const leftDue = dueRelationIds.has(left.id) ? 1 : 0;
-    const rightDue = dueRelationIds.has(right.id) ? 1 : 0;
-    return rightDue - leftDue || priorityWeight(left.studyPriority) - priorityWeight(right.studyPriority);
+    const leftDueAt = relationDueAt.get(left.id);
+    const rightDueAt = relationDueAt.get(right.id);
+    const leftHasSchedule = leftDueAt ? 1 : 0;
+    const rightHasSchedule = rightDueAt ? 1 : 0;
+
+    if (leftHasSchedule !== rightHasSchedule) {
+      return rightHasSchedule - leftHasSchedule;
+    }
+
+    if (leftDueAt && rightDueAt && leftDueAt !== rightDueAt) {
+      return leftDueAt.localeCompare(rightDueAt);
+    }
+
+    return priorityWeight(left.studyPriority) - priorityWeight(right.studyPriority)
+      || left.explanation.localeCompare(right.explanation, 'cs');
   });
 }
 
@@ -184,8 +198,4 @@ function priorityWeight(priority: RelationRecord['studyPriority']): number {
     case 'context':
       return 2;
   }
-}
-
-function isDue(dueAt?: string): boolean {
-  return Boolean(dueAt && dueAt <= new Date().toISOString());
 }

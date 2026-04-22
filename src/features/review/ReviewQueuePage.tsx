@@ -1,17 +1,17 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
+import { createNavigationItems } from '@/app/navigation';
 import { AppShell } from '@/components/layout/AppShell';
 import { EmptyState } from '@/components/shared/EmptyState';
 import { ErrorState } from '@/components/shared/ErrorState';
 import { NextStepCard } from '@/components/study/NextStepCard';
+import { knowledgeRepository } from '@/db/repositories/knowledgeRepository';
 import { DueTodayList } from '@/features/review/DueTodayList';
 import { createReviewPageViewModel } from '@/features/review/review.presenter';
-import { knowledgeRepository } from '@/db/repositories/knowledgeRepository';
 import { useI18n } from '@/locale/i18n';
 import { useAppStore } from '@/state/appStore';
 import { useStudyStore } from '@/state/studyStore';
 import type { KnowledgeStateRow } from '@/types/database';
-import type { NavigationItem } from '@/types/ui';
 import type { StudyMode, StudySessionPlan } from '@/types/study';
 
 export function ReviewQueuePage() {
@@ -36,16 +36,10 @@ export function ReviewQueuePage() {
     }
   }
 
-  const navigationItems = useMemo<NavigationItem[]>(() => [
-    { id: 'home', path: '/', label: tString('common.navigation.home') },
-    { id: 'atlas', path: '/atlas', label: tString('common.navigation.atlas'), mode: 'atlas' },
-    { id: 'cases', path: '/detektivni-spisy', label: tString('common.navigation.cases'), mode: 'cases' },
-    { id: 'lab', path: '/laborator-rozliseni', label: tString('common.navigation.lab'), mode: 'lab' },
-    { id: 'progress', path: '/pokrok', label: tString('common.navigation.progress') },
-    { id: 'review', path: '/opakovani', label: tString('common.navigation.review') },
-    { id: 'settings', path: '/nastaveni', label: tString('common.navigation.settings') }
-  ], [tString]);
-
+  const navigationItems = useMemo(
+    () => createNavigationItems(tString, { includeReview: true, includeSettings: true }),
+    [tString]
+  );
   const viewModel = useMemo(
     () => createReviewPageViewModel(appState, appState.contentIndex, dueRows, navigationItems),
     [appState, dueRows, navigationItems]

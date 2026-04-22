@@ -1,6 +1,6 @@
+import { isKnowledgeStable } from '@/core/learning/learningPolicy';
 import type { KnowledgeState } from '@/types/progress';
 import type { StudyAnswer } from '@/types/study';
-import { isKnowledgeStable } from '@/core/learning/learningPolicy';
 
 export interface RepetitionDecision {
   dueAt: string;
@@ -8,14 +8,15 @@ export interface RepetitionDecision {
   queue: 'immediate' | 'today' | 'scheduled';
 }
 
-export function scheduleNextReview(state: Pick<KnowledgeState, 'masteryScore' | 'stabilityScore' | 'successCount' | 'errorCount' | 'dueAt'>, answer: StudyAnswer): RepetitionDecision {
-  const baseDays = intervalDaysFromState(state);
-  const multiplier = multiplierForAccuracy(answer.accuracy);
-  const intervalDays = Math.max(answer.accuracy === 'incorrect' ? 0 : 1, Math.round(baseDays * multiplier));
+export function scheduleNextReview(
+  state: Pick<KnowledgeState, 'masteryScore' | 'stabilityScore' | 'successCount' | 'errorCount' | 'dueAt'>,
+  answer: StudyAnswer
+): RepetitionDecision {
+  const submittedAt = new Date(answer.submittedAt);
 
   if (answer.accuracy === 'incorrect') {
     return {
-      dueAt: new Date(Date.now() + 30 * 60 * 1000).toISOString(),
+      dueAt: addMinutes(submittedAt, 30).toISOString(),
       intervalDays: 0,
       queue: 'immediate'
     };
@@ -23,16 +24,19 @@ export function scheduleNextReview(state: Pick<KnowledgeState, 'masteryScore' | 
 
   if (answer.accuracy === 'correct-after-hint') {
     return {
-      dueAt: new Date(Date.now() + 6 * 60 * 60 * 1000).toISOString(),
+      dueAt: addHours(submittedAt, 6).toISOString(),
       intervalDays: 0,
       queue: 'today'
     };
   }
 
+  const effectiveState = applyAnswerToHistory(state, answer);
+  const intervalDays = Math.max(1, Math.floor(intervalDaysFromState(effectiveState) * multiplierForAccuracy(answer.accuracy)));
+
   return {
-    dueAt: addDays(new Date(), intervalDays).toISOString(),
+    dueAt: addDays(submittedAt, intervalDays).toISOString(),
     intervalDays,
-    queue: isKnowledgeStable(state) ? 'scheduled' : 'today'
+    queue: isKnowledgeStable(effectiveState) ? 'scheduled' : 'today'
   };
 }
 
@@ -42,6 +46,17 @@ export function isStateDueToday(dueAt?: string): boolean {
   }
 
   return dueAt <= new Date().toISOString();
+}
+
+function applyAnswerToHistory(
+  state: Pick<KnowledgeState, 'masteryScore' | 'stabilityScore' | 'successCount' | 'errorCount'>,
+  answer: StudyAnswer
+): Pick<KnowledgeState, 'masteryScore' | 'stabilityScore' | 'successCount' | 'errorCount'> {
+  return {
+    ...state,
+    successCount: state.successCount + (answer.accuracy === 'correct' || answer.accuracy === 'correct-after-hint' ? 1 : 0),
+    errorCount: state.errorCount + (answer.accuracy === 'incorrect' || answer.accuracy === 'skipped' ? 1 : 0)
+  };
 }
 
 function intervalDaysFromState(state: Pick<KnowledgeState, 'masteryScore' | 'stabilityScore' | 'successCount' | 'errorCount'>): number {
@@ -65,6 +80,18 @@ function multiplierForAccuracy(accuracy: StudyAnswer['accuracy']): number {
 
 function addDays(date: Date, days: number): Date {
   const copy = new Date(date);
-  copy.setDate(copy.getDate() + days);
+  copy.setUTCDate(copy.getUTCDate() + days);
+  return copy;
+}
+
+function addHours(date: Date, hours: number): Date {
+  const copy = new Date(date);
+  copy.setUTCHours(copy.getUTCHours() + hours);
+  return copy;
+}
+
+function addMinutes(date: Date, minutes: number): Date {
+  const copy = new Date(date);
+  copy.setUTCMinutes(copy.getUTCMinutes() + minutes);
   return copy;
 }
