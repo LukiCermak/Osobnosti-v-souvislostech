@@ -1,10 +1,15 @@
 import type { AppStoreState } from '@/state/appStore';
 import type { LabTask } from '@/types/study';
 import type { ConfusionRecord, KnowledgeState } from '@/types/progress';
-import { selectLabConfusionSummaries, selectLabContrastSummaries, selectLabNavigationItems, selectRecommendedContrastSetId, type LabContrastSummary, type LabConfusionSummary } from '@/features/lab/lab.selectors';
+import {
+  selectLabConfusionSummaries,
+  selectLabContrastSummaries,
+  selectRecommendedContrastSetId,
+  type LabContrastSummary,
+  type LabConfusionSummary
+} from '@/features/lab/lab.selectors';
 
 export interface LabPageViewModel {
-  navigationItems: ReturnType<typeof selectLabNavigationItems>;
   recommendedTitle: string;
   recommendedDescription: string;
   contrastSets: LabContrastSummary[];
@@ -40,7 +45,6 @@ export function createLabPageViewModel(input: {
   const recommendedSummary = contrastSets.find((item) => item.id === recommendedContrastSetId) ?? contrastSets[0];
 
   return {
-    navigationItems: selectLabNavigationItems(),
     recommendedTitle: recommendedSummary
       ? `Začni rozlišovacím blokem ${recommendedSummary.title}`
       : 'Začni krátkým rozlišovacím blokem',

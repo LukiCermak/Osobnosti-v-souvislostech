@@ -10,6 +10,11 @@ export interface CaseSummaryProps {
   onToggleOpen?: () => void;
   isOpen: boolean;
   isCompleted: boolean;
+  isSolved?: boolean;
+  correctCount?: number;
+  totalQuestions?: number;
+  onReturnToLibrary?: () => void;
+  onStartNewCase?: () => void;
 }
 
 export function CaseSummary({
@@ -20,7 +25,12 @@ export function CaseSummary({
   onChangeSynthesis,
   onToggleOpen,
   isOpen,
-  isCompleted
+  isCompleted,
+  isSolved = false,
+  correctCount = 0,
+  totalQuestions = 0,
+  onReturnToLibrary,
+  onStartNewCase
 }: CaseSummaryProps) {
   if (!isOpen && !isCompleted) {
     return (
@@ -28,7 +38,7 @@ export function CaseSummary({
         as="section"
         eyebrow="Závěrečná syntéza"
         title="Shrnutí případu"
-        subtitle="Po zpracování indicií a odpovědí uzavřeš spis vlastní syntézou."
+        subtitle="Po zpracování indicií a odpovědí uzavřeš spis vlastním shrnutím, které propojí hlavní osobnosti, pojmy a vazby."
       >
         {onToggleOpen ? (
           <div className="button-row">
@@ -44,11 +54,32 @@ export function CaseSummary({
   return (
     <Card
       as="section"
-      eyebrow={isCompleted ? 'Uzavřený spis' : 'Závěrečná syntéza'}
+      eyebrow={isCompleted ? 'Výsledek spisu' : 'Závěrečná syntéza'}
       title={title}
-      subtitle={synthesisPrompt}
+      subtitle={isCompleted ? 'Spis je uzavřený. Teď je důležité vědět, s čím z něj odejdeš a kam navázat dál.' : synthesisPrompt}
       highlight={isCompleted}
+      className="case-summary-card"
     >
+      {isCompleted ? (
+        <div className="case-outcome-grid">
+          <div className="case-outcome-panel">
+            <p className="eyebrow">{isSolved ? 'Spis vyřešený' : 'Spis uzavřený s rezervou'}</p>
+            <h3 className="subsection-title">
+              {isSolved
+                ? 'Hlavní vazby v případu jsou rozpoznané správně.'
+                : 'Případ je dokončený, ale vyplatí se vrátit k některým vazbám a otázkám.'}
+            </h3>
+            <p className="text-body">
+              {`Správně vyhodnocené otázky: ${correctCount} z ${totalQuestions}.`}
+            </p>
+          </div>
+          <div className="panel panel-contrast stack gap-sm">
+            <h3 className="subsection-title">Co si ze spisu odnést</h3>
+            <p className="text-body">{followUpExplanation}</p>
+          </div>
+        </div>
+      ) : null}
+
       <label className="stack gap-sm">
         <span className="subsection-title">Vlastní shrnutí</span>
         <textarea
@@ -60,10 +91,27 @@ export function CaseSummary({
         />
       </label>
 
-      <div className="panel panel-contrast stack gap-sm">
-        <h3 className="subsection-title">Opora po vyhodnocení</h3>
-        <p className="text-body">{followUpExplanation}</p>
-      </div>
+      {!isCompleted ? (
+        <div className="panel panel-contrast stack gap-sm">
+          <h3 className="subsection-title">Opora po vyhodnocení</h3>
+          <p className="text-body">{followUpExplanation}</p>
+        </div>
+      ) : null}
+
+      {isCompleted && (onReturnToLibrary || onStartNewCase) ? (
+        <div className="button-row">
+          {onReturnToLibrary ? (
+            <Button variant="secondary" onClick={onReturnToLibrary}>
+              Vrátit se do knihovny spisů
+            </Button>
+          ) : null}
+          {onStartNewCase ? (
+            <Button onClick={onStartNewCase}>
+              Otevřít další spis
+            </Button>
+          ) : null}
+        </div>
+      ) : null}
     </Card>
   );
 }

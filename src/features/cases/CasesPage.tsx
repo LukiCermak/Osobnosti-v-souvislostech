@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { useNavigate } from 'react-router-dom';
 import { createNavigationItems } from '@/app/navigation';
 import { AppShell } from '@/components/layout/AppShell';
 import { Button } from '@/components/shared/Button';
@@ -35,6 +36,7 @@ import type { StudyAnswer, CaseTask } from '@/types/study';
 import type { ConfusionRecord, KnowledgeState } from '@/types/progress';
 
 export function CasesPage() {
+  const navigate = useNavigate();
   const { tString } = useI18n();
   const appState = useAppStore();
   const studyStore = useStudyStore();
@@ -405,6 +407,7 @@ export function CasesPage() {
 
     await useStudyStore.getState().pauseSession();
     await persistDraftContext(drafts, synthesisDraft);
+    navigate('/detektivni-spisy');
   }
 
   async function handleAbandonSession() {
@@ -420,6 +423,7 @@ export function CasesPage() {
     });
     setDrafts({});
     setSynthesisDraft('');
+    navigate('/detektivni-spisy');
   }
 
   if (appState.bootstrapStatus === 'error') {
@@ -552,6 +556,8 @@ export function CasesPage() {
               onSkipCase={() => void handleSkipCase()}
               onPauseSession={() => void handlePauseSession()}
               onAbandonSession={() => void handleAbandonSession()}
+              onReturnToLibrary={() => navigate('/detektivni-spisy')}
+              onStartNewCase={() => void handleStartCaseSession()}
             />
           ) : null}
         </div>

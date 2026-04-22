@@ -86,7 +86,7 @@ export function useTheme() {
 
 function getSystemMode(): ThemeMode {
   if (typeof window === 'undefined') {
-    return 'light';
+    return 'dark';
   }
 
   return window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';

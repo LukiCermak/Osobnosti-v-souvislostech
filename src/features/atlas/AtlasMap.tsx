@@ -1,7 +1,6 @@
 import { Card } from '@/components/shared/Card';
 import { EmptyState } from '@/components/shared/EmptyState';
 import { ProgressBadge } from '@/components/shared/ProgressBadge';
-import { SectionTitle } from '@/components/shared/SectionTitle';
 import type { AtlasMapSummary } from '@/features/atlas/atlas.selectors';
 import { labelForDiscipline, labelForRelationType } from '@/features/atlas/atlas.selectors';
 import { joinLabels } from '@/utils/text';
@@ -29,20 +28,31 @@ export function AtlasMap({ summary, onFocusEntity }: AtlasMapProps) {
         <SummaryCard title="Rizikové uzly" value={summary.weakNodeCount} description="Jednotky, které se objevují ve slabých místech a častých záměnách." />
       </section>
 
-      <Card as="section" eyebrow="Fokus mapy" title="Který uzel chceš sledovat" subtitle="Vyber centrum mapy a Atlas ukáže přímé návaznosti v obou směrech.">
+      <Card
+        as="section"
+        className="atlas-focus-card"
+        eyebrow="Fokus mapy"
+        title="Který uzel chceš sledovat"
+        subtitle="Vyber centrum mapy a Atlas ukáže přímé návaznosti v obou směrech."
+      >
         <div className="atlas-node-grid">
           {summary.focusCandidates.map((node) => (
             <button
               key={node.id}
-              className={[ 'atlas-node-button', summary.focusedNode?.id === node.id ? 'is-active' : '' ].filter(Boolean).join(' ')}
+              className={['atlas-node-button', summary.focusedNode?.id === node.id ? 'is-active' : ''].filter(Boolean).join(' ')}
               type="button"
               onClick={() => onFocusEntity(node.id)}
             >
-              <strong>{node.label}</strong>
-              <span className="text-body">{joinLabels(node.disciplineIds.map(labelForDiscipline))}</span>
-              <div className="atlas-node-meta-row">
-                <ProgressBadge label="vazby" value={node.relationCount} tone="growing" />
-                {node.isWeak ? <ProgressBadge label="slabé místo" tone="needs-review" /> : null}
+              <div className="atlas-node-icon" aria-hidden="true">
+                {node.kind === 'person' ? 'Os' : 'Po'}
+              </div>
+              <div className="stack gap-sm">
+                <strong>{node.label}</strong>
+                <span className="text-body">{joinLabels(node.disciplineIds.map(labelForDiscipline))}</span>
+                <div className="atlas-node-meta-row">
+                  <ProgressBadge label="vazby" value={node.relationCount} tone="growing" />
+                  {node.isWeak ? <ProgressBadge label="slabé místo" tone="needs-review" /> : null}
+                </div>
               </div>
             </button>
           ))}
@@ -52,6 +62,7 @@ export function AtlasMap({ summary, onFocusEntity }: AtlasMapProps) {
       {summary.focusedNode ? (
         <Card
           as="section"
+          className="atlas-node-detail-card"
           eyebrow="Detail zvoleného uzlu"
           title={summary.focusedNode.label}
           subtitle={`Oborové zařazení: ${joinLabels(summary.focusedNode.disciplineIds.map(labelForDiscipline))}`}
@@ -61,18 +72,28 @@ export function AtlasMap({ summary, onFocusEntity }: AtlasMapProps) {
             <ProgressBadge label="priorita" value={priorityLabel(summary.focusedNode.priority)} tone={priorityTone(summary.focusedNode.priority)} />
             {summary.focusedNode.isWeak ? <ProgressBadge label="slabé místo" tone="needs-review" /> : null}
           </div>
-          <SectionTitle
-            title="Přímé návaznosti"
-            subtitle="Atlas ukazuje vztahy, které vedou od zvoleného uzlu nebo k němu míří."
-            compact
-          />
+
+          <div className="atlas-node-hero">
+            <div className="atlas-node-icon atlas-node-icon-large" aria-hidden="true">
+              {summary.focusedNode.kind === 'person' ? 'Os' : 'Po'}
+            </div>
+            <div className="stack gap-sm">
+              <h3 className="subsection-title">Přímé návaznosti</h3>
+              <p className="text-body">
+                Atlas ukazuje vztahy, které vedou od zvoleného uzlu nebo k němu míří.
+              </p>
+            </div>
+          </div>
+
           <div className="stack gap-md">
             {summary.neighbors.map((neighbor) => (
               <article key={`${neighbor.direction}:${neighbor.relationId}:${neighbor.neighborId}`} className="atlas-relation-row">
                 <div className="stack gap-sm">
                   <div className="atlas-relation-headline">
                     <strong>{neighbor.neighborLabel}</strong>
-                    <span className="text-body">{neighbor.direction === 'outgoing' ? 'navazuje od středu' : 'vede ke středu'}</span>
+                    <span className="text-body">
+                      {neighbor.direction === 'outgoing' ? 'navazuje od středu' : 'vede ke středu'}
+                    </span>
                   </div>
                   <p className="text-body">{neighbor.explanation}</p>
                   <div className="atlas-focus-meta">

@@ -34,6 +34,8 @@ export interface CaseBoardProps {
   onSkipCase: () => void;
   onPauseSession: () => void;
   onAbandonSession: () => void;
+  onReturnToLibrary?: () => void;
+  onStartNewCase?: () => void;
 }
 
 export function CaseBoard({
@@ -58,7 +60,9 @@ export function CaseBoard({
   onSubmitCase,
   onSkipCase,
   onPauseSession,
-  onAbandonSession
+  onAbandonSession,
+  onReturnToLibrary,
+  onStartNewCase
 }: CaseBoardProps) {
   return (
     <div className="case-board-layout">
@@ -74,10 +78,10 @@ export function CaseBoard({
 
           <div className="button-row">
             <Button variant="secondary" onClick={onPauseSession}>
-              Pozastavit
+              Uložit a vrátit se později
             </Button>
-            <Button variant="ghost" onClick={onAbandonSession}>
-              Ukončit spis
+            <Button variant="danger" onClick={onAbandonSession}>
+              Zahodit rozehraný spis
             </Button>
           </div>
         </Card>
@@ -157,7 +161,7 @@ export function CaseBoard({
               Přeskočit spis
             </Button>
             <Button onClick={onSubmitCase} disabled={!evaluation.canSubmit}>
-              Uzavřít a vyhodnotit spis
+              Uzavřít spis a zobrazit výsledek
             </Button>
           </div>
         </Card>
@@ -171,6 +175,11 @@ export function CaseBoard({
           onToggleOpen={onToggleSynthesis}
           isOpen={showSynthesis}
           isCompleted={isCompleted}
+          isSolved={evaluation.isSolved}
+          correctCount={evaluation.correctCount}
+          totalQuestions={evaluation.totalQuestions}
+          onReturnToLibrary={onReturnToLibrary}
+          onStartNewCase={onStartNewCase}
         />
       </div>
 

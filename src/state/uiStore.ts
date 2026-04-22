@@ -110,11 +110,11 @@ export const useUiStore = create<UiStoreState>((set) => ({
 
 function readStoredTheme(): ThemeState['theme'] {
   if (typeof window === 'undefined') {
-    return 'system';
+    return 'dark';
   }
 
   const stored = window.localStorage.getItem(THEME_STORAGE_KEY);
-  return stored === 'light' || stored === 'dark' || stored === 'system' ? stored : 'system';
+  return stored === 'light' || stored === 'dark' || stored === 'system' ? stored : 'dark';
 }
 
 function persistTheme(theme: ThemeState['theme']): void {

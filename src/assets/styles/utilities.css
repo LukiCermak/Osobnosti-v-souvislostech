@@ -27,6 +27,11 @@
   background-image: var(--color-highlight);
 }
 
+.panel-contrast {
+  background: color-mix(in srgb, var(--color-bg-contrast) 78%, var(--color-bg-elevated));
+  border-color: color-mix(in srgb, var(--color-primary) 12%, var(--color-border));
+}
+
 .button {
   display: inline-flex;
   align-items: center;
