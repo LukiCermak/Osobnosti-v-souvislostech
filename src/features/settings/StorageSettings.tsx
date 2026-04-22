@@ -21,10 +21,10 @@ export function StorageSettings({
   onReset
 }: StorageSettingsProps) {
   return (
-    <Card as="section" eyebrow="Lokalni data" title={title} subtitle={subtitle}>
+    <Card as="section" eyebrow="Lokální data" title={title} subtitle={subtitle}>
       <ul className="feature-list">
-        <li>{`Stav uloziste: ${statusLabel}`}</li>
-        <li>{`Vyuzita kapacita: ${usageLabel}`}</li>
+        <li>{`Stav úložiště: ${statusLabel}`}</li>
+        <li>{`Využitá kapacita: ${usageLabel}`}</li>
       </ul>
       {warnings.length > 0 ? (
         <div className="stack gap-sm">
@@ -35,7 +35,7 @@ export function StorageSettings({
       ) : null}
       <div className="button-row">
         <Button variant="secondary" onClick={onRefresh}>Obnovit kontrolu</Button>
-        <Button variant="danger" onClick={onReset}>Vymazat lokalni data</Button>
+        <Button variant="danger" onClick={onReset}>Vymazat lokální data</Button>
       </div>
     </Card>
   );

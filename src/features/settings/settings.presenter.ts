@@ -16,17 +16,17 @@ export function createSettingsPageViewModel(
   themePreference: 'system' | 'light' | 'dark'
 ): SettingsPageViewModel {
   return {
-    pseudonym: state.userProfile?.pseudonym ?? 'Bez zadaneho jmena',
+    pseudonym: state.userProfile?.pseudonym ?? 'Bez zadaného jména',
     dailyIntensityLabel: resolveIntensityLabel(state.userProfile?.preferredDailyIntensity),
     preferredDisciplineCount: state.userProfile?.preferredDisciplineIds.length ?? 0,
     storageStatusLabel: resolveStorageStatusLabel(storageReport?.status),
     storageUsageLabel:
       state.storageHealth?.estimate.usage !== undefined && state.storageHealth?.estimate.quota !== undefined
         ? `${Math.round((state.storageHealth.estimate.usage / 1024 / 1024) * 10) / 10} MB / ${Math.round((state.storageHealth.estimate.quota / 1024 / 1024) * 10) / 10} MB`
-        : 'Kapacita zatim neni dostupna',
+        : 'Kapacita zatím není dostupná',
     storageWarnings: [
       ...(storageReport?.warnings ?? []),
-      themePreference === 'system' ? 'Vzhled se ridi nastavenim zarizeni.' : ''
+      themePreference === 'system' ? 'Vzhled se řídí nastavením zařízení.' : ''
     ].filter(Boolean)
   };
 }
@@ -34,26 +34,26 @@ export function createSettingsPageViewModel(
 function resolveIntensityLabel(value?: 'light' | 'standard' | 'deep'): string {
   switch (value) {
     case 'light':
-      return 'Lehka';
+      return 'Lehká';
     case 'deep':
-      return 'Hlubsi';
+      return 'Hlubší';
     case 'standard':
     default:
-      return 'Standardni';
+      return 'Standardní';
   }
 }
 
 function resolveStorageStatusLabel(status?: StorageHealthReport['status']): string {
   switch (status) {
     case 'good':
-      return 'Uloziste je v poradku';
+      return 'Úložiště je v pořádku';
     case 'warning':
-      return 'Uloziste se blizi kapacite';
+      return 'Úložiště se blíží kapacitě';
     case 'critical':
-      return 'Uloziste je temer zaplnene';
+      return 'Úložiště je téměř zaplněné';
     case 'unavailable':
-      return 'Uloziste neni k dispozici';
+      return 'Úložiště není k dispozici';
     default:
-      return 'Stav uloziste se nacita';
+      return 'Stav úložiště se načítá';
   }
 }

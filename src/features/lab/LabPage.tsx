@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { createModeNavigationItems, createNavigationItems } from '@/app/navigation';
+import { createNavigationItems } from '@/app/navigation';
 import { AppShell } from '@/components/layout/AppShell';
 import { Button } from '@/components/shared/Button';
 import { Card } from '@/components/shared/Card';
@@ -45,11 +45,7 @@ export function LabPage() {
   const [confidence, setConfidence] = useState<StudyAnswer['confidence']>(3);
   const [taskStartedAt, setTaskStartedAt] = useState<number>(() => Date.now());
   const navigationItems = useMemo(
-    () => createNavigationItems(tString, { includeSettings: true }),
-    [tString]
-  );
-  const modeNavigationItems = useMemo(
-    () => createModeNavigationItems(tString),
+    () => createNavigationItems(tString),
     [tString]
   );
 
@@ -346,7 +342,6 @@ export function LabPage() {
         subtitle={tString('lab.page.subtitle')}
         eyebrow={tString('lab.page.eyebrow')}
         navigationItems={navigationItems}
-        modeNavigationItems={modeNavigationItems}
       >
         <ErrorState
           title={tString('lab.errors.loadTitle')}
@@ -373,7 +368,6 @@ export function LabPage() {
       subtitle={tString('lab.page.subtitle')}
       eyebrow={tString('lab.page.eyebrow')}
       navigationItems={navigationItems}
-      modeNavigationItems={modeNavigationItems}
       sidebar={
         <>
           <Card as="section" eyebrow={tString('lab.settings.eyebrow')} title={tString('lab.settings.tempoTitle')} subtitle={tString('lab.settings.tempoText')}>

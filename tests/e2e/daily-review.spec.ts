@@ -83,6 +83,6 @@ test('domovska obrazovka ukaze dnesni opakovani', async ({ page }) => {
   await seedDailyReview(page);
   await page.reload();
 
-  await expect(page.getByRole('link', { name: 'Otevrit dnesni opakovani' }).first()).toBeVisible();
-  await expect(page.getByText(/Dnes k opakovani: 1/).first()).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Otevřít dnešní opakování' }).first()).toBeVisible();
+  await expect(page.getByText(/Dnes k opakování: 1/).first()).toBeVisible();
 });

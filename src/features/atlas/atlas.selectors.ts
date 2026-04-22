@@ -21,6 +21,9 @@ export interface AtlasFilterOption {
   id: string;
   label: string;
   count: number;
+  sortKey?: number;
+  startYear?: number;
+  endYear?: number;
 }
 
 export interface AtlasMapNodeSummary {
@@ -107,8 +110,15 @@ export function selectAtlasEraOptions(index: ContentIndex): AtlasFilterOption[] 
   }
 
   return [...eraMap.entries()]
-    .map(([id, value]) => ({ id, label: value.label, count: value.count }))
-    .sort((left, right) => left.label.localeCompare(right.label, 'cs'));
+    .map(([id, value]) => ({
+      id,
+      label: eraMetaMap[id]?.label ?? value.label,
+      count: value.count,
+      sortKey: eraMetaMap[id]?.sortKey ?? 999,
+      startYear: eraMetaMap[id]?.startYear,
+      endYear: eraMetaMap[id]?.endYear
+    }))
+    .sort((left, right) => (left.sortKey ?? 999) - (right.sortKey ?? 999));
 }
 
 export function selectAtlasRelationTypeOptions(index: ContentIndex): AtlasFilterOption[] {
@@ -130,6 +140,7 @@ export function selectAtlasTagOptions(index: ContentIndex): AtlasFilterOption[] 
 
   return [...tagMap.entries()]
     .map(([id, count]) => ({ id, label: labelForTag(id), count }))
+    .filter((option) => option.count > 10)
     .sort((left, right) => left.label.localeCompare(right.label, 'cs'));
 }
 
@@ -158,7 +169,9 @@ export function selectAtlasMapSummary(input: {
   focusEntityId?: EntityId;
 }): AtlasMapSummary {
   const weakEntityIds = input.weakEntityIds ?? new Set<EntityId>();
-  const visibleRelations = [...input.index.relations.values()].filter((relation) => relationMatches(input.index, relation, input.filters, weakEntityIds));
+  const visibleRelations = [...input.index.relations.values()].filter((relation) =>
+    relationMatches(input.index, relation, input.filters, weakEntityIds)
+  );
   const visibleNodeIds = new Set<EntityId>(visibleRelations.flatMap((relation) => [relation.fromId, relation.toId]));
 
   if (visibleRelations.length === 0) {
@@ -182,14 +195,21 @@ export function selectAtlasMapSummary(input: {
 
   const visibleNodes = [...visibleNodeIds]
     .map((nodeId) => toNodeSummary(input.graph, nodeId, weakEntityIds))
-.filter(isDefined)
+    .filter(isDefined)
     .sort((left, right) => right.relationCount - left.relationCount || left.label.localeCompare(right.label, 'cs'));
 
   const focusCandidates = visibleNodes.slice(0, 12);
-  const resolvedFocusId = input.focusEntityId && visibleNodeIds.has(input.focusEntityId) ? input.focusEntityId : focusCandidates[0]?.id;
+  const resolvedFocusId =
+    input.focusEntityId && visibleNodeIds.has(input.focusEntityId) ? input.focusEntityId : focusCandidates[0]?.id;
   const focusedNode = resolvedFocusId ? visibleNodes.find((node) => node.id === resolvedFocusId) : undefined;
   const neighbors = resolvedFocusId
-    ? selectNodeNeighbors({ index: input.index, graph: input.graph, nodeId: resolvedFocusId, weakEntityIds, filters: input.filters })
+    ? selectNodeNeighbors({
+        index: input.index,
+        graph: input.graph,
+        nodeId: resolvedFocusId,
+        weakEntityIds,
+        filters: input.filters
+      })
     : [];
 
   return {
@@ -258,7 +278,7 @@ export function selectAtlasFocusTrail(graph: ContentGraph, focusEntityId?: Entit
         isWeak: false
       };
     })
-.filter(isDefined);
+    .filter(isDefined);
 }
 
 function selectNodeNeighbors(input: {
@@ -334,10 +354,9 @@ function relationMatches(
     return false;
   }
 
-  const eraIds = [
-    'eraId' in fromNode ? fromNode.eraId : undefined,
-    'eraId' in toNode ? toNode.eraId : undefined
-  ].filter((item): item is EraId => Boolean(item));
+  const eraIds = [('eraId' in fromNode ? fromNode.eraId : undefined), 'eraId' in toNode ? toNode.eraId : undefined].filter(
+    (item): item is EraId => Boolean(item)
+  );
   if (filters.eraIds.length > 0 && !eraIds.some((eraId) => filters.eraIds.includes(eraId))) {
     return false;
   }
@@ -454,4 +473,27 @@ const tagLabelMap: Record<string, string> = {
   'zahranicni-prostredi': 'Zahraniční prostředí',
   'ceske-prostredi': 'České prostředí',
   'slovenske-prostredi': 'Slovenské prostředí'
+};
+
+const eraMetaMap: Record<
+  string,
+  {
+    label: string;
+    sortKey: number;
+    startYear: number;
+    endYear: number;
+  }
+> = {
+  starovek: { label: 'Starověk', sortKey: 1, startYear: -600, endYear: 500 },
+  'stredovek-a-rane-predpoli': { label: 'Středověk a rané předpolí', sortKey: 2, startYear: 500, endYear: 1499 },
+  '14-15-stoleti': { label: '14.–15. století', sortKey: 3, startYear: 1300, endYear: 1499 },
+  '16-stoleti': { label: '16. století', sortKey: 4, startYear: 1500, endYear: 1599 },
+  '17-stoleti': { label: '17. století', sortKey: 5, startYear: 1600, endYear: 1699 },
+  '17-18-stoleti': { label: '17.–18. století', sortKey: 6, startYear: 1600, endYear: 1799 },
+  '18-stoleti': { label: '18. století', sortKey: 7, startYear: 1700, endYear: 1799 },
+  '18-19-stoleti': { label: '18.–19. století', sortKey: 8, startYear: 1700, endYear: 1899 },
+  '19-stoleti': { label: '19. století', sortKey: 9, startYear: 1800, endYear: 1899 },
+  '19-20-stoleti': { label: '19.–20. století', sortKey: 10, startYear: 1800, endYear: 1999 },
+  '20-stoleti': { label: '20. století', sortKey: 11, startYear: 1900, endYear: 1999 },
+  '20-21-stoleti': { label: '20.–21. století', sortKey: 12, startYear: 1900, endYear: 2099 }
 };

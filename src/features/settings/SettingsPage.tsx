@@ -28,7 +28,7 @@ export function SettingsPage() {
       const report = await checkStorageHealth();
       setStorageHealth(report);
     } catch (storageError) {
-      setError(storageError instanceof Error ? storageError.message : 'Nepodarilo se overit lokalni uloziste.');
+      setError(storageError instanceof Error ? storageError.message : 'Nepodařilo se ověřit lokální úložiště.');
     }
   }, [setStorageHealth]);
 
@@ -37,7 +37,7 @@ export function SettingsPage() {
   }, [refreshStorageHealth]);
 
   const navigationItems = useMemo(
-    () => createNavigationItems(tString, { includeSettings: true }),
+    () => createNavigationItems(tString),
     [tString]
   );
 
@@ -47,7 +47,7 @@ export function SettingsPage() {
   );
 
   const handleReset = async () => {
-    const confirmed = window.confirm('Opravdu chcete vymazat lokalni progres a rozehrane relace v tomto zarizeni?');
+    const confirmed = window.confirm('Opravdu chcete vymazat lokální progres a rozehrané relace v tomto zařízení?');
     if (!confirmed) {
       return;
     }
@@ -58,9 +58,9 @@ export function SettingsPage() {
       await initializeApp(true);
       await refreshDerivedState();
       await refreshStorageHealth();
-      setNotice('Lokalni data byla vymazana a aplikace pripravila cisty stav.');
+      setNotice('Lokální data byla vymazána a aplikace připravila čistý stav.');
     } catch (resetError) {
-      setError(resetError instanceof Error ? resetError.message : 'Nepodarilo se vymazat lokalni data.');
+      setError(resetError instanceof Error ? resetError.message : 'Nepodařilo se vymazat lokální data.');
     }
   };
 
@@ -93,10 +93,10 @@ export function SettingsPage() {
         <>
           <Card as="section" eyebrow="Profil" title={tString('settings.profile.title')} subtitle={tString('settings.profile.subtitle')}>
             <ul className="feature-list">
-              <li>{`Osloveni: ${viewModel.pseudonym}`}</li>
-              <li>{`Denni intenzita: ${viewModel.dailyIntensityLabel}`}</li>
-              <li>{`Preferovane discipliny: ${viewModel.preferredDisciplineCount}`}</li>
-              <li>{`Aktivni vzhled: ${mode === 'dark' ? 'Tmavy' : 'Svetly'}`}</li>
+              <li>{`Oslovení: ${viewModel.pseudonym}`}</li>
+              <li>{`Denní intenzita: ${viewModel.dailyIntensityLabel}`}</li>
+              <li>{`Preferované disciplíny: ${viewModel.preferredDisciplineCount}`}</li>
+              <li>{`Aktivní vzhled: ${mode === 'dark' ? 'Tmavý' : 'Světlý'}`}</li>
             </ul>
           </Card>
 

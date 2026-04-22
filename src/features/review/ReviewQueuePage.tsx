@@ -32,12 +32,12 @@ export function ReviewQueuePage() {
       const rows = await knowledgeRepository.listDue(new Date().toISOString(), 24);
       setDueRows(rows);
     } catch (error) {
-      setLoadError(error instanceof Error ? error.message : 'Nepodarilo se nacist dnesni frontu opakovani.');
+      setLoadError(error instanceof Error ? error.message : 'Nepodařilo se načíst dnešní frontu opakování.');
     }
   }
 
   const navigationItems = useMemo(
-    () => createNavigationItems(tString, { includeSettings: true }),
+    () => createNavigationItems(tString),
     [tString]
   );
   const viewModel = useMemo(

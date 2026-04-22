@@ -1,5 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
-import { createModeNavigationItems, createNavigationItems } from '@/app/navigation';
+import { createNavigationItems } from '@/app/navigation';
 import { AppShell } from '@/components/layout/AppShell';
 import { Button } from '@/components/shared/Button';
 import { Card } from '@/components/shared/Card';
@@ -53,11 +53,7 @@ export function CasesPage() {
   const [confidence, setConfidence] = useState<StudyAnswer['confidence']>(3);
   const [taskStartedAt, setTaskStartedAt] = useState<number>(() => Date.now());
   const navigationItems = useMemo(
-    () => createNavigationItems(tString, { includeSettings: true }),
-    [tString]
-  );
-  const modeNavigationItems = useMemo(
-    () => createModeNavigationItems(tString),
+    () => createNavigationItems(tString),
     [tString]
   );
 
@@ -433,7 +429,6 @@ export function CasesPage() {
         subtitle={tString('cases.page.subtitle')}
         eyebrow={tString('cases.page.eyebrow')}
         navigationItems={navigationItems}
-        modeNavigationItems={modeNavigationItems}
       >
         <ErrorState
           title={tString('cases.errors.loadTitle')}
@@ -456,7 +451,6 @@ export function CasesPage() {
       subtitle={tString('cases.page.subtitle')}
       eyebrow={tString('cases.page.eyebrow')}
       navigationItems={navigationItems}
-      modeNavigationItems={modeNavigationItems}
       sidebarTitle={tString('cases.sidebar.title')}
       sidebar={
         <>

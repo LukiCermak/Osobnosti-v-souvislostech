@@ -16,6 +16,7 @@ export interface NavigationItem {
   path: string;
   label: string;
   mode?: StudyMode;
+  children?: NavigationItem[];
 }
 
 export interface AtlasFiltersState {

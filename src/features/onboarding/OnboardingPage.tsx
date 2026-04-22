@@ -18,8 +18,8 @@ import { useUiStore } from '@/state/uiStore';
 import type { NavigationItem } from '@/types/ui';
 
 const navigationItems: NavigationItem[] = [
-  { id: 'home', path: '/', label: 'Hlavni stranka' },
-  { id: 'onboarding', path: '/prvni-nastaveni', label: 'Prvni nastaveni' }
+  { id: 'home', path: '/', label: 'Hlavní stránka' },
+  { id: 'onboarding', path: '/prvni-nastaveni', label: 'První nastavení' }
 ];
 
 export function OnboardingPage() {

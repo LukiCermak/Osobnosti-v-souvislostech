@@ -65,33 +65,33 @@ export function createHomePageViewModel(state: AppStoreState): HomePageViewModel
     recommendedActionTitle: getRecommendedActionTitle(recommendedReason, recommendedMode),
     recommendedActionDescription: getRecommendedActionDescription(recommendedReason, dueTodayCount),
     recommendedActionTo: needsOnboarding ? '/prvni-nastaveni' : modeToPath(recommendedMode),
-    recommendedActionLabel: needsOnboarding ? 'Dokoncit prvni nastaveni' : getRecommendedActionLabel(recommendedReason),
+    recommendedActionLabel: needsOnboarding ? 'Dokončit první nastavení' : getRecommendedActionLabel(recommendedReason),
     resumeAvailable,
     dueTodayCount,
     totalUnits,
     completionRatio,
     completionLabel:
-      totalUnits > 0 ? `${Math.round(completionRatio * 100)} % upevnenych jednotek` : 'Pokrok se zacne pocitat po prvni relaci',
+      totalUnits > 0 ? `${Math.round(completionRatio * 100)} % upevněných jednotek` : 'Pokrok se začne počítat po první relaci',
     highlightItems: buildHighlightItems(state, dueTodayCount),
     disciplineBars,
     weaknessItems,
     modeCards: [
       {
         id: 'atlas',
-        title: 'Atlas souvislosti',
-        description: 'Pro orientaci v oboru, trasach a vazbach mezi osobnostmi, pojmy a institucemi.',
+        title: 'Atlas souvislostí',
+        description: 'Pro orientaci v oboru, trasách a vazbách mezi osobnostmi, pojmy a institucemi.',
         to: '/atlas'
       },
       {
         id: 'cases',
-        title: 'Detektivni spisy',
-        description: 'Pro delsi ulohy s indiciemi, syntezou a navratem k narocnejsim vazbam.',
+        title: 'Detektivní spisy',
+        description: 'Pro delší úlohy s indiciemi, syntézou a návratem k náročnějším vazbám.',
         to: '/detektivni-spisy'
       },
       {
         id: 'lab',
-        title: 'Laborator rozliseni',
-        description: 'Pro rychle rozlisovani podobnych jmen, linii a castych zamen.',
+        title: 'Laboratoř rozlišení',
+        description: 'Pro rychlé rozlišování podobných jmen, linií a častých záměn.',
         to: '/laborator-rozliseni'
       }
     ]
@@ -105,20 +105,20 @@ export function resolveDisciplineLabel(disciplineId: string): string {
 export function resolveModeLabel(mode: StudyMode): string {
   switch (mode) {
     case 'atlas':
-      return 'Atlas souvislosti';
+      return 'Atlas souvislostí';
     case 'cases':
-      return 'Detektivni spisy';
+      return 'Detektivní spisy';
     case 'lab':
-      return 'Laborator rozliseni';
+      return 'Laboratoř rozlišení';
   }
 }
 
 export function describeHomeCoverage(index?: ContentIndex): string {
   if (!index) {
-    return 'Obsah aplikace se nacita.';
+    return 'Obsah aplikace se načítá.';
   }
 
-  return `${index.people.size} osobnosti, ${index.concepts.size} pojmu a ${index.relations.size} vazeb pripravenych ke studiu.`;
+  return `${index.people.size} osobností, ${index.concepts.size} pojmů a ${index.relations.size} vazeb připravených ke studiu.`;
 }
 
 function buildHighlightItems(state: AppStoreState, dueTodayCount: number): HomeHighlightItem[] {
@@ -130,17 +130,17 @@ function buildHighlightItems(state: AppStoreState, dueTodayCount: number): HomeH
   return [
     {
       id: 'discipline-count',
-      label: 'Preferovane discipliny',
+      label: 'Preferované disciplíny',
       value: String(preferredDisciplines)
     },
     {
       id: 'resume-count',
-      label: 'Rozpracovane kroky',
+      label: 'Rozpracované kroky',
       value: String(resumeCount)
     },
     {
       id: 'review-count',
-      label: 'Dnes k opakovani',
+      label: 'Dnes k opakování',
       value: String(dueTodayCount)
     }
   ];
@@ -149,15 +149,15 @@ function buildHighlightItems(state: AppStoreState, dueTodayCount: number): HomeH
 function getRecommendedActionTitle(reason: ReturnType<typeof selectHomeRecommendedReason>, mode: StudyMode): string {
   switch (reason) {
     case 'first-run':
-      return 'Zacni kratkym nastavenim vstupu';
+      return 'Začni krátkým nastavením vstupu';
     case 'resume':
-      return 'Navazes presne tam, kde ses zastavil';
+      return 'Navážeš přesně tam, kde ses zastavil';
     case 'similar-person-confusion':
       return mode === 'lab'
-        ? 'Nejvetsi prinos ted prinese Laborator rozliseni'
-        : `Ted se vyplati pokracovat v rezimu ${resolveModeLabel(mode)}`;
+        ? 'Největší přínos teď přinese Laboratoř rozlišení'
+        : `Teď se vyplatí pokračovat v režimu ${resolveModeLabel(mode)}`;
     default:
-      return `Muzes pokracovat v rezimu ${resolveModeLabel(mode)}`;
+      return `Můžeš pokračovat v režimu ${resolveModeLabel(mode)}`;
   }
 }
 
@@ -167,26 +167,26 @@ function getRecommendedActionDescription(
 ): string {
   switch (reason) {
     case 'first-run':
-      return 'Vyberes si preferovane discipliny a nastavis denni intenzitu, aby doporuceni od zacatku davala smysl.';
+      return 'Vybereš si preferované disciplíny a nastavíš denní intenzitu, aby doporučení od začátku dávala smysl.';
     case 'resume':
-      return 'Aplikace si pamatuje posledni relaci i nedokoncene kroky. Nemusis zacinat znovu.';
+      return 'Aplikace si pamatuje poslední relaci i nedokončené kroky. Nemusíš začínat znovu.';
     case 'similar-person-confusion':
-      return 'Historie zamen ukazuje, ze nejvetsi efekt prinese cilene rozlisovani podobnych osobnosti a vazeb.';
+      return 'Historie záměn ukazuje, že největší efekt přinese cílené rozlišování podobných osobností a vazeb.';
     default:
       return dueTodayCount > 0
-        ? `Dnes uz ceka ${dueTodayCount} jednotek k opakovani, takze se vyplati navazat na prubezne upevnovani.`
-        : 'Muzes si zvolit rezim podle toho, zda chces mapovat vztahy, resit pripad nebo rychle odlisovat podobna jmena.';
+        ? `Dnes už čeká ${dueTodayCount} jednotek k opakování, takže se vyplatí navázat na průběžné upevňování.`
+        : 'Můžeš si zvolit režim podle toho, zda chceš mapovat vztahy, řešit případ nebo rychle odlišovat podobná jména.';
   }
 }
 
 function getRecommendedActionLabel(reason: ReturnType<typeof selectHomeRecommendedReason>): string {
   switch (reason) {
     case 'resume':
-      return 'Pokracovat ve studiu';
+      return 'Pokračovat ve studiu';
     case 'similar-person-confusion':
-      return 'Otevrit doporuceny rezim';
+      return 'Otevřít doporučený režim';
     default:
-      return 'Zacit studijni blok';
+      return 'Začít studijní blok';
   }
 }
 
@@ -209,7 +209,7 @@ function humanizeSlug(value: string): string {
 }
 
 const disciplineLabelMap: Record<string, string> = {
-  'specialni-pedagogika-a-dejiny-oboru': 'Specialni pedagogika a dejiny oboru',
+  'specialni-pedagogika-a-dejiny-oboru': 'Speciální pedagogika a dějiny oboru',
   psychopedie: 'Psychopedie',
   somatopedie: 'Somatopedie',
   logopedie: 'Logopedie',
@@ -219,5 +219,5 @@ const disciplineLabelMap: Record<string, string> = {
   'diagnostika-a-psychometrie': 'Diagnostika a psychometrie',
   'psychologie-psychiatrie-a-psychoterapie': 'Psychologie, psychiatrie a psychoterapie',
   'andragogika-a-gerontagogika': 'Andragogika a gerontagogika',
-  'novodoba-ceska-tradice-a-institucni-rozvoj': 'Novodoba ceska tradice a institucni rozvoj'
+  'novodoba-ceska-tradice-a-institucni-rozvoj': 'Novodobá česká tradice a institucionální rozvoj'
 };

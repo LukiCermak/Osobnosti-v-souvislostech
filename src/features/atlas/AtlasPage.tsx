@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { createModeNavigationItems, createNavigationItems } from '@/app/navigation';
+import { createNavigationItems } from '@/app/navigation';
 import { AppShell } from '@/components/layout/AppShell';
 import { AnswerFeedback } from '@/components/study/AnswerFeedback';
 import { NextStepCard } from '@/components/study/NextStepCard';
@@ -52,11 +52,7 @@ export function AtlasPage() {
   const [confidence, setConfidence] = useState<StudyAnswer['confidence']>(3);
   const [taskStartedAt, setTaskStartedAt] = useState<number>(() => Date.now());
   const navigationItems = useMemo(
-    () => createNavigationItems(tString, { includeSettings: true }),
-    [tString]
-  );
-  const modeNavigationItems = useMemo(
-    () => createModeNavigationItems(tString),
+    () => createNavigationItems(tString),
     [tString]
   );
 
@@ -74,6 +70,12 @@ export function AtlasPage() {
     setRevealedHintIds([]);
     setTaskStartedAt(Date.now());
   }, [currentTask?.id]);
+
+  useEffect(() => {
+    if (atlasFilters.relationTypes.length > 0) {
+      updateAtlasFilters({ relationTypes: [] });
+    }
+  }, [atlasFilters.relationTypes.length, updateAtlasFilters]);
 
   async function loadAtlasSupportData() {
     const [stateRows, confusionRows] = await Promise.all([knowledgeRepository.listAll(), confusionRepository.listTop(30)]);
@@ -106,7 +108,6 @@ export function AtlasPage() {
         subtitle={tString('atlas.page.subtitle')}
         eyebrow={tString('atlas.page.eyebrow')}
         navigationItems={navigationItems}
-        modeNavigationItems={modeNavigationItems}
       >
         <ErrorState
           title={tString('atlas.errors.loadTitle')}
@@ -200,17 +201,14 @@ export function AtlasPage() {
       subtitle={tString('atlas.page.subtitle')}
       eyebrow={tString('atlas.page.eyebrow')}
       navigationItems={navigationItems}
-      modeNavigationItems={modeNavigationItems}
       sidebar={
         <AtlasFilters
           filters={atlasFilters}
           disciplineOptions={viewModel.disciplineOptions}
           eraOptions={viewModel.eraOptions}
-          relationTypeOptions={viewModel.relationTypeOptions}
           tagOptions={viewModel.tagOptions}
           onToggleDiscipline={(id) => toggleSelection('disciplineIds', id, atlasFilters, updateAtlasFilters)}
-          onToggleEra={(id) => toggleSelection('eraIds', id, atlasFilters, updateAtlasFilters)}
-          onToggleRelationType={(id) => toggleSelection('relationTypes', id, atlasFilters, updateAtlasFilters)}
+          onSetEraRange={(eraIds) => updateAtlasFilters({ eraIds })}
           onToggleTag={(id) => toggleSelection('tagIds', id, atlasFilters, updateAtlasFilters)}
           onToggleWeakOnly={() => updateAtlasFilters({ showOnlyWeakAreas: !atlasFilters.showOnlyWeakAreas })}
           onReset={() => resetAtlasFilters()}

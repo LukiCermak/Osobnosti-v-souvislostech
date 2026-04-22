@@ -1,38 +1,38 @@
 {
   "hero": {
-    "eyebrow": "Dnesni stav studia",
-    "kicker": "Navrat, doporuceni a dalsi krok",
-    "title": "Pokracuj tam, kde ma dalsi studium nejvetsi smysl",
-    "description": "Hlavni stranka shrnuje rozpracovane studium, dnesni opakovani, slaba mista i rychly vstup do tri rezimu."
+    "eyebrow": "Dnešní stav studia",
+    "kicker": "Návrat, doporučení a další krok",
+    "title": "Pokračuj tam, kde má další studium největší smysl",
+    "description": "Hlavní stránka shrnuje rozpracované studium, dnešní opakování, slabá místa i rychlý vstup do tří režimů."
   },
   "sidebar": {
-    "title": "Co je ted dulezite",
-    "text": "Na jedne obrazovce uvidis navrat k rozpracovane relaci, doporuceny dalsi blok i nejcastejsi slaba mista."
+    "title": "Co je teď důležité",
+    "text": "Na jedné obrazovce uvidíš návrat k rozpracované relaci, doporučený další blok i nejčastější slabá místa."
   },
   "actions": {
-    "completeSetup": "Dokoncit prvni nastaveni",
-    "adjustSetup": "Upravit vstupni nastaveni"
+    "completeSetup": "Dokončit první nastavení",
+    "adjustSetup": "Upravit vstupní nastavení"
   },
   "cards": {
     "progress": {
       "eyebrow": "Souhrn pokroku",
-      "title": "Jak vypada aktualni stav",
-      "caption": "Podil upevnenych jednotek z dosud sledovaneho obsahu.",
-      "totalUnits": "Sledovane jednotky",
-      "dueToday": "Dnes k opakovani",
-      "recommendedMode": "Doporuceny rezim"
+      "title": "Jak vypadá aktuální stav",
+      "caption": "Podíl upevněných jednotek z dosud sledovaného obsahu.",
+      "totalUnits": "Sledované jednotky",
+      "dueToday": "Dnes k opakování",
+      "recommendedMode": "Doporučený režim"
     }
   },
   "sections": {
-    "modeTitle": "Tri rezimy jedne aplikace",
-    "modeSubtitle": "Kazdy rezim pracuje nad stejnym obsahem, ale jinym zpusobem uceni.",
-    "disciplinesTitle": "Preferovane discipliny",
-    "weaknessTitle": "Nejcastejsi zaměny"
+    "modeTitle": "Tři režimy jedné aplikace",
+    "modeSubtitle": "Každý režim pracuje nad stejným obsahem, ale jiným způsobem učení.",
+    "disciplinesTitle": "Preferované disciplíny",
+    "weaknessTitle": "Nejčastější záměny"
   },
   "empty": {
-    "disciplinesTitle": "Jeste nejsou vybrane preferovane discipliny",
-    "disciplinesText": "Prvni nastaveni pomuze zpresnit doporucene bloky i navrat k tomu, co studujes nejcasteji.",
-    "weaknessTitle": "Zatim se nemaji z ceho dopocitat slaba mista",
-    "weaknessText": "Po prvnich odpovedich se tady zacnou objevovat skutecne zameny a rizikova mista."
+    "disciplinesTitle": "Ještě nejsou vybrané preferované disciplíny",
+    "disciplinesText": "První nastavení pomůže zpřesnit doporučené bloky i návrat k tomu, co studuješ nejčastěji.",
+    "weaknessTitle": "Zatím se nemají z čeho dopočítat slabá místa",
+    "weaknessText": "Po prvních odpovědích se tady začnou objevovat skutečné záměny a riziková místa."
   }
 }

@@ -42,7 +42,7 @@ export function ProgressPage() {
   }
 
   const navigationItems = useMemo(
-    () => createNavigationItems(tString, { includeSettings: true }),
+    () => createNavigationItems(tString),
     [tString]
   );
   const weaknesses: WeaknessFocus[] = useMemo(

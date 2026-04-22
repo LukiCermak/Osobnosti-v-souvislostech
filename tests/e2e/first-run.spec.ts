@@ -38,10 +38,16 @@ test('prvni spusteni zobrazi prehled a hlavni rezimy', async ({ page }) => {
   await resetDatabase(page);
   await page.reload();
 
-  await expect(page.getByRole('heading', { name: /Pokracuj tam, kde ma dalsi studium nejvetsi smysl/i })).toBeVisible();
-  await expect(page.getByRole('button', { name: /Zacit studijni blok|Dokoncit prvni nastaveni/i }).first()).toBeVisible();
-  await expect(page.getByRole('navigation', { name: /Hlavni navigace/i })).toBeVisible();
-  await expect(page.getByText('Atlas souvislosti').first()).toBeVisible();
-  await expect(page.getByText('Detektivni spisy').first()).toBeVisible();
-  await expect(page.getByText('Laborator rozliseni').first()).toBeVisible();
+  await expect(page.getByRole('heading', { name: /Pokračuj tam, kde má další studium největší smysl/i })).toBeVisible();
+  await expect(page.getByRole('button', { name: /Začít studijní blok|Dokončit první nastavení/i }).first()).toBeVisible();
+  await expect(page.getByRole('navigation', { name: /Hlavní navigace/i })).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Hlavní stránka' })).toBeVisible();
+  await expect(page.getByText('Režimy').first()).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Přehled pokroku', exact: true })).toBeVisible();
+
+  await page.getByText('Režimy').first().click();
+
+  await expect(page.getByRole('link', { name: 'Atlas souvislostí' }).first()).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Detektivní spisy' }).first()).toBeVisible();
+  await expect(page.getByRole('link', { name: 'Laboratoř rozlišení' }).first()).toBeVisible();
 });

@@ -1,5 +1,5 @@
 import type { ReactNode } from 'react';
-import { BottomNav } from '@/components/layout/BottomNav';
+import { Link } from 'react-router-dom';
 import { Header } from '@/components/layout/Header';
 import { Sidebar } from '@/components/layout/Sidebar';
 import { TopNav } from '@/components/layout/TopNav';
@@ -10,7 +10,6 @@ export interface AppShellProps {
   subtitle?: string;
   eyebrow?: string;
   navigationItems: NavigationItem[];
-  modeNavigationItems?: NavigationItem[];
   actions?: ReactNode;
   sidebar?: ReactNode;
   sidebarTitle?: string;
@@ -23,7 +22,6 @@ export function AppShell({
   subtitle,
   eyebrow,
   navigationItems,
-  modeNavigationItems,
   actions,
   sidebar,
   sidebarTitle,
@@ -34,10 +32,12 @@ export function AppShell({
     <div className="app-shell app-shell-layout">
       <div className="shell-width stack gap-lg">
         <Header title={title} subtitle={subtitle} eyebrow={eyebrow} actions={actions} />
-        <TopNav items={navigationItems} ariaLabel="Hlavni navigace" />
-        {modeNavigationItems && modeNavigationItems.length > 0 ? (
-          <TopNav items={modeNavigationItems} ariaLabel="Studijni rezimy" className="mode-nav" />
-        ) : null}
+        <div className="shell-nav-row">
+          <TopNav items={navigationItems} ariaLabel="Hlavní navigace" />
+          <Link className="button button-secondary shell-settings-link" to="/nastaveni">
+            Nastavení
+          </Link>
+        </div>
         <div className={sidebar ? 'app-layout-grid' : 'content-frame stack gap-lg'}>
           {sidebar ? (
             <Sidebar title={sidebarTitle} footer={sidebarFooter}>
@@ -46,7 +46,6 @@ export function AppShell({
           ) : null}
           <main className="stack gap-lg content-frame">{children}</main>
         </div>
-        <BottomNav items={navigationItems} />
       </div>
     </div>
   );

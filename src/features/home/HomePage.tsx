@@ -27,7 +27,7 @@ export function HomePage() {
   const setLastVisitedRoute = useUiStore((state) => state.setLastVisitedRoute);
 
   const navigationItems = useMemo(
-    () => createNavigationItems(tString, { includeSettings: true }),
+    () => createNavigationItems(tString),
     [tString]
   );
   const viewModel = useMemo(() => createHomePageViewModel(appState), [appState]);
@@ -66,7 +66,7 @@ export function HomePage() {
       actions={
         <div className="button-row">
           <Button variant="secondary" to={viewModel.dueTodayCount > 0 ? '/opakovani' : '/pokrok'}>
-            {viewModel.dueTodayCount > 0 ? 'Otevrit dnesni opakovani' : 'Otevrit prehled pokroku'}
+            {viewModel.dueTodayCount > 0 ? 'Otevřít dnešní opakování' : 'Otevřít přehled pokroku'}
           </Button>
           <Button onClick={() => void handleStartRecommended()}>{viewModel.recommendedActionLabel}</Button>
         </div>
@@ -101,8 +101,8 @@ export function HomePage() {
               <li>{`${tString('home.cards.progress.recommendedMode')}: ${viewModel.recommendedModeLabel}`}</li>
             </ul>
             <div className="button-row">
-              <Button variant="secondary" to="/pokrok">Prejit do pokroku</Button>
-              {viewModel.dueTodayCount > 0 ? <Button to="/opakovani">Navazat dnesnim blokem</Button> : null}
+              <Button variant="secondary" to="/pokrok">Přejít do pokroku</Button>
+              {viewModel.dueTodayCount > 0 ? <Button to="/opakovani">Navázat dnešním blokem</Button> : null}
             </div>
           </div>
         </Card>
@@ -141,7 +141,7 @@ export function HomePage() {
           <EmptyState
             title={tString('home.empty.disciplinesTitle')}
             description={tString('home.empty.disciplinesText')}
-            action={{ label: 'Dokoncit prvni nastaveni', to: '/prvni-nastaveni' }}
+            action={{ label: 'Dokončit první nastavení', to: '/prvni-nastaveni' }}
           />
         )}
 
